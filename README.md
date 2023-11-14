@@ -74,14 +74,13 @@ From https://x.com/jaekwon/status/1719437899429761420:
 
 ## 4. Governance
 
-See
-[github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
+See [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
 
 ## 5. "Liquid Staking"
 
 ## 6. Declaration of Independence & Constitution
 
-See https://github.com/tendermint/atom_one
+See [draft constitution](./CONSTITUTION.md)
 
 ## 7. IBC1.5
 
@@ -337,3 +336,9 @@ AtomOne is a collaborative project that includes many members including AIB Inc
 and NewTendermint, LLC. Any rights to the brand of AtomOne that NewTendermint
 might have (or not have) is donated to the sovereignty of the atomone hub, or
 managed by AIB Inc on behalf of the hub.
+
+# TODO
+
+[ ] Complete the CONSTITUTION w/ all known functionality
+[ ] Reconcile this README with CONSTITUTION
+[ ] XXX
