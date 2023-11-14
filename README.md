@@ -126,17 +126,40 @@ The Genesis Distribution is largely an opionated fork of the cosmoshub4 $ATOM
 (judged by alignment based on voting activity).
 
 The Interchain Foundation will excluded from this distribution, so as to create
-a separation of concerns, and instead 10% of the total will be allocated toward
-contributors and onchain DAOs.
+a separation of concerns, and instead 10% of the final total amount will be
+allocated toward contributors and onchain DAOs.
 
-Of the 10%, 
+Of the 10% premine, 
  - 1% to general pre-launch contributors and early adopters.
- - 1% to reserved for IBC contributions (and all that it entails) and early adopters.
- - 1% to reserved for ICS1.5 contributors (and all that it entails thereafter) and early adopters.
+ - 1% to reserved for IBC contributions (and all that it entails) and early
+   adopters.
+ - 1% to reserved for ICS1.5 contributors (and all that it entails thereafter)
+   and early adopters.
  - 7% reserved for gov distribution to subDAOs for remainder of plan and
    constitution (but nothing more).
 
+In addition to these premines, the earned tax revenue (rewards) and inflation
+will be split the community pool will be allocated to the following.
+ - 80% of the inflation+rewards going to the stakers who select validators.
+ - 10% of the inflation+rewards going to validators equally.
+ -  5% of the inflation+rewards going to pool/treasury (no governance).
+ -  2% of the inflation+rewards going to open source blockchain explorer hosting.
+ -  2% of the inflation+rewards going to securing open source wallet systems (w/ airgap).
+ -  1% of the inflation+rewards going to public relations and growth.
+
+ The last three following the pool/treasury will intially go to multisigs set
+ in consensus params of the chain, until they get set as URIs pointing at
+ blockchain based DAOs hosted on ICS1.5.
+
 ## Tokenomics
+
+We opt to replace the market-based "commission" system with a flat
+distribution to all validators, to incentivize the creation of peer validators
+(who should all plan to become datacenter providers). 
+
+The maximum bounds on the auto-adjust inflation parameter will be set at 20%.
+
+The inflation will target 2/3 of $ATOM1 to be bonded. 
 
 ### ICS Fee Distribution
 
@@ -153,7 +176,22 @@ This is initially set to 0.8, giving the majority to the validators, and only
 20% as royalty to be paid to ATOM1 stakers, with the COMMUNITY_TAX taking its
 portion.
 
+### Staking
+
+XXX how does this work now
+
 ### Photon w/ AutoStaking
+
+Anyone could create an ICS consumer chain that effectively does auto-staking,
+for as long as interchain-accounts staking is enabled without limitation. This
+is a kind of riskless staking, since the bet is spread evenly across everyone;
+but everyone who holds autostaked atoms would pay taxes.
+
+atomone hub will provide taxless autostaking. XXX caveats
+
+auto-staking doesn't solve the "inflation problem", but it does
+give a way for people who don't care about staking decisions to make reasonable
+staking decisions--they could do so manually this way anyways.
 
 ## AtomOne Governance
 
