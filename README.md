@@ -29,8 +29,6 @@ specifications to show the intended end goal.
 
 NOTE: move the below to numbered objectives.
 
-1. Define $ATOM1: The staking token of the largest minimal ICS IBC Cosmos Hub
-   that keeps 2/3 of ATOMs staked.
 2. Hub minimalism, and most importantly without a complex VM implementation on
    the root shard, but rather forcing VMs to live on non-root shards. This is
    the only way to scale to billions of users.
@@ -69,6 +67,9 @@ NOTE: move the below to numbered objectives.
     is disagreement. Multiply by meiosis and conquer the world.
 
 ## 1. Define $ATOM1
+
+Define $ATOM1: The staking token of the largest minimal ICS IBC Cosmos Hub that
+keeps 2/3 of $ATOM1s staked.
 
 ## 2. Hub Minimalism
 
@@ -131,7 +132,7 @@ appreciation of original $ATOM).
 Additionally, the Interchain Foundation playing a key role in the evolution of
 the hub, should also be removed.
 
-Finally, 10% of the ATOMs are premined for various purposes.
+Finally, 10% of the $ATOM1s are premined for various purposes.
 
 The $ATOM1s in genesis are locked and cannot be transferred due to the value of
 the parameter ENABLE_SENDTX except for chosen addresses (e.g. for faucets).
@@ -197,7 +198,7 @@ In short, every ICS zone should be profitable to every validator.
 The DISTRIBUTION_FRACTION parameter is the fraction (between 0 and 1) of ICS
 shard and consumer chain payments that are shared among the validators equally.
 This is initially set to 0.8, giving the majority to the validators, and only
-20% as royalty to be paid to ATOM1 stakers, with the COMMUNITY_TAX taking its
+20% as royalty to be paid to $ATOM1 stakers, with the COMMUNITY_TAX taking its
 portion.
 
 ### Staking
@@ -250,8 +251,8 @@ over atomone governance.
 Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
 $phATOM. In order to incentivize the usage of $phATOM, the atomone hub offers a
 trade that makes $phATOM deflationary: non-atom rewards nor taxes are applied
-to auto-staked ATOM bonded $phATOM holders, and with the right conversion
-equation (which adjusts for ATOM inflation) we can construct a perfectly fixed
+to auto-staked $ATOM1 bonded $phATOM holders, and with the right conversion
+equation (which adjusts for $ATOM1 inflation) we can construct a perfectly fixed
 $phATOM supply (say of 1 billion $phATOMs) no matter how many $ATOM1s bond to
 $phATOMs.
 
