@@ -4,20 +4,22 @@ _This document is a work in progress, please make PRs_
 # Preamble
 
 ## Declaration of Genesis
+### Context and Need for the Fork:
+In recent times, the Cosmos community has faced significant challenges and disagreements among community members about moving forward. These challenges have underscored the need for an alternative approach, leading to the creation of this fork. Our aim is to address these issues head-on, providing a platform for resolution and progress.
 
-There comes a time when there is too much disagreement among community members
-about how to move forward, that it makes the most sense to have an alternative
-fork running on standby to prepare for all contingencies, and also operating as
-political party base.
+### Vision and Goals:
+The vision behind this fork is to an alternative fork running on standby to prepare for all contingencies, and also operating as political party base. We strive to complement the broader Cosmos ecosystem, while introducing innovative solutions and perspectives. Our goals are not just to resolve current challenges but to set a precedent for adaptive and responsive governance in decentralized networks.
 
-This seems like a natural and necessary way to split the community to enable a
-diverse ecosystem of specialization and coopetition and minimize friction.
+### Role of the Fork in the Ecosystem:
+As a new branch within the Cosmos ecosystem, this fork will prepared a minimal hub. We anticipate that our approach will not only enhance the functionality of the Cosmos network but also enrich its diversity and resilience.
+
+### Significance as a Political Base:
+Operating as a "political party base," this fork will serve as a hub for ideation, discussion, and decision-making. It aims to empower community members to actively participate in governance and influence the future trajectory of the ecosystem. This approach is expected to bring a more democratic and transparent governance process to the Cosmos community.
+
+### Expected Outcomes and Benefits:
+We believe that by embracing diversity and fostering open dialogue, we can achieve a more robust and innovative ecosystem. The benefits will extend beyond immediate technical solutions, contributing to a more vibrant and collaborative blockchain community.
 
 TODO: add more in the spirit of the Declaration of Independence 1776.
-
-For sake of bootstrapping we go straight into the plan, and show segments of
-specifications to show the intended end goal.
-
 ## Terms
 
 * Decentralists: github.com/decentralists is the name of the party.
