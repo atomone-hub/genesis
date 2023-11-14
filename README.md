@@ -1,9 +1,9 @@
+_This document is a work in progress, please make PRs_
+
+----------------------------------------
 # Preamble
 
-This document is being edited live here:
-https://docs.google.com/document/d/1UlZJ3Ud4M0uUeBtnEHofEVgj07Sq7n56jAN_DIiNzLU/edit?usp=sharing
-
-# Declaration of Genesis
+## Declaration of Genesis
 
 There comes a time when there is too much disagreement among community members
 about how to move forward, that it makes the most sense to have an alternative
@@ -18,14 +18,16 @@ TODO: add more in the spirit of the Declaration of Independence 1776.
 For sake of bootstrapping we go straight into the plan, and show segments of
 specifications to show the intended end goal.
 
-# Terms
+## Terms
 
 * Decentralists: github.com/decentralists is the name of the party.
 * AtomOne: is the name of the hub of the party.
+* constitutional majority: some higher bar than 2/3, say 90%.
 
+----------------------------------------
 # Objectives
 
-From https://x.com/jaekwon/status/1719437899429761420:
+NOTE: move the below to numbered objectives.
 
 1. Define $ATOM: The staking token of the largest minimal ICS IBC Cosmos Hub
    that keeps 2/3 of ATOMs staked.
@@ -78,9 +80,14 @@ See [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/mai
 
 ## 5. "Liquid Staking"
 
+TODO: Comparison between liquid staking and (collective) "liquid staking".
+
+Later we show the $phATOM token which is deflationary AND liquid, yet fully
+backed by $ATOMs.
+
 ## 6. Declaration of Independence & Constitution
 
-See [draft constitution](./CONSTITUTION.md)
+See [draft declaration](./TODO) and [draft constitution](./CONSTITUTION.md).
 
 ## 7. IBC1.5
 
@@ -89,6 +96,7 @@ See [draft constitution](./CONSTITUTION.md)
 ## 9. Fund SubDAOs
 
 See https://gitub.com/gnolang/gno
+TODO add more smart contract projects.
 
 ## 10. Engineering Task Force
 
@@ -97,14 +105,8 @@ See https://github.com/gnolang/gno/tree/master/tm2 for Tendermint2
 ## 11. Enable Meiosis
 
 See https://github.com/gnolang/gno/pull/1224 for prototype WIP 
- 
 
-It should be some distribution of the Cosmos Hub, with those who voted against
-the spirit of this project removed.  Additionally, the Interchain Foundation
-playing a key role in the evolution of the hub, should also be removed.  In
-return, 10% of the ATOMs can go to DAOs to be managed on chain with specific
-objective key results mandated.
-
+----------------------------------------
 # Plan
 
 The AtomOne hub exists as a separate minimalist fork of Gaia. Both are separate
@@ -121,8 +123,22 @@ milestones, with an emphasis on completion and even phase-out.
 
 ## Genesis Distribution
 
+It should be some distribution of the Cosmos Hub $ATOM1 token with those who
+voted against the spirit of this project slashed because they never joined to
+use the system int he first place (e.g. they were more interested in price
+appreciation of $ATOM).
+
+Additionally, the Interchain Foundation playing a key role in the evolution of
+the hub, should also be removed.
+
+Finally, 10% of the ATOMs are premined for various purposes.
+
+The $ATOM1s in genesis are locked and cannot be transferred due to the value of
+the parameter ENABLE_SENDTX except for chosen addresses (e.g. for faucets).
+
 The Genesis Distribution is largely an opionated fork of the cosmoshub4 $ATOM
-(judged by alignment based on voting activity).
+(judged by alignment based on voting activity, to slash those who don't align,
+or those who aren't interested in using our chain).
 
 The Interchain Foundation will excluded from this distribution, so as to create
 a separation of concerns, and instead 10% of the final total amount will be
@@ -130,25 +146,34 @@ allocated toward contributors and onchain DAOs.
 
 Of the 10% premine, 
  - 1% to general pre-launch contributors and early adopters.
- - 1% to reserved for IBC contributions (and all that it entails) and early
+ - 1% reserved for IBC contributions (and all that it entails) and early
    adopters.
- - 1% to reserved for ICS1.5 contributors (and all that it entails thereafter)
+ - 1% reserved for ICS1.5 contributors (and all that it entails thereafter)
    and early adopters.
  - 7% reserved for gov distribution to subDAOs for remainder of plan and
    constitution (but nothing more).
 
 In addition to these premines, the earned tax revenue (rewards) and inflation
-will be split the community pool will be allocated to the following.
+will be split as per the following:
  - 80% of the inflation+rewards going to the stakers who select validators.
  - 10% of the inflation+rewards going to validators equally.
- -  5% of the inflation+rewards going to pool/treasury (no governance).
- -  2% of the inflation+rewards going to open source blockchain explorer hosting.
- -  2% of the inflation+rewards going to securing open source wallet systems (w/ airgap).
- -  1% of the inflation+rewards going to public relations and growth.
+ -  5% of the inflation+rewards going to general commons pool with no standalone governance.
+ -  2% of the inflation+rewards going to pool for open source blockchain explorer hosting.
+ -  2% of the inflation+rewards going to pool for securing open source wallet systems (w/ airgap).
+ -  1% of the inflation+rewards going to pool for public relations and growth.
 
- The last three following the pool/treasury will intially go to multisigs set
- in consensus params of the chain, until they get set as URIs pointing at
- blockchain based DAOs hosted on ICS1.5.
+A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
+percent of inflation+rewards going to stakers cannot be lower than this figure.
+Changing this value requires a constitutional majority.
+
+A parameter MIN_VALIDATORS_DISTRIBUTION_FRACTION will be set to 10%, where the percent
+of inflation+rewards going to stakers cannot be lower than this figure.
+
+The funds held in all the pools above will not be counted toward the bonding ratio.
+
+The last three following the pool/treasury will intially go to multisigs set in
+consensus params of the chain, until they get set as URIs pointing at
+blockchain based DAOs hosted on ICS1.5.
 
 ## Tokenomics
 
@@ -201,6 +226,9 @@ according to market conditions.
 
 ### $phATOM the Deflationary Derivative of $ATOM1
 
+$ATOM1 isn't a monetary token, but a related instrument can serve better as
+one.
+
 Auto-staking (staking across all validators proportionally to existing voting
 power) doesn't solve the "inflation problem", but it does give a way for people
 who don't care about staking decisions to make better-than-random staking
@@ -211,46 +239,59 @@ TODO show simplest example that demonstrates slashing.
 Auto-staking if done by an external IBC zone, or an individual staker manually,
 would like any other staking earn the pro-rata revenue and pay the various
 taxes. So auto-staking per se does not make for a deflationary holding, but it
-comes with the benefit of automatic diversification. Since it comes with some
-benefits, it is better for the atomone hub to provide a standard minimal
-correct implementation under its control, such that it can also regulate its
-usage. More on why follows.
+comes with the benefit of automatic diversification.
 
-In order to incentivize the usage of $phATOM, the atomone hub offers a trade
-that makes $phATOM deflationary: non-atom rewards nor taxes are applied to
-auto-staked ATOM bonded $phATOM holders, and with the right conversion equation
-(which adjusts for ATOM inflation) we can construct a perfectly fixed $phATOM
-supply (say of 1 billion $phATOMs) no matter how many $ATOM1s bond to $phATOMs.
+Since it comes with benefits to the staker (diversification and thus less risk)
+but it doesn't provide the needed intelligence to atomone, it is better for the
+atomone hub to provide a standard minimal correct implementation under its
+control, such that it can also regulate it, especially as it relates to control
+over atomone governance. 
 
-Should this "more monetary" construction of the $phATOM incentivize a large
-liquid pool, it becomes more susceptible to hostile takeovers, simply because
-there are more liquid $ATOM1 staking tokens available in comparison to the
-total bonded voting power. Therefore for a more secure atomone hub we also
-limit the conversion back from $phATOM to $ATOM1 so as to make hostile 
-takeovers more expensive. (NOTE HOW is an active area of research).
+Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
+$phATOM. In order to incentivize the usage of $phATOM, the atomone hub offers a
+trade that makes $phATOM deflationary: non-atom rewards nor taxes are applied
+to auto-staked ATOM bonded $phATOM holders, and with the right conversion
+equation (which adjusts for ATOM inflation) we can construct a perfectly fixed
+$phATOM supply (say of 1 billion $phATOMs) no matter how many $ATOM1s bond to
+$phATOMs.
+
+Should this "more monetary" construction of the fixed supply ("deflationary")
+$phATOM token incentivize a large liquid supply, it becomes more susceptible to
+hostile takeovers, simply because there are more liquid $ATOM1 staking tokens
+available in comparison to the total bonded voting power. Therefore for a more
+secure atomone hub we also limit the conversion back from $phATOM to $ATOM1 so
+as to make hostile takeovers more expensive.
+
+The known ways are: 
+ * Widen the gap in bidirectional conversion price between $phATOM and $ATOM1.
+ * Limit the amount of $ATOM1 that can be released per time period auction.
+ * Essentially the same as above with some conversion curve.
 
 In the case of validator & delegator $ATOM1 slashing, $phATOM holders will of
 course also get slashed, but the ratio of $phATOM-bonded $ATOM1s and all other
-(atomone hub staked or unstaked) $ATOM1s remains the same. The conversion
-factor from $phATOM to $ATOM1 will change because of slashing, but the
-conversion factor from $ATOM1 to $phATOM will not before and after slashing,
-thereby making the total possible supply of $phATOM lower than before (more
-deflationary) and over time making the cost of conversion to $phATOM more
-expensive in comparison to the inverse, allowing the exchange rate between the
-two tokens to naturally float between two reasonable bounds.
+(non-$phATOM) $ATOM1s remains the same. The conversion factor from $phATOM to
+$ATOM1 will change because of slashing, but the conversion factor from $ATOM1
+to $phATOM will not before and after slashing, thereby making the total
+possible supply of $phATOM lower than before (more deflationary) and over time
+making the cost of conversion to $phATOM more expensive in comparison to the
+inverse, thereby allowing the exchange rate between the two tokens to naturally
+float between two reasonable bounds.
 
 NOTE: This uses the market imperfection of the $ATOM1 and $phATOM tokens to
-create a larger gap in the conversion price, thereby making the tokens more
+create a (larger) gap in the conversion price, thereby making the tokens more
 independent of each other. $phATOM holders might be happy that their token has
 become more deflationary (total supply reduction), and while they can only get
 the post slash amount of $ATOM1s, the value of those $ATOM1s might be preserved
 or catch up soon after new validators start operations. The alternative where
-the total amount of $phATOM remains invariatn in comparison appears strictly
-worse for $phATOM holders.
+the total amount of $phATOM remains invariant in comparison appears strictly
+worse for $phATOM holders. This widening of the gap could in theory happen at
+any time with governance.
 
-XXX conversion limitations based on periodic auctions or similar curve.
-XXX comparison to liquid staking
-XXX more about use as monetary token
+The $ATOM1s bonded toward auto-staking does not count toward calculating the
+bonding ratio target of 2/3 in either the numerator or denominator--they are
+ignored.
+
+TODO: add benefits over liquid staking and collective "liquid staking".
 
 ## AtomOne Governance
 
@@ -258,6 +299,12 @@ Ultimately this hub is owned by the $ATOM1 holders.
 
 We will prioritize all of these items:
 [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
+
+The constitutional majority threshold is defined by the parameter
+CONSTITUTIONAL_MAJORITY_THRESHOLD initially set to 90%, and requires a
+constitutional majority to change.
+
+The constitution itself must be amended by a constitutional majority.
 
 ## Milestones
 
@@ -312,6 +359,7 @@ world.
 AtomOne Eschatology will be well documented and planned, for a time when nobody
 was around for these early beginnings.
 
+----------------------------------------
 # FAQ
 
 ## AtomOne vs Gaia
@@ -337,6 +385,7 @@ and NewTendermint, LLC. Any rights to the brand of AtomOne that NewTendermint
 might have (or not have) is donated to the sovereignty of the atomone hub, or
 managed by AIB Inc on behalf of the hub.
 
+----------------------------------------
 # TODO
 
 [ ] Complete the CONSTITUTION w/ all known functionality
