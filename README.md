@@ -29,43 +29,6 @@ specifications to show the intended end goal.
 
 NOTE: move the below to numbered objectives.
 
-2. Hub minimalism, and most importantly without a complex VM implementation on
-   the root shard, but rather forcing VMs to live on non-root shards. This is
-   the only way to scale to billions of users.
-3. Fix Validator incentives so that every validator is PAID to run ICS consumer
-   chains and hub shards. Actually model the minimal economic model that
-   describes physical reality sufficiently to be intuitive and adaptive to all
-   scenarios. Every ICS pays supermajority to validators!
-4. Fix governance. We already have proposals in the works on github
-   decentralists DAO / governance. Contribute there so that Governance is fixed
-   and we stop spending money like a flock of headless geese.
-5. Fix "liquid staking". What we have isn't liquid staking, they are
-   "partyhubs". What people want are liquid fungible tokens that aren't so
-   inflationary, I get it. ICS scaling will fix the problem, but if you really
-   want more, fix LS to delegate pro-rata, NOT have its own gov. Or, over time,
-   possibly create a bicameral gov structure w/ exponentially inflating $ATOM1
-   stakers, and limit how $PHOTON reverts to $ATOM1 to prevent hostile takeover.
-   VP(staked $ATOM1) >= VP(all $PHOTON).
-6. Adopt a Declaration of Independence and Constitution with cryptographic
-   signatures.
-7. Solve IBC1.5, or ICS1.5, where the validator sets are implicit, for fast
-   inter-hub communication with implied IBC, WITHOUT sacrificing independent
-   BFT consensus layers.
-8. Create a permissioned and completely accountable and 100%
-   predetermined-finite-time-delayed transparent security reporting system
-   where ABSOLUTELY EVERYTHING within it eventually becomes public knowledge to
-   help deal with zero day vulnerabilities and current attacks & fund it.
-9. Create and support competing marketing, growth, infra, dapp subDAOs, and
-   especially help them foster the best in class in Cosmos; from the user level
-   down to the VM, every component should have a good selection of competition.
-10. Create a team tasked with minimizing and simplifying code and reducing
-    unnecessary dependencies, taking the best examples from various forks taken
-    into consideration, so that all the best ideas from all forks can integrate
-    into one where-ever possible. FINISH software.
-11. Ossify the partyhub after it has become its own competing IBC/ICS hub.
-    Allow others to likewise fork from you by enabling ICA partyhubs when there
-    is disagreement. Multiply by meiosis and conquer the world.
-
 ## 1. Define $ATOM1
 
 Define $ATOM1: The staking token of the largest minimal ICS IBC Cosmos Hub that
@@ -73,13 +36,34 @@ keeps 2/3 of $ATOM1s staked.
 
 ## 2. Hub Minimalism
 
+Hub minimalism, and most importantly without a complex VM implementation on the
+root shard, but rather forcing VMs to live on non-root shards. This is the only
+way to scale to billions of users.
+
 ## 3. Validator Incentives
+
+Fix Validator incentives so that every validator is PAID to run ICS consumer
+chains and hub shards. Actually model the minimal economic model that describes
+physical reality sufficiently to be intuitive and adaptive to all scenarios.
+Every ICS pays supermajority to validators!
 
 ## 4. Governance
 
 See [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
 
+Fix governance. We already have proposals in the works on github decentralists
+DAO / governance. Contribute there so that Governance is fixed and we stop
+spending money like a flock of headless geese.
+
 ## 5. "Liquid Staking"
+
+Fix "liquid staking". What we have isn't liquid staking, they are "partyhubs".
+What people want are liquid fungible tokens that aren't so inflationary, I get
+it. ICS scaling will fix the problem, but if you really want more, fix LS to
+delegate pro-rata, NOT have its own gov. Or, over time, possibly create a
+bicameral gov structure w/ exponentially inflating $ATOM1 stakers, and limit
+how $PHOTON reverts to $ATOM1 to prevent hostile takeover.  VP(staked $ATOM1)
+>= VP(all $PHOTON).
 
 TODO: Comparison between liquid staking and (collective) "liquid staking".
 
@@ -88,24 +72,51 @@ backed by $ATOM1s.
 
 ## 6. Declaration of Independence & Constitution
 
+Adopt a Declaration of Independence and Constitution with cryptographic
+signatures.
+
 See [draft declaration](./TODO) and [draft constitution](./CONSTITUTION.md).
 
 ## 7. IBC1.5
 
+Solve IBC1.5, or ICS1.5, where the validator sets are implicit, for fast
+inter-hub communication with implied IBC, WITHOUT sacrificing independent BFT
+consensus layers.
+
+XXX add more
+
 ## 8. Transparent Security System
 
+Create a permissioned and completely accountable and 100%
+predetermined-finite-time-delayed transparent security reporting system where
+ABSOLUTELY EVERYTHING within it eventually becomes public knowledge to help
+deal with zero day vulnerabilities and current attacks & fund it.
+
 ## 9. Fund SubDAOs
+
+Create and support competing marketing, growth, infra, dapp subDAOs, and
+especially help them foster the best in class in Cosmos; from the user level
+down to the VM, every component should have a good selection of competition.
 
 See https://gitub.com/gnolang/gno
 TODO add more smart contract projects.
 
 ## 10. Engineering Task Force
 
+Create a team tasked with minimizing and simplifying code and reducing
+unnecessary dependencies, taking the best examples from various forks taken
+into consideration, so that all the best ideas from all forks can integrate
+into one where-ever possible. FINISH software.
+
 See https://github.com/gnolang/gno/tree/master/tm2 for Tendermint2
 
 ## 11. Enable Meiosis
 
-See https://github.com/gnolang/gno/pull/1224 for prototype WIP 
+Ossify the partyhub after it has become its own competing IBC/ICS hub.  Allow
+others to likewise fork from you by enabling ICA partyhubs when there is
+disagreement. Multiply by meiosis and conquer the world.
+
+See https://github.com/gnolang/gno/pull/1224 for prototype WIP of splitting.
 
 ----------------------------------------
 # Plan
