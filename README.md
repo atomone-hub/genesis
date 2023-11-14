@@ -7,17 +7,16 @@ https://docs.google.com/document/d/1UlZJ3Ud4M0uUeBtnEHofEVgj07Sq7n56jAN_DIiNzLU/
 
 There comes a time when there is too much disagreement among community members
 about how to move forward, that it makes the most sense to have an alternative
-fork running on standby to prepare for all contingencies.
+fork running on standby to prepare for all contingencies, and also operating as
+political party base.
 
 This seems like a natural and necessary way to split the community to enable a
-diverse ecosystem of specialization and coopetition, without unnecessary
-friction--for as long as contrarians can stay within their respective zones and
-not disrupt others who wish to flee from you. Please respect the constitution.
+diverse ecosystem of specialization and coopetition and minimize friction.
 
 TODO: add more in the spirit of the Declaration of Independence 1776.
 
-For sake of bootstrapping we go straight into the plan, and segments of
-specifications to show the intended end goal is.
+For sake of bootstrapping we go straight into the plan, and show segments of
+specifications to show the intended end goal.
 
 # Objectives
 
