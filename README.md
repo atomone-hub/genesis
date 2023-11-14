@@ -18,9 +18,14 @@ TODO: add more in the spirit of the Declaration of Independence 1776.
 For sake of bootstrapping we go straight into the plan, and show segments of
 specifications to show the intended end goal.
 
+# Terms
+
+* Decentralists: github.com/decentralists is the name of the party.
+* AtomOne: is the name of the hub of the party.
+
 # Objectives
 
-See https://x.com/jaekwon/status/1719437899429761420?s=20
+From https://x.com/jaekwon/status/1719437899429761420:
 
 1. Define $ATOM: The staking token of the largest minimal ICS IBC Cosmos Hub
    that keeps 2/3 of ATOMs staked.
@@ -115,6 +120,22 @@ the chain.
 First we describe the tokenomics of the atomone hub, followed by the main
 milestones, with an emphasis on completion and even phase-out.
 
+## Genesis Distribution
+
+The Genesis Distribution is largely an opionated fork of the cosmoshub4 $ATOM
+(judged by alignment based on voting activity).
+
+The Interchain Foundation will excluded from this distribution, so as to create
+a separation of concerns, and instead 10% of the total will be allocated toward
+contributors and onchain DAOs.
+
+Of the 10%, 
+ - 1% to general pre-launch contributors and early adopters.
+ - 1% to reserved for IBC contributions (and all that it entails) and early adopters.
+ - 1% to reserved for ICS1.5 contributors (and all that it entails thereafter) and early adopters.
+ - 7% reserved for gov distribution to subDAOs for remainder of plan and
+   constitution (but nothing more).
+
 ## Tokenomics
 
 ### ICS Fee Distribution
@@ -198,8 +219,23 @@ was around for these early beginnings.
 
 ## AtomOne vs Gaia
 
+AtomOne is just built different.
+
 ## AtomOne vs Gno.land
 
-## AtomOne & AIB
+Gno.land will be a hub for GnoVM based smart contracts. It may benefit from
+ICS1.5 in the future, but we will first offer GnoVM scaling on the AtomOne ICS
+economic zone. Gno.land will not connect to Gaia except indirectly through
+atomone, or its minimal successor.
 
 ## AtomOne & Tendermint2
+
+NewTendermint, LLC will lead Tendermint2 development, and AIB, Inc will
+contribute by building its own engineering team within AIB, Inc that will
+transition into long term co-maintainers of atomone, and co-members of
+gno.land. 
+
+AtomOne is a collaborative project that includes many members including AIB Inc
+and NewTendermint, LLC. Any rights to the brand of AtomOne that NewTendermint
+might have (or not have) is donated to the sovereignty of the atomone hub, or
+managed by AIB Inc on behalf of the hub.
