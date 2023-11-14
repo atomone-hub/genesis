@@ -5,18 +5,23 @@ _This document is a work in progress, please make PRs_
 
 ## Declaration of Genesis
 
-There comes a time when there is too much disagreement among community members
-about how to move forward, that it makes the most sense to have an alternative
-fork running on standby to prepare for all contingencies, and also operating as
-political party base.
+There comes a time when there is enough disagreement among community members
+and stakers about the core decisions of the hub, such as its purpose and
+architecture and risk tolerance, that it makes the most sense to support
+alternative opinionated forks running alongside the original hub to be prepared
+against all contingencies, with the added benefit that it can operate as a
+(political) party base with governance fully or partially delegated to the
+party hub. (this is fine so long as every party is afforded this tool, and as
+long as it isn't offered misleadingly say as a collective "liquid staking"
+service).
 
 This seems like a natural and necessary way to split the community to enable a
 diverse ecosystem of specialization and coopetition and minimize friction.
+Having this as the goal gives us the directivec and opportunity to develop a
+robust antifragile ecosystem that doesn't suffer from systemic risk of
+cascading failures. 
 
 TODO: add more in the spirit of the Declaration of Independence 1776.
-
-For sake of bootstrapping we go straight into the plan, and show segments of
-specifications to show the intended end goal.
 
 ## Terms
 
@@ -27,18 +32,50 @@ specifications to show the intended end goal.
 ----------------------------------------
 # Objectives
 
-NOTE: move the below to numbered objectives.
+These objectives all users and members should agree with, and must be reflected
+in the constitution and code of the atomone software (including ICS1.5). These
+objectives can only be changed througha constitutional (significant, more than
+two thirds) majority.
 
 ## 1. Define $ATOM1
 
 Define $ATOM1: The staking token of the largest minimal ICS IBC Cosmos Hub that
 keeps 2/3 of $ATOM1s staked.
 
+In the case of forks or splits, the $ATOM1 token is the one that has the
+largest relative market cap, of those forks and splits where the distribution
+is predemonantly a consistent opinionated fork of the last $ATOM1 distribution
+which, at that moment of publishing to the users of the chain, had uncontended
+consensus.
+
+Predominantly a consistent opionated fork means that at least 80% of the
+distribution is air-dropped to a consistent opionated modification of the
+distribution of original staking tokens, including up to 100% slashing based on
+governance and validator votes according to some consistent reasonable
+philosophy, and at most half of the maximum 20% premine (up to 10% depending on
+the total premine) can be assigned without the consent of the governance of the
+fork.
+
 ## 2. Hub Minimalism
 
 Hub minimalism, and most importantly without a complex VM implementation on the
-root shard, but rather forcing VMs to live on non-root shards. This is the only
+root shard, but rather forcing VMs to live on non-root shards. This is the best
 way to scale to billions of users.
+
+Any fixed functionality should be translated into the dominant language of the
+official approved software, which for us is the latest version of Go(lang). We
+should remind ourselves that every virtual machine has (had) numerous zero day
+exploits. The added security vulnerability surface area of the new VM combined
+with the compiler to compile one languge for the VM, as well as the added
+complexity of needing to audit another language, can and should all be avoided.
+
+Mixing implementations across validators is also to be avoided so as to prevent
+a failure arising from a low Nakamoto coefficient among the types of
+implementations.
+
+Arbitrary smart contract functionality should not be allowed on the main hub
+chain, which should instead be reserved primarily for ICS1.5 shard coordination
+and governance voting as safety and liveness critical functionality.
 
 ## 3. Validator Incentives
 
@@ -402,4 +439,6 @@ managed by AIB Inc on behalf of the hub.
 
  - [ ] Complete the CONSTITUTION w/ all known functionality
  - [ ] Reconcile this README with CONSTITUTION
+ - [ ] Incorporate the "Constitutional Majority" in the Constitution.
+ - [ ] Check for consistency w/ Decentralists DAO governance roadmap.
  - [ ] XXX
