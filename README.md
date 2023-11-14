@@ -178,20 +178,80 @@ portion.
 
 ### Staking
 
-XXX how does this work now
+XXX how does this work now? Document changes due to equality of validators.
 
-### Photon w/ AutoStaking
+Suppose that 1/3 of the $ATOM1 stakers are slashed due to a complex double
+spend attack. Assuming that we want to allow the recompensation of victims upon
+double spend attacks (within the bounds specified clearly in the constitution)
+only from the recently slashed $ATOM1s, some nonzero portion of the slashed
+stake must be burned to prevent using the double spend attack as a fast way to
+unbond.
 
-Anyone could create an ICS consumer chain that effectively does auto-staking,
-for as long as interchain-accounts staking is enabled without limitation. This
-is a kind of riskless staking, since the bet is spread evenly across everyone;
-but everyone who holds autostaked atoms would pay taxes.
+If no victims need to be made whole, then it could be appropriate to burn the
+slashed $ATOM1s of the perpetrators. The end result is that the remaining
+stakers own the network, and in a steady state this would result in the price
+of $ATOM1s increasing due to the reduced supply, assuming that the convidence
+and usage of atomone hasn't changed; though in perfect theory it should take a
+bit of a hit, at least in proportion to the destruction of the reputation of
+those validators.
 
-atomone hub will provide taxless autostaking. XXX caveats
+If victims are to be made whole with slashed $ATOM1s, this may require the
+selling of $ATOM1s into the market, or result in it, therefore the price of
+$ATOM1s will be pushed lower, and the composition of the $ATOM1 holders mutated
+according to market conditions.
 
-auto-staking doesn't solve the "inflation problem", but it does
-give a way for people who don't care about staking decisions to make reasonable
-staking decisions--they could do so manually this way anyways.
+### $phATOM the Deflationary Derivative of $ATOM1
+
+Auto-staking (staking across all validators proportionally to existing voting
+power) doesn't solve the "inflation problem", but it does give a way for people
+who don't care about staking decisions to make better-than-random staking
+decisions.
+
+TODO show simplest example that demonstrates slashing.
+
+Auto-staking if done by an external IBC zone, or an individual staker manually,
+would like any other staking earn the pro-rata revenue and pay the various
+taxes. So auto-staking per se does not make for a deflationary holding, but it
+comes with the benefit of automatic diversification. Since it comes with some
+benefits, it is better for the atomone hub to provide a standard minimal
+correct implementation under its control, such that it can also regulate its
+usage. More on why follows.
+
+In order to incentivize the usage of $phATOM, the atomone hub offers a trade
+that makes $phATOM deflationary: non-atom rewards nor taxes are applied to
+auto-staked ATOM bonded $phATOM holders, and with the right conversion equation
+(which adjusts for ATOM inflation) we can construct a perfectly fixed $phATOM
+supply (say of 1 billion $phATOMs) no matter how many $ATOM1s bond to $phATOMs.
+
+Should this "more monetary" construction of the $phATOM incentivize a large
+liquid pool, it becomes more susceptible to hostile takeovers, simply because
+there are more liquid $ATOM1 staking tokens available in comparison to the
+total bonded voting power. Therefore for a more secure atomone hub we also
+limit the conversion back from $phATOM to $ATOM1 so as to make hostile 
+takeovers more expensive. (NOTE HOW is an active area of research).
+
+In the case of validator & delegator $ATOM1 slashing, $phATOM holders will of
+course also get slashed, but the ratio of $phATOM-bonded $ATOM1s and all other
+(atomone hub staked or unstaked) $ATOM1s remains the same. The conversion
+factor from $phATOM to $ATOM1 will change because of slashing, but the
+conversion factor from $ATOM1 to $phATOM will not before and after slashing,
+thereby making the total possible supply of $phATOM lower than before (more
+deflationary) and over time making the cost of conversion to $phATOM more
+expensive in comparison to the inverse, allowing the exchange rate between the
+two tokens to naturally float between two reasonable bounds.
+
+NOTE: This uses the market imperfection of the $ATOM1 and $phATOM tokens to
+create a larger gap in the conversion price, thereby making the tokens more
+independent of each other. $phATOM holders might be happy that their token has
+become more deflationary (total supply reduction), and while they can only get
+the post slash amount of $ATOM1s, the value of those $ATOM1s might be preserved
+or catch up soon after new validators start operations. The alternative where
+the total amount of $phATOM remains invariatn in comparison appears strictly
+worse for $phATOM holders.
+
+XXX conversion limitations based on periodic auctions or similar curve.
+XXX comparison to liquid staking
+XXX more about use as monetary token
 
 ## AtomOne Governance
 
