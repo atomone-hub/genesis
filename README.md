@@ -1,0 +1,2 @@
+# genesis
+declaration of genesis
