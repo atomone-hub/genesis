@@ -121,10 +121,10 @@ milestones, with an emphasis on completion and even phase-out.
 
 ## Genesis Distribution
 
-The Genesis Distribution is largely an opionated fork of the cosmoshub4 $ATOM
+The Genesis Distribution is largely an opinionated fork of the cosmoshub4 $ATOM
 (judged by alignment based on voting activity).
 
-The Interchain Foundation will excluded from this distribution, so as to create
+The Interchain Foundation will be excluded from this distribution, so as to create
 a separation of concerns, and instead 10% of the final total amount will be
 allocated toward contributors and onchain DAOs.
 
@@ -140,7 +140,7 @@ Of the 10% premine,
 In addition to these premines, the earned tax revenue (rewards) and inflation
 will be split the community pool will be allocated to the following.
  - 80% of the inflation+rewards going to the stakers who select validators.
- - 10% of the inflation+rewards going to validators equally.
+ - 10% of the inflation+rewards going to active validators equally.
  -  5% of the inflation+rewards going to pool/treasury (no governance).
  -  2% of the inflation+rewards going to open source blockchain explorer hosting.
  -  2% of the inflation+rewards going to securing open source wallet systems (w/ airgap).
