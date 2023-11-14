@@ -29,7 +29,7 @@ specifications to show the intended end goal.
 
 NOTE: move the below to numbered objectives.
 
-1. Define $ATOM: The staking token of the largest minimal ICS IBC Cosmos Hub
+1. Define $ATOM1: The staking token of the largest minimal ICS IBC Cosmos Hub
    that keeps 2/3 of ATOMs staked.
 2. Hub minimalism, and most importantly without a complex VM implementation on
    the root shard, but rather forcing VMs to live on non-root shards. This is
@@ -45,9 +45,9 @@ NOTE: move the below to numbered objectives.
    "partyhubs". What people want are liquid fungible tokens that aren't so
    inflationary, I get it. ICS scaling will fix the problem, but if you really
    want more, fix LS to delegate pro-rata, NOT have its own gov. Or, over time,
-   possibly create a bicameral gov structure w/ exponentially inflating $ATOM
-   stakers, and limit how $PHOTON reverts to $ATOM to prevent hostile takeover.
-   VP(staked $ATOM) >= VP(all $PHOTON).
+   possibly create a bicameral gov structure w/ exponentially inflating $ATOM1
+   stakers, and limit how $PHOTON reverts to $ATOM1 to prevent hostile takeover.
+   VP(staked $ATOM1) >= VP(all $PHOTON).
 6. Adopt a Declaration of Independence and Constitution with cryptographic
    signatures.
 7. Solve IBC1.5, or ICS1.5, where the validator sets are implicit, for fast
@@ -68,7 +68,7 @@ NOTE: move the below to numbered objectives.
     Allow others to likewise fork from you by enabling ICA partyhubs when there
     is disagreement. Multiply by meiosis and conquer the world.
 
-## 1. Define $ATOM
+## 1. Define $ATOM1
 
 ## 2. Hub Minimalism
 
@@ -83,7 +83,7 @@ See [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/mai
 TODO: Comparison between liquid staking and (collective) "liquid staking".
 
 Later we show the $phATOM token which is deflationary AND liquid, yet fully
-backed by $ATOMs.
+backed by $ATOM1s.
 
 ## 6. Declaration of Independence & Constitution
 
@@ -126,7 +126,7 @@ milestones, with an emphasis on completion and even phase-out.
 It should be some distribution of the Cosmos Hub $ATOM1 token with those who
 voted against the spirit of this project slashed because they never joined to
 use the system int he first place (e.g. they were more interested in price
-appreciation of $ATOM).
+appreciation of original $ATOM).
 
 Additionally, the Interchain Foundation playing a key role in the evolution of
 the hub, should also be removed.
@@ -388,6 +388,6 @@ managed by AIB Inc on behalf of the hub.
 ----------------------------------------
 # TODO
 
-[ ] Complete the CONSTITUTION w/ all known functionality
-[ ] Reconcile this README with CONSTITUTION
-[ ] XXX
+ - [ ] Complete the CONSTITUTION w/ all known functionality
+ - [ ] Reconcile this README with CONSTITUTION
+ - [ ] XXX
