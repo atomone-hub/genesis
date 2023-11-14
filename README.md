@@ -104,46 +104,96 @@ objective key results mandated.
 
 # Plan
 
-AtomOneHub exists as a separate minimalist fork as Gaia ("cosmoshub4").  Both
-are separate and distinct from gno.land, though gno.land and the GnoVM (as well
-as other VMs) will play significant roles in completing the hub and maintaining
-its upkeep.
+The AtomOne hub exists as a separate minimalist fork of Gaia. Both are separate
+and distinct from gno.land, though gno.land and the GnoVM (as well as other
+VMs) will play significant roles in completing the hub and maintaining its
+upkeep.
 
-## AtomOne Tokenomics
+The main goal is to fix what must be fixed in governance and the need for an
+explicit constitution, before launching the full IBC and ICS functionality of
+the chain.
+
+First we describe the tokenomics of the atomone hub, followed by the main
+milestones, with an emphasis on completion and even phase-out.
+
+## Tokenomics
 
 ### ICS Fee Distribution
 
+Every ICS zone should be paid for somehow. AtomOne owned ICS shards should be
+paid for from the treasury of AtomOne.  Other ICS "consumer chains" can be paid
+for by the the chain itself, and in emegencies anyone can step in and pay on
+the zone's behalf. 
+
+In short, every ICS zone should be profitable to every validator.
+
+The DISTRIBUTION_FRACTION parameter is the fraction (between 0 and 1) of ICS
+shard and consumer chain payments that are shared among the validators equally.
+This is initially set to 0.8, giving the majority to the validators, and only
+20% as royalty to be paid to ATOM1 stakers, with the COMMUNITY_TAX taking its
+portion.
+
 ### Photon w/ AutoStaking
+
+## AtomOne Governance
+
+Ultimately this hub is owned by the $ATOM1 holders. 
+
+We will prioritize all of these items:
+[github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
+
+## Milestones
 
 There are largely four phases to this plan.
 
-## AtomOne Phase 1: Pre-IBC
+### AtomOne Phase 1: Pre-IBC
 
 1. Define Constitution
 2. Governance Fixes
 3. Launch Governance-Only Chain
 4. Implement IBC
 
-## AtomOne Phase 2: Post-IBC
+### AtomOne Phase 2: Post-IBC
 
 1. $PHOTON with Auto-Staking
 2. Fix Validator Incentives
 3. Implement ICS1.5
 4. Prototypes with SubDAOs (including GNO)
 
-## AtomOne Phase 3: ICS1.5 scaling
+### AtomOne Phase 3: ICS1.5 scaling
 
 1. Migrate $PHOTON to ICS
 2. Promote Smart Contract Use Cases
 3. Develop Scalable Validator Infrastructure
 4. Develop Recovery Preocedures
 
-## AtomOne Phase 4: Maintenance
+### AtomOne Phase 4: Maintenance
 
-1. Complete Software
-2. Create OnChain Education Curriculum
-3. Promote Good Forks
-4. Plan for (long term) Phase Out
+1. Create OnChain Education Curriculum
+2. Promote Good Forks and Projects
+3. Promote Other Common Goods
+4. Finalize the Software
+
+Finalization should not be seen as a thing to avoid, but rather a necessity for
+preserving immutability and thus providing real security benefits.
+
+Everyone who wants something different is given a way to create their own
+variation to compete and cooperate with the atomone hub. We should all be
+familiar with this concept, as it is how atomone itself was born--by exodus
+from Gaia.
+
+It is possible that what we arrive at is not sufficient in the long run, and
+that is still OK; the ultimate goal is to be a standard reference, in the very
+least in relation to an improved fork; a reference that will last a thousand
+years or more.
+
+In short, the goal is nothing more than to create timeless code, even knowing
+that in the end even atomone will be phased out, but never forgotten; the
+template will have split into a million different forks and conquered the
+world.
+
+AtomOne Eschatology will be well documented and planned, for a time when nobody
+was around for these early beginnings.
 
 # FAQ
 
