@@ -20,22 +20,35 @@ Having this as the goal gives us the directivec and opportunity to develop a
 robust antifragile ecosystem that doesn't suffer from systemic risk of
 cascading failures. 
 
-### Context and Need for the Fork:
-In recent times, the Cosmos community has faced significant challenges and disagreements among community members about moving forward. These challenges have underscored the need for an alternative approach, leading to the creation of this fork. Our aim is to address these issues head-on, providing a platform for resolution and progress.
+### Context and Need for the Fork: In recent times, the Cosmos community has
+faced significant challenges and disagreements among community members about
+moving forward. These challenges have underscored the need for an alternative
+approach, leading to the creation of this fork. Our aim is to address these
+issues head-on, providing a platform for resolution and progress.
 
-### Vision and Goals:
-The vision behind this fork is to an alternative fork running on standby to prepare for all contingencies, and also operating as political party base. We strive to complement the broader Cosmos ecosystem, while introducing innovative solutions and perspectives. Our goals are not just to resolve current challenges but to set a precedent for adaptive and responsive governance in decentralized networks.
+### Vision and Goals: The vision behind this fork is to an alternative fork
+running on standby to prepare for all contingencies, and also operating as
+political party base. We strive to complement the broader Cosmos ecosystem,
+while introducing innovative solutions and perspectives. Our goals are not just
+to resolve current challenges but to set a precedent for adaptive and
+responsive governance in decentralized networks.
 
-### Role of the Fork in the Ecosystem:
-As a new branch within the Cosmos ecosystem, this fork will prepared a minimal hub. We anticipate that our approach will not only enhance the functionality of the Cosmos network but also enrich its diversity and resilience.
+### Role of the Fork in the Ecosystem: As a new branch within the Cosmos
+ecosystem, this fork will prepared a minimal hub. We anticipate that our
+approach will not only enhance the functionality of the Cosmos network but also
+enrich its diversity and resilience.
 
-### Significance as a Political Base:
-Operating as a "political party base," this fork will serve as a hub for ideation, discussion, and decision-making. It aims to empower community members to actively participate in governance and influence the future trajectory of the ecosystem. This approach is expected to bring a more democratic and transparent governance process to the Cosmos community.
+### Significance as a Political Base: Operating as a "political party base,"
+this fork will serve as a hub for ideation, discussion, and decision-making. It
+aims to empower community members to actively participate in governance and
+influence the future trajectory of the ecosystem. This approach is expected to
+bring a more democratic and transparent governance process to the Cosmos
+community.
 
-### Expected Outcomes and Benefits:
-We believe that by embracing diversity and fostering open dialogue, we can achieve a more robust and innovative ecosystem. The benefits will extend beyond immediate technical solutions, contributing to a more vibrant and collaborative blockchain community.
-
-TODO: add more in the spirit of the Declaration of Independence 1776.
+### Expected Outcomes and Benefits: We believe that by embracing diversity and
+fostering open dialogue, we can achieve a more robust and innovative ecosystem.
+The benefits will extend beyond immediate technical solutions, contributing to
+a more vibrant and collaborative blockchain community.
 
 ## Terms
 
@@ -258,7 +271,6 @@ The maximum bounds on the auto-adjust inflation parameter will be set at 20%.
 The inflation will target 2/3 of $ATOM1 to be bonded. 
 
 ### ICS Fee Distribution
-
 Every ICS zone should be paid for somehow. AtomOne owned ICS shards should be
 paid for from the treasury of AtomOne.  Other ICS "consumer chains" can be paid
 for by the the chain itself, and in emegencies anyone can step in and pay on
@@ -274,7 +286,18 @@ portion.
 
 ### Staking
 
-XXX how does this work now? Document changes due to equality of validators.
+The main difference being introduced is that the total amount of stake going to
+one validator doesn't actually increase the validator's power, even though all
+of those staked $ATOM1s are at stake should this validator get slashed. This
+creates a potential exploit opportunity whereby some validators have relatively
+little at stake, and 1/3 by total of voting power of those tial validators end
+up causing a double spend attack. To prevent this, overstaking to a validator
+will be taxed incrementally with the proceeds going toward general rewards.
+
+XXX TODO improve this. Maybe instead there is simply a sqrt(vp) applied to all
+the voting powers after the original Gaia staking algorithm. You can over-stake
+to a validator but your voting power and returns will be much less, almost
+inverse to the amount of overstaking.
 
 Suppose that 1/3 of the $ATOM1 stakers are slashed due to a complex double
 spend attack. Assuming that we want to allow the recompensation of victims upon
