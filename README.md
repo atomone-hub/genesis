@@ -2,6 +2,10 @@ _This document is a work in progress, please make PRs_
 
 ----------------------------------------
 # Preamble
+The Cosmos community, at a crossroads, confronts divergent views on key aspects
+such as mission, tokenomics, and security philosophy. AtomOne emerges as a
+beacon, offering an alternative fork to navigate these waters, equipped to
+handle contingencies and embodying a bastion for diverse political thought.
 
 ## Declaration of Genesis
 There comes a time when there is enough disagreement among community members
@@ -30,12 +34,12 @@ and opportunity to develop a robust antifragile ecosystem that won't suffer
 from systemic failures due to indecision or mismanagement or burnout. 
 
 ### Context and Need for Splits or Forks
-In recent times, the Cosmos community has faced significant challenges and
-disagreements among community members about moving forward. These challenges
-have underscored the need for an alternative approach, leading to the creation
-of this fork. Our aim is to address these issues head-on, providing a working
-framework and software platform for resolution and progress despite
-irreconciliable differences.
+Recent times have seen the Cosmos community grappling with significant
+challenges - from debates over network architecture to divergences in security
+philosophy. These debates have highlighted the necessity for a fork like AtomOne.
+Our objective is not merely to present an alternative but to pioneer solutions
+that address these core issues, fostering a framework for resolution and
+progression despite our differences.
 
 ### Vision and Goals
 The vision behind this AtomOne fork is to be an alternative fork of Gaia
@@ -45,7 +49,7 @@ ecosystem while introducing innovative solutions and perspectives. Our goals
 are not just to resolve current challenges but also to set a precedent for
 adaptive and responsive governance in the multichain universe a.k.a. Cosmos.
 
-### Role of the Fork in the Ecosystem
+### Role in the Ecosystem
 As a new branch within the Cosmos ecosystem tree, this fork will remain a
 minimal ICS & Token IBC hub. We anticipate that our approach will not only
 enhance the functionality of the Cosmos network but also enrich its diversity
@@ -63,14 +67,23 @@ fostering open dialogue, we can achieve a more robust and innovative ecosystem.
 The benefits will extend beyond immediate technical solutions, contributing to
 a more vibrant and collaborative blockchain community.
 
-## Terms
+## Terms Definition
 
-* Decentralists: github.com/decentralists is the name of the party.
-* AtomOne: is the name of the hub of the party.
-* Constitutional Majority: some higher bar than 2/3, say 90%.
-* IBC: Inter Blockchain Communication using BFT light client proofs
-* ICS: Inter blockChain Security; for running multiple shard chains under the
-  same validator; ICS1.5 improves inter-shard communication efficiently.
+* Decentralists:
+  - Definition: "Decentralists" refers to a party within the Cosmos ecosystem, actively advocating for decentralization principles. Their activities and philosophies are detailed at github.com/decentralists.
+  - Context: This group emphasizes the importance of distributed governance and autonomy within blockchain networks. They play a pivotal role in shaping the governance models and technical directions of projects they are involved in, including this fork.
+* AtomOne:
+  - Definition: "AtomOne" is the designated name for the hub operated by the Decentralists party. It serves as the core of their network infrastructure within the Cosmos ecosystem.
+  - Role: AtomOne functions as the operational and governance center for the Decentralists, facilitating key processes and decision-making within their framework. It's a critical component in implementing the party's vision and objectives.
+* Constitutional Majority:
+  - Definition: "Constitutional Majority" refers to a consensus threshold set at a higher bar than the standard two-thirds majority, proposed to be around 90%.
+  - Purpose: This elevated threshold aims to ensure broader agreement and inclusivity in critical decision-making processes. It reflects a commitment to achieving near-unanimous consensus on essential governance decisions, enhancing the legitimacy and stability of the outcomes.
+* IBC:
+  - Definition: Inter Blockchain Communication (IBC) is a protocol that enables communication between different blockchain networks using Byzantine Fault Tolerant (BFT) light client proofs.
+  - Functionality: It allows for the transfer of assets and information across independent blockchains, fostering interoperability and flexibility in the blockchain ecosystem. IBC is a cornerstone of the Cosmos network's architecture, enabling its vision of an 'Internet of Blockchains'.
+* ICS:
+  - Definition: ICS stands for Inter blockChain Security, a mechanism for running multiple shard chains under the same validator set. ICS1.5 is an enhancement that improves inter-shard communication efficiency.
+  - Impact: ICS enhances the security and scalability of blockchain networks by allowing multiple chains to share a common security model. ICS1.5, in particular, focuses on optimizing communication between these chains, making the overall network more efficient and robust.
 
 ----------------------------------------
 # Objectives
@@ -477,8 +490,11 @@ was around for these early beginnings.
 # FAQ
 
 ## AtomOne vs Gaia
-
-AtomOne is just built different.
+AtomOne is designed as an alternative fork of Gaia with a distinct focus
+on minimalism in its ICS & Token IBC hub. This results in a leaner, more
+efficient architecture. In terms of governance, AtomOne introduces a
+higher consensus threshold (Constitutional Majority) and emphasizes
+decentralized decision-making.
 
 ## AtomOne vs Gno.land
 
@@ -508,4 +524,7 @@ managed by AIB Inc on behalf of the hub.
  - [ ] Check for consistency w/ Decentralists DAO governance roadmap.
  - [ ] Keplr & Ledger need competition.
  - [ ] Consider referencing https://twitter.com/jaekwon/status/1724641822398681547 with more insight.
+ - [ ] Roadmap Timeline
+ - [ ] Links to Additional Resources such as technical documentation, or community forums, for in-depth information.
+ - [ ] Channels for reaching out to the core team or support, especially for technical support or collaboration inquiries.
  - [ ] XXX
