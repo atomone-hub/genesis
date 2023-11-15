@@ -27,47 +27,56 @@ TODO: add more in the spirit of the Declaration of Independence 1776.
 
 * Decentralists: github.com/decentralists is the name of the party.
 * AtomOne: is the name of the hub of the party.
-* constitutional majority: some higher bar than 2/3, say 90%.
+* Constitutional Majority: some higher bar than 2/3, say 90%.
 
 ----------------------------------------
 # Objectives
 
 These objectives all users and members should agree with, and must be reflected
 in the constitution and code of the atomone software (including ICS1.5). These
-objectives can only be changed througha constitutional (significant, more than
-two thirds) majority.
+objectives can only be changed througha Constitutional Majority (significant,
+more than two thirds).
 
 ## 1. Define $ATOM1
 
-Define $ATOM1: The staking token of the largest minimal ICS IBC Cosmos Hub that
-keeps 2/3 of $ATOM1s staked.
+The $ATOM1 is defined to be the staking token of the larger continuous minimal
+ICS IBC Cosmos Hub that keeps 2/3 of $ATOM1s staked.
 
-In the case of forks or splits, the $ATOM1 token is the one that has the
-largest relative market cap, of those forks and splits where the distribution
-is predemonantly a consistent opinionated fork of the last $ATOM1 distribution
-which, at that moment of publishing to the users of the chain, had uncontended
-consensus.
+In the case of forks or splits, the $ATOM1 token is the one that has the larger
+relative market cap, of those forks and splits where the distribution is a pure
+opinionated fork of the last $ATOM1 distribution which, at that moment of
+publishing to the users of the chain, had uncontended consensus.
 
-Predominantly a consistent opionated fork means that at least 80% of the
-distribution is air-dropped to a consistent opionated modification of the
-distribution of original staking tokens, including up to 100% slashing based on
-governance and validator votes according to some consistent reasonable
-philosophy, and at most half of the maximum 20% premine (up to 10% depending on
-the total premine) can be assigned without the consent of the governance of the
-fork.
+A pure opionated fork is a fork of the original distribution where 100% of the
+distribution is air-dropped to original staking token holders after applying
+any slashing based on the application of a slashing strategy consistent with
+the philosophy of the new fork; including and up to 100% for slashing based on
+a staker's validator's actions, and the staker's own actions (or inactions).
+
+No additional premines besides those already defined in this planning document
+are allowed for any forks whose token is called $ATOM1.
 
 ## 2. Hub Minimalism
 
-Hub minimalism, and most importantly without a complex VM implementation on the
-root shard, but rather forcing VMs to live on non-root shards. This is the best
-way to scale to billions of users.
+Hub minimalism does not mean that the functionality of the atomone hub is
+restricted; but it does imply among other thigns that the main hub chain's
+logic is reasonably restricted to those that coordinate the many shard (or
+consumer) chains.
 
-Any fixed functionality should be translated into the dominant language of the
-official approved software, which for us is the latest version of Go(lang). We
-should remind ourselves that every virtual machine has (had) numerous zero day
-exploits. The added security vulnerability surface area of the new VM combined
-with the compiler to compile one languge for the VM, as well as the added
-complexity of needing to audit another language, can and should all be avoided.
+In particular, the hub's root chain lacks a complex VM implementation, but
+rather requires VMs to live on other non-root shards.  This is the best way to
+scale to billions of users while providing specialization and isolation. For
+example, your home internet WIFI network is provided by a minimal router
+hardware, while your backup harddrives and your desktop computer are separate
+machines that only connect to the router.
+
+Any fixed functionality that could run on alternative VMs should be translated
+into the dominant language of the official approved software, which for us is a
+recent version of Go(lang) 1.xx. We should remind ourselves that every virtual
+machine has (had) numerous zero day exploits. The added security vulnerability
+surface area of the new VM combined with the compiler to compile one languge
+for the VM, as well as the added complexity of needing to audit another
+language, can and must all be avoided.
 
 Mixing implementations across validators is also to be avoided so as to prevent
 a failure arising from a low Nakamoto coefficient among the types of
