@@ -5,38 +5,41 @@ _This document is a work in progress, please make PRs_
 
 ## Declaration of Genesis
 There comes a time when there is enough disagreement among community members
-and stakers about the core decisions of the hub, such as its purpose and
-architecture and risk tolerance, that it makes the most sense to support
-alternative opinionated forks running alongside the original hub to be prepared
-against all contingencies, with the added benefit that it can operate as a
-(political) party base with governance fully or partially delegated to the
-party hub. (this is fine so long as every party is afforded this tool, and as
-long as it isn't offered misleadingly say as a collective "liquid staking"
-service).
+and stakers about key decisions for the hub, such as its mission, tokenomics,
+architecture, and security philosophy, that it makes the most sense to support
+at least one alternative opinionated fork running alongside the original hub to
+be prepared against all contingencies, with the added benefit that it can
+operate as a (political) party base with governance fully or partially
+delegated to the "party hub" (and this is fine so long as every party is
+afforded this tool; and for as long as it isn't offered misleadingly)
 
 This seems like a natural and necessary way to split the community to enable a
 diverse ecosystem of specialization and coopetition and minimize friction.
 Having this as the goal gives us the directivec and opportunity to develop a
-robust antifragile ecosystem that doesn't suffer from systemic risk of
-cascading failures. 
+robust antifragile ecosystem that doesn't suffer from systemic failures due to
+indecision or mismanagement. 
 
-### Context and Need for the Fork: In recent times, the Cosmos community has
-faced significant challenges and disagreements among community members about
-moving forward. These challenges have underscored the need for an alternative
-approach, leading to the creation of this fork. Our aim is to address these
-issues head-on, providing a platform for resolution and progress.
+### Context and Need for Splits or Forks
+In recent times, the Cosmos community has faced significant challenges and
+disagreements among community members about moving forward. These challenges
+have underscored the need for an alternative approach, leading to the creation
+of this fork. Our aim is to address these issues head-on, providing a working
+framework and software platform for resolution and progress despite
+irreconciliable differences.
 
-### Vision and Goals: The vision behind this fork is to an alternative fork
-running on standby to prepare for all contingencies, and also operating as
-political party base. We strive to complement the broader Cosmos ecosystem,
-while introducing innovative solutions and perspectives. Our goals are not just
-to resolve current challenges but to set a precedent for adaptive and
-responsive governance in decentralized networks.
+### Vision and Goals
+The vision behind this AtomOne fork is to be an alternative fork of Gaia
+("cosmoshub4") running on standby to prepare for all contingencies, and also to
+operate as a political party base. We strive to complement the broader Cosmos
+ecosystem while introducing innovative solutions and perspectives. Our goals
+are not just to resolve current challenges but also to set a precedent for
+adaptive and responsive governance in the multichain universe a.k.a. Cosmos.
 
-### Role of the Fork in the Ecosystem: As a new branch within the Cosmos
-ecosystem, this fork will prepared a minimal hub. We anticipate that our
-approach will not only enhance the functionality of the Cosmos network but also
-enrich its diversity and resilience.
+### Role of the Fork in the Ecosystem
+As a new branch within the Cosmos ecosystem tree, this fork will remain a
+minimal ICS & Token IBC hub. We anticipate that our approach will not only
+enhance the functionality of the Cosmos network but also enrich its diversity
+and resilience.
 
 ### Significance as a Political Base: Operating as a "political party base,"
 this fork will serve as a hub for ideation, discussion, and decision-making. It
@@ -55,37 +58,43 @@ a more vibrant and collaborative blockchain community.
 * Decentralists: github.com/decentralists is the name of the party.
 * AtomOne: is the name of the hub of the party.
 * Constitutional Majority: some higher bar than 2/3, say 90%.
+* IBC: Inter Blockchain Communication using BFT light client proofs
+* ICS: Inter blockChain Security; for running multiple shard chains under the
+  same validator; ICS1.5 improves inter-shard communication efficiently.
 
 ----------------------------------------
 # Objectives
 
-These objectives all users and members should agree with, and must be reflected
-in the constitution and code of the atomone software (including ICS1.5). These
-objectives can only be changed througha Constitutional Majority (significant,
-more than two thirds).
+All users and members must agree with these objectives, and at all times when
+contributing take all appropriate actions to meet these objectives both in the
+AtomOne software as well as open hardware. Otherwise they are at risk of
+judgement by AtomOne or any other community or governing set.
+
+These objectives can only be changed througha Constitutional Majority.
 
 ## 1. Define $ATOM1
 
-The $ATOM1 is defined to be the staking token of the larger continuous minimal
-ICS IBC Cosmos Hub that keeps 2/3 of $ATOM1s staked.
+The $ATOM1 is defined to be a staking token of a minimal ICS1.5 IBC AtomOne Hub
+that keeps 2/3 of $ATOM1s staked at all times.
 
-In the case of forks or splits, the $ATOM1 token is the one that has the larger
-relative market cap, of those forks and splits where the distribution is a pure
-opinionated fork of the last $ATOM1 distribution which, at that moment of
-publishing to the users of the chain, had uncontended consensus.
+All forks that lose consensus continuity must change their token ticker symbol
+to be distinct from $ATOM1 ($ATOM2 is ok). If there are competing chains with
+comparably simmilar continuity, then the fork that has a higher market cap (as
+measured after both tokens have discovered fair market value with sufficient
+liquidity for at least one week) should retain the name while other forks
+change their token ticker symbol.
 
-A pure opionated fork is a fork of the original distribution where 100% of the
-distribution is air-dropped to original staking token holders after applying
-any slashing based on the application of a slashing strategy consistent with
-the philosophy of the new fork; including and up to 100% for slashing based on
-a staker's validator's actions, and the staker's own actions (or inactions).
+Any changes to the distribution besides slashing for pre-established slashing
+conditions such as any additional premines (besides those in the original first
+genesis) disqualify the fork from retaining the same token ticker symbol; those
+are new airdrops of a different token.
 
 No additional premines besides those already defined in this planning document
-are allowed for any forks whose token is called $ATOM1.
+are allowed for any forks whose token shall be called $ATOM1.
 
 ## 2. Hub Minimalism
 
-Hub minimalism does not mean that the functionality of the atomone hub is
+Hub minimalism does not mean that the functionality of the AtomOne hub is
 restricted; but it does imply among other thigns that the main hub chain's
 logic is reasonably restricted to those that coordinate the many shard (or
 consumer) chains.
@@ -203,7 +212,7 @@ The main goal is to fix what must be fixed in governance and the need for an
 explicit constitution, before launching the full IBC and ICS functionality of
 the chain.
 
-First we describe the tokenomics of the atomone hub, followed by the main
+First we describe the tokenomics of the AtomOne hub, followed by the main
 milestones, with an emphasis on completion and even phase-out.
 
 ## Genesis Distribution
@@ -310,7 +319,7 @@ If no victims need to be made whole, then it could be appropriate to burn the
 slashed $ATOM1s of the perpetrators. The end result is that the remaining
 stakers own the network, and in a steady state this would result in the price
 of $ATOM1s increasing due to the reduced supply, assuming that the convidence
-and usage of atomone hasn't changed; though in perfect theory it should take a
+and usage of AtomOne hasn't changed; though in perfect theory it should take a
 bit of a hit, at least in proportion to the destruction of the reputation of
 those validators.
 
@@ -337,13 +346,13 @@ taxes. So auto-staking per se does not make for a deflationary holding, but it
 comes with the benefit of automatic diversification.
 
 Since it comes with benefits to the staker (diversification and thus less risk)
-but it doesn't provide the needed intelligence to atomone, it is better for the
-atomone hub to provide a standard minimal correct implementation under its
+but it doesn't provide the needed intelligence to AtomOne, it is better for the
+AtomOne hub to provide a standard minimal correct implementation under its
 control, such that it can also regulate it, especially as it relates to control
-over atomone governance. 
+over AtomOne governance. 
 
 Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
-$phATOM. In order to incentivize the usage of $phATOM, the atomone hub offers a
+$phATOM. In order to incentivize the usage of $phATOM, the AtomOne hub offers a
 trade that makes $phATOM deflationary: non-atom rewards nor taxes are applied
 to auto-staked $ATOM1 bonded $phATOM holders, and with the right conversion
 equation (which adjusts for $ATOM1 inflation) we can construct a perfectly fixed
@@ -354,7 +363,7 @@ Should this "more monetary" construction of the fixed supply ("deflationary")
 $phATOM token incentivize a large liquid supply, it becomes more susceptible to
 hostile takeovers, simply because there are more liquid $ATOM1 staking tokens
 available in comparison to the total bonded voting power. Therefore for a more
-secure atomone hub we also limit the conversion back from $phATOM to $ATOM1 so
+secure AtomOne hub we also limit the conversion back from $phATOM to $ATOM1 so
 as to make hostile takeovers more expensive.
 
 The known ways are: 
@@ -437,8 +446,8 @@ Finalization should not be seen as a thing to avoid, but rather a necessity for
 preserving immutability and thus providing real security benefits.
 
 Everyone who wants something different is given a way to create their own
-variation to compete and cooperate with the atomone hub. We should all be
-familiar with this concept, as it is how atomone itself was born--by exodus
+variation to compete and cooperate with the AtomOne hub. We should all be
+familiar with this concept, as it is how AtomOne itself was born--by exodus
 from Gaia.
 
 It is possible that what we arrive at is not sufficient in the long run, and
@@ -447,7 +456,7 @@ least in relation to an improved fork; a reference that will last a thousand
 years or more.
 
 In short, the goal is nothing more than to create timeless code, even knowing
-that in the end even atomone will be phased out, but never forgotten; the
+that in the end even AtomOne will be phased out, but never forgotten; the
 template will have split into a million different forks and conquered the
 world.
 
@@ -466,18 +475,18 @@ AtomOne is just built different.
 Gno.land will be a hub for GnoVM based smart contracts. It may benefit from
 ICS1.5 in the future, but we will first offer GnoVM scaling on the AtomOne ICS
 economic zone. Gno.land will not connect to Gaia except indirectly through
-atomone, or its minimal successor.
+AtomOne, or its minimal successor.
 
 ## AtomOne & Tendermint2
 
 NewTendermint, LLC will lead Tendermint2 development, and AIB, Inc will
 contribute by building its own engineering team within AIB, Inc that will
-transition into long term co-maintainers of atomone, and co-members of
+transition into long term co-maintainers of AtomOne, and co-members of
 gno.land. 
 
 AtomOne is a collaborative project that includes many members including AIB Inc
 and NewTendermint, LLC. Any rights to the brand of AtomOne that NewTendermint
-might have (or not have) is donated to the sovereignty of the atomone hub, or
+might have (or not have) is donated to the sovereignty of the AtomOne hub, or
 managed by AIB Inc on behalf of the hub.
 
 ----------------------------------------
@@ -487,4 +496,5 @@ managed by AIB Inc on behalf of the hub.
  - [ ] Reconcile this README with CONSTITUTION
  - [ ] Incorporate the "Constitutional Majority" in the Constitution.
  - [ ] Check for consistency w/ Decentralists DAO governance roadmap.
+ - [ ] Keplr & Ledger need competition.
  - [ ] XXX
