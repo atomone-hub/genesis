@@ -8,18 +8,18 @@ There comes a time when there is enough disagreement among community members
 and stakers about key concerns regarding the hub, such as its mission,
 tokenomics, architecture, or security philosophy, that it makes the most sense
 to support at least one alternative opinionated fork running alongside the
-original hub so as to be prepared against all contingencies; with the added
-benefit that it can operate as a (political) party base with governance votes
-happening through interchain accounts.
+original so as to be prepared against all contingencies; with the added benefit
+that it can operate as a (political) party base with governance votes happening
+through interchain accounts.
 
-Interchain account based party hubs introduce additional security issues,
-namely that of the consensus of the other validator set securing the party hub,
+ICA-based (interchain-account) partyhubs introduce additional security issues,
+namely that of the consensus of the other validator set securing the partyhub,
 if it isn't offered under ICS1.x on the original hub itself. We don't expect or
 require Gaia to improve this situation (though we assert that it should, by
-banning ICA (interchain account) governance voting to shards not owned and
-governed by the hub). On the other hand the AtomOne hub itself can and will
-offer ICS party hubs to all political parties through a standard vetted
-implementation secured by ICS1.x on the AtomOne hub itself.
+banning ICA governance voting to shards not owned and governed by the hub). On
+the other hand the AtomOne hub itself can and will offer ICS partyhubs to all
+political parties through a standard vetted implementation secured by ICS1.x on
+the AtomOne hub itself.
 
 AtomOne will lead the development and praxis of splitting the community in
 order to foster a more diverse ecosystem of specialized zones in cooperation
