@@ -5,19 +5,29 @@ _This document is a work in progress, please make PRs_
 
 ## Declaration of Genesis
 There comes a time when there is enough disagreement among community members
-and stakers about key decisions for the hub, such as its mission, tokenomics,
-architecture, and security philosophy, that it makes the most sense to support
-at least one alternative opinionated fork running alongside the original hub to
-be prepared against all contingencies, with the added benefit that it can
-operate as a (political) party base with governance fully or partially
-delegated to the "party hub" (and this is fine so long as every party is
-afforded this tool; and for as long as it isn't offered misleadingly)
+and stakers about key concerns regarding the hub, such as its mission,
+tokenomics, architecture, or security philosophy, that it makes the most sense
+to support at least one alternative opinionated fork running alongside the
+original hub so as to be prepared against all contingencies; with the added
+benefit that it can operate as a (political) party base with governance votes
+happening through interchain accounts.
 
-This seems like a natural and necessary way to split the community to enable a
-diverse ecosystem of specialization and coopetition and minimize friction.
-Having this as the goal gives us the directivec and opportunity to develop a
-robust antifragile ecosystem that doesn't suffer from systemic failures due to
-indecision or mismanagement. 
+Interchain account based party hubs introduce additional security issues,
+namely that of the consensus of the other validator set securing the party hub,
+if it isn't offered under ICS1.x on the original hub itself. We don't expect or
+require Gaia to improve this situation (though we assert that it should, by
+banning ICA (interchain account) governance voting to shards not owned and
+governed by the hub). On the other hand the AtomOne hub itself can and will
+offer ICS party hubs to all political parties through a standard vetted
+implementation secured by ICS1.x on the AtomOne hub itself.
+
+AtomOne will lead the development and praxis of splitting the community in
+order to foster a more diverse ecosystem of specialized zones in cooperation
+and coopetition with each other, while minimizing friction.
+
+Having the minimization of friction as one primary goal gives us the directivec
+and opportunity to develop a robust antifragile ecosystem that won't suffer
+from systemic failures due to indecision or mismanagement or burnout. 
 
 ### Context and Need for Splits or Forks
 In recent times, the Cosmos community has faced significant challenges and
@@ -497,4 +507,5 @@ managed by AIB Inc on behalf of the hub.
  - [ ] Incorporate the "Constitutional Majority" in the Constitution.
  - [ ] Check for consistency w/ Decentralists DAO governance roadmap.
  - [ ] Keplr & Ledger need competition.
+ - [ ] Consider referencing https://twitter.com/jaekwon/status/1724641822398681547 with more insight.
  - [ ] XXX
