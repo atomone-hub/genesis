@@ -145,6 +145,12 @@ Arbitrary smart contract functionality should not be allowed on the main hub
 chain, which should instead be reserved primarily for ICS1.5 shard coordination
 and governance voting as safety and liveness critical functionality.
 
+The hub will not be used for experimentation. Experimentation should occur in
+other zones. Let's demonstrate that a minimalist hub is not the same as a
+minimalist ecosystem and how we can create a pioneering ecosystem. Any new
+feature proposals for the hub should be considered only after a successful and
+adequately long testing period in other zones.
+
 ## 3. Validator Incentives
 
 Fix Validator incentives so that every validator is PAID to run ICS consumer
