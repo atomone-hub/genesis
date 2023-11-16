@@ -29,7 +29,7 @@ AtomOne will lead the development and praxis of splitting the community in
 order to foster a more diverse ecosystem of specialized zones in cooperation
 and coopetition with each other, while minimizing friction.
 
-Having the minimization of friction as one primary goal gives us the directivec
+Having the minimization of friction as one primary goal gives us the directive
 and opportunity to develop a robust antifragile ecosystem that won't suffer
 from systemic failures due to indecision or mismanagement or burnout. 
 
@@ -39,7 +39,7 @@ challenges - from debates over network architecture to divergences in security
 philosophy. These debates have highlighted the necessity for a fork like AtomOne.
 Our objective is not merely to present an alternative but to pioneer solutions
 that address these core issues, fostering a framework for resolution and
-progression despite our differences.
+progression despite our irreconcilable differences by supporting forks (splits).
 
 ### Vision and Goals
 The vision behind this AtomOne fork is to be an alternative fork of Gaia
@@ -55,19 +55,20 @@ minimal ICS & Token IBC hub. We anticipate that our approach will not only
 enhance the functionality of the Cosmos network but also enrich its diversity
 and resilience.
 
-### Significance as a Political Base: Operating as a "political party base,"
-this fork will serve as a hub for ideation, discussion, and decision-making. It
-aims to empower community members to actively participate in governance and
-influence the future trajectory of the ecosystem. This approach is expected to
-bring a more democratic and transparent governance process to the Cosmos
+### Significance as a Political Base 
+Operating as a "political party base" ,this fork will serve as a hub for ideation, 
+discussion, and decision-making. It aims to empower community members to actively 
+participate in governance and influence the future trajectory of the ecosystem. 
+This approach is expected to bring a more democratic and transparent governance 
+process to the Cosmos community.
+
+### Expected Outcomes and Benefits 
+We believe that by embracing diversity and fostering open dialogue, we can achieve 
+a more robust and innovative ecosystem. The benefits will extend beyond immediate 
+technical solutions, contributing to a more vibrant and collaborative blockchain 
 community.
 
-### Expected Outcomes and Benefits: We believe that by embracing diversity and
-fostering open dialogue, we can achieve a more robust and innovative ecosystem.
-The benefits will extend beyond immediate technical solutions, contributing to
-a more vibrant and collaborative blockchain community.
-
-## Terms Definition
+## Terms
 
 * Decentralists:
   - Definition: "Decentralists" refers to a party within the Cosmos ecosystem, actively advocating for decentralization principles. Their activities and philosophies are detailed at github.com/decentralists.
@@ -93,7 +94,7 @@ contributing take all appropriate actions to meet these objectives both in the
 AtomOne software as well as open hardware. Otherwise they are at risk of
 judgement by AtomOne or any other community or governing set.
 
-These objectives can only be changed througha Constitutional Majority.
+These objectives can only be changed through Constitutional Majority.
 
 ## 1. Define $ATOM1
 
@@ -102,7 +103,7 @@ that keeps 2/3 of $ATOM1s staked at all times.
 
 All forks that lose consensus continuity must change their token ticker symbol
 to be distinct from $ATOM1 ($ATOM2 is ok). If there are competing chains with
-comparably simmilar continuity, then the fork that has a higher market cap (as
+comparably similar continuity, then the fork that has a higher market cap (as
 measured after both tokens have discovered fair market value with sufficient
 liquidity for at least one week) should retain the name while other forks
 change their token ticker symbol.
@@ -118,7 +119,7 @@ are allowed for any forks whose token shall be called $ATOM1.
 ## 2. Hub Minimalism
 
 Hub minimalism does not mean that the functionality of the AtomOne hub is
-restricted; but it does imply among other thigns that the main hub chain's
+restricted; but it does imply among other things that the main hub chain's
 logic is reasonably restricted to those that coordinate the many shard (or
 consumer) chains.
 
@@ -133,7 +134,7 @@ Any fixed functionality that could run on alternative VMs should be translated
 into the dominant language of the official approved software, which for us is a
 recent version of Go(lang) 1.xx. We should remind ourselves that every virtual
 machine has (had) numerous zero day exploits. The added security vulnerability
-surface area of the new VM combined with the compiler to compile one languge
+surface area of the new VM combined with the compiler to compile one language
 for the VM, as well as the added complexity of needing to audit another
 language, can and must all be avoided.
 
@@ -294,7 +295,7 @@ of inflation+rewards going to stakers cannot be lower than this figure.
 
 The funds held in all the pools above will not be counted toward the bonding ratio.
 
-The last three following the pool/treasury will intially go to multisigs set in
+The last three following the pool/treasury will initially go to multisigs set in
 consensus params of the chain, until they get set as URIs pointing at
 blockchain based DAOs hosted on ICS1.5.
 
@@ -311,7 +312,7 @@ The inflation will target 2/3 of $ATOM1 to be bonded.
 ### ICS Fee Distribution
 Every ICS zone should be paid for somehow. AtomOne owned ICS shards should be
 paid for from the treasury of AtomOne.  Other ICS "consumer chains" can be paid
-for by the the chain itself, and in emegencies anyone can step in and pay on
+for by the the chain itself, and in emergencies anyone can step in and pay on
 the zone's behalf. 
 
 In short, every ICS zone should be profitable to every validator.
@@ -328,7 +329,7 @@ The main difference being introduced is that the total amount of stake going to
 one validator doesn't actually increase the validator's power, even though all
 of those staked $ATOM1s are at stake should this validator get slashed. This
 creates a potential exploit opportunity whereby some validators have relatively
-little at stake, and 1/3 by total of voting power of those tial validators end
+little at stake, and 1/3 by total of voting power of those initial validators end
 up causing a double spend attack. To prevent this, overstaking to a validator
 will be taxed incrementally with the proceeds going toward general rewards.
 
@@ -347,7 +348,7 @@ unbond.
 If no victims need to be made whole, then it could be appropriate to burn the
 slashed $ATOM1s of the perpetrators. The end result is that the remaining
 stakers own the network, and in a steady state this would result in the price
-of $ATOM1s increasing due to the reduced supply, assuming that the convidence
+of $ATOM1s increasing due to the reduced supply, assuming that the confidence in
 and usage of AtomOne hasn't changed; though in perfect theory it should take a
 bit of a hit, at least in proportion to the destruction of the reputation of
 those validators.
@@ -462,7 +463,7 @@ There are largely four phases to this plan.
 1. Migrate $PHOTON to ICS
 2. Promote Smart Contract Use Cases
 3. Develop Scalable Validator Infrastructure
-4. Develop Recovery Preocedures
+4. Develop Recovery Procedures
 
 ### AtomOne Phase 4: Maintenance
 
