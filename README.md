@@ -31,7 +31,7 @@ and coopetition with each other, while minimizing friction.
 
 Having the minimization of friction as one primary goal gives us the directive
 and opportunity to develop a robust antifragile ecosystem that won't suffer
-from systemic failures due to indecision or mismanagement or burnout. 
+from systemic failures due to indecision, mismanagement, or burnout. 
 
 ### Context and Need for Splits or Forks
 Recent times have seen the Cosmos community grappling with significant
@@ -56,7 +56,7 @@ enhance the functionality of the Cosmos network but also enrich its diversity
 and resilience.
 
 ### Significance as a Political Base 
-Operating as a "political party base" ,this fork will serve as a hub for ideation, 
+Operating as a "political party base", this fork will serve as a hub for ideation, 
 discussion, and decision-making. It aims to empower community members to actively 
 participate in governance and influence the future trajectory of the ecosystem. 
 This approach is expected to bring a more democratic and transparent governance 
@@ -71,20 +71,49 @@ community.
 ## Terms
 
 * Decentralists:
-  - Definition: "Decentralists" refers to a party within the Cosmos ecosystem, actively advocating for decentralization principles. Their activities and philosophies are detailed at github.com/decentralists.
-  - Context: This group emphasizes the importance of distributed governance and autonomy within blockchain networks. They play a pivotal role in shaping the governance models and technical directions of projects they are involved in, including this fork.
+  - Definition: "Decentralists" refers to a party within the Cosmos ecosystem,
+  actively advocating for decentralization principles. Their activities and
+  philosophies are detailed at github.com/decentralists.
+  - Context: This group emphasizes the importance of distributed governance and
+  autonomy within blockchain networks. They play a pivotal role in shaping the
+  governance models and technical directions of projects they are involved in,
+  including this fork.
 * AtomOne:
-  - Definition: "AtomOne" is the designated name for the hub operated by the Decentralists party. It serves as the core of their network infrastructure within the Cosmos ecosystem.
-  - Role: AtomOne functions as the operational and governance center for the Decentralists, facilitating key processes and decision-making within their framework. It's a critical component in implementing the party's vision and objectives.
+  - Definition: "AtomOne" is the designated name for the hub operated by the
+  Decentralists party. It serves as the core of their network infrastructure
+  within the Cosmos ecosystem.
+  - Role: AtomOne functions as the operational and governance center for the
+  Decentralists, facilitating key processes and decision-making within
+  their framework. It's a critical component in implementing the party's vision
+  and objectives.
 * Constitutional Majority:
-  - Definition: "Constitutional Majority" refers to a consensus threshold set at a higher bar than the standard two-thirds majority, proposed to be around 90%.
-  - Purpose: This elevated threshold aims to ensure broader agreement and inclusivity in critical decision-making processes. It reflects a commitment to achieving near-unanimous consensus on essential governance decisions, enhancing the legitimacy and stability of the outcomes.
+  - Definition: "Constitutional Majority" refers to a consensus threshold set at
+  a higher bar than the standard two-thirds majority, proposed to be around 90%.
+  - Purpose: This elevated threshold aims to ensure broader agreement and
+  inclusivity in critical decision-making processes. It reflects a commitment to
+  achieving near-unanimous consensus on essential governance decisions, enhancing
+  the legitimacy and stability of the outcomes.
 * IBC:
-  - Definition: Inter Blockchain Communication (IBC) is a protocol that enables communication between different blockchain networks using Byzantine Fault Tolerant (BFT) light client proofs.
-  - Functionality: It allows for the transfer of assets and information across independent blockchains, fostering interoperability and flexibility in the blockchain ecosystem. IBC is a cornerstone of the Cosmos network's architecture, enabling its vision of an 'Internet of Blockchains'.
+  - Definition: Inter Blockchain Communication (IBC) is a protocol that enables
+  communication between different blockchain networks using Byzantine Fault
+  Tolerant (BFT) light client proofs.
+  - Functionality: It allows for the transfer of assets and information across
+  independent blockchains, fostering interoperability and flexibility in the
+  blockchain ecosystem. IBC is a cornerstone of the Cosmos network's architecture,
+  enabling its vision of an 'Internet of Blockchains'.
 * ICS:
-  - Definition: ICS stands for Inter blockChain Security, a mechanism for running multiple shard chains under the same validator set. ICS1.5 is an enhancement that improves inter-shard communication efficiency.
-  - Impact: ICS enhances the security and scalability of blockchain networks by allowing multiple chains to share a common security model. ICS1.5, in particular, focuses on optimizing communication between these chains, making the overall network more efficient and robust.
+  - Definition: ICS stands for Inter blockChain Security, a mechanism for running
+  multiple shard chains under the same validator set. ICS1.5 is an enhancement that
+  improves inter-shard communication efficiency.
+  - Impact: ICS enhances the security and scalability of blockchain networks by
+  allowing multiple chains to share a common security model. ICS1.5, in particular,
+  focuses on optimizing communication between these chains, making the overall
+  network more efficient and robust.
+* Zone:
+  - Definition: A zone is an independent chain (or an application hosted on a
+  parent chain) with a well-defined governing body or bodies that dictate the
+  governance and economic rules internal to that zone. A zone is sovereign or
+  partially sovereign.
 
 ----------------------------------------
 # Objectives
@@ -124,7 +153,7 @@ logic is reasonably restricted to those that coordinate the many shard (or
 consumer) chains.
 
 In particular, the hub's root chain lacks a complex VM implementation, but
-rather requires VMs to live on other non-root shards.  This is the best way to
+rather requires VMs to live on other non-root shards. This is the best way to
 scale to billions of users while providing specialization and isolation. For
 example, your home internet WIFI network is provided by a minimal router
 hardware, while your backup harddrives and your desktop computer are separate
@@ -155,15 +184,15 @@ adequately long testing period in other zones.
 ## 3. Validator Incentives
 
 Fix Validator incentives so that every validator is PAID to run ICS consumer
-chains and hub shards. Actually model the minimal economic model that describes
-physical reality sufficiently to be intuitive and adaptive to all scenarios.
-Every ICS pays supermajority to validators!
+chains and hub shards. Actually, develop a minimal economic model that accurately
+describes physical reality in an intuitive and adaptable way for all scenarios.
+Let's implement a system where every ICS chain pays supermajority to validators!
 
 ## 4. Governance
 
 See [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
 
-Fix governance. We already have proposals in the works on github decentralists
+Fix governance. We already have proposals in the works on GitHub decentralists
 DAO / governance. Contribute there so that Governance is fixed and we stop
 spending money like a flock of headless geese.
 
@@ -174,7 +203,7 @@ What people want are liquid fungible tokens that aren't so inflationary, I get
 it. ICS scaling will fix the problem, but if you really want more, fix LS to
 delegate pro-rata, NOT have its own gov. Or, over time, possibly create a
 bicameral gov structure w/ exponentially inflating $ATOM1 stakers, and limit
-how $PHOTON reverts to $ATOM1 to prevent hostile takeover.  VP(staked $ATOM1)
+how $PHOTON reverts to $ATOM1 to prevent hostile takeover. VP(staked $ATOM1)
 >= VP(all $PHOTON).
 
 TODO: Comparison between liquid staking and (collective) "liquid staking".
@@ -199,9 +228,9 @@ XXX add more
 
 ## 8. Transparent Security System
 
-Create a permissioned and completely accountable and 100%
-predetermined-finite-time-delayed transparent security reporting system where
-ABSOLUTELY EVERYTHING within it eventually becomes public knowledge to help
+Create a permissioned and fully accountable, and 100% predetermined-finite-
+time-delayed transparent security reporting system. Ensure that ABSOLUTELY
+ALL information within the system eventually becomes public knowledge to help
 deal with zero day vulnerabilities and current attacks & fund it.
 
 ## 9. Fund SubDAOs
@@ -224,7 +253,7 @@ See https://github.com/gnolang/gno/tree/master/tm2 for Tendermint2
 
 ## 11. Enable Meiosis
 
-Ossify the partyhub after it has become its own competing IBC/ICS hub.  Allow
+Ossify the partyhub after it has become its own competing IBC/ICS hub. Allow
 others to likewise fork from you by enabling ICA partyhubs when there is
 disagreement. Multiply by meiosis and conquer the world.
 
@@ -243,7 +272,7 @@ explicit constitution, before launching the full IBC and ICS functionality of
 the chain.
 
 First we describe the tokenomics of the AtomOne hub, followed by the main
-milestones, with an emphasis on completion and even phase-out.
+milestones, with an emphasis on completion and even potential phase-out.
 
 ## Genesis Distribution
 
@@ -303,7 +332,7 @@ blockchain based DAOs hosted on ICS1.5.
 
 We opt to replace the market-based "commission" system with a flat
 distribution to all validators, to incentivize the creation of peer validators
-(who should all plan to become datacenter providers). 
+(who should all plan to become datacenter providers).
 
 The maximum bounds on the auto-adjust inflation parameter will be set at 20%.
 
@@ -313,7 +342,7 @@ The inflation will target 2/3 of $ATOM1 to be bonded.
 Every ICS zone should be paid for somehow. AtomOne owned ICS shards should be
 paid for from the treasury of AtomOne.  Other ICS "consumer chains" can be paid
 for by the the chain itself, and in emergencies anyone can step in and pay on
-the zone's behalf. 
+the zone's behalf.
 
 In short, every ICS zone should be profitable to every validator.
 
@@ -379,7 +408,7 @@ Since it comes with benefits to the staker (diversification and thus less risk)
 but it doesn't provide the needed intelligence to AtomOne, it is better for the
 AtomOne hub to provide a standard minimal correct implementation under its
 control, such that it can also regulate it, especially as it relates to control
-over AtomOne governance. 
+over AtomOne governance.
 
 Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
 $phATOM. In order to incentivize the usage of $phATOM, the AtomOne hub offers a
@@ -396,7 +425,7 @@ available in comparison to the total bonded voting power. Therefore for a more
 secure AtomOne hub we also limit the conversion back from $phATOM to $ATOM1 so
 as to make hostile takeovers more expensive.
 
-The known ways are: 
+The known ways are:
  * Widen the gap in bidirectional conversion price between $phATOM and $ATOM1.
  * Limit the amount of $ATOM1 that can be released per time period auction.
  * Essentially the same as above with some conversion curve.
@@ -421,7 +450,7 @@ the total amount of $phATOM remains invariant in comparison appears strictly
 worse for $phATOM holders. This widening of the gap could in theory happen at
 any time with governance.
 
-The $ATOM1s bonded toward auto-staking does not count toward calculating the
+The $ATOM1s bonded toward auto-staking do not count toward calculating the
 bonding ratio target of 2/3 in either the numerator or denominator--they are
 ignored.
 

@@ -10,9 +10,9 @@ description of the constitution of the hub._
 
 ## Preamble
 
-We the people of the Cosmos, in order to create a free world, enable voluntary
+We, the people of the Cosmos, in order to create a free world, enable voluntary
 and borderless transactions, facilitate permissionless innovation, ensure
-economic security, cater for economic and technological development, allow for
+economic security, cater to economic and technological development, allow for
 the creation of sovereign zones, and maintain order among sovereign zones, do
 ordain and establish this Constitution for the Cosmos Hub.
 
@@ -22,8 +22,8 @@ Cosmos is the interchain network composed of many sovereign zones connected by
 IBC.
 
 A zone is an independent chain (or an application hosted on a parent chain)
-with a well defined governing body or bodies that dictate the governance and
-economic rules internal to that zone. A zone by definition is sovereign or
+with a well-defined governing body or bodies that dictate the governance and
+economic rules internal to that zone. By definition, a zone is sovereign or
 partially sovereign. A treasury DAO of the Cosmos Hub is partially sovereign.
 
 IBC is short for Interchain Blockchain Communication, and includes all
@@ -36,8 +36,8 @@ ICS is short for Interchain Security, and includes all protocols that allow the
 consensus of one chain to be partially or wholly secured by mechanisms on
 another chain.
 
-ICS1 also known as Simple Replicated Security, includes all protocols where the
-validator set is simply replicated across multiple blockchains and slash
+ICS1, also known as Simple Replicated Security, includes all protocols where the
+validator set is simply replicated across multiple blockchains, and slash
 conditions are always submitted to a root chain.
 
 ICS2 includes all protocols where slash conditions for complex failure
@@ -57,8 +57,8 @@ the Cosmos Hub or free (not auto-staked), everyone who auto-staked ATOMs
 on the Cosmos Hub would get slashed 1.5%. Inflationary ATOMs are paid to
 auto-stakers such that they do not suffer from the inflation rate of ATOMs.
 
-A two thirds supermajority is where more than 2/3rd of all participating staked
-ATOMs votes YES and the vote is above the current governance quorum value and
+A two-thirds supermajority is where more than 2/3rd of all participating staked
+ATOMs vote YES and the vote is above the current governance quorum value and
 the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
 
 ## Part 1 General Provisions
@@ -69,33 +69,32 @@ This Constitution of the Cosmos Hub, hereinafter “the Constitution” hereby
 establishes the foundations of the governance model, economical model, and
 operating system of the Cosmos Hub.
 
-All subsequent governance proposals must be in alignment with the provisions of
-the Constitution, and each proposal's proponents and all active governance
-voters are required to ensure consistency between such proposals and the
-Constitution.
+All subsequent governance proposals must align with the provisions of
+the Constitution, and proponents of each proposal, along with all active
+governance voters, are required to ensure consistency between such proposals
+and the Constitution.
 
 ### Article 1.B. Sovereignty of the Cosmos Hub
 
-The Cosmos interchain network is composed of many sovereign zones such as the
+The Cosmos interchain network is composed of many sovereign zones, such as the
 Cosmos Hub.
 
 The Cosmos Hub is composed of many chains including the root hub chain where
 staking and governance transactions are committed and executed, but also other
 chains secured by ICS that are subservient to the governance of the root hub
-chain, hereinafter "Hub Governance".
+chain, hereinafter referred to as "Hub Governance".
 
 Other sovereign zones that are completely or partially secured by Cosmos Hub
-ICS by definition have their own governance mechanism, and the Cosmos Hub
+ICS, by definition, have their own governance mechanism. The Cosmos Hub
 principally enables and follows the will of the governance of such sovereign
-zones with regards to the pegged tokens originating from said zones, except in
-well defined exceptional circumstances that involve bugs, theft, or harm to the
+zones ragarding the pegged tokens originating from said zones, except in
+well-defined exceptional circumstances involving bugs, theft, or harm to the
 Cosmonauts of the Cosmos ecosystem.
 
 ### Article 1.C. General Mission and Objectives
 
-The mission of the Cosmos Hub is to create a new world allowing for
-permissionless yet secure interactions between the Cosmonauts of Cosmos in the
-Solar system.
+The mission of the Cosmos Hub is to create a new world, enabling permissionless
+yet secure interactions between the Cosmonauts of Cosmos in the Solar system.
 
 The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
 multi-token payment and transfer system; and to scale the security of the
@@ -141,10 +140,10 @@ following functions:
 
 The working language of Cosmos Hub governance is English.
 
-The quorum necessary for a proposal to be valid shall depend only on number of
-bonded ATOMs.
+The quorum necessary for a proposal to be valid shall depend solely on the number
+of bonded ATOMs.
 
-The governance process must extend the voting deadline to ensure at least 2
+The governance process must extend the voting deadline to ensure a minimum of 2
 weeks of voting after the minimum quorum has been met.
 
 UX interfaces that present the results of voting on governance proposals should
@@ -159,9 +158,9 @@ Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
 of new tokens to any chain using the distribution of any token on the Cosmos
 Hub at any time.
 
-Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
-portion by partial or full slashing based on their cryptographic voting
-activity according to well defined principles at any time.
+Every Citizen allows any Cosmonaut to modify their pro-rata airdrop portion
+by partial or full slashing based on their cryptographic voting activity
+according to well defined principles at any time.
 
 ### Article 2.D. Treasury DAOs
 
@@ -204,7 +203,7 @@ on the Cosmos Hub.
 
 The one and only economic incentive model of the Cosmos Hub is the collection
 of market-based transaction fees from a large number of transactions across all
-the chains secured by the staking of ATOMs on the Cosmos Hub including ICS1
+the chains secured by the staking of ATOMs on the Cosmos Hub, including ICS1
 hosted blockchains.
 
 ### Article 3.B. The ATOM Token
@@ -214,17 +213,14 @@ bond for the Cosmos Hub.
 
 To preserve the security and identity of the acting governance and validator
 set, the inflation rate of the ATOM is made to vary over time to target 2/3 of
-all ATOMs. The maximum inflation rate is 20% non-compounded per year.  There is
+all ATOMs. The maximum inflation rate is 20% non-compounded per year. There is
 no minimum inflation rate, and it can even be negative (deflationary).
 
 Inflated ATOMs are paid to bonded ATOM holders in proportion to each
-delegator's staking amount.
+delegator's staking amount, and staked ATOMs are converted to Bonded Share Units.
 
-Staked ATOMs are converted to Bonded Share Units.
-
-The Atom Unbonding Period shall be 3 weeks.
-
-Redelegation is allowed twice per Atom Unbonding Period for any delegation.
+The Atom Unbonding Period shall be 3 weeks, and redelegation is allowed twice
+per Atom Unbonding Period.
 
 Double signing at any height/round/step results in slashing penalty that is
 proportional to the total amount of double signing by all validators for that
@@ -246,13 +242,13 @@ non-native liquid staking).
 To limit the amount of liquid staked tokens so as to reduce systemic risk from
 liquid staking, there shall be imposed a 5% tax (the "Liquid Staking Tax") on
 all rewards paid out to staked interchain accounts at time of reward
-withdrawal. This Liquid Staking Tax parameter may be adjusted by a two thirds
+withdrawal. This Liquid Staking Tax parameter may be adjusted by a two-thirds
 supermajority vote of the Cosmos Hub. 
 
 If the amount of ATOMs staked using interchain accounts exceeds 20% (the
 "Liquid Staking Factor") of the total staked ATOMs, the Liquid Staking Tax
 shall automatically increase by 1% per month. The Liquid Staking Factor
-parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
+parameter may be adjusted by a two-thirds supermajority vote of the Cosmos Hub.
 
 TODO: simplify the above two rules.
 
@@ -264,10 +260,10 @@ TODO: simplify the above two rules.
 
 Any inflation of ATOMs to the Community Pool or a designated Treasury DAO
 beyond the default inflation rate described in the Constitution shall require a
-two thirds supermajority vote of a special inflation governance proposal type.
+two-thirds supermajority vote of a special inflation governance proposal type.
 
 The special inflation proposal can include a description of the purpose of the
-inflation, but cannot include any other modifications to the Cosmos Hub or its
+inflation, but it cannot include any other modifications to the Cosmos Hub or its
 Constitution, nor the adoption of any new Treasury DAOs.
 
 ### Article 3.E. The Common Pool 
@@ -276,7 +272,7 @@ The Common Pool tax proceeds shall apply to transaction fees and inflationary
 ATOMs, and shall be sent to the Community Pool.
 
 The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
-by two thirds supermajority of the Cosmos Hub governance.
+by two-thirds supermajority of the Cosmos Hub governance.
 
 
 ## Part 4 Final Dispositions
@@ -290,30 +286,30 @@ omnibus whitepaper.
 ## Article 4.B. The Implementation
 
 The Cosmos Hub shall not have any VM functionality, but shall be plainly
-implemented in a single garbage collected language as reference (namely Go);
+implemented in a single garbage-collected language as reference (namely Go);
 and other clients may implement all or portions of the stack in another
 language like Rust.
 
-The only cryptographic assumptions allowed to be used by the Cosmos Hub
+The only cryptographic assumptions allowed to be used by the Cosmos Hub,
 including its consensus protocol shall be Ed25519 and Secp256k1 elliptic
 curves, and RIPEMD160 and SHA256 hash functions.
 
 No zero-knowledge proof systems may be adopted on the Cosmos Hub even if they
 are composed of the approved primitives.
 
-The rules of this article may only be changed by two thirds supermajority vote
+The rules of this article may only be changed by two-thirds supermajority vote
 of the Cosmos Hub.
 
 ## Article 4.C. Compute/storage/memory limitations
 
 For the sake of decentralization, accessibility, accountability, and security,
-the Cosmos Hub and each ICS zone shall be restricted such that each can run on
+the Cosmos Hub and each ICS zone shall be restricted so that each can run on
 a commodity computer.
 
 ## Article 4.D. Amendment of the Constitution
 
-This constitution may be modified or additional parts and rules appended by two
-thirds supermajority of Cosmos Hub governance.
+This constitution may be modified or additional parts and rules appended by 
+two-thirds supermajority of Cosmos Hub governance.
 
 <hr />
 
@@ -326,7 +322,7 @@ _This is not part of the Constitution_
 ### About the economic model
 
 The notion that ATOM is a "memecoin" ignores the obvious and original business
-model for the hub -- token transfer fees. Bitcoin and Ethereum gas transaction
+model for the hub: token transfer fees. Bitcoin and Ethereum gas transaction
 fees are in the 10s/100s of millions, and we haven't even gotten to VISA scale
 yet. ATOM is not money, it's VISA shares, IBM shares, and FED shares (but where
 ATOM stakers are general partners rather than limited partners).
@@ -361,13 +357,13 @@ each).
 
 ### The need for hubs
 
-Say there are 10,000 zones. Say a zone fails and it requires manual
-intervention.  With 10,000 IBC connections you require 10,000 zones to all
-agree on recovery procedure; will never happen. But a zone connected to a more
-secure hub will be protected when it needs intervention.
+Imagine there are 10,000 zones. Now, if a zone fails and requires manual
+intervention, having 10,000 IBC connections means needing agreement from all
+10,000 zones on the recovery procedure, which will never happen. But, a zone
+connected to a more secure hub will be protected when it needs intervention.
 
 Another need for hubs; uniformity of guarantees. You need a hub to coordinate
-shard zones where governance/policy and staking gets applied to all shards.
+shard zones where governance/policy and staking are applied to all shards.
 Otherwise, you don’t have one system of guarantees, you have many independent
 chains. Need to scale sendtx, might as well ICS.
 
@@ -417,9 +413,9 @@ bonded through interchain accounts.
 
 ### About consensus-driven investments
 
-Global governance consensus driven investments will fair worse than local
-competition driven investments, like central planning fails. - where-ever
-possible we should ensure that intelligence is preserved or amplified in
+Global governance consensus driven investments will fail worse than local
+competition-driven investments, like central planning fails. Wherever
+possible, we should ensure that intelligence is preserved or amplified in
 decisions. The way to ensure that good decisions are rewarded and bad decisions
 punished, is to require individual decision makers to put skin in the game.
 This is why innovation happens in the private sector, and why governance
@@ -448,7 +444,7 @@ authority, where Treasury DAOs compete with each other.
 
 ### How to immunize against the mark of the beast
 
-The powers of the world as represented by the WEF is intent on implementing the
+The powers of the world, as represented by the WEF, are intent on implementing the
 mark of the beast. As per the Book of Revelation,
 
 * The nations of the world were deceived by pharmakia/medicine (Revelation 18
@@ -483,7 +479,7 @@ if such a regulatory system is not imposed upon any zones, zones may want to
 voluntarily adopt some kind of regulatory policy. And zones probably want to
 enforce these policies across zones that choose to adopt the same policies.
 
-It follows, that in a minimal system, zones should be allowed to choose their
+It follows that, in a minimal system, zones should be allowed to choose their
 own set of regulatory policies, and the Hub can help enforce these policies
 when it comes to IBC transfers across zones, or from hub to zone. From the
 perspective of the Hub, this is still a permissionless, voluntary system.
