@@ -21,10 +21,10 @@ monetizations trategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
-These have now made clear the need for a hub like AtomOne whose signular focus
-and alignment is to serve as THE minimal IBC/ICS token hub with respect to
-Cosmos, and correspondingly to serve as THE base for a security-oriented
-political party with respect to Gaia.
+These have now made clear the need for a new hub with a renewed focus and
+alignment to serve as the canonical minimal IBC/ICS token hub with respect to
+Cosmos, and secondarily to serve as the main base for a political party with
+respect to Gaia to champion the ideals of security and minimalsim everywhere.
 
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
@@ -35,59 +35,41 @@ goals are not just to resolve current challenges but also to set a new
 precedent for adaptive and responsive self-organization in the multichain
 multitoken universe we call the Cosmos.
 
-AtomOne will re-commit to the original vision and primary mission of the Cosmos
-Hub (named Gaia) to serve as a minimal IBC/ICS hub secured by a staking token.
-We believe that a proper minimal token hub with minimal risk profile is an
-essential utility of the crypto ecosystem, and that such a hub should remain
-forever conservative and adhere to a stable and explicit constitution with an
-immutable tokenomics specification. Experiments belong in new splits.
+#### Role as Minimal IBC/ICS Hub
+AtomOne will re-commit to the original vision and primary mission of Gaia to
+serve as a minimal IBC/ICS hub secured by a staking token. We believe that a
+proper minimal token hub with minimal risk profile is an essential utility of
+the crypto ecosystem, and that such a hub should remain forever conservative
+and adhere to a stable and explicit constitution with an immutable tokenomics
+specification. Experiments belong in new forks and the hub should enable them.
 
+We anticipate that our approach will not only enhance the functionality of the
+Cosmos network but also enrich its diversity and resilience.
+
+#### Significance as a Political Base 
 In addition AtomOne will lead the development and praxis of giving
 representation to every subcommunity (or political party), each defined and
 strengthened by their own living constitutions that state their values,
-missions, and philosophies. This will foster a more diverse ecosystem of
+missions, philosophies and so on. This will foster a more diverse ecosystem of
 specialized zones in cooperation and coopetition with each other despite
-irreconciliable differences. AtomOne will be a base for many partyhubs spawned
-from it, and itself function as a partyhub in relation to Gaia.
+irreconciliable differences. AtomOne will be a base for many more partyhubs,
+and itself function as a partyhub in relation to Gaia.
 
-We see these two missions not as opposed but complementary to one another with
-the diversity of hubs reducing global systemic risk; and see it as our
-challenge to ensure that this is the case through the protocols and services
-that we support. Security is prioritized above all else, including and
-especially staker profits.
-
-### Secure Splitting
-AtomOne will lead the way in demonstrating a more secure system for splitting
-off new generations of partyhubs as a necessary course of action of last resort
-in the face of gridlock and friction. ICA-based (interchain-account) partyhubs
-with independent validator sets introduce additional security risks associated
-with the behavior of the other validator set securing said partyhub--unlike
-shards secured under ICS1.x by the original hub itself.
-
-In an ideal scenario, once AtomOne is complete in functionality and has proven
-itself, it and its supporters will guide Gaia to adopt the same secure
-splitting system so that Gaia AND AtomOne can both have a richly diverse
-partyhub set representing many diverse parties each with their own
-philosophies, expertise, concerns, and jurisdictions.
-
-### Role in the Ecosystem
-As a new branch within the Cosmos ecosystem tree, this fork will remain a
-minimal ICS & Token IBC hub. We anticipate that our approach will not only
-enhance the functionality of the Cosmos network but also enrich its diversity
-and resilience.
-
-### Significance as a Political Base 
-Operating as a "political party base", this fork will serve as a hub for ideation, 
-discussion, and decision-making. It aims to empower community members to actively 
-participate in governance and influence the future trajectory of the ecosystem. 
-This approach is expected to bring a more democratic and transparent governance 
-process to the Cosmos community.
+Operating as a "political party base", This fork will serve as a political
+party base for ideation, discussion, and collective decision-making in regards
+to its associations especially Gaia. It aims to empower community members to
+actively participate in governance about Gaia and AtomOne and influence the
+future trajectory of both ecosystems. This approach is expected to bring a more
+democratic and transparent governance and self-organizing process to the Cosmos
+community.
 
 ### Expected Outcomes and Benefits 
-We believe that by embracing diversity and fostering open dialogue, we can achieve 
-a more robust and innovative ecosystem. The benefits will extend beyond immediate 
-technical solutions, contributing to a more vibrant and collaborative blockchain 
-community.
+We believe that by embracing diversity and fostering open dialogue between
+aligned groups we can create a more robust, innovative, and decentralized
+ecosystem.  The diversity of specialized hubs will accelerate innovation, while
+the diversity of coopetative hubs will reduce overall global systemic risk.
+The benefits will extend beyond immediate technical solutions, contributing
+to a more vibrant and collaborative blockchain and global community.
 
 ## Terms
 
@@ -277,6 +259,19 @@ See https://github.com/gnolang/gno/tree/master/tm2 for Tendermint2
 Ossify the partyhub after it has become its own competing IBC/ICS hub. Allow
 others to likewise fork from you by enabling ICA partyhubs when there is
 disagreement. Multiply by meiosis and conquer the world.
+
+AtomOne will lead the way in demonstrating a more secure system for splitting
+off new generations of partyhubs as a necessary course of action of last resort
+in the face of gridlock and friction. ICA-based (interchain-account) partyhubs
+with independent validator sets introduce additional security risks associated
+with the behavior of the other validator set securing said partyhub--unlike
+shards secured under ICS1.x by the original hub itself.
+
+In an ideal scenario, once AtomOne is complete in functionality and has proven
+itself, it and its supporters will guide Gaia to adopt the same secure
+splitting system so that Gaia AND AtomOne can both have a richly diverse
+partyhub set representing many diverse parties each with their own
+philosophies, expertise, concerns, and jurisdictions.
 
 See https://github.com/gnolang/gno/pull/1224 for prototype WIP of splitting.
 
