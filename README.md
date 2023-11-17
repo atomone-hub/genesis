@@ -9,28 +9,33 @@ handle contingencies and embodying a bastion for diverse political thought.
 
 ## Declaration of Genesis
 There comes a time when there is enough disagreement among community members
-and stakers about key concerns regarding the hub, such as its mission,
-tokenomics, architecture, or security philosophy, that it makes the most sense
-to support at least one alternative opinionated fork running alongside the
-original so as to be prepared against all contingencies; with the added benefit
-that it can operate as a (political) party base with governance votes happening
-through interchain accounts.
+and stakers about key concerns regarding the business of their chain, such as
+its vision, mission, tokenomics, architecture, or philosophy; that it makes the
+most sense to support an alternative fork running alongside the original so as
+to be prepared against all contingencies.
 
 Recent times have seen the Cosmos community grappling with significant
-challenges - from debates over network architecture to divergences in security
-philosophy. These debates have highlighted the necessity for a fork like
-AtomOne.
+challenges stemming from differences about core tokenomics, about the very
+nature of the $ATOM token (whether it is staking or monetary), about
+monetizations trategy and what types of projects to fund; and there generally
+appears to be a great cultural chasm that shows no sign of closing about our
+role and responsibilities as compared to our profit interests.
+
+These have now made clear the need for a hub like AtomOne whose signular focus
+and alignment is to serve as THE minimal IBC/ICS token hub with respect to
+Cosmos, and correspondingly to serve as THE base for a security-oriented
+political party with respect to Gaia.
 
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
 Gaia ("cosmoshub4") running on standby to prepare for all contingencies, and
 also to operate as a political party base. We strive to complement the broader
 Cosmos ecosystem while introducing innovative solutions and perspectives. Our
-goals are not just to resolve current challenges but also to set a precedent
-for adaptive and responsive governance in the multichain universe a.k.a.
-Cosmos.
+goals are not just to resolve current challenges but also to set a new
+precedent for adaptive and responsive self-organization in the multichain
+multitoken universe we call the Cosmos.
 
-AtomOne will recommit to the original vision and primary mission of the Cosmos
+AtomOne will re-commit to the original vision and primary mission of the Cosmos
 Hub (named Gaia) to serve as a minimal IBC/ICS hub secured by a staking token.
 We believe that a proper minimal token hub with minimal risk profile is an
 essential utility of the crypto ecosystem, and that such a hub should remain
