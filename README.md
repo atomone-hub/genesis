@@ -17,14 +17,15 @@ to be prepared against all contingencies.
 Recent times have seen the Cosmos community grappling with significant
 challenges stemming from differences about core tokenomics, about the very
 nature of the $ATOM token (whether it is staking or monetary), about
-monetizations trategy and what types of projects to fund; and there generally
+monetization trategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
 These have now made clear the need for a new hub with a renewed focus and
 alignment to serve as the canonical minimal IBC/ICS token hub with respect to
 Cosmos, and secondarily to serve as the main base for a political party with
-respect to Gaia to champion the ideals of security and minimalsim everywhere.
+respect to Gaia to champion the ideals of sovereignty, security and
+decentralization everywhere.
 
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
@@ -35,56 +36,151 @@ goals are not just to resolve current challenges but also to set a new
 precedent for adaptive and responsive self-organization in the multichain
 multitoken universe we call the Cosmos.
 
+AtomOne will lead the development and praxis of giving representation to every
+subcommunity (or political party), each defined and strengthened by their own
+living constitutions that state their values, missions, philosophies and so on.
+This will foster a more diverse ecosystem of specialized zones in coopetition
+(cooperation and competition) with each other despite irreconciliable
+differences. AtomOne will be a base for many more partyhubs, and itself
+function as a partyhub in relation to Gaia.
+
 #### Role as Minimal IBC/ICS Hub
 AtomOne will re-commit to the original vision and primary mission of Gaia to
-serve as a minimal IBC/ICS hub secured by a staking token. We believe that a
-proper minimal token hub with minimal risk profile is an essential utility of
-the crypto ecosystem, and that such a hub should remain forever conservative
-and adhere to a stable and explicit constitution with an immutable tokenomics
-specification. Experiments belong in new forks and the hub should enable them.
+serve as a minimal IBC/ICS hub secured by a staking token. We believe that
+minimizing the risk profile is necessary as an existential issue for the hub,
+and an issue of financial security of the highest order for not just the hub
+but its hosted shards and IBC connected network (in other words, everyone).
 
-We anticipate that our approach will not only enhance the functionality of the
-Cosmos network but also enrich its diversity and resilience.
+IBC/ICS hubs should in general remain conservative in its function and offer
+utility through dependability and scaling. Any experiments that change the
+nature of the hub belong in new forks or splits, and an ideal hub enables them
+as supportive parents to children. In the Cosmos there is no need for
+contention as on Earth because there is no limitation of finite land.
+
+We are not concerned about any business plan or tokenomics strategy for the
+AtomOne hub besides offering the scaling of transaction throughput through
+ICS1.5. We anticipate that our approach will successfully and sufficienty
+capture the (massive) niche market need for utmost security in IBC token
+transactions and ICS1.5 shard hosting, and serve as the basis for all the
+functionality that all people will need and want; and if it cannot be done
+through the spirit of these Founding Documents and the living AtomOne
+Constitution then it shall be done in the next generation that splits or forks
+from this AtomOne hub.
 
 #### Significance as a Political Base 
-In addition AtomOne will lead the development and praxis of giving
-representation to every subcommunity (or political party), each defined and
-strengthened by their own living constitutions that state their values,
-missions, philosophies and so on. This will foster a more diverse ecosystem of
-specialized zones in cooperation and coopetition with each other despite
-irreconciliable differences. AtomOne will be a base for many more partyhubs,
-and itself function as a partyhub in relation to Gaia.
+There are many of us Cosmonauts and of those users of Gaia that are aligned
+with the values, principles, original mission of the hub and the present
+mission of AtomOne, but we have no base of operations. In contrast, the
+informal opposition majority party (which came about first) is well organized
+in comparison, often behind closed doors. Meanwhile "liquid staking" providers
+are providing a service that does more than liquid staking, but have their own
+governance and powers and thus act as a kind of political base. For example,
+which validators to stake to is determined through governance in
+Informal/Stride.
 
-Operating as a "political party base", This fork will serve as a political
-party base for ideation, discussion, and collective decision-making in regards
-to its associations especially Gaia. It aims to empower community members to
-actively participate in governance about Gaia and AtomOne and influence the
-future trajectory of both ecosystems. This approach is expected to bring a more
-democratic and transparent governance and self-organizing process to the Cosmos
-community.
+We prefer to operate with radical transparency in the open, and our name should
+reflect our values, so we hereby call ourselves the "Decentralists". The
+Decentralists are the opposition conservative party for the Cosmos Hub named
+Gaia, and AtomOne is the Decentralists' initial ICS host. 
+
+Decentralists:
+ * Embody radical transparency.
+ * Accept both splitting and negotiating.
+ * Define protocols for interoperability.
+ * Finish software given a name.
+ * Respect first principles, so
+ * Require constitutions and bylaws.
+ * Create rather than destroy.
+
+It is important to note that AtomOne is a proof-of-stake hub governed by $ATOM1
+tokens, while the Decentralists is a membership oriented quasi-political party
+with members associated with various companies (or individual proprietors). The
+various missions and objectives of this party may eventually drift from the
+missions and objectives of AtomOne because the people may be focused on
+different things over time and less on time-proven infrastructure, but the core
+values must remain the same and the vision compatible with those declared here,
+and AtomOne may enforce criteria for Decentralists membership (and temporary
+bans and suspensions) with a Constitutional Majority.
+
+Initially the only critieria for Decentralists membership is that members hold
+any nonzero amount of $ATOM1 or $phATOM\* tokens (more on $phATOM later) and
+agree with the spirit of the Founding Documents, and agree to at all times
+abide by and enforce the living AtomOne constitution, and agree to any future
+proportionate measured punishments especially in the form of slashing for any
+staked $ATOM1 tokens, both for AtomOne itself and for any splits or forks.
+
+While we respect the stakers and the staking distribution, we also recognize
+that the unequal token distribution must be balanced by the natural inalienable
+God given powers to individual humans who are vital to make this project
+succeed. While the voting on AtomOne is handled solely by the $ATOM1 stakers,
+the Decentralists self-organize as a whole and with groups within, and every
+proposal in the governance of the Gaia and AtomOne hubs as well as every open
+group are enriched with the best arguments from both sides of the isle as
+measured by feedback from all the members of the Decentralists. In short, the
+democratic distribution offered by the Decentralists is used to rank the
+arguments for and against every proposal to be voted on by stakeholders.
+
+The chain explorers and wallets that display information about AtomOne and Gaia
+hub proposals and the proposals of Decentralists open groups should display the
+Decentralists official summary in full (but can customize the order or make
+highlights), or they should link to the appropriate Decentralists resource so
+users can see all of the related commentary. These are not enforced but are
+incentivized through the portion of block rewards reserved for blockchain
+explorers and wallets. 
+
+#### Role as $ATOM "Liquid Staking" Provider
+
+Offer a standard $ATOM bonding zone to compete with Stride-like "liquid
+staking". These $ATOMs will be automatically delegated via ICA (interchain
+accounts) to aligned validators as determined by the the system determined
+by the $ATOM1 stakers. We call these managed tokens $phATOM tokens. In
+addition $ATOM1 tokens will also be bondable to $phATOM1 tokens. In return
+for delegating voting decisions from $ATOM bonders ($phATOM holders) to
+$ATOM1 stakers, the AtomHub offers the $phATOM holders the opportunity for
+al perpetuity, the unification of $phATOM and $phATOM1 according to a
+reasonable exchange ratio as determined by the best available means, but no
+more favorable to $phATOM than 1:1 by total market cap between $phATOM and
+$phATOM1. // In the case of Gaia failure, this could be seen as a detriment
+to $phATOM1 holders because their underlying $ATOM1 claims from $phATOM1
+has seemingly shrunk by up to half; but if the $ATOM token were to
+recover it would now be of benefit to $phATOM1 holders; and this is an
+agreement that was pre-established in these Founding Documents to help
+incentivize the bonding of both $ATOM as well as $ATOM1, so overall it is
+from the beginning a mutually beneficial agreement.
 
 ### Expected Outcomes and Benefits 
+
 We believe that by embracing diversity and fostering open dialogue between
-aligned groups we can create a more robust, innovative, and decentralized
-ecosystem.  The diversity of specialized hubs will accelerate innovation, while
-the diversity of coopetative hubs will reduce overall global systemic risk.
-The benefits will extend beyond immediate technical solutions, contributing
-to a more vibrant and collaborative blockchain and global community.
+competing self-aligned groups we can create a more robust, innovative, and
+decentralized ecosystem. 
+
+The diversity of specialized self-organized groups and forks (composed of
+aligned members) will accelerate innovation and implementation through
+parallelism.
+
+The diversity of competitive groups and forks will reduce risk at the local and
+global levels; at the local level through competition of implementations, and
+at the global level through the diversity of hubs and frameworks.
+
+Our approach with the Decentralists in relation to AtomOne is expected to bring
+voice to all groups and individuals with valid opinons in the governing of both
+stake-based bodies and more democratic bodies and everything in between. The
+benefits will extend beyond immediate technical solutions, contributing to a
+more vibrant and collaborative blockchain and global community.
 
 ## Terms
 
 * Decentralists:
-  - Definition: "Decentralists" refers to a party within the Cosmos ecosystem,
-  actively advocating for decentralization principles. Their activities and
-  philosophies are detailed at github.com/decentralists.
-  - Context: This group emphasizes the importance of distributed governance and
-  autonomy within blockchain networks. They play a pivotal role in shaping the
-  governance models and technical directions of projects they are involved in,
-  including this fork.
+  - Definition: "Decentralists" are AtomOne aligned members of Cosmos, and
+    serve as a political party within the Cosmos ecosystem.
+  - Context: A more democratic alternative body to the $ATOM1 staked
+    distribution. Internally it is a diverse and self-organized membership
+    group with many goals that is supported by AtomOne to provide feedback on
+    all governance proposals. XXX align with github.com/decentralists and link.
 * AtomOne:
   - Definition: "AtomOne" is the designated name for the hub operated by the
-  Decentralists party. It serves as the core of their network infrastructure
-  within the Cosmos ecosystem.
+    Decentralists party. It serves as the core of their network infrastructure
+    within the Cosmos ecosystem.
   - Role: AtomOne functions as the operational and governance center for the
   Decentralists, facilitating key processes and decision-making within
   their framework. It's a critical component in implementing the party's vision
@@ -117,6 +213,8 @@ to a more vibrant and collaborative blockchain and global community.
   parent chain) with a well-defined governing body or bodies that dictate the
   governance and economic rules internal to that zone. A zone is sovereign or
   partially sovereign.
+* Fork:
+* Split:
 
 ----------------------------------------
 # Objectives
@@ -581,4 +679,47 @@ managed by AIB Inc on behalf of the hub.
  - [ ] Channels for reaching out to the core team or support, especially for technical support or collaboration inquiries.
  - [ ] Scan through twitter posts for more ideaas.
  - [ ] Argument for why hub and spokes are needed (from atom one)
+ - [ ] Quantum resistance
+ - [ ] Constitution updates: $ATOM -> $ATOM1; Add $phATOM and $phATOM1; conversion
+ - [ ] At least one week for decentralists feedback on proposals that meet the
+   spam threshold.
+ - [ ] Proposals should be self contained no PDF necessary.
+ - [ ] Create Decentralists file and add membership policy.
+ - [ ] Document Decentralists local split support mandate.
+ - [ ] Document AtomOne/Decentralists global split scenarios.
  - [ ] XXX
+
+ ----------------------------------------
+ # UNSORTED (TRASH/TMP/BACKUP)
+
+##### decentralists...
+The initial implementations of UX will be provided by anyone or any community
+that wants to implement the whole vertical stack required from maintaining a
+chain to the end user interfaces required. AIB & NT along with those aligned
+with the GnoVM will work on one implementation, but all reasonable stacks
+will be supported such as those that run on (Cosm)WASM as long as there is a
+responsible party willing to commit.
+
+Create tooling to help members register themselves with their associations,
+and to allow these members to self-organize into open and closed (yet
+transparent) groups in a permissionless way. Each group should have their
+own respective founding documents, constitution, mission, bylaws, etc.
+Companies as entities also get representation, and everyone must declare
+their associations and use their real identities (in order to prevent sybil
+attacks).
+
+ * Fix the governance functions from the CosmosSDK and port these and core sdk
+   modules to Tendermint2.
+ * Implement AtomOne according to the specifications here and other Founding
+   Documents linked to from here, and make payments for these purposes from an
+   internal Decentralists Treasury separate from the AtomOne community pool,
+   and conduct releases according to the roadmap specified here and other
+   Founding documents with oversight by the $ATOM1 stakers.
+
+AtomOne will subsidize at least one ICS shard if needed, to serve as the zone
+for the Decentralists' dapp/DAO needs, including hosting a dapp for
+self-organized conversations.
+
+These arguments provided by the Decentralists for and against every proposal
+and the default ranking of them by the Decentralists are not hosted on the root
+hub, but shall not be deployed until they are hosted on a separate ICS zone. 
