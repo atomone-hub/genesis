@@ -91,7 +91,7 @@ can be hosted on top of the ICS1.5 hosting layer.
 
 The powers not delegated to the AtomOne hub by the Constitution, nor prohibited
 by it to the consumer chains, are reserved to the consumer chains respectively,
-or to the people.
+or to the people, or other splits or forks of the AtomOne hub.
 
 We also need to take care to be explicit about who or what governing body is
 responsible for which ICS1.5 shards or chains. The ones that are owned and
