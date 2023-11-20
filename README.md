@@ -45,17 +45,23 @@ differences. AtomOne will be a base for many more partyhubs, and itself
 function as a partyhub in relation to Gaia.
 
 #### Role as Minimal IBC/ICS Hub
-AtomOne will re-commit to the original vision and primary mission of Gaia to
-serve as a minimal IBC/ICS hub secured by a staking token. We believe that
-minimizing the risk profile is necessary as an existential issue for the hub,
-and an issue of financial security of the highest order for not just the hub
-but its hosted shards and IBC connected network (in other words, everyone).
+AtomOne re-commits to the original vision and primary mission of Gaia to serve
+as a minimal IBC/ICS hub secured by a staking token. We believe that minimizing
+the risk profile is necessary as an existential issue for the hub, and an issue
+of financial security of the highest order for not just the hub but its hosted
+shards and IBC connected network (in other words, everyone). When there is a
+double-spend attack on the hub, the staking tokens of those responsible for the
+attack should be used to compensate the victims, and the remainder of the
+penalty burned. A staking token of an exchange zone for example must
+consequently have additional risks, and so $ATOM1 occupies a niche of minimal
+risk profile in comparison.
 
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
 nature of the hub belong in new forks or splits, and an ideal hub enables them
-as supportive parents to children. In the Cosmos there is no need for
-contention as on Earth because there is no limitation of finite land.
+despite and because of differences. In the Cosmos there is no need for
+contention as on Earth because there is no limitation of finite land. We can
+always create new sovereignties that are aligned with what we need.
 
 We are not concerned about any business plan or tokenomics strategy for the
 AtomOne hub besides offering the scaling of transaction throughput through
@@ -68,20 +74,24 @@ Constitution then it shall be done in the next generation that splits or forks
 from this AtomOne hub.
 
 The term "minimal" refers not to the totality of functionality offered by all
-the chains and shards hosted by ICS1.5, but rather the design of the root shard
-of the AtomOne hub and its core economics and business plan and its
-responsibilities; sometimes confusingly referred to as simply "the hub". A
-"minmal hub" should be understood in this context; so smart contract systems
+the consumer chains hosted by ICS1.5, but rather the design of the root and
+core shards of the AtomOne hub, the tokenomics of hub, its business plan, and
+its responsibilities; sometimes confusingly referred to as simply "the hub". A
+"minimal hub" should be understood in this context; so smart contract systems
 and VMs would not belong on the minimal hub, but they are exactly what ICS1.5
-is meant to enable on AtomOne. 
+is meant to host on AtomOne.
 
-The key goal is to always distinguish what is the necessary core owned by
-AtomOne, in order to enable all within reason that is not core. The hub's root
-shard, IBC, and ICS1.5 implementation should stay minimal and only perform what
-is specified in the Founding Documents, or amended to the living AtomOne
-Constitution. The business plan of the hub must be strictly limited to what is
-defined in these documents. All other functionality can be hosted on top of the
-ICS1.5 hosting layer.
+We must always take care to distinguish what is core AtomOne as opposed to the
+fast functionality offered by consumer chains that are hosted on AtomOne. The
+hub's root shard, IBC, and ICS1.5 implementations must stay minimal and only
+perform what is specified in these Founding Documents, or must be amended to
+the living AtomOne Constitution. The business plan of the hub must likewise be
+strictly limited to what is defined in these documents. All other functionality
+can be hosted on top of the ICS1.5 hosting layer.
+
+The powers not delegated to the AtomOne hub by the Constitution, nor prohibited
+by it to the consumer chains, are reserved to the consumer chains respectively,
+or to the people.
 
 We also need to take care to be explicit about who or what governing body is
 responsible for which ICS1.5 shards or chains. The ones that are owned and
@@ -139,23 +149,21 @@ or \*GPL\* and GnoPL licenses) and the ability with reasonable ease to maintain
 a prior fork of Decentralists membership under a different brand name distinct
 from either AtomOne or Decentralists. 
 
-This tight coupling is necessary between AtomOne and the Decentralists brands
-because the success of either are tied together and we prefer a more open
-membership policy for the Decentralists for growth, but the people ultimately
-determine what a name means. After a period of 7 years after genesis the
-Decentralists can vote via a supermajority or constitutional majority to become
-self-sovereign and remove the ability for AtomOne to enforce anything about the
-membership of the Decentralists.  Correspondingly AtomOne can choose any other
-membership group (or any other type of group or DAO) to replace the
+This initial tight coupling is necessary between AtomOne and the Decentralists
+brands because the success of either are tied together and we prefer a more
+open membership policy for the Decentralists for growth, but the people
+ultimately determine what a name means. After a period of 8 years after genesis
+the Decentralists can vote via a supermajority or constitutional majority to
+become self-sovereign and remove the ability for AtomOne to enforce anything
+about the membership of the Decentralists.  Correspondingly AtomOne can choose
+any other membership group (or any other type of group or DAO) to replace the
 Decentralists at that time with the same system but with a new criteria for
 membership, under a new name.
 
 Initially the only critieria for Decentralists membership is that members hold
 any nonzero amount of $ATOM1 or $phATOM\* tokens (more on $phATOM later) and
 agree with the spirit of the Founding Documents, and agree to at all times
-abide by and enforce the living AtomOne constitution, and agree to any future
-proportionate measured punishments especially in the form of slashing for any
-staked $ATOM1 tokens, both for AtomOne itself and for any splits or forks.
+abide by and enforce the living AtomOne Constitution for the AtomOne hub.
 
 While we respect the stakers and the staking distribution, we also recognize
 that the unequal token distribution must be balanced by the natural inalienable
@@ -739,6 +747,7 @@ managed by AIB Inc on behalf of the hub.
  - [ ] Create Decentralists file and add membership policy.
  - [ ] Document Decentralists local split support mandate.
  - [ ] Document AtomOne/Decentralists global split scenarios.
+ - [ ] TM2 Consensus Court
  - [ ] XXX
 
  ----------------------------------------
