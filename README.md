@@ -30,11 +30,11 @@ decentralization everywhere.
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
 Gaia ("cosmoshub4") running on standby to prepare for all contingencies, and
-also to operate as a political party base. We strive to complement the broader
-Cosmos ecosystem while introducing innovative solutions and perspectives. Our
-goals are not just to resolve current challenges but also to set a new
-precedent for adaptive and responsive self-organization in the multichain
-multitoken universe we call the Cosmos.
+also to operate as a political party base in relation to Gaia. We strive to
+complement the broader Cosmos ecosystem while introducing innovative solutions
+and perspectives. Our goals are not just to resolve current challenges but are
+also to set a new precedent for adaptive and responsive self-organization in
+the multichain multitoken universe that we call the Cosmos.
 
 AtomOne will lead the development and praxis of giving representation to every
 subcommunity (or political party), each defined and strengthened by their own
@@ -67,6 +67,37 @@ through the spirit of these Founding Documents and the living AtomOne
 Constitution then it shall be done in the next generation that splits or forks
 from this AtomOne hub.
 
+The term "minimal" refers not to the totality of functionality offered by all
+the chains and shards hosted by ICS1.5, but rather the design of the root shard
+of the AtomOne hub and its core economics and business plan and its
+responsibilities; sometimes confusingly referred to as simply "the hub". A
+"minmal hub" should be understood in this context; so smart contract systems
+and VMs would not belong on the minimal hub, but they are exactly what ICS1.5
+is meant to enable on AtomOne. 
+
+The key goal is to always distinguish what is the necessary core owned by
+AtomOne, in order to enable all within reason that is not core. The hub's root
+shard, IBC, and ICS1.5 implementation should stay minimal and only perform what
+is specified in the Founding Documents, or amended to the living AtomOne
+Constitution. The business plan of the hub must be strictly limited to what is
+defined in these documents. All other functionality can be hosted on top of the
+ICS1.5 hosting layer.
+
+We also need to take care to be explicit about who or what governing body is
+responsible for which ICS1.5 shards or chains. The ones that are owned and
+governed by AtomOne itself are called "core shards" (since they shard the
+necessary functionality of AtomOne) while those hosted on behalf of others are
+called "consumer chains". AtomOne should not subsidize any ICS1.5 core shards
+that are not necessary to fulfill the specification of these documents.
+
+When it comes to the innovative spirit and creative potential beyond those
+specified in these founding documents and the living constitution, we recommend
+that they be implemented as ICS1.5 hosted zones, and only in those cases where
+AtomOne can provably not solve the problem at hand through ICS1.5 hosting
+should a fork of AtomOne or a new chain be proposed with an entirely different
+constitution. The spririt of the AtomOne Constitution and the general mission
+and purpose of the AtomOne hub as a utility must not change. 
+
 #### Significance as a Political Base 
 There are many of us Cosmonauts and of those users of Gaia that are aligned
 with the values, principles, original mission of the hub and the present
@@ -98,9 +129,26 @@ with members associated with various companies (or individual proprietors). The
 various missions and objectives of this party may eventually drift from the
 missions and objectives of AtomOne because the people may be focused on
 different things over time and less on time-proven infrastructure, but the core
-values must remain the same and the vision compatible with those declared here,
-and AtomOne may enforce criteria for Decentralists membership (and temporary
-bans and suspensions) with a Constitutional Majority.
+values must remain the same and the vision compatible with those declared here.
+
+AtomOne may enforce criteria for Decentralists membership (and temporary bans
+and suspensions) with a Constitutional Majority for the purpose of ensuring the
+alignment of the Decentralists members with AtomOne, provided that it also
+offers everyone excluded the right (through Apache2.0 or more liberal licenses,
+or \*GPL\* and GnoPL licenses) and the ability with reasonable ease to maintain
+a prior fork of Decentralists membership under a different brand name distinct
+from either AtomOne or Decentralists. 
+
+This tight coupling is necessary between AtomOne and the Decentralists brands
+because the success of either are tied together and we prefer a more open
+membership policy for the Decentralists for growth, but the people ultimately
+determine what a name means. After a period of 7 years after genesis the
+Decentralists can vote via a supermajority or constitutional majority to become
+self-sovereign and remove the ability for AtomOne to enforce anything about the
+membership of the Decentralists.  Correspondingly AtomOne can choose any other
+membership group (or any other type of group or DAO) to replace the
+Decentralists at that time with the same system but with a new criteria for
+membership, under a new name.
 
 Initially the only critieria for Decentralists membership is that members hold
 any nonzero amount of $ATOM1 or $phATOM\* tokens (more on $phATOM later) and
@@ -127,6 +175,19 @@ highlights), or they should link to the appropriate Decentralists resource so
 users can see all of the related commentary. These are not enforced but are
 incentivized through the portion of block rewards reserved for blockchain
 explorers and wallets. 
+
+While it may appear that the Decentralists and its integration into AtomOne are
+unnecessary complexifications not fit for a "minimal hub", it does address the
+real need for a long term development roadmap for AtomOne to improve our
+communications amidst irreconciliable differences, the need to give
+self-aligned groups more voice through self-organization, and the need for a
+long term vision of a market of competing systems and designs that incorporate
+a comprehensive range of components from virtual machines, smart contract
+systems, DAO frameworks, to end-user interfaces; that offer transparent and
+accountable disbursement of funds and decision making for every organization.
+The tooling we develop under the brand of Decentralists will be made available
+broadly in all communities and serve to introduce more people to AtomOne and
+its generations.
 
 #### Role as $ATOM "Liquid Staking" Provider
 
@@ -170,51 +231,42 @@ more vibrant and collaborative blockchain and global community.
 
 ## Terms
 
-* Decentralists:
-  - Definition: "Decentralists" are AtomOne aligned members of Cosmos, and
-    serve as a political party within the Cosmos ecosystem.
-  - Context: A more democratic alternative body to the $ATOM1 staked
-    distribution. Internally it is a diverse and self-organized membership
-    group with many goals that is supported by AtomOne to provide feedback on
-    all governance proposals. XXX align with github.com/decentralists and link.
-* AtomOne:
-  - Definition: "AtomOne" is the designated name for the hub operated by the
-    Decentralists party. It serves as the core of their network infrastructure
-    within the Cosmos ecosystem.
-  - Role: AtomOne functions as the operational and governance center for the
-  Decentralists, facilitating key processes and decision-making within
-  their framework. It's a critical component in implementing the party's vision
-  and objectives.
-* Constitutional Majority:
-  - Definition: "Constitutional Majority" refers to a consensus threshold set at
-  a higher bar than the standard two-thirds majority, proposed to be around 90%.
-  - Purpose: This elevated threshold aims to ensure broader agreement and
-  inclusivity in critical decision-making processes. It reflects a commitment to
-  achieving near-unanimous consensus on essential governance decisions, enhancing
-  the legitimacy and stability of the outcomes.
-* IBC:
-  - Definition: Inter Blockchain Communication (IBC) is a protocol that enables
+* AtomOne: an opinionated fork of the Cosmos hub Gaia with chainid
+  "cosmoshub4". It is a minimal IBC-token-pegging and ICS hosting hub.
+* Decentralists: AtomOne aligned members of Cosmos, and serve as a political
+  party within the Cosmos ecosystem.
+* Constitutional Majority: a consensus threshold set at a higher bar than the
+  standard two-thirds majority; It is initially set at 90% and cannot be
+  lowered even with Constitutional Majority. This elevated threshold aims to
+  ensure broader agreement and inclusivity in critical decision-making
+  processes. It reflects a commitment to achieving near-unanimous consensus on
+  essential governance decisions, enhancing the legitimacy and stability of the
+  outcomes.
+* IBC: short for Inter-Blockchain Communication, is a protocol that enables
   communication between different blockchain networks using Byzantine Fault
-  Tolerant (BFT) light client proofs.
-  - Functionality: It allows for the transfer of assets and information across
-  independent blockchains, fostering interoperability and flexibility in the
-  blockchain ecosystem. IBC is a cornerstone of the Cosmos network's architecture,
-  enabling its vision of an 'Internet of Blockchains'.
-* ICS:
-  - Definition: ICS stands for Inter blockChain Security, a mechanism for running
-  multiple shard chains under the same validator set. ICS1.5 is an enhancement that
-  improves inter-shard communication efficiency.
-  - Impact: ICS enhances the security and scalability of blockchain networks by
-  allowing multiple chains to share a common security model. ICS1.5, in particular,
-  focuses on optimizing communication between these chains, making the overall
-  network more efficient and robust.
-* Zone:
-  - Definition: A zone is an independent chain (or an application hosted on a
-  parent chain) with a well-defined governing body or bodies that dictate the
-  governance and economic rules internal to that zone. A zone is sovereign or
-  partially sovereign.
-* Fork:
-* Split:
+  Tolerant (BFT) light client proofs. It allows for the transfer of assets and
+  information across independent blockchains, fostering interoperability and
+  flexibility in the blockchain ecosystem. IBC is a cornerstone of the Cosmos
+  network's architecture, enabling its vision of an 'Internet of Blockchains'.
+* ICS: short for Inter-blockChain Security, is a mechanism for running multiple
+  shard chains under the same validator set. ICS1.5 is an upgrade to ICS1 that
+  improves inter-shard communication efficiency. ICS1 and ICS1.5 help scale the
+  core functionality of AtomOne as well as offer anyone the service of running
+  "consumer chains" for any purpose (within the guidelines set forth by
+  AtomOne) secured and hosted by the same validator set as the AtomOne hub root
+  and core shards.
+* Zone: an independent or ICS hosted chain (or a dapp hosted on a smart
+  contract chain or an instance on a parent chain) with a well-defined
+  governing body or bodies that dictate the governance and economic rules
+  internal to that zone. A zone is sovereign or partially sovereign.
+* Fork: a pure copy or an opinionated copy of a distribution with either
+  substantially the same or different blockchain software.
+* Spoon: like a fork but more inclusive of more distributions, and more as a
+  means to invite members to entirely new projects rather than to mutate from
+  the starting point of the original host.
+* Split: a fork including the original (if it survives) that preserves the
+  overall invariant that any specific token or member that goes to one fork
+  does not appear in any other.
 
 ----------------------------------------
 # Objectives
