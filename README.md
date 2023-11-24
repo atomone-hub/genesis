@@ -21,11 +21,19 @@ monetization trategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
+While proposal #848 ("halvening") failed to get the required threshold of 50%
+to pass on Gaia, it did get very close meaning that thet $ATOM stakers are
+split 50/50 on the most fundamental tokenomics security design element.
+Furthermore this change was suggested without addressing the valid security
+concerns raised by the community, with errors about the cost of inflation by
+miscalculating true income, and without a complete halvening schedule, thereby
+working to destroy hub credibility.
+
 These have now made clear the need for an alternative hub with a renewed focus
 and alignment to serve as the canonical minimal IBC/ICS token hub with respect
-to Cosmos, and secondarily to serve as the main base for a political party with
-respect to Gaia to champion the ideals of sovereignty, security and
-decentralization everywhere.
+to Cosmos to champion the ideals of sovereignty, security, and decentralization
+everywhere; and secondarily to serve as the main base for a political party and
+more-intelligent voting bloc with respect to Gaia to save Gaia from itself.
 
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
