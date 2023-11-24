@@ -21,16 +21,16 @@ monetization trategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
-These have now made clear the need for a new hub with a renewed focus and
-alignment to serve as the canonical minimal IBC/ICS token hub with respect to
-Cosmos, and secondarily to serve as the main base for a political party with
+These have now made clear the need for an alternative hub with a renewed focus
+and alignment to serve as the canonical minimal IBC/ICS token hub with respect
+to Cosmos, and secondarily to serve as the main base for a political party with
 respect to Gaia to champion the ideals of sovereignty, security and
 decentralization everywhere.
 
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
-Gaia ("cosmoshub4") running on standby to prepare for all contingencies, and
-also to operate as a political party base in relation to Gaia. We strive to
+Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies,
+and also to operate as a political party base in relation to Gaia. We strive to
 complement the broader Cosmos ecosystem while introducing innovative solutions
 and perspectives. Our goals are not just to resolve current challenges but are
 also to set a new precedent for adaptive and responsive self-organization in
@@ -45,6 +45,11 @@ differences. AtomOne will be a base for many more partyhubs, and itself
 function as a partyhub in relation to Gaia.
 
 #### Role as Minimal IBC/ICS Hub
+While AtomOne aims to steer Gaia toward safe decisions, it cannot by itself
+determine the decisions made by the Cosmos Hub. Yet Cosmos needs minimal
+IBC/ICS hubs. Ergo, AtomOne must not only guide Gaia, but it must also run the
+desired alternative minimal IBC/ICS hub in addition to Gaia.
+
 AtomOne re-commits to the original vision and primary mission of Gaia to serve
 as a minimal IBC/ICS hub secured by a staking token. We believe that minimizing
 the risk profile is necessary as an existential issue for the hub, and an issue
@@ -119,13 +124,38 @@ governance and powers and thus act as a kind of political base. For example,
 which validators to stake to is determined through governance in
 Informal/Stride.
 
-XXX Write more, but leave "decentralists" out of it.
+By modifying the distribution of staking token holders for AtomOne to be more
+aligned with hub security, we make AtomOne governance a more intelligent voting
+set than all other alternatives for now. As the project grows, by virtue of its
+growth the distribution will naturally evolve (or by default, devolve), so this
+may precipitate the need for further child hubs generated from AtomOne, with or
+without substantial changes to its fork of the constitution--even with the same
+constitution, its distribution and how it was modified from the parent
+distribution affords its character or flavor which can strengthen or weaken
+over time depending on its tokenomics. 
 
-XXX Need to save the hub from itself.
+In addition to the staking token distribution, and forks/splits/modifications
+thereof that form the genesis of child party hubs, there is also another
+dimension that is too easy to neglect in tokenomics design which is the vote of
+individuals (in its purest form, one per person) of self-organized self-aligned
+groups with come together by some common interest or interests generally
+involving money and sometimes the good or bad itself. This dimension manifests
+in all social interactions with or without explicit form, and must be a core
+concern that is somehow supported by the hub for otherwise external influencers
+will easily sabotage the project through social engineering methods. For more
+on this, see the related document on the Decentralists, an experiment that will
+be subsidized by AtomOne and create tooling to allow anyone to guage the
+interest of ideas before they are put up for proposal measured by both
+liquid-democracy inspired democratic weighting (for any group selection) as
+well as stake-based weighting.
 
-XXX The way AtomOne gets more influence is by offering "liquid staking"
-services for $ATOMs. Thereafter it can use the $ATOMs to vote as a unified
-voting bloc.
+By our own governance function and the tooling that we fund and create, we will
+bring more intelligence and security to all connected blockchains especially
+Gaia. AtomOne must do whatever is necessary within reason to guide Gaia to
+maintain safety, and the best way to do that is by holding ATOMs through IBC
+pegging and using these ATOMs to make voting decisions on Cosmos as a voting
+bloc. The following section describes the one and only way the AtomOne hub will
+do so; by offering what is misleadingly referred to as "liquid staking".
 
 #### Role as $ATOM "Liquid Staking" Provider
 
@@ -682,4 +712,6 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Globally decentralized validator set.
  - [ ] What is a hub? connected zones and shards should use it as such, not
    make more connections out.
+ - [ ] Allow the staking distribution to hone its intelligence via slashing.
+ - [ ] Use real human connections to defend against AI.
  - [ ] XXX
