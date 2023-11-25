@@ -10,9 +10,9 @@ handle contingencies and embodying a bastion for diverse political thought.
 ## Declaration of Genesis
 There comes a time when there is enough disagreement among community members
 and stakers about key concerns regarding the business of their chain, such as
-its vision, mission, tokenomics, architecture, or philosophy; that it makes the
-most sense to support an alternative fork running alongside the original so as
-to be prepared against all contingencies.
+its vision, mission, tokenomics, architecture, implementation, or philosophy;
+that it makes the most sense to support an alternative fork running alongside
+the original so as to be prepared against all contingencies.
 
 Recent times have seen the Cosmos community grappling with significant
 challenges stemming from differences about core tokenomics, about the very
@@ -21,19 +21,22 @@ monetization trategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
-While proposal #848 ("halvening") failed to get the required threshold of 50%
-to pass on Gaia, it did get very close meaning that thet $ATOM stakers are
-split 50/50 on the most fundamental tokenomics security design element.
-Furthermore this change was suggested without addressing the valid security
-concerns raised by the community, with errors about the cost of inflation by
-miscalculating true income, and without a complete halvening schedule, thereby
-working to destroy hub credibility.
+XXX consider adding more here.
 
-These have now made clear the need for an alternative hub with a renewed focus
-and alignment to serve as the canonical minimal IBC/ICS token hub with respect
-to Cosmos to champion the ideals of sovereignty, security, and decentralization
-everywhere; and secondarily to serve as the main base for a political party and
-more-intelligent voting bloc with respect to Gaia to save Gaia from itself.
+While proposal #848 ("halvening") failed to get the required threshold of 50%
+to pass on Gaia, it did get very close which means that thet $ATOM stakers are
+split down the middle on the most fundamental tokenomics security design
+element. Furthermore, this change was proposed on chain without addressing the
+valid security concerns raised by the community, with errors about the cost of
+inflation by miscalculating true income, and without a complete halvening
+schedule, thereby working to undermine hub credibility.
+
+These and prior disagreements have now made clear the need for an alternative
+hub with a renewed focus and Alignment to serve as the canonical minimal
+IBC/ICS token hub with respect to Cosmos to champion the ideals of sovereignty,
+security, and decentralization everywhere; and secondarily to serve as the main
+base for a political party and more-intelligent voting bloc with respect to
+Gaia to save Gaia from itself.
 
 ### Vision and Missions
 The vision behind this AtomOne fork is to be an alternative minimal fork of
@@ -45,73 +48,92 @@ also to set a new precedent for adaptive and responsive self-organization in
 the multichain multitoken universe that we call the Cosmos.
 
 AtomOne will lead the development and praxis of giving representation to every
-subcommunity (or political party), each defined and strengthened by their own
-living constitutions that state their values, missions, philosophies and so on.
-This will foster a more diverse ecosystem of specialized zones in coopetition
-(cooperation and competition) with each other despite irreconciliable
-differences. AtomOne will be a base for many more partyhubs, and itself
-function as a partyhub in relation to Gaia.
+(sub)group (such as a political party), each defined and strengthened by their
+own living constitutions that state their values, missions, philosophies and so
+on. This will foster a more diverse ecosystem of specialized zones in
+coopetition (cooperation and competition) with each other despite
+irreconciliable differences. AtomOne will be a base for many more partyhubs,
+and itself function as a partyhub in relation to Gaia. There will be many
+partyhubs in a great sea of divisions, and from this soup will emerge
+specialization, interoperation through common protocols, and fault tolerance in
+numbers, we pray for the helping hand of reason, wisdom, foresight, empahty,
+temperance, and all other necessary faculties.
 
 #### Role as Minimal IBC/ICS Hub
 While AtomOne aims to steer Gaia toward safe decisions, it cannot by itself
-determine the decisions made by the Cosmos Hub. Yet Cosmos needs minimal
-IBC/ICS hubs. Ergo, AtomOne must not only guide Gaia, but it must also run the
-desired alternative minimal IBC/ICS hub in addition to Gaia.
+determine the decisions made by the Cosmos Hub. Yet, Cosmos *needs* minimal
+IBC/ICS hubs without any hanging issues, and as mentioned in the Declaration of
+Genesis, there is an issue. Ergo, AtomOne must not only guide Gaia, but it must
+also run the desired alternative minimal IBC/ICS hub in addition to Gaia.
 
 AtomOne re-commits to the original vision and primary mission of Gaia to serve
-as a minimal IBC/ICS hub secured by a staking token. We believe that minimizing
-the risk profile is necessary as an existential issue for the hub, and an issue
-of financial security of the highest order for not just the hub but its hosted
-shards and IBC connected network (in other words, everyone). When there is a
-double-spend attack on the hub, the staking tokens of those responsible for the
-attack should be used to compensate the victims, and the remainder of the
-penalty burned. A staking token of an exchange zone for example must
-consequently have additional risks, and so $ATOM1 occupies a niche of minimal
-risk profile in comparison.
+as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
+stake to be bonded. We believe that minimizing the risk profile is necessary as
+an existential issue for the hub, and an issue of financial security of the
+highest order for not just the hub but its hosted shards and IBC connected
+network (in other words, everyone). When there is a double-spend attack on the
+hub, the staking tokens of those responsible for the attack should be used to
+compensate the victims, and the remainder of the penalty burned. A staking
+token of an exchange zone for example must consequently have additional risks,
+and so $ATOM1 occupies a niche of minimal risk profile in comparison.
 
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
 nature of the hub belong in new forks or splits, and an ideal hub enables them
 despite and because of differences. In the Cosmos there is no need for
 contention as on Earth because there is no limitation of finite land. We can
-always create new sovereignties that are aligned with what we need.
+always create new forks/splits/groups that are better aligned with what we
+need.
 
 We are not concerned about any business plan or tokenomics strategy for the
 AtomOne hub besides offering the scaling of transaction throughput through
 ICS1.5. We anticipate that our approach will successfully and sufficienty
-capture the (massive) niche market need for utmost security in IBC token
-transactions and ICS1.5 shard hosting, and serve as the basis for all the
-functionality that all people will need and want; and if it cannot be done
-through the spirit of these Founding Documents and the living AtomOne
-Constitution then it shall be done in the next generation that splits or forks
-from this AtomOne hub.
+capture the niche market need for utmost security in IBC token transactions and
+ICS1.5 shard hosting, and serve as the basis for all the functionality that all
+people will need and want; and if it cannot be done through the spirit of these
+Founding Documents and the living AtomOne Constitution then it shall be done in
+the next generation that splits or forks from this AtomOne hub.
 
 The term "minimal" refers not to the totality of functionality offered by all
-the consumer chains hosted by ICS1.5, but rather the design of the root and
-core shards of the AtomOne hub, the tokenomics of hub, its business plan, and
-its responsibilities; sometimes confusingly referred to as simply "the hub". A
-"minimal hub" should be understood in this context; so smart contract systems
-and VMs would not belong on the minimal hub, but they are exactly what ICS1.5
-is meant to host on AtomOne.
+the consumer chains hosted by ICS1.5, but rather the design of the root hub,
+and core shards of the AtomOne hub, the tokenomics of hub, its business plan,
+and its responsibilities; sometimes confusingly referred to as simply "the
+hub". "The hub" used to refer to the root hub (shard) but this term should be
+deprecated because with ICS the term is ambiguous. A "minimal hub" should be
+understood in this context; smart contract systems and VMs would not belong on
+the minimal root hub, but they are exactly what ICS1.5 is meant to host on "core
+shards" and "consumer shards".
 
-We must always take care to distinguish what is core AtomOne as opposed to the
-fast functionality offered by consumer chains that are hosted on AtomOne. The
-hub's root shard, IBC, and ICS1.5 implementations must stay minimal and only
-perform what is specified in these Founding Documents, or must be amended to
-the living AtomOne Constitution. The business plan of the hub must likewise be
-strictly limited to what is defined in these documents. All other functionality
-can be hosted on top of the ICS1.5 hosting layer.
+All shards (chains) are secured by the same validator set as the main hub
+chain. The shards that are owned and governed by AtomOne itself are called
+"core shards" and they are shards necessary for AtomOne as defined in these
+founding documents and living constitution; while those hosted on behalf of
+others are called "consumer shards".
 
+We must at all times distinguish between what is core vs consumer, not only in
+our code, documentation, and specifications, but also to the end user through
+all commensurate reasonable means at our disposal.
+
+#### Limitations of Powers
 The powers not delegated to the AtomOne hub by the Constitution, nor prohibited
 by it to the consumer chains, are reserved to the consumer chains respectively,
-or to the people, or other splits or forks of the AtomOne hub.
+or to the stakers, token holders, and people; or to other splits or forks of
+the AtomOne hub.
 
-We also need to take care to be explicit about who or what governing body is
-responsible for which ICS1.5 shards or chains. The ones that are owned and
-governed by AtomOne itself are called "core shards" (since they shard the
-necessary functionality of AtomOne) while those hosted on behalf of others are
-called "consumer chains". AtomOne should not subsidize any ICS1.5 core shards
-that are not necessary to fulfill the specification of these documents.
+The hub's root shard, IBC, and ICS1.5 implementations must stay minimal and
+only perform what is specified in these Founding Documents, or must be amended
+to the living AtomOne Constitution. The business plan of the hub must likewise
+be strictly limited to what is defined in these documents. All other
+functionality can be hosted on top of the ICS1.5 hosting layer on consumer
+chains and must not be confused for AtomOne functionality, and it should be
+clear which governing body is the responsible party for each consumer shard.
+
+AtomOne must not subsidize any ICS1.5 core shards that are not necessary to
+fulfill the specification of these documents. No core shard shall host
+arbitrary smart contracts from the general public--AtomOne will not itself
+become the maintainer for smart contract systems and virtual machines. Instead
+these must run as consumer chains with their own governing body. However they
+are funded, they must.
 
 When it comes to the innovative spirit and creative potential beyond those
 specified in these founding documents and the living constitution, we recommend
@@ -142,20 +164,23 @@ constitution, its distribution and how it was modified from the parent
 distribution affords its character or flavor which can strengthen or weaken
 over time depending on its tokenomics. 
 
-In addition to the staking token distribution, and forks/splits/modifications
-thereof that form the genesis of child party hubs, there is also another
-dimension that is too easy to neglect in tokenomics design which is the vote of
-individuals (in its purest form, one per person) of self-organized self-aligned
-groups with come together by some common interest or interests generally
-involving money and sometimes the good or bad itself. This dimension manifests
-in all social interactions with or without explicit form, and must be a core
-concern that is somehow supported by the hub for otherwise external influencers
-will easily sabotage the project through social engineering methods. For more
-on this, see the related document on the Decentralists, an experiment that will
-be subsidized by AtomOne and create tooling to allow anyone to guage the
-interest of ideas before they are put up for proposal measured by both
-liquid-democracy inspired democratic weighting (for any group selection) as
-well as stake-based weighting.
+In addition to the staking token distribution (and any choice of modifications
+if any to them) we should also consider the vote of individuals (in its purest
+form, one per person) in the form of self-organized self-aligned groups drawn
+together by some common interest (too often by greed and sometimes by
+principle), because no project will succeed without its community, and by
+nature the community has its own spirit and power distribution independent of
+the chain by nature.
+
+This dimension manifests in all social interactions with or without explicit
+form, and must be a core concern that is somehow supported by the hub for
+otherwise external influencers will easily sabotage the project through social
+engineering methods. For more on this, see the related document on the
+Decentralists, an experiment that will be subsidized by AtomOne to create
+tooling that allows anyone to discuss and guage the interest of ideas before
+they are put up for proposal measured by both liquid-democracy inspired
+democratic weighting (for any group selection) as well as stake-based
+weighting.
 
 By our own governance function and the tooling that we fund and create, we will
 bring more intelligence and security to all connected blockchains especially
@@ -163,27 +188,72 @@ Gaia. AtomOne must do whatever is necessary within reason to guide Gaia to
 maintain safety, and the best way to do that is by holding ATOMs through IBC
 pegging and using these ATOMs to make voting decisions on Cosmos as a voting
 bloc. The following section describes the one and only way the AtomOne hub will
-do so; by offering what is misleadingly referred to as "liquid staking".
+use ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
 #### Role as $ATOM "Liquid Staking" Provider
 
-Offer a standard $ATOM bonding zone to compete with Stride-like "liquid
-staking". These $ATOMs will be automatically delegated via ICA (interchain
-accounts) to aligned validators as determined by the the system determined
-by the $ATOM1 stakers. We call these managed tokens $phATOM tokens. In
-addition $ATOM1 tokens will also be bondable to $phATOM1 tokens. In return
-for delegating voting decisions from $ATOM bonders ($phATOM holders) to
-$ATOM1 stakers, the AtomHub offers the $phATOM holders the opportunity for
-al perpetuity, the unification of $phATOM and $phATOM1 according to a
-reasonable exchange ratio as determined by the best available means, but no
-more favorable to $phATOM than 1:1 by total market cap between $phATOM and
-$phATOM1. // In the case of Gaia failure, this could be seen as a detriment
-to $phATOM1 holders because their underlying $ATOM1 claims from $phATOM1
-has seemingly shrunk by up to half; but if the $ATOM token were to
-recover it would now be of benefit to $phATOM1 holders; and this is an
-agreement that was pre-established in these Founding Documents to help
-incentivize the bonding of both $ATOM as well as $ATOM1, so overall it is
-from the beginning a mutually beneficial agreement.
+AtomOne will offer an $ATOM bonding zone in a core shard to compete with
+collective "liquid staking" service providers. These $ATOMs will be
+automatically delegated via ICA (interchain accounts) to aligned validators as
+determined by the the system determined by the $ATOM1 stakers. The bonders of
+$ATOM toward this service will receive liquid $phATOM tokens.
+
+In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
+$phATOM1 tokens. So there will be $phATOM as well as $phATOM1 tokens, but with
+some differences in tokenomics between them. We have more control over $phATOM1
+tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
+Gaia for $phATOM. (XXX double check with penultimate draft)
+
+In return for delegating voting decisions from $ATOM bonders ($phATOM holders)
+to $ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity
+for all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
+exchange ratio as determined by the best available means as determined by
+$ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
+to $phATOM than 1:1 by total market cap between $phATOM and $phATOM1. These
+ratios cannot change even with a Constitutional Majority.
+
+In the case of Gaia failure this could be seen as a detriment to $phATOM1
+holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
+shrunk by up to half; but if the $ATOM token were to recover it would now be of
+benefit to $phATOM1 holders; and this is an agreement that was pre-established
+in these Founding Documents to help incentivize the bonding of both $ATOM as
+well as $ATOM1, and to ensure mutual success rather than sabotage.
+
+There is no merger for the opposite case upon AtomOne failure. In this case the
+$ATOM underlying $phATOM must be distributed back to the $phATOM holders in
+proportion, or if there was already a merger, to the $phATOM1 holders in
+proportion.
+
+The only fee token required to be accepted by all shards shall be the $phATOM1
+token. This must not change even with a Constitutional Majority as a matter of
+trust of a preagreed transaction declared in these Founding Documents, except
+to better serve this invariant such as by allowing for an alias or by
+supporting different denominations of the same underlying $phATOM1. AtomOne
+will not promote the $ATOM1 token to be used as a fee token directly, even
+though it must be supported as a bootstrapping and recovery measure.
+
+While the convertability from $phATOM1 to the underlying $ATOM1 may be managed,
+paused, or throttled by governance of $ATOM1 with a Constitutional Majority of
+the $ATOM1 stakers not including the $ATOM1 of the $phATOM1 bonders, all the
+underlying $ATOM1 must be distributable back to $phATOM1 holders through a fair
+system and all of the $ATOM1 withdrawn within 20 years starting at any given
+moment.
+
+Rewards from the $ATOM1 tokens bonded to $phATOM1 tokens shall be distributed
+back to $phATOM1 as if they were any other $ATOM1 staked tokens, but they shall
+not exercise their voting power and instead yield entirely to the other $ATOM1
+staked tokens.
+
+Tax will be deducted from these $phATOM1 bonded $ATOM1 rewards as usual just
+like regular validator staked $ATOM1 tokens, but unlike the tax burden for
+validator staked $ATOM1 tokens, the tax burden for $phATOM1 bonded $ATOM tokens
+shall be capped at 10%. This cap cannot be changed even with a Constitutional
+Majority except by also a two-thirds supermajority from the $phATOM1 holders
+with a prominently announced vote put forth by the AtomOne hub with a voting
+period of at least one year, and a quorum threshold of at least 10% of the
+total supply of $phATOM1 tokens by direct participation where the increased tax
+burden above the 10% must be used for common goods purposes on transparent and
+accountable DAO systems.
 
 ### Expected Outcomes and Benefits 
 
@@ -199,8 +269,13 @@ The diversity of competitive groups and forks will reduce risk at the local and
 global levels; at the local level through competition of implementations, and
 at the global level through the diversity of hubs and frameworks.
 
+We expect the economic recovery measures between $phATOM and $phATOM1 to
+encourage symbiosis moreso than sabotage.
+
 ## Terms
 
+* Alignment: full agreement with the founding documents in speech and action
+  with relation to AtomOne.
 * AtomOne: an opinionated fork of the Cosmos hub Gaia with chainid
   "cosmoshub4". It is a minimal IBC-token-pegging and ICS hosting hub.
 * Constitutional Majority: a consensus threshold set at a higher bar than the
@@ -424,7 +499,7 @@ The $ATOM1s in genesis are locked and cannot be transferred due to the value of
 the parameter ENABLE_SENDTX except for chosen addresses (e.g. for faucets).
 
 The Genesis Distribution is largely an opinionated fork of the cosmoshub4 $ATOM
-(judged by alignment based on voting activity, to slash those who don't align,
+(judged by Alignment based on voting activity, to slash those who don't align,
 or those who aren't interested in using our chain).
 
 The Interchain Foundation will be excluded from this distribution, so as to
@@ -448,6 +523,8 @@ will be split as per the following:
  -  2% of the inflation+rewards going to pool for open source blockchain explorer hosting.
  -  2% of the inflation+rewards going to pool for securing open source wallet systems (w/ airgap).
  -  1% of the inflation+rewards going to pool for public relations and growth.
+
+XXX But the % of rewards going to $phATOM1 bonders is at least 90%. XXX refactor.
 
 A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
 percent of inflation+rewards going to stakers cannot be lower than this figure.
@@ -722,4 +799,6 @@ available for hosting on AtomOne ICS and its successors.
    make more connections out.
  - [ ] Allow the staking distribution to hone its intelligence via slashing.
  - [ ] Use real human connections to defend against AI.
+ - [ ] About diversity of implementation, and its limitations.
+ - [ ] Add old PHOTON elements back in if relevant; not counting 2/3 ratio...
  - [ ] XXX
