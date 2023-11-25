@@ -153,9 +153,40 @@ $ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity for
 all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
 exchange ratio as determined by the best available means as determined by
 $ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
-to $phATOM than 1:1 by total market cap between $phATOM and $phATOM1. These
-ratios cannot change even with a Constitutional Majority except that the
-conversion penalty may decrease below 20% with a Constitutional Majority.
+to $phATOM than 1:2 by total market cap between $phATOM and $phATOM1. For
+clarity this means that upon the failure of Gaia the $phATOM token holders can
+dilute the $phATOM1 holders such that $phATOM1 holders have as low as 2/3 the
+underlying $ATOM1 as before the merge (but no less).
+
+The conversion penalty may decrease below 20% for $phATOM to $phATOM1 merger
+with a Supermajority of $ATOM1 stakers.
+
+AtomOne with a Constitutional Majority may decrease the merger ratio cap from
+1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
+execution must be delayed for a period of at least 3 months to allow $phATOM
+holders to preempt this with a merge. Nothing outside of the merge will prevent
+$phATOM holders from being able to redeem their due pro-rata $ATOM tokens for
+all time.
+
+Should the $phATOM be discontinued in support as decided by AtomOne with a
+Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
+itself but must be a separate proposal), the $phATOM holders must be made whole
+by redistributing the underlying $ATOM tokens to their respective $phATOM
+holders completely with the same exchange factors aplied to everyone equally,
+but as with decreasing the merger ratio cap, (for the purpose of giving
+precendent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
+a period of 3 months to allow $phATOM holders to preempt this with a merge.
+
+Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
+actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
+the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
+users within reason, but what is reasonable is up to the $ATOM1 stakers to
+decide through AtomOne governance. Everybody must acknwoledge the risks of this
+experiment.
+
+All other parameters defined here regarding the merger that may negatively
+affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
+Constitutional Majority.
 
 In the case of Gaia failure this could be seen as a detriment to $phATOM1
 holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
@@ -167,13 +198,6 @@ $ATOM1 stakers and before that the validators have complete freedom of will,
 how well they adhere to these founding agreements is left to everyone to
 enforce, such as by blackisting or slashing staking tokens and validators held
 by violators. XXX specify the conversion rate before and after the merger both ways.
-
-AtomOne with a Constitutional Majority may terminate the support of the $phATOM
-token by redistributing the $ATOM tokens to their respective $phATOM holders
-completely with the same exchange factors aplied to everyone equally, but for
-the purpose of giving precendent to the $phATOM -> $phATOM1 merge mechanism,
-this must be delayed by a period of three months during which the $phATOM1
-holders must be allowed to vote to veto with a preemptive merge.
 
 There is no merge mechanism for the opposing case upon AtomOne failure. In this
 case the $ATOM underlying $phATOM must be distributed back to the $phATOM
@@ -858,4 +882,5 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Recovery procedure by AtomOne in the case of IBC zone failure.
  - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
  - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
+ - [ ] Indemnify all actors given no malice outside of the chain. Allow the chain to enforce penalties from outside the chain.
  - [ ] XXX
