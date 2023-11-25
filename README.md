@@ -21,13 +21,13 @@ the original so as to be prepared against all contingencies.
 Recent times have seen the Cosmos community grappling with significant
 challenges stemming from differences about core tokenomics, about the very
 nature of the $ATOM token (whether it is staking or monetary), about
-monetization trategy and what types of projects to fund; and there generally
+monetization strategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
 (XXX check after completion)
 While proposal #848 ("halvening") failed to get the required threshold of 50%
-to pass on Gaia, it did get very close which means that thet $ATOM stakers are
+to pass on Gaia, it did get very close which means that that $ATOM stakers are
 split down the middle on the most fundamental tokenomics security design
 element. Furthermore, this change was proposed on chain without addressing the
 valid security concerns raised by the community, with errors about the cost of
@@ -61,7 +61,7 @@ irreconciliable differences. AtomOne will be a base for many more partyhubs,
 and itself function as a partyhub in relation to Gaia. There will be many
 partyhubs in a great sea of divisions, and from this soup will emerge
 specialization, interoperation through common protocols, and fault tolerance in
-numbers, we pray for the helping hand of reason, wisdom, foresight, empahty,
+numbers, we pray for the helping hand of reason, wisdom, foresight, empathy,
 temperance, and all other necessary faculties.
 
 ## Role as Minimal IBC/ICS Hub

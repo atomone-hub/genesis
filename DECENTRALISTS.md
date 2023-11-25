@@ -42,7 +42,7 @@ Correspondingly AtomOne can choose any other membership group (or any other
 type of group or DAO) to replace the Decentralists at that time with the same
 system but with a new criteria for membership, under a new name.
 
-Initially the only critieria for Decentralists membership is that members hold
+Initially the only criteria for Decentralists membership is that members hold
 any nonzero amount of $ATOM1 or $phATOM\* tokens (more on $phATOM later) and
 agree with the spirit of the Founding Documents, and agree to at all times
 abide by and enforce the living AtomOne Constitution for the AtomOne hub.
