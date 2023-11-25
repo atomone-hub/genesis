@@ -2,12 +2,15 @@ _This document is a work in progress, please make PRs_
 
 ----------------------------------------
 # Preamble
+
 The Cosmos community, at a crossroads, confronts divergent views on key aspects
 such as mission, tokenomics, and security philosophy. AtomOne emerges as a
 beacon, offering an alternative fork to navigate these waters, equipped to
 handle contingencies and embodying a bastion for diverse political thought.
 
-## Declaration of Genesis
+----------------------------------------
+# Declaration of Genesis
+
 There comes a time when there is enough disagreement among community members
 and stakers about key concerns regarding the business of their chain, such as
 its vision, mission, tokenomics, architecture, implementation, or philosophy;
@@ -21,8 +24,7 @@ monetization trategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
-XXX consider adding more here.
-
+(XXX check after completion)
 While proposal #848 ("halvening") failed to get the required threshold of 50%
 to pass on Gaia, it did get very close which means that thet $ATOM stakers are
 split down the middle on the most fundamental tokenomics security design
@@ -38,7 +40,9 @@ security, and decentralization everywhere; and secondarily to serve as the main
 base for a political party and more-intelligent voting bloc with respect to
 Gaia to save Gaia from itself.
 
-### Vision and Missions
+----------------------------------------
+# Vision and Missions
+
 The vision behind this AtomOne fork is to be an alternative minimal fork of
 Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies,
 and also to operate as a political party base in relation to Gaia. We strive to
@@ -59,7 +63,8 @@ specialization, interoperation through common protocols, and fault tolerance in
 numbers, we pray for the helping hand of reason, wisdom, foresight, empahty,
 temperance, and all other necessary faculties.
 
-#### Role as Minimal IBC/ICS Hub
+## Role as Minimal IBC/ICS Hub
+
 While AtomOne aims to steer Gaia toward safe decisions, it cannot by itself
 determine the decisions made by the Cosmos Hub. Yet, Cosmos *needs* minimal
 IBC/ICS hubs without any hanging issues, and as mentioned in the Declaration of
@@ -73,9 +78,10 @@ an existential issue for the hub, and an issue of financial security of the
 highest order for not just the hub but its hosted shards and IBC connected
 network (in other words, everyone). When there is a double-spend attack on the
 hub, the staking tokens of those responsible for the attack should be used to
-compensate the victims, and the remainder of the penalty burned. A staking
-token of an exchange zone for example must consequently have additional risks,
-and so $ATOM1 occupies a niche of minimal risk profile in comparison.
+compensate the victims as much as reasonable, and the non-zero remainder of the
+penalty burned. A staking token of an exchange zone for example must
+consequently have additional risks related to its business, and so $ATOM1
+occupies a niche of minimal risk profile in comparison.
 
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
@@ -90,36 +96,37 @@ by it to the consumer chains, are reserved to the consumer chains respectively,
 or to the stakers, token holders, and people; or to other splits or forks of
 the AtomOne hub.
 
-#### Significance as a Political Base 
-There are many of us Cosmonauts and of those users of Gaia that are aligned
-with the values, principles, original mission of the hub and the present
-mission of AtomOne, but we have no base of operations. In contrast, the
-informal opposition majority party (which came about first) is well organized
-in comparison, often behind closed doors. Meanwhile "liquid staking" providers
-are providing a service that does more than liquid staking, but have their own
+## Significance as a Political Base 
+
+There are many of us stakers and users of Gaia that are aligned with the
+values, principles, original mission of the hub and the present mission of
+AtomOne, but we have no base of operations. In contrast, the informal
+opposition majority party (which came about first) is well organized in
+comparison, often behind closed doors. Meanwhile "liquid staking" providers are
+providing a service that does more than liquid staking, but have their own
 governance and powers and thus act as a kind of political base. For example,
 which validators to stake to is determined through governance in
 Informal/Stride.
 
 By modifying the distribution of staking token holders for AtomOne to be more
-aligned with hub security, we make AtomOne governance a more intelligent voting
-set than all other alternatives for now. As the project grows, by virtue of its
-growth the distribution will naturally evolve (or by default, devolve), so this
-may precipitate the need for more hubs descendant from AtomOne, with or without
-substantial changes to its fork of the constitution--even with the same
-constitution, its distribution and how it was modified from the parent
-distribution affords its character or flavor which can strengthen or weaken
-over time depending on its tokenomics. 
+aligned with hub security we can make the $ATOM1 distribution a more
+intelligent distribution all other alternatives (until another split is needed,
+etc). As the project grows, by virtue of its growth the distribution will
+naturally evolve (or by default, devolve), so this may precipitate the need for
+more hubs descendant from AtomOne, with or without substantial changes to its
+fork of the constitution. Even with the same constitution its distribution (or
+how it was modified from the parent distribution) affords its character or
+flavor which can strengthen or weaken over time depending on its tokenomics. 
 
 By our own governance function and the tooling that we fund and create, we will
 bring more intelligence and security to all connected blockchains especially
 Gaia. AtomOne must do whatever is necessary within reason to guide Gaia to
-maintain safety, and the best way to do that is by holding ATOMs through IBC
-pegging and using these ATOMs to make voting decisions on Cosmos as a voting
+maintain safety, and the best way to do that is by holding $ATOMs through IBC
+pegging and using these $ATOMs to make voting decisions on Cosmos as a voting
 bloc. The following section describes the one and only way the AtomOne hub will
-use ATOMs; by offering what is misleadingly referred to as "liquid staking".
+use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
-#### Role as $ATOM "Liquid Staking" Provider
+## Role as $ATOM "Liquid Staking" Provider
 
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
@@ -131,46 +138,57 @@ In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
 $phATOM1 tokens. So there will be $phATOM as well as $phATOM1 tokens, but with
 some differences in tokenomics between them. We have more control over $phATOM1
 tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
-Gaia for $phATOM. (XXX double check with penultimate draft)
+Gaia for $phATOM.
 
-In return for delegating voting decisions from $ATOM bonders ($phATOM holders)
-to $ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity
-for all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
+In return for delegating voting decisions from $ATOM bonded $phATOM holders to
+$ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity for
+all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
 exchange ratio as determined by the best available means as determined by
 $ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
 to $phATOM than 1:1 by total market cap between $phATOM and $phATOM1. These
-ratios cannot change even with a Constitutional Majority.
+ratios cannot change even with a Constitutional Majority except that the
+conversion penalty may decrease below 20% with a Constitutional Majority.
 
 In the case of Gaia failure this could be seen as a detriment to $phATOM1
 holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
 shrunk by up to half; but if the $ATOM token were to recover it would now be of
 benefit to $phATOM1 holders; and this is an agreement that was pre-established
 in these Founding Documents to support the mutual success of $phATOM and
-$phATOM1to ensure mutual success rather than sabotage.
+$phATOM1to ensure mutual success rather than sabotage. While in the end the
+$ATOM1 stakers and before that the validators have complete freedom of will,
+how well they adhere to these founding agreements is left to everyone to
+enforce, such as by blackisting or slashing staking tokens and validators held
+by violators. XXX specify the conversion rate before and after the merger both ways.
 
-There is no merger for the opposite case upon AtomOne failure. In this case the
-$ATOM underlying $phATOM must be distributed back to the $phATOM holders in
-proportion, or if there was already a merger, to the $phATOM1 holders in
-proportion.
+AtomOne with a Constitutional Majority may terminate the support of the $phATOM
+token by redistributing the $ATOM tokens to their respective $phATOM holders
+completely with the same exchange factors aplied to everyone equally, but for
+the purpose of giving precendent to the $phATOM -> $phATOM1 merge mechanism,
+this must be delayed by a period of three months during which the $phATOM1
+holders must be allowed to vote to veto with a preemptive merge.
 
-### Expected Outcomes and Benefits 
+There is no merge mechanism for the opposing case upon AtomOne failure. In this
+case the $ATOM underlying $phATOM must be distributed back to the $phATOM
+holders in proportion, or if there was already a merger, to the $phATOM1
+holders in proportion.
+
+## Expected Outcomes and Benefits 
 
 We believe that by embracing diversity and fostering open dialogue between
 competing self-aligned groups we can create a more robust, innovative, and
-decentralized ecosystem. 
+decentralized ecosystem. The diversity of specialized self-organized groups and
+forks (composed of aligned members) will accelerate innovation and
+implementation through parallelism. The diversity of competitive groups and
+forks will reduce risk at the local and global levels; at the local level
+through competition of implementations, and at the global level through the
+diversity of hubs and frameworks.
 
-The diversity of specialized self-organized groups and forks (composed of
-aligned members) will accelerate innovation and implementation through
-parallelism.
+We hope that the economic recovery measures between $phATOM and $phATOM1 will
+incentivize mutual success and allow Gaia to transition safely into a more
+experimental hub as compared to the more immutable and conservative AtomOne.
 
-The diversity of competitive groups and forks will reduce risk at the local and
-global levels; at the local level through competition of implementations, and
-at the global level through the diversity of hubs and frameworks.
-
-We expect the economic recovery measures between $phATOM and $phATOM1 to
-encourage symbiosis moreso than sabotage.
-
-## Terms
+----------------------------------------
+# Terms
 
 * Alignment: full agreement with the founding documents in speech and action
   with relation to AtomOne.
@@ -229,10 +247,9 @@ change their token ticker symbol.
 Any changes to the distribution besides slashing for pre-established slashing
 conditions such as any additional premines (besides those in the original first
 genesis) disqualify the fork from retaining the same token ticker symbol; those
-are new airdrops of a different token.
-
-No additional premines besides those already defined in this planning document
-are allowed for any forks whose token shall be called $ATOM1.
+are new airdrops of a different token. No additional premines besides those
+already defined in this planning document are allowed for any forks whose token
+shall be called $ATOM1.
 
 ## 2. IBC/ICS Hub and Minimalism
 
@@ -271,14 +288,6 @@ We must at all times distinguish between what is core vs consumer, not only in
 our code, documentation, and specifications, but also to the end user through
 all commensurate reasonable means at our disposal.
 
-Any fixed functionality that could run on alternative VMs should be translated
-into the dominant language of the official approved software, which for us is a
-recent version of Go(lang) 1.xx. We should remind ourselves that every virtual
-machine has (had) numerous zero day exploits. The added security vulnerability
-surface area of the new VM combined with the compiler to compile one language
-for the VM, as well as the added complexity of needing to audit another
-language, can and must all be avoided.
-
 Arbitrary smart contract functionality must not be allowed on the main hub
 shard, which must instead be reserved primarily for basic transfer and IBC
 transactions, ICS1.5 shard coordination, and governance voting as safety and
@@ -298,6 +307,14 @@ arbitrary smart contracts from the general public--AtomOne will not itself
 become the maintainer for smart contract systems and virtual machines. Instead
 these must run as consumer chains with their own governing body. However they
 are funded, they must.
+
+Any fixed functionality that could run on alternative VMs should be translated
+into the dominant language of the official approved software, which for us is a
+recent version of Go(lang) 1.xx. We should remind ourselves that every virtual
+machine has (had) numerous zero day exploits. The added security vulnerability
+surface area of the new VM combined with the compiler to compile one language
+for the VM, as well as the added complexity of needing to audit another
+language, can and must all be avoided.
 
 Mixing implementations across validators is also to be avoided so as to prevent
 a failure arising from a low Nakamoto coefficient among the types of
@@ -626,7 +643,6 @@ total supply of $phATOM1 tokens by direct participation where the increased tax
 burden above the 10% must be used for common goods purposes on transparent and
 accountable DAO systems.
 
-
 $ATOM1 isn't a monetary token, but a related instrument can serve better as
 one.
 
@@ -693,6 +709,9 @@ bonding ratio target of 2/3 in either the numerator or denominator--they are
 ignored.
 
 TODO: add benefits over liquid staking and collective "liquid staking".
+
+See also the introductory section 
+
 
 ## AtomOne Governance
 
