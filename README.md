@@ -1,4 +1,5 @@
 _This document is a work in progress, please make PRs_
+_What matters at this very moment is that we open ISSUEs and begin discussions about every facet that should go in the founding documents_
 
 ----------------------------------------
 # Preamble
@@ -67,29 +68,31 @@ temperance, and all other necessary faculties.
 
 While AtomOne aims to steer Gaia toward safe decisions, it cannot by itself
 determine the decisions made by the Cosmos Hub. Yet, Cosmos *needs* minimal
-IBC/ICS hubs without any hanging issues, and as mentioned in the Declaration of
-Genesis, there is an issue. Ergo, AtomOne must not only guide Gaia, but it must
-also run the desired alternative minimal IBC/ICS hub in addition to Gaia.
+IBC/ICS hubs without any confusion about what it is, and as mentioned in the
+Declaration of Genesis Gaia does not embody this (yet). Ergo, AtomOne must not
+only guide Gaia, but it must also run the desired alternative minimal IBC/ICS
+hub as an alternative in addition to Gaia.
 
 AtomOne re-commits to the original vision and primary mission of Gaia to serve
 as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
 stake to be bonded. We believe that minimizing the risk profile is necessary as
 an existential issue for the hub, and an issue of financial security of the
 highest order for not just the hub but its hosted shards and IBC connected
-network (in other words, everyone). When there is a double-spend attack on the
-hub, the staking tokens of those responsible for the attack should be used to
-compensate the victims as much as reasonable, and the non-zero remainder of the
-penalty burned. A staking token of an exchange zone for example must
-consequently have additional risks related to its business, and so $ATOM1
-occupies a niche of minimal risk profile in comparison.
+network allowing AtomOne to occuply a real and an important niche. When there
+is a double-spend attack on the hub, the staking tokens of those responsible
+for the attack should be used to compensate the victims as much as reasonable,
+and the non-zero remainder of the penalty burned. A staking token of an
+exchange zone for example must consequently have additional risks related to
+its business, and so $ATOM1 occupies a niche of minimal risk profile in
+comparison.
 
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
 nature of the hub belong in new forks or splits, and an ideal hub enables them
-despite and because of differences. In the Cosmos there is no need for
-contention as on Earth because there is no limitation of finite land. We can
-always create new forks/splits/groups that are better aligned with what we
-need.
+despite of and in order to celebrate these differences. In the Cosmos there is
+no need for contention as with land-locked states because there is no
+limitation of finite land. We can create new forks/splits/groups that are
+better aligned with what we need if there is enough need or support for it.
 
 The powers not delegated to the AtomOne hub by the Constitution, nor prohibited
 by it to the consumer chains, are reserved to the consumer chains respectively,
@@ -98,25 +101,25 @@ the AtomOne hub.
 
 ## Significance as a Political Base 
 
-There are many of us stakers and users of Gaia that are aligned with the
-values, principles, original mission of the hub and the present mission of
-AtomOne, but we have no base of operations. In contrast, the informal
-opposition majority party (which came about first) is well organized in
-comparison, often behind closed doors. Meanwhile "liquid staking" providers are
-providing a service that does more than liquid staking, but have their own
-governance and powers and thus act as a kind of political base. For example,
-which validators to stake to is determined through governance in
-Informal/Stride.
+There are many of stakers and users of Gaia that are aligned with the
+values, principles, original mission of Gaia and those of AtomOne, but we have
+no explicit base of operations. In contrast, the informal opposition majority
+party (which came about first) is well organized in comparison, usually behind
+closed doors. Meanwhile "liquid staking" providers are providing a service that
+does more than liquid staking, but have their own governance and powers and
+thus act as a kind of political base. For example, which validators to stake to
+is determined through governance in Informal/Stride.
 
 By modifying the distribution of staking token holders for AtomOne to be more
-aligned with hub security we can make the $ATOM1 distribution a more
-intelligent distribution all other alternatives (until another split is needed,
-etc). As the project grows, by virtue of its growth the distribution will
-naturally evolve (or by default, devolve), so this may precipitate the need for
-more hubs descendant from AtomOne, with or without substantial changes to its
-fork of the constitution. Even with the same constitution its distribution (or
-how it was modified from the parent distribution) affords its character or
-flavor which can strengthen or weaken over time depending on its tokenomics. 
+aligned with hub security based on voting activity we can make the $ATOM1
+distribution a more intelligent distribution than all other alternatives (until
+another split is needed due to corruption). As the project grows, by virtue of
+its growth the distribution will naturally evolve (or by default, devolve), so
+this may precipitate the need for more hubs descendant from AtomOne, with or
+without substantial changes to its fork of the constitution. Even with the same
+constitution its distribution (or how it was modified from the parent
+distribution) affords its character or flavor which can strengthen or weaken
+over time depending on its tokenomics. 
 
 By our own governance function and the tooling that we fund and create, we will
 bring more intelligence and security to all connected blockchains especially
@@ -128,6 +131,11 @@ use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
 ## Role as $ATOM "Liquid Staking" Provider
 
+XXX Try to make this work with one $phATOM using bonding curves within bounds
+with all three tokens. This would still rely on imperfect measures like present
+AMM rate and can lead to manipulation and losses, but you can still maybe
+restrict these losses by restricting the bounds, say to 2:1 1:2. 
+
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
 automatically delegated via ICA (interchain accounts) to aligned validators as
@@ -135,7 +143,7 @@ determined by the the system determined by the $ATOM1 stakers. The bonders of
 $ATOM toward this service will receive liquid $phATOM tokens.
 
 In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
-$phATOM1 tokens. So there will be $phATOM as well as $phATOM1 tokens, but with
+$phATOM1 tokens. So there will be $phATOM along side $phATOM1 tokens, but with
 some differences in tokenomics between them. We have more control over $phATOM1
 tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
 Gaia for $phATOM.
@@ -847,4 +855,7 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Use real human connections to defend against AI.
  - [ ] About diversity of implementation, and its limitations.
  - [ ] Add old PHOTON elements back in if relevant; not counting 2/3 ratio...
+ - [ ] Recovery procedure by AtomOne in the case of IBC zone failure.
+ - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
+ - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
  - [ ] XXX
