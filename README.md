@@ -1,5 +1,6 @@
-_This document is a work in progress, please make PRs_
-_What matters at this very moment is that we open ISSUEs and begin discussions about every facet that should go in the founding documents_
+_This document is a work in progress, please make PRs_ _What matters at this
+very moment is that we open ISSUEs and begin discussions about every facet that
+should go in the founding documents_
 
 ----------------------------------------
 # Preamble
@@ -25,21 +26,25 @@ monetization strategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
 role and responsibilities as compared to our profit interests.
 
-(XXX check after completion)
-While proposal #848 ("halvening") failed to get the required threshold of 50%
-to pass on Gaia, it did get very close which means that that $ATOM stakers are
-split down the middle on the most fundamental tokenomics security design
-element. Furthermore, this change was proposed on chain without addressing the
-valid security concerns raised by the community, with errors about the cost of
-inflation by miscalculating true income, and without a complete halvening
-schedule, thereby working to undermine hub credibility.
+Proposal #848 ("halvening") succeeded in getting the required threshold of 50%
+to pass on Gaia, but a significant portion voted NO or NWV which means that
+that $ATOM stakers are largely split on the most fundamental tokenomics
+security design element. 73,165,203ATOM YES vs 56,667,011ATOM NO +
+11,669,549ATOM NWV overall YES:NO is 1.07:1. Furthermore, this change was
+proposed on chain without addressing the valid security concerns raised by the
+community, with huge errors about the cost of inflation by miscalculating true
+income, and without a complete halvening schedule, thereby working to undermine
+hub credibility.
 
 These and prior disagreements have now made clear the need for an alternative
 hub with a renewed focus and Alignment to serve as the canonical minimal
 IBC/ICS token hub with respect to Cosmos to champion the ideals of sovereignty,
 security, and decentralization everywhere; and secondarily to serve as the main
 base for a political party and more-intelligent voting bloc with respect to
-Gaia to save Gaia from itself.
+Gaia to save Gaia from itself. A modification to the distribution of $ATOM1
+through slashing those who voted in favor of #848 would help ensure that the
+resultant distribution is more intelligent about security and would make us
+anti-fragile against even the most powerful of adversaries.
 
 ----------------------------------------
 # Vision and Missions
