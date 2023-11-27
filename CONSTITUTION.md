@@ -379,7 +379,7 @@ becomes easy to coordinate a fund to take over the consensus process of the
 chain. PoW networks have two “tokens” the mining infrastructure (which can be
 bought or sold, and also is “inflationary”) and the coins themselves. This
 separation allows Bitcoin to become widely adopted without worrying about
-security vulnerabilties, because even the largest of whales cannot simply buy
+security vulnerabilities, because even the largest of whales cannot simply buy
 1/2 of mining infrastructure. It isn’t a superfluid market, which makes it more
 secure.
 
@@ -454,7 +454,7 @@ mark of the beast. As per the Book of Revelation,
 * The mark gives you sores (Revelation 16:2) // NOTE: have no fear about it
   even if you got the shot.
 
-How could it be that a two millenia old document can predict what is happening
+How could it be that a two millennia old document can predict what is happening
 today? Well, most people don't read the bible at all, and anyone can see the
 light and turn into a white-hat. It appears to me that the white-hats have
 shepherded the black-hats into following a script that ends up exposes them
