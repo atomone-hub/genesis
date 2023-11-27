@@ -172,9 +172,9 @@ Should the $phATOM be discontinued in support as decided by AtomOne with a
 Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
 itself but must be a separate proposal), the $phATOM holders must be made whole
 by redistributing the underlying $ATOM tokens to their respective $phATOM
-holders completely with the same exchange factors aplied to everyone equally,
+holders completely with the same exchange factors applied to everyone equally,
 but as with decreasing the merger ratio cap, (for the purpose of giving
-precendent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
+precedent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
 a period of 3 months to allow $phATOM holders to preempt this with a merge.
 
 Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
