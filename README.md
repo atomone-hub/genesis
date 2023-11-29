@@ -1,90 +1,73 @@
-_This document is a work in progress, please make PRs_
-_What matters at this very moment is that we open ISSUEs and begin discussions about every facet that should go in the founding documents_
+_Этот документ в стадии разработки_
+_В данный момент важно то, что мы открываем ISSUES и начинаем обсуждение каждого аспекта, который должен быть отражен в учредительных документах._
 
 ----------------------------------------
-# Preamble
+# Преамбула
 
-The Cosmos community, at a crossroads, confronts divergent views on key aspects
-such as mission, tokenomics, and security philosophy. AtomOne emerges as a
-beacon, offering an alternative fork to navigate these waters, equipped to
-handle contingencies and embodying a bastion for diverse political thought.
-
-----------------------------------------
-# Declaration of Genesis
-
-There comes a time when there is enough disagreement among community members
-and stakers about key concerns regarding the business of their chain, such as
-its vision, mission, tokenomics, architecture, implementation, or philosophy;
-that it makes the most sense to support an alternative fork running alongside
-the original so as to be prepared against all contingencies.
-
-Recent times have seen the Cosmos community grappling with significant
-challenges stemming from differences about core tokenomics, about the very
-nature of the $ATOM token (whether it is staking or monetary), about
-monetization strategy and what types of projects to fund; and there generally
-appears to be a great cultural chasm that shows no sign of closing about our
-role and responsibilities as compared to our profit interests.
-
-(XXX check after completion)
-While proposal #848 ("halvening") failed to get the required threshold of 50%
-to pass on Gaia, it did get very close which means that that $ATOM stakers are
-split down the middle on the most fundamental tokenomics security design
-element. Furthermore, this change was proposed on chain without addressing the
-valid security concerns raised by the community, with errors about the cost of
-inflation by miscalculating true income, and without a complete halvening
-schedule, thereby working to undermine hub credibility.
-
-These and prior disagreements have now made clear the need for an alternative
-hub with a renewed focus and Alignment to serve as the canonical minimal
-IBC/ICS token hub with respect to Cosmos to champion the ideals of sovereignty,
-security, and decentralization everywhere; and secondarily to serve as the main
-base for a political party and more-intelligent voting bloc with respect to
-Gaia to save Gaia from itself.
+Сообщество Cosmos находится на перепутье и сталкивается с разными взглядами на ключевые аспекты, такие как миссия, 
+токеномика и философия безопасности. AtomOne выступает в качестве маяка для ориентации в сложившейся ситуации, предлагая альтернативный форк,  
+оборудованный для реагирования на непредвиденные обстоятельства и олицетворяющую бастион разнообразной политической мысли.
 
 ----------------------------------------
-# Vision and Missions
+# Декларация Генезиса
 
-The vision behind this AtomOne fork is to be an alternative minimal fork of
-Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies,
-and also to operate as a political party base in relation to Gaia. We strive to
-complement the broader Cosmos ecosystem while introducing innovative solutions
-and perspectives. Our goals are not just to resolve current challenges but are
-also to set a new precedent for adaptive and responsive self-organization in
-the multichain multitoken universe that we call the Cosmos.
+Наступает момент, когда между членами сообщества возникает достаточно разногласий.
+и заинтересованным сторонам о ключевых проблемах, касающихся бизнеса их сети, таких как
+его видение, миссия, токеномика, архитектура, реализация или философия;
+что наиболее разумно поддерживать альтернативный форк, работающий параллельно
+оригиналу, чтобы быть готовым ко всем непредвиденным обстоятельствам.
 
-AtomOne will lead the development and praxis of giving representation to every
-(sub)group (such as a political party), each defined and strengthened by their
-own living constitutions that state their values, missions, philosophies and so
-on. This will foster a more diverse ecosystem of specialized zones in
-coopetition (cooperation and competition) with each other despite
-irreconciliable differences. AtomOne will be a base for many more partyhubs,
-and itself function as a partyhub in relation to Gaia. There will be many
-partyhubs in a great sea of divisions, and from this soup will emerge
-specialization, interoperation through common protocols, and fault tolerance in
-numbers, we pray for the helping hand of reason, wisdom, foresight, empathy,
-temperance, and all other necessary faculties.
+В последнее время сообщество Cosmos сталкивается с серьезными проблемами, возникающими из-за разногласий 
+в отношении базовой токеномики, самой природы токена $ATOM (независимо от того, является ли он стейкингом или монетарным), 
+стратегии монетизации и типов проектов, которые следует финансировать; и, как правило, 
+существует огромная культурная пропасть, которая не показывает никаких признаков 
+закрытия нашей роли и ответственности по сравнению с нашими интересами получения прибыли.
 
-## Role as Minimal IBC/ICS Hub
+(проверка XXX после завершения) Хотя предложение № 848 («сокращение пополам») не смогло достичь необходимого порога в 50% для перехода на Gaia,
+это действительно было очень близко, а это означает, что участники $ATOM разделены пополам по самому фундаментальному элементу дизайна безопасности токеномики.
+Кроме того, это изменение было предложено в цепочке без решения обоснованных проблем безопасности, 
+поднятых сообществом, с ошибками в отношении стоимости инфляции из-за неправильного расчета истинного дохода и без полного графика сокращения вдвое, тем самым подрывая доверие к хабу.
 
-While AtomOne aims to steer Gaia toward safe decisions, it cannot by itself
-determine the decisions made by the Cosmos Hub. Yet, Cosmos *needs* minimal
-IBC/ICS hubs without any confusion about what it is, and as mentioned in the
-Declaration of Genesis Gaia does not embody this (yet). Ergo, AtomOne must not
-only guide Gaia, but it must also run the desired alternative minimal IBC/ICS
-hub as an alternative in addition to Gaia.
+Эти и предыдущие разногласия теперь ясно показали необходимость в альтернативном хабе с обновленной
+направленностью и согласованием, который будет служить каноническим минимальным центром токенов IBC/ICS
+по отношению к Cosmos, чтобы повсеместно отстаивать идеалы суверенитета, безопасности и децентрализации; 
+и, во-вторых, чтобы служить основной базой для политической партии и более интеллектуального избирательного блока по отношению к Gaia, чтобы спасти Gaia от самой себя.
 
-AtomOne re-commits to the original vision and primary mission of Gaia to serve
-as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
-stake to be bonded. We believe that minimizing the risk profile is necessary as
-an existential issue for the hub, and an issue of financial security of the
-highest order for not just the hub but its hosted shards and IBC connected
-network allowing AtomOne to occuply a real and an important niche. When there
-is a double-spend attack on the hub, the staking tokens of those responsible
-for the attack should be used to compensate the victims as much as reasonable,
-and the non-zero remainder of the penalty burned. A staking token of an
-exchange zone for example must consequently have additional risks related to
-its business, and so $ATOM1 occupies a niche of minimal risk profile in
-comparison.
+----------------------------------------
+# Видение и миссии
+
+Идея этого форка AtomOne состоит в том, чтобы стать альтернативным минимальным форком Gaia («cosmoshub4»), 
+работающим вместе с Gaia, чтобы подготовиться ко всем непредвиденным обстоятельствам, 
+а также действовать в качестве базы политической партии по отношению к Гайе. 
+Мы стремимся дополнить более широкую экосистему Cosmos, представляя инновационные решения и перспективы. 
+Наши цели — не только решить текущие проблемы, но и создать новый прецедент адаптивной
+и отзывчивой самоорганизации в многоцепочечной вселенной с множеством токенов, которую мы называем Cosmos.
+
+AtomOne будет возглавлять разработку и практику предоставления представительства каждой (под)группе
+(например, политической партии), каждая из которых определяется и укрепляется своими 
+собственными действующими конституциями, в которых излагаются их ценности, миссии, философия и так далее. 
+Это будет способствовать формированию более разнообразной экосистемы специализированных зон, 
+находящихся в сотрудничестве (сотрудничестве и конкуренции) друг с другом, несмотря на непримиримые различия. 
+AtomOne станет базой для многих других partyhub'ов и сам будет функционировать как partyhub по отношению к Gaia. 
+В огромном море разногласий будет много partyhub'ов, и из этого супа вырастет специализация, 
+взаимодействие через общие протоколы и отказоустойчивость в цифрах, и мы молимся о помощи разума, 
+мудрости, предвидения, сочувствия, умеренности и всего другого необходимого. факультеты.
+
+## Роль Минимального хаба IBC/ISC
+
+Хотя AtomOne стремится направлять Gaia к безопасным решениям, он не может сам по себе определять решения, 
+принимаемые Cosmo Hub. Тем не менее, Cosmos нуждается в минимальном количестве хабов IBC/ICS, 
+чтобы не было никакой путаницы в том, что это такое, и, как упоминалось в Декларации Генезиса, Gaia не воплощает это (пока). 
+Таким образом, AtomOne должен не только управлять Gaia, но также должен запускать 
+желаемый альтернативный минимальный хаб IBC/ICS в качестве альтернативы в дополнение к Gaia.
+
+AtomOne вновь придерживается первоначального видения и основной миссии Gaia — служить минимальным хабом IBC/ICS, 
+защищенным токеном ставки, нацеленным на 2/3 доли, подлежащей связыванию. Мы считаем, что минимизация профиля риска необходима 
+как экзистенциальная проблема для хаба, а также как вопрос финансовой безопасности высочайшего уровня не только для хаба, 
+но и для его размещенных шардов и подключенной сети IBC, позволяющей AtomOne занять реальную и важную нишу. 
+Когда на хабе происходит атака с двойной тратой, токены в стейкинге, ответственных за атаку должны быть использованы 
+для компенсации жертвам в максимально разумной степени, а ненулевой остаток штрафа должен сгореть. 
+Например, стейкинг-токен биржевой зоны должен иметь дополнительные риски, связанные с его бизнесом, и поэтому $ATOM1 занимает нишу с минимальным профилем риска по сравнению с ним.
 
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
