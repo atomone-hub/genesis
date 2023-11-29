@@ -83,7 +83,7 @@ as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
 stake to be bonded. We believe that minimizing the risk profile is necessary as
 an existential issue for the hub, and an issue of financial security of the
 highest order for not just the hub but its hosted shards and IBC connected
-network allowing AtomOne to occuply a real and an important niche. When there
+network allowing AtomOne to occupy a real and an important niche. When there
 is a double-spend attack on the hub, the staking tokens of those responsible
 for the attack should be used to compensate the victims as much as reasonable,
 and the non-zero remainder of the penalty burned. A staking token of an
