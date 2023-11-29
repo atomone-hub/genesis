@@ -69,7 +69,7 @@ explorers and wallets.
 While it may appear that the Decentralists and its integration into AtomOne are
 unnecessary complexifications not fit for a "minimal hub", it does address the
 real need for a long term development roadmap for AtomOne to improve our
-communications amidst irreconciliable differences, the need to give
+communications amidst irreconcilable differences, the need to give
 self-aligned groups more voice through self-organization, and the need for a
 long term vision of a market of competing systems and designs that incorporate
 a comprehensive range of components from virtual machines, smart contract
@@ -79,7 +79,7 @@ The tooling we develop under the brand of Decentralists will be made available
 broadly in all communities and serve to introduce more people to AtomOne and
 its generations.
 
-Portions of the constitutition regarding the Decentralists, only the
+Portions of the constitution regarding the Decentralists, only the
 Decentralists can vote to change. 
 
 The Decentralists may adopt a new constitution with a 2/3 supermajority, until this clause is revoked... /// XXX ok but now this is confusing. AtomOne vs Decentralists having separate constitutions? 
