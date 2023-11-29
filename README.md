@@ -62,7 +62,7 @@ AtomOne will lead the development and praxis of giving representation to every
 own living constitutions that state their values, missions, philosophies and so
 on. This will foster a more diverse ecosystem of specialized zones in
 coopetition (cooperation and competition) with each other despite
-irreconciliable differences. AtomOne will be a base for many more partyhubs,
+irreconcilable differences. AtomOne will be a base for many more partyhubs,
 and itself function as a partyhub in relation to Gaia. There will be many
 partyhubs in a great sea of divisions, and from this soup will emerge
 specialization, interoperation through common protocols, and fault tolerance in
@@ -83,7 +83,7 @@ as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
 stake to be bonded. We believe that minimizing the risk profile is necessary as
 an existential issue for the hub, and an issue of financial security of the
 highest order for not just the hub but its hosted shards and IBC connected
-network allowing AtomOne to occuply a real and an important niche. When there
+network allowing AtomOne to occupy a real and an important niche. When there
 is a double-spend attack on the hub, the staking tokens of those responsible
 for the attack should be used to compensate the victims as much as reasonable,
 and the non-zero remainder of the penalty burned. A staking token of an
@@ -186,7 +186,7 @@ Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
 actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
 the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
 users within reason, but what is reasonable is up to the $ATOM1 stakers to
-decide through AtomOne governance. Everybody must acknwoledge the risks of this
+decide through AtomOne governance. Everybody must acknowledge the risks of this
 experiment.
 
 All other parameters defined here regarding the merger that may negatively
@@ -201,7 +201,7 @@ in these Founding Documents to support the mutual success of $phATOM and
 $phATOM1to ensure mutual success rather than sabotage. While in the end the
 $ATOM1 stakers and before that the validators have complete freedom of will,
 how well they adhere to these founding agreements is left to everyone to
-enforce, such as by blackisting or slashing staking tokens and validators held
+enforce, such as by blacklisting or slashing staking tokens and validators held
 by violators. XXX specify the conversion rate before and after the merger both ways.
 
 There is no merge mechanism for the opposing case upon AtomOne failure. In this
@@ -292,7 +292,7 @@ shall be called $ATOM1.
 
 We are not concerned about any business plan or tokenomics strategy for the
 AtomOne hub besides offering the scaling of transaction throughput through
-ICS1.5. We anticipate that our approach will successfully and sufficienty
+ICS1.5. We anticipate that our approach will successfully and sufficiently
 capture the niche market need for utmost security in IBC token transactions and
 ICS1.5 shard hosting, and serve as the basis for all the functionality that all
 people will need and want; and if it cannot be done through the spirit of these
@@ -369,7 +369,7 @@ specified in these founding documents and the living constitution, we recommend
 that they be implemented as ICS1.5 hosted zones, and only in those cases where
 AtomOne can provably not solve the problem at hand through ICS1.5 hosting
 should a fork of AtomOne or a new chain be proposed with an entirely different
-constitution. The spririt of the AtomOne Constitution and the general mission
+constitution. The spirit of the AtomOne Constitution and the general mission
 and purpose of the AtomOne hub as a utility must not change. 
 
 ## 3. Validator Incentives
@@ -473,7 +473,7 @@ form, and must be a core concern that is somehow supported by the hub for
 otherwise external influencers will easily sabotage the project through social
 engineering methods. For more on this, see the related document on the
 Decentralists, an experiment that will be subsidized by AtomOne to create
-tooling that allows anyone to discuss and guage the interest of ideas before
+tooling that allows anyone to discuss and gauge the interest of ideas before
 they are put up for proposal measured by both liquid-democracy inspired
 democratic weighting (for any group selection) as well as stake-based
 weighting.
@@ -534,7 +534,7 @@ milestones, with an emphasis on completion and even potential phase-out.
 
 It should be some distribution of the Cosmos Hub $ATOM1 token with those who
 voted against the spirit of this project slashed because they never joined to
-use the system int he first place (e.g. they were more interested in price
+use the system in the first place (e.g. they were more interested in price
 appreciation of original $ATOM).
 
 Additionally, the Interchain Foundation playing a key role in the evolution of
@@ -657,7 +657,7 @@ supporting different denominations of the same underlying $phATOM1. AtomOne
 will not promote the $ATOM1 token to be used as a fee token directly, even
 though it must be supported as a bootstrapping and recovery measure.
 
-While the convertability from $phATOM1 to the underlying $ATOM1 may be managed,
+While the convertibility from $phATOM1 to the underlying $ATOM1 may be managed,
 paused, or throttled by governance of $ATOM1 with a Constitutional Majority of
 the $ATOM1 stakers not including the $ATOM1 of the $phATOM1 bonders, all the
 underlying $ATOM1 must be distributable back to $phATOM1 holders through a fair
