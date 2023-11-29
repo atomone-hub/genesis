@@ -186,7 +186,7 @@ Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
 actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
 the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
 users within reason, but what is reasonable is up to the $ATOM1 stakers to
-decide through AtomOne governance. Everybody must acknwoledge the risks of this
+decide through AtomOne governance. Everybody must acknowledge the risks of this
 experiment.
 
 All other parameters defined here regarding the merger that may negatively
