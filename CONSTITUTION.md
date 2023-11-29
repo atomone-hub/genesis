@@ -87,7 +87,7 @@ chain, hereinafter referred to as "Hub Governance".
 Other sovereign zones that are completely or partially secured by Cosmos Hub
 ICS, by definition, have their own governance mechanism. The Cosmos Hub
 principally enables and follows the will of the governance of such sovereign
-zones ragarding the pegged tokens originating from said zones, except in
+zones regarding the pegged tokens originating from said zones, except in
 well-defined exceptional circumstances involving bugs, theft, or harm to the
 Cosmonauts of the Cosmos ecosystem.
 
