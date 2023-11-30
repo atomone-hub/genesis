@@ -105,122 +105,111 @@ AtomOne должен делать все необходимое в предел�
 голосованию по Cosmos как блоку голосования. В следующем разделе описывается единственный способ, 
 которым хаб AtomOne будет использовать $ATOM; предлагая то, что ошибочно называют «ликвидным стейкингом».
 
-## Role as $ATOM "Liquid Staking" Provider
+## Роль провайдера "ликвид стейкинга" $ATOM 
 
-XXX Try to make this work with one $phATOM using bonding curves within bounds
-with all three tokens. This would still rely on imperfect measures like present
-AMM rate and can lead to manipulation and losses, but you can still maybe
-restrict these losses by restricting the bounds, say to 2:1 1:2. 
+XXX Попробуйте реализовать это с помощью одного $phATOM, используя кривые связи в пределах 
+границ всех трех токенов. Это по-прежнему будет зависеть от несовершенных показателей, 
+таких как нынешняя ставка AMM, и может привести к манипуляциям 
+и потерям, но вы все равно можете ограничить эти потери, ограничив границы, скажем, до 2:1 1:2. 
 
-AtomOne will offer an $ATOM bonding zone in a core shard to compete with
-collective "liquid staking" service providers. These $ATOMs will be
-automatically delegated via ICA (interchain accounts) to aligned validators as
-determined by the the system determined by the $ATOM1 stakers. The bonders of
-$ATOM toward this service will receive liquid $phATOM tokens.
+AtomOne предложит зону связи $ATOM в основном шарде, чтобы конкурировать с поставщиками 
+услуг коллективного «ликвид стейкинга». Эти токены $ATOM будут автоматически делегированы через 
+ICA (межсетевые учетные записи) согласованным валидаторам, как это определено системой, 
+определенной стейкерами $ATOM1. Участники $ATOM, использующие эту услугу, получат ликвидные токены $phATOM.
 
-In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
-$phATOM1 tokens. So there will be $phATOM along side $phATOM1 tokens, but with
-some differences in tokenomics between them. We have more control over $phATOM1
-tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
-Gaia for $phATOM.
+В дополнение к $ATOM Gaia, токены $ATOM1 AtomOne также будут связаны с токенами $phATOM1. 
+Таким образом, рядом с токенами $phATOM1 будет $phATOM, но с некоторыми различиями 
+в токеномике между ними. У нас больше контроля над токеномикой $phATOM1, 
+хотя изменения, которые мы вносим для $phATOM1, могут быть переданы Gaia для $phATOM.
 
-In return for delegating voting decisions from $ATOM bonded $phATOM holders to
-$ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity for
-all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
-exchange ratio as determined by the best available means as determined by
-$ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
-to $phATOM than 1:2 by total market cap between $phATOM and $phATOM1. For
-clarity this means that upon the failure of Gaia the $phATOM token holders can
-dilute the $phATOM1 holders such that $phATOM1 holders have as low as 2/3 the
-underlying $ATOM1 as before the merge (but no less).
+В обмен на делегирование решений по голосованию от держателей $phATOM, 
+связанных облигациями $ATOM, участникам $ATOM1, AtomHub предложит держателям 
+$phATOM возможность на всю жизнь, слияние $phATOM с $phATOM1 в соответствии 
+с разумным коэффициентом обмена, определенным наилучшие доступные средства, 
+определенные стейкерами $ATOM1, с минимальным штрафом за конверсию 20% 
+и не более благоприятным для $phATOM, чем 1:2 по общей рыночной капитализации 
+между $phATOM и $phATOM1. Для ясности это означает, что в случае провала Gaia держатели 
+токенов $phATOM могут разбавить держателей $phATOM1 так, что держатели 
+$phATOM1 будут иметь всего 2/3 базового $ATOM1, как до слияния (но не меньше).
 
-The conversion penalty may decrease below 20% for $phATOM to $phATOM1 merger
-with a Supermajority of $ATOM1 stakers.
+Штраф за конверсию может снизиться ниже 20 % в случае слияния $phATOM и $phATOM1 с супербольшинством стейкеров $ATOM1.
 
-AtomOne with a Constitutional Majority may decrease the merger ratio cap from
-1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
-execution must be delayed for a period of at least 3 months to allow $phATOM
-holders to preempt this with a merge. Nothing outside of the merge will prevent
-$phATOM holders from being able to redeem their due pro-rata $ATOM tokens for
-all time.
+AtomOne с конституционным большинством может снизить ограничение коэффициента слияний 
+с 1:2 (1/3) даже до нуля (например, прекратить поддержку $phATOM), но исполнение 
+должно быть отложено на период не менее 3 месяцев, чтобы позволить владельцам 
+$phATOM предупредить это слиянием. Ничто, кроме слияния, не помешает 
+владельцам $phATOM навсегда выкупить причитающиеся им токены $ATOM на пропорциональной основе.
 
-Should the $phATOM be discontinued in support as decided by AtomOne with a
-Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
-itself but must be a separate proposal), the $phATOM holders must be made whole
-by redistributing the underlying $ATOM tokens to their respective $phATOM
-holders completely with the same exchange factors aplied to everyone equally,
-but as with decreasing the merger ratio cap, (for the purpose of giving
-precendent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
-a period of 3 months to allow $phATOM holders to preempt this with a merge.
+Если поддержка $phATOM будет прекращена по решению AtomOne с конституционным большинством 
+(что само по себе НЕ обозначается пределом коэффициента слияния, равным 0, но должно быть отдельным предложением), 
+держатели $phATOM должны быть объединены путем перераспределения основного капитала. 
+Токены $ATOM соответствующим владельцам $phATOM полностью с одинаковыми коэффициентами обмена, 
+применяемыми ко всем в равной степени, но, как и при уменьшении ограничения 
+на коэффициент слияния (с целью предоставления прецедента механизму слияния $phATOM -> $phATOM1), 
+это должно быть отложено на 3 месяца, чтобы позволить держателям $phATOM упредить это слиянием.
 
-Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
-actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
-the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
-users within reason, but what is reasonable is up to the $ATOM1 stakers to
-decide through AtomOne governance. Everybody must acknwoledge the risks of this
-experiment.
+Любое сокращение базового $ATOM, а также кража или потеря $ATOM из-за действий хаба 
+AtomOne и его стейкеров $ATOM1 полностью подвергаются риску первоначального держателя $ATOM,
+который внес его в AtomOne. AtomOne должна выплачивать пользователям компенсацию в пределах 
+разумного, но разумно то, что участники $ATOM1 должны принять решение через 
+управление AtomOne. Каждый должен признать риски этого эксперимента.
 
-All other parameters defined here regarding the merger that may negatively
-affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
-Constitutional Majority.
+Все другие параметры, определенные здесь в отношении слияния, которые могут негативно 
+повлиять на держателей $phATOM и держателей $ATOM на AtomOne, 
+не могут быть изменены даже при наличии конституционного большинства.
 
-In the case of Gaia failure this could be seen as a detriment to $phATOM1
-holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
-shrunk by up to half; but if the $ATOM token were to recover it would now be of
-benefit to $phATOM1 holders; and this is an agreement that was pre-established
-in these Founding Documents to support the mutual success of $phATOM and
-$phATOM1to ensure mutual success rather than sabotage. While in the end the
-$ATOM1 stakers and before that the validators have complete freedom of will,
-how well they adhere to these founding agreements is left to everyone to
-enforce, such as by blackisting or slashing staking tokens and validators held
-by violators. XXX specify the conversion rate before and after the merger both ways.
+В случае неудачи Gaia это можно было бы рассматривать как ущерб для держателей $phATOM1, 
+поскольку их основные претензии $ATOM1 от $phATOM1, по-видимому, сократились почти вдвое; 
+но если токен $ATOM будет восстановлен, теперь это принесет пользу владельцам $phATOM1; 
+и это соглашение было заранее установлено в этих Основополагающих документах для поддержки 
+взаимного успеха $phATOM и $phATOM1, чтобы гарантировать взаимный успех, а не саботаж. 
+Хотя в конечном итоге стейкеры $ATOM1 и до этого валидаторы имеют полную свободу воли, 
+то, насколько хорошо они соблюдают эти основополагающие соглашения, остается 
+на усмотрение каждого, например, путем внесения в черный список или сокращения ставок 
+токенов и валидаторов, принадлежащих нарушителям. XXX указывает коэффициент 
+конверсии до и после слияния в обе стороны.
 
-There is no merge mechanism for the opposing case upon AtomOne failure. In this
-case the $ATOM underlying $phATOM must be distributed back to the $phATOM
-holders in proportion, or if there was already a merger, to the $phATOM1
-holders in proportion.
+Для противоположного случая в случае сбоя AtomOne не существует механизма слияния.
+В этом случае $ATOM, лежащий в основе $phATOM, должен быть пропорционально распределен 
+между держателями $phATOM или, если слияние уже произошло, пропорционально владельцам $phATOM1.
 
-## Expected Outcomes and Benefits 
+## Ожидаемые результаты и выгоды
 
-We believe that by embracing diversity and fostering open dialogue between
-competing self-aligned groups we can create a more robust, innovative, and
-decentralized ecosystem. The diversity of specialized self-organized groups and
-forks (composed of aligned members) will accelerate innovation and
-implementation through parallelism. The diversity of competitive groups and
-forks will reduce risk at the local and global levels; at the local level
-through competition of implementations, and at the global level through the
-diversity of hubs and frameworks.
+Мы считаем, что, принимая разнообразие и способствуя открытому диалогу между конкурирующими 
+самостоятельными группами, мы можем создать более надежную, инновационную и децентрализованную 
+экосистему. Разнообразие специализированных самоорганизующихся групп и ответвлений 
+(состоящих из согласованных членов) ускорит инновации и внедрение за счет параллелизма. 
+Разнообразие конкурентных групп и форков снизит риск на местном и глобальном уровнях; 
+на местном уровне за счет конкуренции реализаций и на глобальном уровне за счет разнообразия хабов и фреймворков.
 
-We hope that the economic recovery measures between $phATOM and $phATOM1 will
-incentivize mutual success and allow Gaia to transition safely into a more
-experimental hub as compared to the more immutable and conservative AtomOne.
+Мы надеемся, что меры экономического восстановления между $phATOM и $phATOM1 будут 
+стимулировать взаимный успех и позволят Gaia безопасно перейти 
+в более экспериментальный центр по сравнению с более неизменным и консервативным AtomOne.
 
 ----------------------------------------
-# Terms
+# Условия
 
-* Alignment: full agreement with the founding documents in speech and action
-  with relation to AtomOne.
-* AtomOne: an opinionated fork of the Cosmos hub Gaia with chainid
-  "cosmoshub4". It is a minimal IBC-token-pegging and ICS hosting hub.
-* Constitutional Majority: a consensus threshold set at a higher bar than the
-  standard two-thirds majority initially set at 90%.
-* IBC: short for Inter-Blockchain Communication, is a protocol that enables
-  communication between different blockchain networks using Byzantine Fault
-  Tolerant (BFT) light client proofs. It allows for the transfer of assets and
-  information across independent blockchains, fostering interoperability and
-  flexibility in the blockchain ecosystem. IBC is a cornerstone of the Cosmos
-  network's architecture, enabling its vision of an 'Internet of Blockchains'.
-* ICS: short for Inter-blockChain Security, is a mechanism for running multiple
-  shard chains under the same validator set. ICS1.5 is an upgrade to ICS1 that
-  improves inter-shard communication efficiency. ICS1 and ICS1.5 help scale the
-  core functionality of AtomOne as well as offer anyone the service of running
-  "consumer chains" for any purpose (within the guidelines set forth by
-  AtomOne) secured and hosted by the same validator set as the AtomOne hub root
-  and core shards.
-* Zone: an independent or ICS hosted chain (or a dapp hosted on a smart
-  contract chain or an instance on a parent chain) with a well-defined
-  governing body or bodies that dictate the governance and economic rules
-  internal to that zone. A zone is sovereign or partially sovereign.
+* Согласованность: полное согласие с учредительными документами в словах и действиях в отношении AtomOne.
+* AtomOne: самоуверенный форк Cosmos Hub Gaia с chain-id «cosmoshub4».
+  Это минимальный центр привязки токенов IBC и хостинг-центр ICS.
+* Конституционное большинство: порог консенсуса установлен на более высокой планке,
+  чем стандартное большинство в две трети, первоначально установленное на уровне 90%.
+* IBC: сокращение от Inter-Blockchain Communication. Это протокол, который обеспечивает
+  связь между различными сетями блокчейнов с использованием византийских отказоустойчивых (BFT)
+  легких клиентских доказательств. Это позволяет передавать активы и информацию через независимые
+  блокчейны, способствуя функциональной совместимости и гибкости экосистемы блокчейнов.
+  IBC является краеугольным камнем архитектуры сети Cosmos, реализующим концепцию «Интернета блокчейнов».
+* ICS: сокращение от Inter-blockChain Security, представляет собой механизм
+  для запуска нескольких цепочек сегментов под одним и тем же набором валидаторов.
+  ICS1.5 — это обновление ICS1, которое повышает эффективность связи между сегментами.
+  ICS1 и ICS1.5 помогают масштабировать основные функциональные возможности AtomOne,
+  а также предлагают любому услугу запуска «потребительских цепочек» для любых целей
+  (в соответствии с рекомендациями, установленными AtomOne), защищенных
+  и размещаемых тем же набором валидаторов, что и корневой хаб AtomOne. и осколки ядра.
+* Зона: независимая цепочка или цепочка, размещенная в ICS (или децентрализованное приложение,
+  размещенное в цепочке смарт-контрактов, или экземпляр в родительской цепочке)
+  с четко определенным руководящим органом или органами, которые диктуют управление
+  и экономические правила, внутренние для этой зоны. Зона является суверенной или частично суверенной.
 * Fork: a pure copy or an opinionated copy of a distribution with either
   substantially the same or different blockchain software.
 * Spoon: like a fork but more inclusive of more distributions, and more as a
