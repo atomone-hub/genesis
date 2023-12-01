@@ -28,7 +28,7 @@ Its purpose is multi-fold:
 | [<ins>#22: Link with Tendermint Atom One</ins>](https://github.com/atomone-hub/genesis/issues/22)                    | moul                 | Questions about the connection between the AtomOne repository and Tendermint Atom One. Suggestions for a constitution and clarity on PHOTON design. |
 | [<ins>#23: Issues/PRs Moderation</ins>](https://github.com/atomone-hub/genesis/issues/23)                            | moul                 | Challenge of selecting a responsible party for moderation. Proposal of an operations committee for moderation decisions.                            |
 | [<ins>#24: Setup Weekly Report</ins>](https://github.com/atomone-hub/genesis/issues/24)                              | moul                 | Idea of initiating a weekly report. Use tools like ChatGPT to compile the list, with human intervention for fine-tuning.                      |
-| [<ins>#25: Should AiB Hire Dedicated Resources for Atomone?</ins>](https://github.com/atomone-hub/genesis/issues/25) | moul                 | Proposal to create a job for overseeing Atomone at AiB. Its role is to facilitate progress and act as a bridge between the community and AiB.                  |
+| [<ins>#25: Should AiB Hire Dedicated Resources for Atomone?</ins>](https://github.com/atomone-hub/genesis/issues/25) | moul                 | Proposal to create a job for overseeing AtomOne at AiB. Its role is to facilitate progress and act as a bridge between the community and AiB.                  |
 | [<ins>#26: Decentralists and Governance Structure</ins>](https://github.com/atomone-hub/genesis/issues/26)           | moul                 | Discussion on the role of Decentralists in AtomOne. Emphasis on defining their influence and control within the project's governance.               |
 | [<ins>#27: Establishing and Monitoring Conditions for ICS</ins>](https://github.com/atomone-hub/genesis/issues/27)   | moul                 | Hardcoded conditions for becoming an ICS consumer. Discussion on governance approval, dApp virtualization, and financial commitments.               |
 | [<ins>#29: Use GitHub Projects as a "Layer" System</ins>](https://github.com/atomone-hub/genesis/issues/29)          | moul                 | Proposal for using GitHub Projects for issue categorization. Suggesting Kanban-style labels and category tags.                                      |
@@ -217,7 +217,7 @@ relationship between AtomOne Hub's GitHub repository and the Tendermint reposito
 - Discussion on the relationship between AtomOne Hub's and Tendermint's repositories.
 - Need for a constitution and clarity on PHOTON design.
 
-### Should Atomone be an ICS Consumer for any Blockchain?
+### Should AtomOne be an ICS Consumer for any Blockchain?
 
 [<ins>Issue #26</ins>](https://github.com/atomone-hub/genesis/issues/26) explores AtomOne's 
 potential role as an ICS consumer.
@@ -269,7 +269,7 @@ brand identity and Twitter handle (@_atomone).
 ### ATOM-ONE Secure Communications for Users
 
 [<ins>Issue #21</ins>](https://github.com/atomone-hub/genesis/issues/21) highlights the need for secure 
-communication alternatives for ATOM-ONE users.
+communication alternatives for AtomOne users.
 
 #### Key points:
 
@@ -309,7 +309,7 @@ AtomOne NFT.
 
 #### Key points:
 
-- NFT as recognition for early Atom-One project supporters.
+- NFT as recognition for early AtomOne project supporters.
 - Potential future benefits and use cases for the NFT.
 
 ---
@@ -375,7 +375,7 @@ issues and PRs in AtomOne's GitHub repository.
 ### Setup Weekly Report
 
 [<ins>Issue #24</ins>](https://github.com/atomone-hub/genesis/issues/24) proposes creating a weekly report 
-for the Atom-One project.
+for the AtomOne project.
 
 #### Key points:
 
