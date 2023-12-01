@@ -210,402 +210,359 @@ AtomOne и его стейкеров $ATOM1 полностью подверга�
   размещенное в цепочке смарт-контрактов, или экземпляр в родительской цепочке)
   с четко определенным руководящим органом или органами, которые диктуют управление
   и экономические правила, внутренние для этой зоны. Зона является суверенной или частично суверенной.
-* Fork: a pure copy or an opinionated copy of a distribution with either
-  substantially the same or different blockchain software.
-* Spoon: like a fork but more inclusive of more distributions, and more as a
-  means to invite members to entirely new projects rather than to mutate from
-  the starting point of the original host.
-* Split: a fork including the original (if it survives) that preserves the
-  overall invariant that any specific token or member that goes to one fork
-  does not appear in any other.
+* Форк: чистая копия или самоуверенная копия дистрибутива с практически одинаковым
+  или другим программным обеспечением блокчейна.
+* Spoon: похож на форк, но в большей степени включает в себя больше дистрибутивов
+  и больше как средство для приглашения участников в совершенно новые проекты,
+  а не для мутации из начальной точки исходного хоста.
+* Разделение: ветвление, включающее оригинал (если оно выживет), которое сохраняет общий инвариант,
+  заключающийся в том, что любой конкретный токен или член, попадающий в одно ветвление, не появляется ни в одном другом.
 
 ----------------------------------------
-# Objectives
+# Цели
 
-All users and members must agree with these objectives, and at all times when
-contributing take all appropriate actions to meet these objectives both in the
-AtomOne software as well as open hardware. Otherwise they are at risk of
-judgement by AtomOne or any other community or governing set.
+Все пользователи и участники должны согласиться с этими целями и всегда при внесении вклада 
+предпринимать все соответствующие действия для достижения этих целей как в программном 
+обеспечении AtomOne, так и в открытом оборудовании. В противном случае они рискуют 
+подвергнуться осуждению со стороны AtomOne или любого другого сообщества или руководящего органа.
 
-These objectives can only be changed through Constitutional Majority.
+Эти цели могут быть изменены только посредством конституционного большинства.
 
-## 1. Define $ATOM1
+## 1. Определение $ATOM1
 
-The $ATOM1 is defined to be a staking token of a minimal ICS1.5 IBC AtomOne Hub
-that keeps 2/3 of $ATOM1s staked at all times.
+$ATOM1 определяется как стейкинг-токен минимального ICS1.5 IBC AtomOne Hub, 
+который постоянно поддерживает 2/3 $ATOM1.
 
-All forks that lose consensus continuity must change their token ticker symbol
-to be distinct from $ATOM1 ($ATOM2 is ok). If there are competing chains with
-comparably similar continuity, then the fork that has a higher market cap (as
-measured after both tokens have discovered fair market value with sufficient
-liquidity for at least one week) should retain the name while other forks
-change their token ticker symbol.
+Все форки, которые теряют непрерывность консенсуса, должны изменить свой тикер токена, 
+чтобы он отличался от $ATOM1 ($ATOM2 — это нормально). Если существуют конкурирующие цепочки 
+со сравнительно одинаковой непрерывностью, то форк с более высокой рыночной капитализацией 
+(измеряемой после того, как оба токена обнаружат справедливую рыночную стоимость с достаточной 
+ликвидностью в течение как минимум одной недели) должен сохранить название, 
+в то время как другие форки изменят свой тикер токена. символ.
 
-Any changes to the distribution besides slashing for pre-established slashing
-conditions such as any additional premines (besides those in the original first
-genesis) disqualify the fork from retaining the same token ticker symbol; those
-are new airdrops of a different token. No additional premines besides those
-already defined in this planning document are allowed for any forks whose token
-shall be called $ATOM1.
+Любые изменения в распределении, помимо сокращения для заранее установленных условий сокращения, 
+таких как любые дополнительные премайны (помимо тех, которые были в исходном первом генезисе), 
+лишают форк права сохранять тот же символ тикера токена; это новые раздачи другого токена. 
+Никакие дополнительные премайны, кроме тех, которые уже определены в этом документе планирования, 
+не допускаются для любых форков, токен которых будет называться $ATOM1.
 
-## 2. IBC/ICS Hub and Minimalism
+## 2. IBC/ICS хаб и минимализм
 
-We are not concerned about any business plan or tokenomics strategy for the
-AtomOne hub besides offering the scaling of transaction throughput through
-ICS1.5. We anticipate that our approach will successfully and sufficienty
-capture the niche market need for utmost security in IBC token transactions and
-ICS1.5 shard hosting, and serve as the basis for all the functionality that all
-people will need and want; and if it cannot be done through the spirit of these
-Founding Documents and the living AtomOne Constitution then it shall be done in
-the next generation that splits or forks from this AtomOne hub.
+Нас не беспокоит какой-либо бизнес-план или стратегия токеномики для концентратора AtomOne, 
+кроме предложения масштабирования пропускной способности транзакций через ICS1.5. Мы ожидаем, 
+что наш подход успешно и в достаточной степени удовлетворит потребность нишевого рынка 
+в максимальной безопасности транзакций токенов IBC и хостинга шардов ICS1.5, а также 
+послужит основой для всех функций, которые понадобятся всем людям; и если это невозможно 
+сделать в духе этих Основополагающих документов и действующей Конституции AtomOne, 
+то это должно быть сделано в следующем поколении, которое отделится от этого узла AtomOne.
 
-The term "minimal" refers not to the totality of functionality offered by all
-the consumer chains hosted by ICS1.5, but rather the design of the root hub,
-and core shards of the AtomOne hub, the tokenomics of hub, its business plan,
-and its responsibilities; sometimes confusingly referred to as simply "the
-hub". A "minimal hub" should be understood in this context; smart contract
-systems and VMs must not be on the hub's root chain (for security and
-efficiency) and ideally not even in core shards (for security), but rather on
-consumer shard chains on ICS1.5. 
+Термин «минимальный» относится не ко всей функциональности, предлагаемой всеми потребительскими 
+цепочками, размещенными на ICS1.5, а скорее к дизайну корневого хаба и основным сегментам 
+хаба AtomOne, токеномике хаба, его бизнес-плану, и его обязанности; иногда его ошибочно называют 
+просто «хабом». В этом контексте следует понимать «минимальный узел»; системы смарт-контрактов 
+и виртуальные машины не должны находиться в корневой цепочке хаба (для безопасности и эффективности) 
+и, в идеале, даже не в основных сегментах (для безопасности), а скорее в цепочках потребительских сегментов на ICS1.5.
 
-This is the best way to scale to billions of users while providing
-specialization and isolation. For example, your home internet WIFI network is
-provided by a minimal router hardware, while your backup harddrives and your
-many devices are separate machines that only connect to the router. If the
-router had to also host application logic, the network performance of all the
-devices would suffer and the router would be more likely to crash.
+Это лучший способ масштабирования до миллиардов пользователей, обеспечивая при этом специализацию
+и изоляцию. Например, ваша домашняя сеть WIFI в Интернете обеспечивается минимальным аппаратным 
+обеспечением маршрутизатора, в то время как ваши резервные жесткие диски и множество устройств
+представляют собой отдельные машины, которые подключаются только к маршрутизатору. 
+Если бы маршрутизатор должен был также размещать логику приложения, производительность 
+сети всех устройств пострадала бы, и маршрутизатор с большей вероятностью выйдет из строя.
 
-All shards (chains) are secured by the same validator set as the main hub
-chain. The shards that are owned and governed by AtomOne itself are called
-"core shards" and they are shards necessary for AtomOne as defined in these
-founding documents and living constitution; while those hosted on behalf of
-others are called "consumer shards".
+Все шарды (цепочки) защищены тем же набором валидаторов, что и основная цепочка хаба. Шарды, 
+которые принадлежат и управляются самой AtomOne, называются «основными осколками» и являются шардами, 
+необходимыми для AtomOne, как это определено в этих основополагающих документах и действующей конституции; 
+в то время как те, которые размещаются от имени других, называются «потребительскими шардами».
 
-We must at all times distinguish between what is core vs consumer, not only in
-our code, documentation, and specifications, but also to the end user through
-all commensurate reasonable means at our disposal.
+Мы должны всегда различать то, что является ядром и потребителем, не только в нашем коде,
+документации и спецификациях, но и для конечного пользователя, используя 
+все соразмерные разумные средства, имеющиеся в нашем распоряжении.
 
-Arbitrary smart contract functionality must not be allowed on the main hub
-shard, which must instead be reserved primarily for basic transfer and IBC
-transactions, ICS1.5 shard coordination, and governance voting as safety and
-liveness critical functionality.
+Произвольные функции смарт-контракта не должны быть разрешены в основном сегменте концентратора,
+который вместо этого должен быть зарезервирован в первую очередь для базовых операций 
+передачи и IBC-транзакций, координации сегментов ICS1.5 и голосования 
+по управлению как критически важных функций безопасности и работоспособности.
 
-The hub's root shard, IBC, and ICS1.5 implementations must stay minimal and
-only perform what is specified in these Founding Documents, or must be amended
-to the living AtomOne Constitution. The business plan of the hub must likewise
-be strictly limited to what is defined in these documents. All other
-functionality can be hosted on top of the ICS1.5 hosting layer on consumer
-chains and must not be confused for AtomOne functionality, and it should be
-clear which governing body is the responsible party for each consumer shard.
+Реализации корневого сегмента хаба, IBC и ICS1.5 должны оставаться минимальными и выполнять
+только то, что указано в этих основополагающих документах, или должны быть внесены поправки
+в действующую Конституцию AtomOne. Бизнес-план хаба также должен быть строго ограничен тем, 
+что определено в этих документах. Все остальные функции могут размещаться поверх уровня 
+хостинга ICS1.5 в цепочках потребителей, и их не следует путать с функциональностью AtomOne, 
+и должно быть ясно, какой руководящий орган несет ответственность за каждый сегмент потребителя.
 
-AtomOne must not subsidize any ICS1.5 core shards that are not necessary to
-fulfill the specification of these documents. No core shard shall host
-arbitrary smart contracts from the general public--AtomOne will not itself
-become the maintainer for smart contract systems and virtual machines. Instead
-these must run as consumer chains with their own governing body. However they
-are funded, they must.
+AtomOne не имеет права субсидировать какие-либо основные сегменты ICS1.5, которые 
+не необходимы для выполнения спецификаций этих документов. Ни один основной 
+сегмент не должен содержать произвольные смарт-контракты от широкой публики — AtomOne
+сама не станет сопровождающим систем смарт-контрактов и виртуальных машин. Вместо этого 
+они должны работать как потребительские сети со своим собственным руководящим органом. 
+Как бы они ни финансировались, они должны.
 
-Any fixed functionality that could run on alternative VMs should be translated
-into the dominant language of the official approved software, which for us is a
-recent version of Go(lang) 1.xx. We should remind ourselves that every virtual
-machine has (had) numerous zero day exploits. The added security vulnerability
-surface area of the new VM combined with the compiler to compile one language
-for the VM, as well as the added complexity of needing to audit another
-language, can and must all be avoided.
+Любая фиксированная функциональность, которая может работать на альтернативных виртуальных 
+машинах, должна быть переведена на доминирующий язык официально утвержденного программного 
+обеспечения, которым для нас является последняя версия Go(lang) 1.xx. Мы должны напомнить себе, 
+что каждая виртуальная машина имеет множество эксплойтов нулевого дня. Можно и нужно избегать 
+дополнительной уязвимости безопасности новой виртуальной машины в сочетании с компилятором 
+для компиляции одного языка для виртуальной машины, а также дополнительной сложности, 
+связанной с необходимостью аудита другого языка.
 
-Mixing implementations across validators is also to be avoided so as to prevent
-a failure arising from a low Nakamoto coefficient among the types of
-implementations. Instead AtomOne will always support one standard
-implementation.
+Также следует избегать смешивания реализаций между валидаторами, чтобы предотвратить сбой, 
+возникающий из-за низкого коэффициента Накамото среди типов реализаций.
+Вместо этого AtomOne всегда будет поддерживать одну стандартную реализацию.
 
-The hub will not be used for experimentation. Experimentation should occur in
-other zones. Let's demonstrate that a minimalist hub is not the same as a
-minimalist ecosystem and how we can create a pioneering ecosystem. Any new
-feature proposals for the hub should be considered only after a successful and
-adequately long testing period in other zones.
+Хаб не будет использоваться для экспериментов. Эксперименты должны проводиться и в других зонах.
+Давайте продемонстрируем, что минималистский хаб — это не то же самое, что минималистская экосистема, 
+и продемонстрируем, как мы можем создать новаторскую экосистему. Любые предложения 
+по новым функциям хаба следует рассматривать только после успешного 
+и достаточно длительного периода тестирования в других зонах.
 
-When it comes to the innovative spirit and creative potential beyond those
-specified in these founding documents and the living constitution, we recommend
-that they be implemented as ICS1.5 hosted zones, and only in those cases where
-AtomOne can provably not solve the problem at hand through ICS1.5 hosting
-should a fork of AtomOne or a new chain be proposed with an entirely different
-constitution. The spririt of the AtomOne Constitution and the general mission
-and purpose of the AtomOne hub as a utility must not change. 
+Когда дело доходит до инновационного духа и творческого потенциала, выходящих за рамки тех, 
+которые указаны в этих основополагающих документах и действующей конституции, мы рекомендуем
+реализовать их в виде хост-зон ICS1.5 и только в тех случаях, когда AtomOne не может решить 
+существующую проблему. через хостинг ICS1.5 может быть предложен форк AtomOne или новая 
+цепочка с совершенно другой конституцией. Дух Конституции AtomOne, а также общая
+миссия и цель центра AtomOne как коммунального предприятия не должны измениться.
 
-## 3. Validator Incentives
+## 3. Стимулы для валидаторов
 
-Fix Validator incentives so that every validator is PAID to run ICS consumer
-chains and hub shards. Actually, develop a minimal economic model that accurately
-describes physical reality in an intuitive and adaptable way for all scenarios.
-Let's implement a system where every ICS chain pays supermajority to validators!
+Исправьте стимулы для валидаторов, чтобы каждому валидатору платили за управление потребительскими 
+цепочками и сегментами хаба ICS. Фактически разработайте минимальную экономическую модель, 
+которая точно описывает физическую реальность, интуитивно понятным и адаптируемым образом для всех сценариев.
 
-## 4. Governance
+## 4. Управление
 
-Import elements from
+Импортировать элементы из
 [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
 
-### The Supermajority of Two Thirds
+### Супербольшинство в две трети
 
-All governance proposals must pass the required ratio threshold of 2/3 in
-addition to the auto-adjusting deposit threshold and the auto-adjusting quorum
-threshold for the purpose of spam prevention and better utilizing our precious
-attention. The two thirds ratio is derived from the natural limitations of
-partially synchronous consensus, and must at least two thirds in order to
-prevent failure from a dissenting minority of 1/3 by stake. Most proposals that
-pass pass with a two thirds supermajority anyways, and this allows us to
-simplify the governance mechanism such as by removing the distinction between
-NO and NO_WITH_VETO.
+Все предложения по управлению должны соответствовать требуемому порогу соотношения 2/3 
+в дополнение к порогу автоматической корректировки депозита и порогу автоматически корректируемого
+кворума в целях предотвращения спама и более эффективного использования нашего драгоценного внимания. 
+Соотношение двух третей вытекает из естественных ограничений частично синхронного консенсуса 
+и должно составлять не менее двух третей, чтобы предотвратить неудачу со стороны несогласного меньшинства,
+составляющего 1/3 доли. Большинство предложений, которые принимаются, в любом случае проходят
+квалифицированным большинством в две трети, и это позволяет нам упростить механизм управления, например, убрав различие между NO и NO_WITH_VETO.
 
-The Supermajority is defined to be exactly "more than two thirds" (+2/3, or at
-least one iota more than two thirds) and cannot change even by a Constitutional
-Majority.
+Сверхбольшинство определяется как «более двух третей» (+2/3 или по крайней мере на одну йоту 
+больше двух третей) и не может быть изменено даже конституционным большинством.
 
-### The Constitutional Majority
+### Конституционное большинство
 
-The Constitutional Majority is initially set at 90% which is higher than the
-default required Supermajority. The Constitutional Majority cannot be lowered
-lower than 90% even with a Constitutional Majority, but it may be set to any
-value between 90% and 100%. This elevated threshold aims to ensure broader
-agreement and inclusivity in critical decision-making processes. It reflects a
-commitment to achieving near-unanimous consensus on essential governance
-decisions, enhancing the legitimacy and stability of the outcomes.
+Конституционное большинство изначально установлено на уровне 90%, что выше, чем требуемое
+по умолчанию сверхквалифицированное большинство. Конституционное большинство не может быть 
+опущено ниже 90% даже при наличии конституционного большинства, но оно может быть установлено
+на любое значение от 90% до 100%. Этот повышенный порог призван обеспечить более широкое согласие 
+и инклюзивность в процессах принятия важных решений. Это отражает приверженность достижению 
+почти единогласного консенсуса по важным управленческим решениям, повышая легитимность и стабильность результатов.
 
-## 5. Fix "Liquid Staking"
+## 5. Исправлен "ликвид стейкинг"
 
-What we have isn't liquid staking in its pure form where every validator gets
-its own liquid staking derivative; rather what we have are a collectivized form
-of liquid staking; and when they have their own governance mechanism separate
-from the host hub and they can choose which validators to delegate to, they
-should be perceived as "partyhubs" with their own mind and agenda.
+У нас нет ликвидного стейкинга в чистом виде, когда каждый валидатор получает свой собственный 
+производный ликвидный стейкинг; скорее, мы имеем коллективизированную форму ликвидных ставок; 
+и когда у них есть собственный механизм управления, отдельный от хост-хаба, 
+и они могут выбирать, каким валидаторам делегировать полномочия, их следует 
+воспринимать как «партийные хабы» со своим собственным мышлением и повесткой дня.
 
-People seek out these liquid tokens because they want to avoid the inflation
-penalty and use these tokens for purposes other than validator staking (because
-the inflation rate is too high). These users are generally not interested in
-the staking token for the purpose of staking, but are more interested in new
-uses of the token especially Defi use-cases. These users are not necessarily
-Decentralists or aligned with AtomOne in spirit--they are anyone and everyone.
-Therefore these staking services must be regulated such as by removing or
-capping their potentially dominating voting power (in the absence of
-limitations such as on the portion of rewards that can go to these liquid token
-holders). These voteless liquid staking tokens should generally be made
-available first; and when there is a need for political differentiation new
-distinct partyhubs should be allowed to compete against the voteless one. There
-will generally be demand for the original voteless liquid token because it is
-managed directly by the stakers of the hub.
+Люди ищут эти ликвидные токены, потому что хотят избежать штрафов за инфляцию и используют 
+эти токены для целей, отличных от ставок валидатора (поскольку уровень инфляции слишком высок).
+Эти пользователи, как правило, не заинтересованы в токене для ставок, но больше заинтересованы 
+в новых способах использования токена, особенно в сценариях использования Defi. Эти пользователи 
+не обязательно являются децентралистами или сторонниками AtomOne по духу — это все и вся. 
+Поэтому эти услуги по стейкингу должны регулироваться, например, путем удаления или ограничения 
+их потенциально доминирующего права голоса (при отсутствии ограничений, таких как часть вознаграждений, 
+которые могут достаться этим ликвидным держателям токенов). Эти ликвидные токены без права голоса, 
+как правило, должны быть доступны в первую очередь; а когда возникает необходимость в политической 
+дифференциации, следует разрешить новым отдельным партийным центрам конкурировать с центрами, 
+не имеющими права голоса. Как правило, будет спрос на оригинальный ликвидный токен без права 
+голоса, поскольку им управляют непосредственно участники хаба.
 
-Later we show the $phATOM token which is deflationary AND liquid, yet fully
-backed by $ATOM1s.
+Позже мы покажем токен $phATOM, который является дефляционным И ликвидным, но полностью обеспеченным $ATOM1.
 
-## 6. Declaration of Independence & Constitution
+## 6. Декларация независимости и Конституция
 
-Adopt a Declaration of Independence and Constitution with cryptographic
-signatures.
+Примите Декларацию независимости и Конституцию с помощью криптографических подписей.
 
-See [draft declaration](./TODO) and [draft constitution](./CONSTITUTION.md).
+Смотри [draft declaration](./TODO) и [draft constitution](./CONSTITUTION.md).
 
 ## 7. IBC1.5
 
-Solve IBC1.5, or ICS1.5, where the validator sets are implicit, for fast
-inter-hub communication with implied IBC, WITHOUT sacrificing independent BFT
-consensus layers.
+Решите IBC1.5 или ICS1.5, где наборы валидаторов являются неявными, для быстрой связи между хабами 
+с подразумеваемым IBC, БЕЗ жертвования независимыми уровнями консенсуса BFT.
 
-XXX add more
+ХХХ, добавь еще
 
-## 8. Transparent Security System
+## 8. Прозрачная система безопасности
 
-Create a permissioned and fully accountable, and 100% predetermined-finite-
-time-delayed transparent security reporting system. Ensure that ABSOLUTELY
-ALL information within the system eventually becomes public knowledge to help
-deal with zero day vulnerabilities and current attacks & fund it.
+Создайте разрешенную, полностью подотчетную и 100% прозрачную систему отчетов о безопасности 
+с заранее заданной конечной задержкой. Убедитесь, что АБСОЛЮТНО ВСЯ информация в системе 
+в конечном итоге станет общедоступной, чтобы помочь справиться с уязвимостями нулевого дня и текущими атаками и финансировать ее.
 
-## 9. Fund SubDAOs
+## 9. Фонд SubDAO
 
-In addition to the staking token distribution (and any choice of modifications
-if any to them) we should also consider the vote of individuals (in its purest
-form, one per person) in the form of self-organized self-aligned groups drawn
-together by some common interest (too often by greed and sometimes by
-principle), because no project will succeed without its community, and by
-nature the community has its own spirit and power distribution independent of
-the chain by nature.
+В дополнение к распределению токенов (и любому выбору их модификаций, если таковые имеются) 
+мы также должны учитывать голосование отдельных лиц (в чистом виде, по одному на человека) 
+в форме самоорганизующихся самоорганизованных групп, собранных вместе некоторый общий интерес 
+(слишком часто из-за жадности, а иногда и из-за принципа), потому что ни один проект 
+не будет успешным без своего сообщества, а по своей природе сообщество имеет свой 
+собственный дух и распределение власти, независимое от цепи по своей природе.
 
-This dimension manifests in all social interactions with or without explicit
-form, and must be a core concern that is somehow supported by the hub for
-otherwise external influencers will easily sabotage the project through social
-engineering methods. For more on this, see the related document on the
-Decentralists, an experiment that will be subsidized by AtomOne to create
-tooling that allows anyone to discuss and guage the interest of ideas before
-they are put up for proposal measured by both liquid-democracy inspired
-democratic weighting (for any group selection) as well as stake-based
-weighting.
+Это измерение проявляется во всех социальных взаимодействиях, в явной форме или без нее,
+и должно быть основной проблемой, которая каким-то образом поддерживается центром, 
+иначе внешние влиятельные лица легко саботируют проект с помощью методов социальной инженерии. 
+Подробнее об этом см. в соответствующем документе о децентралистах — эксперименте, 
+который будет субсидироваться AtomOne, с целью создания инструментов, позволяющих любому 
+обсуждать и оценивать интерес к идеям, прежде чем они будут выставлены на предложение, 
+измеряемое как демократическими, вдохновленными жидкой демократией, так и демократическими 
+идеями. взвешивание (для любого выбора группы), а также взвешивание на основе ставок.
 
-Create and support competing marketing, growth, infra, dapp subDAOs, and
-especially help them foster the best in class in Cosmos; from the user level
-down to the VM, every component should have a good selection of competition.
+Создавайте и поддерживайте конкурирующие SubDAO для маркетинга, роста, инфраструктуры 
+и децентрализованных приложений и особенно помогайте им развивать лучших в своем классе в Cosmos;
+от уровня пользователя до виртуальной машины, каждый компонент должен иметь хороший выбор конкурентов.
 
-See https://gitub.com/gnolang/gno
-TODO add more smart contract projects.
+Смотри https://gitub.com/gnolang/gno
 
-## 10. Engineering Task Force
+## 10. Инженерно-оперативная группа
 
-Create a team tasked with minimizing and simplifying code and reducing
-unnecessary dependencies, taking the best examples from various forks taken
-into consideration, so that all the best ideas from all forks can integrate
-into one where-ever possible. FINISH software.
+Создайте команду, которой будет поручено минимизировать и упростить код и сократить ненужные зависимости,
+принимая во внимание лучшие примеры из различных вилок, чтобы все лучшие 
+идеи из всех вилок можно было интегрировать в одно, где это возможно.
 
-See https://github.com/gnolang/gno/tree/master/tm2 for Tendermint2
+Смотри https://github.com/gnolang/gno/tree/master/tm2 для Tendermint2
 
-## 11. Enable Meiosis
+## 11. Включить мейоз
 
-Ossify the partyhub after it has become its own competing IBC/ICS hub. Allow
-others to likewise fork from you by enabling ICA partyhubs when there is
-disagreement. Multiply by meiosis and conquer the world.
+Закостените partyhub после того, как он станет собственным конкурирующим центром IBC/ICS. Позвольте другим 
+пользователям аналогичным образом воспользоваться вашим ответвлением, включив 
+ICA partyhubs в случае возникновения разногласий. Размножайтесь мейозом и покоряйте мир.
 
-AtomOne will lead the way in demonstrating a more secure system for splitting
-off new generations of partyhubs as a necessary course of action of last resort
-in the face of gridlock and friction. ICA-based (interchain-account) partyhubs
-with independent validator sets introduce additional security risks associated
-with the behavior of the other validator set securing said partyhub--unlike
-shards secured under ICS1.x by the original hub itself.
+AtomOne станет лидером в демонстрации более безопасной системы разделения новых поколений
+partyhub в качестве необходимой меры в крайнем случае перед лицом тупиковой ситуации и разногласий. 
+Partyhub на базе ICA (межсетевые учетные записи) с независимыми наборами валидаторов создают дополнительные 
+риски безопасности, связанные с поведением другого набора валидаторов, защищающего указанный partyhub, 
+в отличие от шардов, защищенных в рамках ICS1.x самим исходным концентратором.
 
-In an ideal scenario, once AtomOne is complete in functionality and has proven
-itself, it and its supporters will guide Gaia to adopt the same secure
-splitting system so that Gaia AND AtomOne can both have a richly diverse
-partyhub set representing many diverse parties each with their own
-philosophies, expertise, concerns, and jurisdictions.
+В идеальном сценарии, как только AtomOne будет полностью функциональным и зарекомендует себя, 
+он и его сторонники помогут Gaia внедрить одну и ту же безопасную систему разделения, чтобы 
+Gaia И AtomOne могли иметь богато разнообразный набор partyhub, представляющий множество
+разных сторон, каждая со своими собственную философию, опыт, проблемы и юрисдикции.
 
-See https://github.com/gnolang/gno/pull/1224 for prototype WIP of splitting.
+См. [gnolang/gno#1224](https://github.com/gnolang/gno/pull/1224) для прототипа WIP разделения.
+
 
 ----------------------------------------
-# Plan
+# План
 
-The AtomOne hub exists as a separate minimalist fork of Gaia. Both are separate
-and distinct from gno.land, though gno.land and the GnoVM (as well as other
-VMs) will play significant roles in completing the hub and maintaining its
-upkeep.
+Хаб AtomOne существует как отдельный минималистичный форк Gaia. Оба они являются отдельными
+и отличными от gno.land, хотя gno.land и GnoVM (а также другие виртуальные машины) 
+будут играть важную роль в завершении работы хаба и поддержании его обслуживания.
 
-The main goal is to fix what must be fixed in governance and the need for an
-explicit constitution, before launching the full IBC and ICS functionality of
-the chain.
+Основная цель — исправить то, что необходимо исправить в управлении, и необходимость четкой конституции, прежде чем запускать полную функциональность цепочки IBC и ICS.
 
-First we describe the tokenomics of the AtomOne hub, followed by the main
-milestones, with an emphasis on completion and even potential phase-out.
+Сначала мы описываем токеномику хаба AtomOne, а затем основные вехи, уделяя особое внимание завершению и даже потенциальному поэтапному отказу.
 
-## Genesis Distribution
 
-It should be some distribution of the Cosmos Hub $ATOM1 token with those who
-voted against the spirit of this project slashed because they never joined to
-use the system int he first place (e.g. they were more interested in price
-appreciation of original $ATOM).
+## Распространение Генезиса
 
-Additionally, the Interchain Foundation playing a key role in the evolution of
-the hub, should also be removed.
+Это должно быть некоторое распределение токена Cosmos Hub $ATOM1, причем те, кто голосовал против 
+духа этого проекта, были сокращены, потому что они никогда не присоединялись, чтобы использовать 
+систему в первую очередь (например, они были больше заинтересованы в повышении цены оригинального $ATOM).
 
-Finally, 10% of the $ATOM1s are premined for various purposes.
+Кроме того, следует удалить Interchain Foundation, играющую ключевую роль в развитии хаба.
 
-The $ATOM1s in genesis are locked and cannot be transferred due to the value of
-the parameter ENABLE_SENDTX except for chosen addresses (e.g. for faucets).
+Наконец, 10% $ATOM1 предварительно добыты для различных целей.
 
-The Genesis Distribution is largely an opinionated fork of the cosmoshub4 $ATOM
-(judged by Alignment based on voting activity, to slash those who don't align,
-or those who aren't interested in using our chain).
+$ATOM1 в Genesis заблокированы и не могут быть переданы из-за значения параметра ENABLE_SENDTX, за исключением выбранных адресов (например, для сборщиков).
 
-The Interchain Foundation will be excluded from this distribution, so as to
-create a separation of concerns, and instead 10% of the final total amount will
-be allocated toward contributors and onchain DAOs.
+Распределение Genesis во многом является самоуверенным ответвлением космошуба4 $ATOM (судя по согласованию на основе активности голосования, чтобы сократить тех, кто не присоединился, или тех, кто не заинтересован в использовании нашей цепочки).
 
-Of the 10% premine, 
- - 1% to general pre-launch contributors and early adopters.
- - 1% reserved for IBC contributions (and all that it entails) and early
-   adopters.
- - 1% reserved for ICS1.5 contributors (and all that it entails thereafter)
-   and early adopters.
- - 7% reserved for gov distribution to subDAOs for remainder of plan and
-   constitution (but nothing more).
+Фонд Interchain Foundation будет исключен из этого распределения, чтобы обеспечить разделение задач, и вместо этого 10% от окончательной общей суммы будет выделено участникам и ончейн-DAO.
 
-In addition to these premines, the earned tax revenue (rewards) and inflation
-will be split as per the following:
- - 80% of the inflation+rewards going to the stakers who select validators.
- - 10% of the inflation+rewards going to active validators equally.
- -  5% of the inflation+rewards going to general commons pool with no standalone governance.
- -  2% of the inflation+rewards going to pool for open source blockchain explorer hosting.
- -  2% of the inflation+rewards going to pool for securing open source wallet systems (w/ airgap).
- -  1% of the inflation+rewards going to pool for public relations and growth.
+Из 10% премайна,
 
-XXX But the % of rewards going to $phATOM1 bonders is at least 90%. XXX refactor.
+* 1 % для обычных участников, участвующих в предварительном запуске, и первых пользователей.
+* 1% зарезервирован для вкладов IBC (и всего, что с этим связано) и первых пользователей.
+* 1% зарезервирован для участников ICS1.5 (и всего, что с этим связано) и первых пользователей.
+* 7% зарезервировано для правительственного распределения среди субДАО на оставшуюся часть плана и конституции (но не более того).
 
-A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
-percent of inflation+rewards going to stakers cannot be lower than this figure.
-Changing this value requires a constitutional majority.
+Помимо этих премайнов, заработанные налоговые поступления (вознаграждения) и инфляция будут разделены следующим образом:
 
-A parameter MIN_VALIDATORS_DISTRIBUTION_FRACTION will be set to 10%, where the percent
-of inflation+rewards going to stakers cannot be lower than this figure.
+* 80% инфляции+вознаграждения достаются стейкерам, которые выбирают валидаторов.
+* 10% инфляции+вознаграждения достаются активным валидаторам поровну.
+* 5% инфляции + вознаграждения идут в общий пул без отдельного управления.
+* 2% инфляции + вознаграждения собираются в пул для хостинга обозревателя блокчейнов с открытым исходным кодом.
+* 2% инфляции + вознаграждения собираются в пул для обеспечения безопасности систем кошельков с открытым исходным кодом (с воздушным зазором).
+* 1% инфляции + вознаграждения будут направлены на связи с общественностью и экономический рост.
 
-The funds held in all the pools above will not be counted toward the bonding ratio.
+XXX Но процент вознаграждений, получаемых бондерами $phATOM1, составляет не менее 90%. ХХХ рефакторинг.
 
-The last three following the pool/treasury will initially go to multisigs set in
-consensus params of the chain, until they get set as URIs pointing at
-blockchain based DAOs hosted on ICS1.5.
+Параметр MIN_STAKER_DISTRIBUTION_FRACTION будет установлен на 80 %, при этом процент 
+инфляции+вознаграждений, получаемых стейкерами, не может быть ниже этого значения. 
+Для изменения этого значения требуется конституционное большинство.
 
-## Tokenomics
+Параметр MIN_VALIDATORS_DISTRIBUTION_FRACTION будет установлен на 10%, при этом процент 
+инфляции + вознаграждения, получаемые стейкерами, не может быть ниже этого значения.
 
-We opt to replace the market-based "commission" system with a flat
-distribution to all validators, to incentivize the creation of peer validators
-(who should all plan to become datacenter providers).
+Средства, хранящиеся во всех вышеперечисленных пулах, не будут учитываться в коэффициенте облигаций.
 
-The maximum bounds on the auto-adjust inflation parameter will be set at 20%.
+Последние три, следующие за пулом/казначейством, первоначально будут относиться к мультиподписям, 
+установленным в согласованных параметрах цепочки, пока они не будут установлены как URI, 
+указывающие на DAO на основе блокчейна, размещенные на ICS1.5.
 
-The inflation will target 2/3 of $ATOM1 to be bonded. 
+## Токеномика
 
-### ICS Fee Distribution
-Every ICS zone should be paid for somehow. AtomOne owned ICS shards should be
-paid for from the treasury of AtomOne.  Other ICS "consumer chains" can be paid
-for by the the chain itself, and in emergencies anyone can step in and pay on
-the zone's behalf.
+Мы предпочитаем заменить рыночную систему «комиссий» фиксированным распределением для всех валидаторов,
+чтобы стимулировать создание одноранговых валидаторов 
+(все они должны планировать стать поставщиками центров обработки данных).
 
-In short, every ICS zone should be profitable to every validator.
+Максимальные границы параметра автоматической корректировки инфляции будут установлены на уровне 20%.
 
-The DISTRIBUTION_FRACTION parameter is the fraction (between 0 and 1) of ICS
-shard and consumer chain payments that are shared among the validators equally.
-This is initially set to 0.8, giving the majority to the validators, and only
-20% as royalty to be paid to $ATOM1 stakers, with the COMMUNITY_TAX taking its
-portion.
+Инфляция составит 2/3 $ATOM1, подлежащих облигациям.
 
-### Staking
+### Распределение комиссий ICS
 
-The main difference being introduced is that the total amount of stake going to
-one validator doesn't actually increase the validator's power, even though all
-of those staked $ATOM1s are at stake should this validator get slashed. This
-creates a potential exploit opportunity whereby some validators have relatively
-little at stake, and 1/3 by total of voting power of those initial validators end
-up causing a double spend attack. To prevent this, overstaking to a validator
-will be taxed incrementally with the proceeds going toward general rewards.
+Каждая зона ICS должна как-то оплачиваться. Шарды ICS, принадлежащие AtomOne, должны оплачиваться из казны AtomOne. 
+Другие «потребительские сети» ICS могут оплачиваться самой цепочкой, а в чрезвычайных 
+ситуациях любой может вмешаться и заплатить от имени зоны.
 
-XXX TODO improve this. Maybe instead there is simply a sqrt(vp) applied to all
-the voting powers after the original Gaia staking algorithm. You can over-stake
-to a validator but your voting power and returns will be much less, almost
-inverse to the amount of overstaking.
+Короче говоря, каждая зона ICS должна быть выгодна каждому валидатору.
 
-Suppose that 1/3 of the $ATOM1 stakers are slashed due to a complex double
-spend attack. Assuming that we want to allow the recompensation of victims upon
-double spend attacks (within the bounds specified clearly in the constitution)
-only from the recently slashed $ATOM1s, some nonzero portion of the slashed
-stake must be burned to prevent using the double spend attack as a fast way to
-unbond.
+Параметр DISTRIBUTION_FRACTION — это доля (от 0 до 1) платежей в сегментах и потребительских 
+цепочках ICS, которая поровну распределяется между валидаторами. Первоначально 
+он установлен на 0,8, что дает большую часть валидаторам и только 20% в качестве роялти, 
+выплачиваемого стейкерам $ATOM1, при этом COMMUNITY_TAX берет на себя свою часть.
 
-If no victims need to be made whole, then it could be appropriate to burn the
-slashed $ATOM1s of the perpetrators. The end result is that the remaining
-stakers own the network, and in a steady state this would result in the price
-of $ATOM1s increasing due to the reduced supply, assuming that the confidence in
-and usage of AtomOne hasn't changed; though in perfect theory it should take a
-bit of a hit, at least in proportion to the destruction of the reputation of
-those validators.
+### Стейкинг
 
-If victims are to be made whole with slashed $ATOM1s, this may require the
-selling of $ATOM1s into the market, or result in it, therefore the price of
-$ATOM1s will be pushed lower, and the composition of the $ATOM1 holders mutated
-according to market conditions.
+Основное вводимое отличие заключается в том, что общая сумма ставки, поступающей на один валидатор, 
+на самом деле не увеличивает мощность валидатора, даже несмотря на то, что все эти поставленные
+на ставку $ATOM1 окажутся под угрозой, если этот валидатор будет сокращен. Это создает потенциальную
+возможность использования, при которой у некоторых валидаторов на кону стоит относительно немного, 
+и 1/3 общего количества голосов этих первоначальных валидаторов в конечном итоге вызывает атаку 
+двойного расходования. Чтобы предотвратить это, перехват валидатору будет облагаться
+налогом постепенно, а доходы пойдут на общие вознаграждения.
 
-### $phATOM1 the More Deflationary Version of $ATOM1
+XXX TODO улучшить это. Возможно, вместо этого ко всем полномочиям голоса применяется sqrt(vp) 
+после исходного алгоритма ставок Gaia. Вы можете сделать избыточную ставку валидатору, 
+но ваша сила голоса и доходы будут намного меньше, почти обратно пропорциональны сумме избыточной ставки.
+
+Предположим, что 1/3 стейкеров $ATOM1 сокращены из-за сложной атаки двойного расходования. 
+Предполагая, что мы хотим разрешить компенсацию жертвам атак с двойной тратой 
+(в пределах, четко указанных в конституции) только из недавно урезанных $ATOM1, 
+некоторая ненулевая часть урезанной доли должна быть сожжена, чтобы предотвратить 
+использование атаки двойной траты в качестве быстрый способ развязать отношения.
+
+Если ни одна жертва не нуждается в восстановлении, тогда было бы уместно сжечь 
+разрезанные $ATOM1 преступников. Конечным результатом является то, что оставшиеся
+заинтересованные стороны владеют сетью, и в устойчивом состоянии это приведет 
+к увеличению цены $ATOM1 из-за сокращения предложения, если предположить, что доверие 
+к AtomOne и его использование не изменились; хотя в идеальной теории это должно немного 
+пострадать, по крайней мере, пропорционально разрушению репутации этих валидаторов.
+
+Если жертвы должны быть вылечены с помощью сокращенных $ATOM1, это может потребовать продажи $ATOM1 
+на рынке или привести к этому, поэтому цена $ATOM1 будет снижена, а состав держателей $ATOM1 изменится в соответствии с к рыночным условиям.
+
+### $phATOM1 — более дефляционная версия $ATOM1
 
 XXX can this be made fully deflationary?
 
