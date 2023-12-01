@@ -250,14 +250,18 @@ experimental hub as compared to the more immutable and conservative AtomOne.
   contract chain or an instance on a parent chain) with a well-defined
   governing body or bodies that dictate the governance and economic rules
   internal to that zone. A zone is sovereign or partially sovereign.
-* Fork: a pure copy or an opinionated copy of a distribution with either
-  substantially the same or different blockchain software.
-* Spoon: like a fork but more inclusive of more distributions, and more as a
-  means to invite members to entirely new projects rather than to mutate from
-  the starting point of the original host.
-* Split: a fork including the original (if it survives) that preserves the
-  overall invariant that any specific token or member that goes to one fork
-  does not appear in any other.
+* Fork: an exact copy of a distribution with either the same or different
+  blockchain software, usually with a different chain identifier than the
+  original.
+* Air-drop: like a fork but with modifications to the distribution such as by
+  including a new premine, or excluding addresses (such as those on sanctions
+  lists), or changing the number of tokens for an address in any way, or even
+  including modified or unmodified distributions of other chains.
+* Split: an air-drop of a chain that modifies the distribution based on staker
+  voting activity in both consensus and governance through their cryptographic
+  signatures as well as any other criteria based on a well defined and
+  prominent self-reinforcing constitution; or a fork of a chain with a modified
+  constitution or modified software that is intended to achieve the same.
 
 ----------------------------------------
 # Objectives
@@ -888,4 +892,6 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
  - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
  - [ ] Indemnify all actors given no malice outside of the chain. Allow the chain to enforce penalties from outside the chain.
+ - [ ] Specify that $ATOM1 held in pools and bonded for $phATOM1 do not count toward the bond ratio.
+ - [ ] Add rules for what non-hubs and hubs (separate rules) must abide by. Not all hubs can connect due to this.
  - [ ] XXX
