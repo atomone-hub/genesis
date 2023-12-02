@@ -707,11 +707,11 @@ over AtomOne governance.
 
 Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
 $phATOM. In order to incentivize the usage of $phATOM, the AtomOne hub offers a
-trade that makes $phATOM deflationary: non-atom rewards nor taxes are applied
-to auto-staked $ATOM1 bonded $phATOM holders, and with the right conversion
-equation (which adjusts for $ATOM1 inflation) we can construct a perfectly fixed
-$phATOM supply (say of 1 billion $phATOMs) no matter how many $ATOM1s bond to
-$phATOMs.
+trade that makes $phATOM deflationary: *non-atom rewards are taxed with an
+immutable cap, but inflated atoms are not* for $ATOM1 bonded $phATOM holders,
+and with the right conversion equation (which adjusts for $ATOM1 inflation) we
+can construct a perfectly fixed $phATOM supply (say of 1 billion $phATOMs) no
+matter how many $ATOM1s bond to $phATOMs.
 
 Should this "more monetary" construction of the fixed supply ("deflationary")
 $phATOM token incentivize a large liquid supply, it becomes more susceptible to
