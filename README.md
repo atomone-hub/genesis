@@ -2,6 +2,10 @@ _This document is a work in progress, please make PRs_ _What matters at this
 very moment is that we open ISSUEs and begin discussions about every facet that
 should go in the founding documents_
 
+_ALL CONTRIBUTIONS TO THIS REPO, ITS ISSUES, PROJECTS, AND DISCUSSIONS MAY BE USED
+IN ANY EXPLICIT GITHUB FORK WITH A NEW AND DISTINCT NAME TO LAUNCH ANY FORK OR SPLIT
+THAT MODIFIES ANY OF THE IDEAS MENTIONED HERE WITH FULL ATTRIBUTION._
+
 ----------------------------------------
 # Preamble
 
