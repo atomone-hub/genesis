@@ -1,0 +1,12 @@
+# Documentation for CODEOWNERS:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for all files in the repository, unless overridden by a specific rule below.
+* @jaekwon
+
+# Specific file/dir ownership
+/README.md @jaekwon
+/CONSTITUTION.md @jaekwon
+/DECENTRALISTS.md @jaekwon
+/COMPENDIUM.md @Pipello
+/.github/ @moul
