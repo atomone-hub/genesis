@@ -1,119 +1,47 @@
-// XXX UNSORTED, WILL DELETE.
+// XXX НЕСОРТИРОВАННОЕ, БУДЕТ УДАЛЕНО.
 
+Мы предпочитаем действовать с радикальной открытостью и прозрачностью, и наше имя должно отражать наши ценности, поэтому мы сами себя называем "Децентралисты". 
 
-We prefer to operate with radical transparency in the open, and our name should
-reflect our values, so we hereby call ourselves the "Decentralists". The
-Decentralists are the opposition conservative party for the Cosmos Hub named
-Gaia, and AtomOne is the Decentralists' initial ICS host. 
+Децентралисты - это оппозиционная консервативная партия для Cosmos Hub, иминуемого Gaia. AtomOne - это начальный ICS-хост Децентралистов.
 
-Decentralists:
- * Embody radical transparency.
- * Accept both splitting and negotiating.
- * Define protocols for interoperability.
- * Finish software given a name.
- * Respect first principles, so
- * Require constitutions and bylaws.
- * Create rather than destroy.
+Децентралисты:
+•	Воплощают радикальную прозрачность. 
+•	Приемлят как разделение, так и переговоры. 
+•	Определяют протоколы взаимодействия. 
+•	Завершают названое программное обеспечение. 
+•	Уважают первостепенные принципы, поэтому 
+•	Требуют конституции и уставов. 
+•	Создают, а не разрушают.
 
-It is important to note that AtomOne is a proof-of-stake hub governed by $ATOM1
-tokens, while the Decentralists is a membership oriented quasi-political party
-with members associated with various companies (or individual proprietors). The
-various missions and objectives of this party may eventually drift from the
-missions and objectives of AtomOne because the people may be focused on
-different things over time and less on time-proven infrastructure, but the core
-values must remain the same and the vision compatible with those declared here.
+Важно отметить, что AtomOne является хабом построеным на алгоритме консенсуса proof-of-stake, управляемым токенами $ATOM1, в то время как Децентралисты - это квази-политическая партия с членами, связанными с различными компаниями (или индивидуальными владельцами). Различные миссии и цели этой партии со временем могут отклоняться от миссий и целей AtomOne, потому что люди могут сосредотачиваться на разных вещах со временем и в меньшей степени ориентироваться на проверенную временем инфраструктуру, но основные ценности должны оставаться теми же, а видение совместимо с заявленным здесь.
 
-AtomOne may enforce criteria for Decentralists membership (and temporary bans
-and suspensions) with a Constitutional Majority for the purpose of ensuring the
-alignment of the Decentralists members with AtomOne, provided that it also
-offers everyone the right (through Apache2.0 or more liberal licenses, or
-\*GPL\* and GnoPL licenses) and the ability with reasonable ease to maintain a
-prior fork of Decentralists membership under a different brand name distinct
-from either AtomOne or Decentralists. 
+AtomOne может устанавливать критерии для членства в Децентралистах (и временных запретов и приостановок) с Конституционным большинством с целью обеспечения соответствия членов Децентралистов AtomOne, при условии, что это также предоставляет каждому право (через Apache2.0 или более свободные лицензии, или GPL и GnoPL лицензии) и возможность с разумной легкостью поддерживать предварительный форк членства Децентралистов под другим брендовым именем, отличным от AtomOne или Децентралистов.
 
-This initial tight coupling is necessary between AtomOne and the Decentralists
-brands because the success of either are tied together and we prefer a more
-open membership policy for the Decentralists for growth, but the people
-ultimately determine what a name means. After a period of 7 years after genesis
-the Decentralists can vote via a supermajority or constitutional majority to
-become self-sovereign and remove the ability for AtomOne to enforce anything
-about the membership of the Decentralists. (XXX maybe replace with a curve).
-Correspondingly AtomOne can choose any other membership group (or any other
-type of group or DAO) to replace the Decentralists at that time with the same
-system but with a new criteria for membership, under a new name.
+Эта тесная связь необходима между AtomOne и брендами Децентралистов, потому что успех одного привязан к другому, и мы предпочитаем более открытую политику членства для роста Децентралистов, но в конечном итоге именно люди определяют, что означает имя. После семилетнего периода с момента начала Децентралисты могут проголосовать супербольшинством или конституционным большинством, чтобы стать самоуправляемыми и лишить AtomOne возможности принимать решения относительно членства в Децентралистах. Соответственно AtomOne может выбрать любую другую группу членства (или любой другой тип группы или DAO) для замены Децентралистов в тот же момент времени с той же системой, но с новыми критериями для членства, под новым именем.
 
-Initially the only criteria for Decentralists membership is that members hold
-any nonzero amount of $ATOM1 or $phATOM\* tokens (more on $phATOM later) and
-agree with the spirit of the Founding Documents, and agree to at all times
-abide by and enforce the living AtomOne Constitution for the AtomOne hub.
+Исходно единственным критерием для членства в Децентралистах является то, что участники имеют любое ненулевое количество токенов $ATOM1 или $phATOM* (подробнее о $phATOM позже) и соглашаются с духом Учредительных документов, а также соглашаются всегда следовать и применять жизненныю Конституцию AtomOne для хаба AtomOne.
 
-While we respect the stakers and the staking distribution, we also recognize
-that the unequal token distribution must be balanced by the natural inalienable
-God given powers to individual humans who are vital to make this project
-succeed. While the voting on AtomOne is handled solely by the $ATOM1 stakers,
-the Decentralists self-organize as a whole and with groups within, and every
-proposal in the governance of the Gaia and AtomOne hubs as well as every open
-group are enriched with the best arguments from both sides of the isle as
-measured by feedback from all the members of the Decentralists. In short, the
-democratic distribution offered by the Decentralists is used to rank the
-arguments for and against every proposal to be voted on by stakeholders.
+Хотя мы уважаем стейкеров и распределение стейкинга, мы также признаем, что неравномерное распределение токенов должно быть сбалансировано естественными неотъемлемыми божественными правами отдельных людей, которые важны для успешной реализации этого проекта. В то время как голосование в AtomOne обрабатывается исключительно стейкерами $ATOM1, Децентралисты самоорганизуются в целом и с группами внутри, и каждое предложение по управлению хабами Gaia и AtomOne, а также каждой открытой группой обогащается лучшими аргументами с обеих сторон острова, что измеряется отзывами всех участников. из числа децентралистов. Короче говоря, демократическое распределение, предлагаемое децентралистами, используется для ранжирования аргументов за и против каждого предложения, по которому проголосуют заинтересованные стороны.
 
-The chain explorers and wallets that display information about AtomOne and Gaia
-hub proposals and the proposals of Decentralists open groups should display the
-Decentralists official summary in full (but can customize the order or make
-highlights), or they should link to the appropriate Decentralists resource so
-users can see all of the related commentary. These are not enforced but are
-incentivized through the portion of block rewards reserved for blockchain
-explorers and wallets. 
+Эксплореры цепочек и кошельки, отображающие информацию о предложениях AtomOne и Gaia hub, а также предложениях открытых групп Децентралистов, должны полностью отображать официальное резюме Децентралистов (но могут настраивать порядок или подчеркивать главное), или они должны ссылаться на соответствующий ресурс Децентралистов, чтобы пользователи могли видеть весь связанный комментарий. Эти правила не обязательны, но стимулируются через долю блок-наград, зарезервированную для эксплореров блокчейнов и кошельков.
 
-While it may appear that the Decentralists and its integration into AtomOne are
-unnecessary complexifications not fit for a "minimal hub", it does address the
-real need for a long term development roadmap for AtomOne to improve our
-communications amidst irreconciliable differences, the need to give
-self-aligned groups more voice through self-organization, and the need for a
-long term vision of a market of competing systems and designs that incorporate
-a comprehensive range of components from virtual machines, smart contract
-systems, DAO frameworks, to end-user interfaces; that offer transparent and
-accountable disbursement of funds and decision making for every organization.
-The tooling we develop under the brand of Decentralists will be made available
-broadly in all communities and serve to introduce more people to AtomOne and
-its generations.
+Хотя может показаться, что Децентралисты и их интеграция в AtomOne - это излишне сложные усовершенствования, не соответствующие "минимальному хабу", это действительно необходимо для создания долгосрочной дорожной карты развития AtomOne для улучшения наших коммуникаций в условиях несовместимых различий, необходимости предоставления самоорганизованным группам больше голоса через самоорганизацию и необходимости долгосрочного видения рынка конкурирующих систем и проектов, включающих всеобъемлющий спектр компонентов от виртуальных машин, систем смарт-контрактов, фреймворков DAO до интерфейсов для конечных пользователей; предлагающих прозрачное и ответственное распределение средств и принятие решений для каждой организации. Инструменты, которые мы разрабатываем под брендом Децентралистов, будут широко доступны во всех сообществах и будут служить для привлечения большего числа людей к AtomOne и его поколениям.
+Части конституции, касающиеся Децентралистов, могут изменять только сами Децентралисты.
 
-Portions of the constitutition regarding the Decentralists, only the
-Decentralists can vote to change. 
+Децентралисты могут принять новую конституцию с супербольшинством 2/3 до отмены этой статьи... /// XXX хорошо, но сейчас это запутанно. AtomOne против Децентралистов с отдельными конституциями? XXX Децентралисты также должны иметь минимальную конституцию. XXX переместить и переработать Децентралисты могут решить добавить новую судебную систему с супербольшинством 2/3. Каждая судебная система будет иметь 
 
-The Decentralists may adopt a new constitution with a 2/3 supermajority, until this clause is revoked... /// XXX ok but now this is confusing. AtomOne vs Decentralists having separate constitutions? 
-XXX The Decentralists should also have a minimal constitution.
-XXX move and refactor
-The Decentralists may elect to add with a 2/3 supermajority a new Judicial System. Each Judicial System will have a 
+UX Децентралистов...
 
-##### decentralists UX.....
-The initial implementations of UX will be provided by anyone or any community
-that wants to implement the whole vertical stack required from maintaining a
-chain to the end user interfaces required. AIB & NT along with those aligned
-with the GnoVM will work on one implementation, but all reasonable stacks
-will be supported such as those that run on (Cosm)WASM as long as there is a
-responsible party willing to commit.
+Первоначальные реализации интерфейсов будут предоставлены любым лицом или сообществом, желающим реализовать весь вертикальный стек, необходимый от поддержания цепочки до требуемых интерфейсов конечного пользователя. AIB и NT, а также те, которые связаны с GnoVM, будут работать над одной реализацией, но будут поддерживаться ВСЕ разумные стеки, например те, которые работают на (Cosm)WASM, до тех пор, пока есть ответственная сторона, желающая взять на себя обязательства.
+Создать инструментарий для помощи членам в самостоятельной регистрации себя и разрешить им самостоятельно организовываться в открытые и закрытые (но прозрачные) группы в безразрешительной манере. У каждой группы должны быть свои собственные учредительные документы, конституция, миссия, уставы и т.д. Компании как юридические лица также получают представительство, и каждый должен заявить о своих ассоциациях и использовать свою настоящую личность (для предотвращения атак типа Сибил).
 
-Create tooling to help members register themselves with their associations,
-and to allow these members to self-organize into open and closed (yet
-transparent) groups in a permissionless way. Each group should have their
-own respective founding documents, constitution, mission, bylaws, etc.
-Companies as entities also get representation, and everyone must declare
-their associations and use their real identities (in order to prevent sybil
-attacks).
+• Исправить функции управления от CosmosSDK и перенести их и основные модули sdk в Tendermint2. 
+• Внедрять AtomOne в соответствии со спецификациями и другими учредительными документами, на которые есть ссылки здесь, и производить платежи для этих целей из внутреннего казначейства децентралистов, отдельного от пула сообщества AtomOne, и проводить выпуски в соответствии с дорожной картой, указанной здесь, и другими учредительными документами под надзором стейкеров $ATOM1.  
 
- * Fix the governance functions from the CosmosSDK and port these and core sdk
-   modules to Tendermint2.
- * Implement AtomOne according to the specifications here and other Founding
-   Documents linked to from here, and make payments for these purposes from an
-   internal Decentralists Treasury separate from the AtomOne community pool,
-   and conduct releases according to the roadmap specified here and other
-   Founding documents with oversight by the $ATOM1 stakers.
+AtomOne будет субсидировать по меньшей мере один шард ICS, если это необходимо, чтобы служить зоной для потребностей Dapp/DAO Децентралистов, включая хостинг Dapp для самоорганизованных бесед.
 
-AtomOne will subsidize at least one ICS shard if needed, to serve as the zone
-for the Decentralists' dapp/DAO needs, including hosting a dapp for
-self-organized conversations.
+Аргументы, предоставленные Децентралистами за и против каждого предложения и их стандартное ранжирование Децентралистами, не хранятся на корневом хабе, но не должны быть развернуты до тех пор, пока они не будут размещены в отдельной зоне ICS.
+
 
 These arguments provided by the Decentralists for and against every proposal
 and the default ranking of them by the Decentralists are not hosted on the root
