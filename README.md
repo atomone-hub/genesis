@@ -136,7 +136,7 @@ use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
 ## Role as $ATOM "Liquid Staking" Provider
 
-XXX Try to make this work with one $PHOTON using bonding curves within bounds
+XXX Try to make this work with one $phATOM using bonding curves within bounds
 with all three tokens. This would still rely on imperfect measures like present
 AMM rate and can lead to manipulation and losses, but you can still maybe
 restrict these losses by restricting the bounds, say to 2:1 1:2. 
@@ -145,42 +145,42 @@ AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
 automatically delegated via ICA (interchain accounts) to aligned validators as
 determined by the the system determined by the $ATOM1 stakers. The bonders of
-$ATOM toward this service will receive liquid $PHOTON tokens.
+$ATOM toward this service will receive liquid $phATOM tokens.
 
 In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
-$phATOM1 tokens. So there will be $PHOTON along side $phATOM1 tokens, but with
+$phATOM1 tokens. So there will be $phATOM along side $phATOM1 tokens, but with
 some differences in tokenomics between them. We have more control over $phATOM1
 tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
-Gaia for $PHOTON.
+Gaia for $phATOM.
 
-In return for delegating voting decisions from $ATOM bonded $PHOTON holders to
-$ATOM1 stakers, the AtomHub will offer the $PHOTON holders the opportunity for
-all perpetuity, the merger of $PHOTON to $phATOM1 according to a reasonable
+In return for delegating voting decisions from $ATOM bonded $phATOM holders to
+$ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity for
+all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
 exchange ratio as determined by the best available means as determined by
 $ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
-to $PHOTON than 1:2 by total market cap between $PHOTON and $phATOM1. For
-clarity this means that upon the failure of Gaia the $PHOTON token holders can
+to $phATOM than 1:2 by total market cap between $phATOM and $phATOM1. For
+clarity this means that upon the failure of Gaia the $phATOM token holders can
 dilute the $phATOM1 holders such that $phATOM1 holders have as low as 2/3 the
 underlying $ATOM1 as before the merge (but no less).
 
-The conversion penalty may decrease below 20% for $PHOTON to $phATOM1 merger
+The conversion penalty may decrease below 20% for $phATOM to $phATOM1 merger
 with a Supermajority of $ATOM1 stakers.
 
 AtomOne with a Constitutional Majority may decrease the merger ratio cap from
-1:2 (1/3) even down to zero (e.g. to terminate the support of $PHOTON) but the
-execution must be delayed for a period of at least 3 months to allow $PHOTON
+1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
+execution must be delayed for a period of at least 3 months to allow $phATOM
 holders to preempt this with a merge. Nothing outside of the merge will prevent
-$PHOTON holders from being able to redeem their due pro-rata $ATOM tokens for
+$phATOM holders from being able to redeem their due pro-rata $ATOM tokens for
 all time.
 
-Should the $PHOTON be discontinued in support as decided by AtomOne with a
+Should the $phATOM be discontinued in support as decided by AtomOne with a
 Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
-itself but must be a separate proposal), the $PHOTON holders must be made whole
-by redistributing the underlying $ATOM tokens to their respective $PHOTON
+itself but must be a separate proposal), the $phATOM holders must be made whole
+by redistributing the underlying $ATOM tokens to their respective $phATOM
 holders completely with the same exchange factors applied to everyone equally,
 but as with decreasing the merger ratio cap, (for the purpose of giving
-precedent to the $PHOTON -> $phATOM1 merge mechanism) this must be delayed by
-a period of 3 months to allow $PHOTON holders to preempt this with a merge.
+precedent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
+a period of 3 months to allow $phATOM holders to preempt this with a merge.
 
 Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
 actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
@@ -190,22 +190,23 @@ decide through AtomOne governance. Everybody must acknowledge the risks of this
 experiment.
 
 All other parameters defined here regarding the merger that may negatively
-affect $PHOTON holders and $ATOM holders on AtomOne cannot change even with a
+affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
 Constitutional Majority.
 
 In the case of Gaia failure this could be seen as a detriment to $phATOM1
 holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
 shrunk by up to half; but if the $ATOM token were to recover it would now be of
 benefit to $phATOM1 holders; and this is an agreement that was pre-established
-in these Founding Documents to support the mutual success of $PHOTON and
+in these Founding Documents to support the mutual success of $phATOM and
 $phATOM1to ensure mutual success rather than sabotage. While in the end the
 $ATOM1 stakers and before that the validators have complete freedom of will,
 how well they adhere to these founding agreements is left to everyone to
 enforce, such as by blacklisting or slashing staking tokens and validators held
-by violators. XXX specify the conversion rate before and after the merger both ways.
+by violators. XXX specify the conversion rate before and after the merger both
+ways.
 
 There is no merge mechanism for the opposing case upon AtomOne failure. In this
-case the $ATOM underlying $PHOTON must be distributed back to the $PHOTON
+case the $ATOM underlying $phATOM must be distributed back to the $phATOM
 holders in proportion, or if there was already a merger, to the $phATOM1
 holders in proportion.
 
@@ -220,7 +221,7 @@ forks will reduce risk at the local and global levels; at the local level
 through competition of implementations, and at the global level through the
 diversity of hubs and frameworks.
 
-We hope that the economic recovery measures between $PHOTON and $phATOM1 will
+We hope that the economic recovery measures between $phATOM and $phATOM1 will
 incentivize mutual success and allow Gaia to transition safely into a more
 experimental hub as compared to the more immutable and conservative AtomOne.
 
@@ -581,14 +582,15 @@ A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
 percent of inflation+rewards going to stakers cannot be lower than this figure.
 Changing this value requires a constitutional majority.
 
-A parameter MIN_VALIDATORS_DISTRIBUTION_FRACTION will be set to 10%, where the percent
-of inflation+rewards going to stakers cannot be lower than this figure.
+A parameter MIN_VALIDATORS_DISTRIBUTION_FRACTION will be set to 10%, where the
+percent of inflation+rewards going to stakers cannot be lower than this figure.
 
-The funds held in all the pools above will not be counted toward the bonding ratio.
+The funds held in all the pools above will not be counted toward the bonding
+ratio.
 
 The last three following the pool/treasury will initially go to multisigs set in
-consensus params of the chain, until they get set as URIs pointing at
-blockchain based DAOs hosted on ICS1.5.
+consensus params of the chain, until they get set as URIs pointing at blockchain
+based DAOs hosted on ICS1.5. 
 
 ## Tokenomics
 
@@ -620,9 +622,10 @@ The main difference being introduced is that the total amount of stake going to
 one validator doesn't actually increase the validator's power, even though all
 of those staked $ATOM1s are at stake should this validator get slashed. This
 creates a potential exploit opportunity whereby some validators have relatively
-little at stake, and 1/3 by total of voting power of those initial validators end
-up causing a double spend attack. To prevent this, overstaking to a validator
-will be taxed incrementally with the proceeds going toward general rewards.
+little at stake, and 1/3 by total of voting power of those initial validators
+end up causing a double spend attack. To prevent this, overstaking to a
+validator will be taxed incrementally with the proceeds going toward general
+rewards.
 
 XXX TODO improve this. Maybe instead there is simply a sqrt(vp) applied to all
 the voting powers after the original Gaia staking algorithm. You can over-stake
