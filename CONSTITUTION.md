@@ -2,524 +2,270 @@
 
 _TODO: add phATOM from README.md_
 
-_This document is a work in progress. This document assumes familiarity with
-the current workings of cosmoshub4 as of Oct 11th 2022. What is described here
-are modifications to what already is. This clause will be removed with future
-revisions, and the corresponding parts of the document updated with a full
-description of the constitution of the hub._
+Этот документ находится в процессе разработки. Документ предполагает знакомство с текущей работой cosmoshub4 на 11 октября 2022 года. Здесь описаны модификации к существующему положению вещей. Этот пункт будет удален при будущих редакциях, и соответствующие части документа будут обновлены с полным описанием конституции хаба.
 
-## Preamble
 
-We, the people of the Cosmos, in order to create a free world, enable voluntary
-and borderless transactions, facilitate permissionless innovation, ensure
-economic security, cater to economic and technological development, allow for
-the creation of sovereign zones, and maintain order among sovereign zones, do
-ordain and establish this Constitution for the Cosmos Hub.
+## Преамбула
 
-## Part 0 Definitions
+Мы, народ Космоса, чтобы создать свободный мир, обеспечить добровольные и безграничные транзакции, облегчить инновации без разрешения, гарантировать экономическую безопасность, способствовать экономическому и технологическому развитию, допускать создание суверенных зон и поддерживать порядок среди суверенных зон, установили и утвердили эту Конституцию для Cosmos Hub.
 
-Cosmos is the interchain network composed of many sovereign zones connected by
-IBC.
+## Часть 0 Определения
 
-A zone is an independent chain (or an application hosted on a parent chain)
-with a well-defined governing body or bodies that dictate the governance and
-economic rules internal to that zone. By definition, a zone is sovereign or
-partially sovereign. A treasury DAO of the Cosmos Hub is partially sovereign.
+**Cosmos** - интерчейн сеть, состоящая из множества суверенных зон, соединенных посредством IBC.
 
-IBC is short for Interchain Blockchain Communication, and includes all
-protocols that allow one chain to communicate state or messages with another
-chain by tracking the consensus state of the other.
+**Zone** - это независимый чейн (или приложение, размещенное на родительском чейне) с четко определенным органом управления или органами, которые определяют правила управления и экономики внутри этой зоны. По определению, зона является суверенной или частично суверенной. Казна DAO Cosmos Hub является частично суверенной.
 
-The ATOM is the primary staking token of the Cosmos Hub.
+**IBC** - это сокращение от Interchain Blockchain Communication, и включает в себя все протоколы, которые позволяют одному чейну обмениваться состоянием или сообщениями с другим чейном, отслеживая состояние консенсуса другой.
 
-ICS is short for Interchain Security, and includes all protocols that allow the
-consensus of one chain to be partially or wholly secured by mechanisms on
-another chain.
+**ATOM** - это основной токен для стейкинга на Cosmos Hub.
 
-ICS1, also known as Simple Replicated Security, includes all protocols where the
-validator set is simply replicated across multiple blockchains, and slash
-conditions are always submitted to a root chain.
+**ICS** - это сокращение от Interchain Security, и включает в себя все протоколы, которые позволяют консенсусу одного чейна быть частично или полностью защищенным механизмами на другом чейне.
 
-ICS2 includes all protocols where slash conditions for complex failure
-scenarios of one validator set are handled by another validator set, where
-slashing affects tokens on the latter validator set.
+**ICS1**, также известный как Simple Replicated Security, включает в себя все протоколы, в которых набор валидаторов просто реплицируется на нескольких блокчейнах, и условия слеша всегда отправляются в корневой чейн.
 
-ICS2A includes all protocols of ICS2 where stake is entirely managed by the
-Cosmos Hub (in the form of ATOMs or other derivatives).
+**ICS2** включает в себя все протоколы, в которых условия слеша для сложных сценариев отказа одного набора валидаторов обрабатываются другим набором валидаторов, где слеши влияют на токены на последнем наборе валидаторов.
 
-ICS2B includes all protocols of ICS2 where stake is entirely managed by the
-logic of the other chain.
+**ICS2A** включает в себя все протоколы ICS2, в которых стейк полностью управляется Cosmos Hub (в форме ATOM или других производных).
 
-Auto-staking is staking across all current validators in proportion to their
-voting power. For example, if a validator that had 10% of the voting power were
-to get slashed 30% on the Cosmos Hub, and 50% of ATOMs were either staked onto
-the Cosmos Hub or free (not auto-staked), everyone who auto-staked ATOMs
-on the Cosmos Hub would get slashed 1.5%. Inflationary ATOMs are paid to
-auto-stakers such that they do not suffer from the inflation rate of ATOMs.
+**ICS2B** включает в себя все протоколы ICS2, где стейк управляется исключительно логикой другого чейна.
 
-A two-thirds supermajority is where more than 2/3rd of all participating staked
-ATOMs vote YES and the vote is above the current governance quorum value and
-the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
+Auto-staking - это стейкинг на всех текущих валидаторах пропорционально их voting power. Например, если валидатор, у которого было 10% voting power получит слеш 30% на Cosmos Hub, и 50% ATOM которые также в стейке на Cosmos Hub или свободны (не в авто-стейке), все кто ставил в авто-стейк ATOM в Cosmos Hub получат слеш 1.5%. Инфляционные ATOM выплачиваются автоматическим стейкерам так, чтобы они не страдали от инфляции ATOM.
 
-## Part 1 General Provisions
+A two-thirds supermajority - это когда более 2/3 всех участвующих в стейкинге ATOM голосуют ЗА, и голосование превышает текущее значение кворума управления, и голосование завершено. Голоса "Воздержаться" не учитываются при расчете 2/3.
 
-### Article 1.A. Fundamental Principles
+## Часть 1. Общие положения
 
-This Constitution of the Cosmos Hub, hereinafter “the Constitution” hereby
-establishes the foundations of the governance model, economical model, and
-operating system of the Cosmos Hub.
+### Пункт 1.А. Основные принципы
 
-All subsequent governance proposals must align with the provisions of
-the Constitution, and proponents of each proposal, along with all active
-governance voters, are required to ensure consistency between such proposals
-and the Constitution.
+Настоящая Конституция Cosmos Hub, далее "Конституция" устанавливает основы модели управления, экономической модели и операционной системы Cosmos Hub.
 
-### Article 1.B. Sovereignty of the Cosmos Hub
+Все последующие предложения управления должны соответствовать положениям Конституции, и сторонники каждого предложения, вместе со всеми активными участниками голосования управления, обязаны обеспечивать согласованность между такими предложениями и Конституцией.
 
-The Cosmos interchain network is composed of many sovereign zones, such as the
-Cosmos Hub.
 
-The Cosmos Hub is composed of many chains including the root hub chain where
-staking and governance transactions are committed and executed, but also other
-chains secured by ICS that are subservient to the governance of the root hub
-chain, hereinafter referred to as "Hub Governance".
+### Пункт 1.B. Суверенитет Cosmos Hub
 
-Other sovereign zones that are completely or partially secured by Cosmos Hub
-ICS, by definition, have their own governance mechanism. The Cosmos Hub
-principally enables and follows the will of the governance of such sovereign
-zones ragarding the pegged tokens originating from said zones, except in
-well-defined exceptional circumstances involving bugs, theft, or harm to the
-Cosmonauts of the Cosmos ecosystem.
+Cosmos интерчейн сеть состоит из множества суверенных зон, таких как Cosmos Hub.
 
-### Article 1.C. General Mission and Objectives
+Cosmos Hub включает в себя множество чейнов, включая корневой чейн хаба, где фиксируются и выполняются операции по стейкингу и управлению, а также другие чейны, обеспечиваемые ICS, которые подчинены управлению корневого чейна хаба, далее именуемому "Hub Governance" (управление хаба).
 
-The mission of the Cosmos Hub is to create a new world, enabling permissionless
-yet secure interactions between the Cosmonauts of Cosmos in the Solar system.
+Другие суверенные зоны, полностью или частично обеспеченные ICS Cosmos Hub, по определению, имеют свой собственный механизм управления. Cosmos Hub в основном обеспечивает и следует воле управления таких суверенных зон относительно прикрепленных токенов, происходящих из этих зон, за исключением четко определенных исключительных обстоятельств, включающих ошибки, кражу или вред к пользователям экосистемы Cosmos (Космонавтам).
 
-The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
-multi-token payment and transfer system; and to scale the security of the
-platform to many applications hosted in other zones via Cosmos Hub ICS.
 
-### Article 1.D. Cosmonauts
+### Пункт 1.С. Общая миссия и цели
 
-Every person has the right to become a Cosmonaut and can freely engage on the
-Cosmos Hub. As such, every Cosmonaut has the right to own at least one address
-on the Cosmos Hub.
+Миссия Cosmos Hub - создать новый мир, обеспечивая бесперебойные, но безопасные взаимодействия между Космонавтами Cosmos в Солнечной системе.
 
-Any Cosmonaut can also become a Citizen of the Cosmos Hub by using their
-address to stake ATOMs toward the Cosmos Hub and participate actively in
-governance. The status of citizenship is granted in an autonomous manner.
+Цель Cosmos Hub предоставить классическую BFT proof-of-stake систему платежей и переводов с множеством токенов; и масштабировать безопасность платформы для многих приложений, размещенных в других зонах через ICS Cosmos Hub.
 
-### Article 1.E. Rights, Liberties, and Obligations in the Cosmos Hub
+### Пункт 1.D. Космонавты
 
-The Liberty and Property of all Cosmonauts engaging in the Cosmos Hub is hereby
-guaranteed. Any restriction to the Liberty and Property of Citizens on the
-Cosmos Hub can be done only through the Cosmos Hub's governance.
+У каждого человека есть право стать Космонавтом и свободно взаимодействовать в Cosmos Hub. Таким образом, каждый Космонавт имеет право владеть по меньшей мере одним адресом в Cosmos Hub.
 
-Every Cosmonaut has the right to receive benefits from their engagement in the
-Cosmos Hub, including rights derived from held or staked ATOMS in line with the
-provisions of this Constitution.
+Любой космонавт может также стать гражданином Cosmos Hub, используя свой адрес для стейкинга ATOM в Cosmos Hub и активного участия в управлении. Статус гражданства предоставляется автономно.
 
-Every Citizen allows the Governance of the Cosmos Hub to restrict their staked
-ATOM property by partial or full slashing according to their voting activity.
+### Пункт 1.Е. Права, свободы и обязанности в Cosmos Hub
 
-## Part 2 Governance
+Свобода и собственность всех Космонавтов, взаимодействующих в Cosmos Hub, гарантированы настоящей Конституцией. Любые ограничения свободы и собственности граждан Cosmos Hub могут осуществляться только через управление Cosmos Hub.
 
-### Article 2.A. The Cosmos Hub Chain
+У каждого Космонавта есть право получать выгоды от своего участия в Cosmos Hub, включая права, вытекающие из удерживаемых или застейканных ATOM в соответствии с положениями настоящей Конституции.
 
-The root hub chain of the Cosmos Hub is uniquely identified by chainid
-"cosmoshub". This chain commits and executes transactions that serve the
-following functions:
+Каждый гражданин разрешает Управлению Cosmos Hub ограничивать его  ATOM в стейке частичным или полным слешем в соответствии с его активностью голосования.
 
- * governance voting
- * intra-hub token transfers
- * IBC token transfers
- * ICS1 and ICS2 management
+## Часть 2. Управление
 
-### Article 2.B. Cosmos Hub governance
+### Пункт 2.А. Чейн Cosmos Hub
 
-The working language of Cosmos Hub governance is English.
+Корневой чейн хаба Cosmos уникально идентифицируется идентификатором чейна "cosmoshub". Этот чейн фиксирует и выполняет транзакции, которые выполняют следующие функции:
 
-The quorum necessary for a proposal to be valid shall depend solely on the number
-of bonded ATOMs.
+* голосование по управлению
+* внутри-хабовые переводы токенов
+* IBC переводы токенов
+* управление ICS1 и ICS2
 
-The governance process must extend the voting deadline to ensure a minimum of 2
-weeks of voting after the minimum quorum has been met.
+### Пункт 2.B. Управление Cosmos Hub
 
-UX interfaces that present the results of voting on governance proposals should
-also display the content of the memo field of each voting transaction such that
-the reason for the vote can be seen.
+Рабочим языком управления Cosmos Hub является английский.
 
-TODO: fill in rules of cosmoshub4 governance.
+Кворум, необходимый для действительности предложения, должен зависеть исключительно от количества выпущенных ATOM.
 
-### Article 2.C. Air-drops and forks
+Процесс управления должен продлить срок голосования, чтобы обеспечить минимум 2 недели голосования после достижения минимального кворума.
 
-Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
-of new tokens to any chain using the distribution of any token on the Cosmos
-Hub at any time.
+Интерфейсы пользователя, представляющие результаты голосования по предложениям управления, также должны отображать содержимое поля memo каждой транзакции голосования, чтобы можно было увидеть причину голоса.
 
-Every Citizen allows any Cosmonaut to modify their pro-rata airdrop portion
-by partial or full slashing based on their cryptographic voting activity
-according to well defined principles at any time.
+TODO: заполнить правила управления cosmoshub4.
 
-### Article 2.D. Treasury DAOs
+### Пункт 2.С. Аирдропы и форки
 
-The Cosmos Hub governance may establish one or more transparent and accountable
-Treasury DAOs by simple majority vote.
+Каждый Космонавт разрешает любому другому Космонавту создавать полные или частичные аирдропы новых токенов на любой чейн с использованием распределения любого токена на Cosmos Hub в любое время.
 
-The operations of the Treasury DAO must operate on an ICS secured zone outside
-of the hub. As an exception, the tokens of the Treasury DAO may reside on the
-the Cosmos Hub as a m-of-n multisig account where n is at least 3 and m is at
-least 1/2 of n, where each signatory is an authorized member of the Treasury
-DAO and Citizen of the Cosmos Hub.
+Каждый гражданин разрешает любому Космонавту изменять его долю аирдропа пропорционально путем частичного или полного слеша, основанного на его криптографической активности голосования в соответствии с четко определенными принципами в любое время.
 
-The Treasury DAO shall be composed of Cosmonauts, and at the top Executive
-Board level be composed of one or more Citizens. All Cosmonauts and Citizens of
-Treasury DAOs including their Oversight Committee must have public and known
-real personal identities. 
+### Пункт 2.D. Казна DAO
 
-To enable the well-functioning of Treasury DAOs and the separation of powers in
-the utmost interest of the Cosmos Hub, each member can hold just one type of
-role within each Treasury DAO.
+Управление Cosmos Hub может учредить одну (или несколько) прозрачную и ответственную казну DAO большинством голосов.
 
-The members of the DAO must perform efficiently in their role in line with
-their job description. They are accountable to each DAO’s Oversight Committee
-and the Hub Governance. They can be dismissed from their functions by a
-two-thirds majority vote by the DAO’s Oversight Committee or the Governance
-Hub.
+Операции казны DAO должны осуществляться в зоне, обеспеченной ICS, вне хаба. В качестве исключения токены  казны DAO могут находиться на Cosmos Hub в виде m-of-n multisig-аккаунта, где n не менее 3, а m не менее 1/2 n, где каждый подписант является уполномоченным членом казны DAO и гражданином Cosmos Hub.
 
-The role and functions of the Executive Board shall be further developed
-through governance proposals within each DAO, unless the DAO chooses to defer
-to Cosmos Hub governance by Citizens.
+Казна DAO должна состоять из Космонавтов, и на уровне исполнительного совета должна включать одного или несколько граждан. Все Космонавты и граждане казны DAO, включая их комитет по надзору, должны иметь известные и публичные реальные личности.
 
-Each Treasury DAO shall have an Oversight Committee composed of any number of
-Cosmonauts. The Oversight Committee must have at least the right to freeze all
-transfers of tokens from the Treasury or its designated m-of-n multisig account
-on the Cosmos Hub.
+Для обеспечения эффективной работы казны DAO и разделения властей в крайне полезных для Cosmos Hub целях, каждый участник может занимать только один тип роли в каждой казне DAO.
 
-## Part 3 Economics
+Члены DAO должны эффективно выполнять свою роль в соответствии с их описанием работы. Они подотчетны комитету по надзору каждой DAO и Управлению Хаба. Их можно отстранить от выполнения их функций двумя третями голосований комитета по надзору DAO или Управления Хаба.
 
-### Article 3.A. Economic model
+Роль и функции Исполнительного совета должны быть дополнительно разработаны через предложения управления в каждой DAO, если DAO не решит передать вопрос управления гражданам Cosmos Hub.
 
-The one and only economic incentive model of the Cosmos Hub is the collection
-of market-based transaction fees from a large number of transactions across all
-the chains secured by the staking of ATOMs on the Cosmos Hub, including ICS1
-hosted blockchains.
+Каждая казна DAO должна иметь Надзорный комитет, состоящий из любого числа Космонавтов. Надзорный комитет должен иметь право замораживать все переводы токенов из казны или его назначенной мультиподписной учетной записи m-of-n в Cosmos Hub.
 
-### Article 3.B. The ATOM Token
 
-The ATOM functions as voting shares, economic incentive shares, and security
-bond for the Cosmos Hub.
+## Часть 3. Экономика
 
-To preserve the security and identity of the acting governance and validator
-set, the inflation rate of the ATOM is made to vary over time to target 2/3 of
-all ATOMs. The maximum inflation rate is 20% non-compounded per year. There is
-no minimum inflation rate, and it can even be negative (deflationary).
+### Пункт 3.А. Экономическая модель
 
-Inflated ATOMs are paid to bonded ATOM holders in proportion to each
-delegator's staking amount, and staked ATOMs are converted to Bonded Share Units.
+Первой и единственной экономической моделью Cosmos Hub является сбор рыночных транзакционных сборов с большого числа транзакций по всем цепям, обеспеченным стейкингом ATOM на Cosmos Hub, включая блокчейны, размещенные на ICS1.
 
-The Atom Unbonding Period shall be 3 weeks, and redelegation is allowed twice
-per Atom Unbonding Period.
+### Пункт 3.B. Токен ATOM
 
-Double signing at any height/round/step results in slashing penalty that is
-proportional to the total amount of double signing by all validators for that
-height/round/step, with evidence collected during the Atom Unbonding Period;
-the penalty shall range from +0% to 100% of the Upper Slashing Limit in linear
-proportion, the latter when 1/3 of voting power double-signs.
+ATOM функционирует как голосующие акции, доли экономического стимулирования и гарантийный залог для Cosmos Hub.
 
-Complex signing failures (those that require +1/3 to coordinate) shall result
-in slashing the Upper Slashing Limit.
+Для сохранения безопасности и идентичности действующего управления и набора валидаторов инфляция ATOM со временем изменяется с целью достижения 2/3 от общего количества ATOM. Максимальная инфляция составляет 20% в год без учета сложного процента. Нет минимальной инфляции, и она даже может быть отрицательной (дефляционной).
 
-The Upper Slashing Limit shall be 50%. This parameter may be increased by a two
-thirds majority of the Cosmos Hub. In cases where there is sufficient evidence
-of malice and intent, this parameter may be overruled by a simple majority of
-the Cosmos Hub on a per-case basis up to 100%.
+Инфлированные ATOM выплачиваются держателям ATOM в стейке пропорционально сумме стейкинга каждого делегатора, а ATOM в стейке конвертируются в Облигационные Долевые Единицы (Bonded Share Units).
 
-Liquid staking may only be supported through interchain accounts (aka
-non-native liquid staking).
+Период разблокировки ATOM составляет 3 недели, а переделегирование разрешено дважды за период разблокировки ATOM.
 
-To limit the amount of liquid staked tokens so as to reduce systemic risk from
-liquid staking, there shall be imposed a 5% tax (the "Liquid Staking Tax") on
-all rewards paid out to staked interchain accounts at time of reward
-withdrawal. This Liquid Staking Tax parameter may be adjusted by a two-thirds
-supermajority vote of the Cosmos Hub. 
+Двойное подписание на любой высоте/раунде/шаге приводит к слэшинг штрафу, который пропорционален общей сумме двойного подписывания всеми валидаторами для этой высоты/раунда/шага, при этом доказательства собираются во время Периода разблокировки ATOM; штраф должен варьироваться от +0% до 100% Верхнего предела слешинга пропорционально, the latter when 1/3 of voting power double-signs.
 
-If the amount of ATOMs staked using interchain accounts exceeds 20% (the
-"Liquid Staking Factor") of the total staked ATOMs, the Liquid Staking Tax
-shall automatically increase by 1% per month. The Liquid Staking Factor
-parameter may be adjusted by a two-thirds supermajority vote of the Cosmos Hub.
+Сложные сбои подписывания (те, которые требуют согласования более чем 1/3) приведут к слэшингу Верхнего предела слэшинга.
 
-TODO: simplify the above two rules.
+Верхний предел слэшинга составляет 50%. Этот параметр может быть увеличен большинством в две трети голосов Cosmos Hub. В случаях, когда имеются достаточные доказательства злого умысла и намерения, этот параметр может быть отменен простым большинством голосов Cosmos Hub в индивидуальном порядке до 100%.
 
-### Article 3.C. Intentionally left empty
+Ликвидный стейкинг (liquid staking) может поддерживаться только через интерчейн аккаунты (также известный как ненативный ликвидный стейкинг).
 
-(note: formerly an article on the PHOTON token)
+Чтобы ограничить количество токенов в ликвидном стейкинге и тем самым снизить системный риск от ликвидного стейкинга, будет введен 5% налог ("Налог на ликвидный стейкинг") на все вознаграждения, выплачиваемые стейкающими интерчейн аккаунтами во время вывода вознаграждения. Этот параметр налога на ликвидный стейкинг может быть скорректирован большинством в две трети голосов Cosmos Hub.
 
-### Article 3.D. Inflation
+Если количество ATOM, в стейке с помощью интерчейн аккаунтов, превысит 20% ("Фактор ликвидного стейкинга") от общего числа ATOM в стейке, налог на ликвидный стейкинг будет автоматически увеличиваться на 1% в месяц. Параметр фактора ликвидного стейкинга может быть скорректирован большинством в две трети голосов Cosmos Hub.
 
-Any inflation of ATOMs to the Community Pool or a designated Treasury DAO
-beyond the default inflation rate described in the Constitution shall require a
-two-thirds supermajority vote of a special inflation governance proposal type.
+TODO: Упростить два вышеупомянутых правила.
 
-The special inflation proposal can include a description of the purpose of the
-inflation, but it cannot include any other modifications to the Cosmos Hub or its
-Constitution, nor the adoption of any new Treasury DAOs.
+### Пункт 3.C. Намеренно оставлено пустым
 
-### Article 3.E. The Common Pool 
+(Примечание: ранее статья о токене PHOTON)
 
-The Common Pool tax proceeds shall apply to transaction fees and inflationary
-ATOMs, and shall be sent to the Community Pool.
+### Пункт 3.D. Инфляция
 
-The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
-by two-thirds supermajority of the Cosmos Hub governance.
+Любая инфляция ATOM в Community Pool или в уполномоченную казну DAO превышающая базовый уровень инфляции, описанный в Конституции, потребует двух третей голосов специального типа предложения по управлению инфляцией.
 
+Специальное предложение по инфляции может включать описание цели инфляции, но не может включать никаких других изменений в Cosmos Hub или его Конституции, а также создание какой-либо новой казны DAO.
 
-## Part 4 Final Dispositions
+### Пункт 3.E. Общий пул
 
-## Article 4.A. Updates to the Cosmos Hub
+Доходы от налога на Общий пул (Common Pool) применяются к транзакционным сборам и инфляционным ATOM, и направляются в Общий пул.
 
-New updates to the Cosmos Hub should be broken down into independent components
-and discussed/proposed separately with adequate time between, regardless of any
-omnibus whitepaper. 
+Начальная ставка налога на Общий пул составляет 2%, но может быть увеличена до 50% двумя третями голосов управления Cosmos Hub.
 
-## Article 4.B. The Implementation
+## Часть 4. Заключительные положения
 
-The Cosmos Hub shall not have any VM functionality, but shall be plainly
-implemented in a single garbage-collected language as reference (namely Go);
-and other clients may implement all or portions of the stack in another
-language like Rust.
+## Пункт 4.А. Обновления Cosmos Hub
 
-The only cryptographic assumptions allowed to be used by the Cosmos Hub,
-including its consensus protocol shall be Ed25519 and Secp256k1 elliptic
-curves, and RIPEMD160 and SHA256 hash functions.
+Новые обновления Cosmos Hub должны быть разбиты на независимые компоненты и обсуждаться/предлагаться отдельно с достаточным временным интервалом между ними, независимо от наличия общего whitepaper.
 
-No zero-knowledge proof systems may be adopted on the Cosmos Hub even if they
-are composed of the approved primitives.
+## Пункт 4.B. Внедрение
 
-The rules of this article may only be changed by two-thirds supermajority vote
-of the Cosmos Hub.
+Cosmos Hub не должен иметь функционала виртуальной машины (VM), но должен быть явно реализован на одном garbage-collected языке в качестве эталона (в частности, Go); другие клиенты могут реализовывать всю или части стека на другом языке, таком как Rust.
 
-## Article 4.C. Compute/storage/memory limitations
+Единственные криптографические предположения, разрешенные для использования Cosmos Hub, включая его протокол согласования, должны быть эллиптические кривые Ed25519 и Secp256k1, а также хэш-функции RIPEMD160 и SHA256.
 
-For the sake of decentralization, accessibility, accountability, and security,
-the Cosmos Hub and each ICS zone shall be restricted so that each can run on
-a commodity computer.
+На Cosmos Hub не должны приниматься системы нулевого доказательства (zero-knowledge proof), даже если они состоят из утвержденных примитивов.
 
-## Article 4.D. Amendment of the Constitution
+Правила данной статьи могут быть изменены только двумя третями голосов голосования Cosmos Hub.
 
-This constitution may be modified or additional parts and rules appended by 
-two-thirds supermajority of Cosmos Hub governance.
+## Пункт 4.C. Ограничения по вычислениям/хранению/памяти
+
+В целях децентрализации, доступности, ответственности и безопасности Cosmos Hub и каждая зона ICS должны быть ограничены так, чтобы каждая из них могла выполняться на обычном компьютере.
+
+## Статья 4.D. Изменение Конституции
+
+Эта конституция может быть изменена или к ней могут быть добавлены дополнительные части и правила двумя третями голосов голосования управления Cosmos Hub.
 
 <hr />
 
-# COMMENTARY
+# КОММЕНТАРИИ
 
-_This is not part of the Constitution_
+_Это не является частью Конституции_
 
-## Comments from Jae Kwon
+## Комментарии от Джея Квона
 
-### About the economic model
+### О экономической модели
 
-The notion that ATOM is a "memecoin" ignores the obvious and original business
-model for the hub: token transfer fees. Bitcoin and Ethereum gas transaction
-fees are in the 10s/100s of millions, and we haven't even gotten to VISA scale
-yet. ATOM is not money, it's VISA shares, IBM shares, and FED shares (but where
-ATOM stakers are general partners rather than limited partners).
+Представление о том, что ATOM — это "мемкоин", игнорирует очевидную и первоначальную бизнес-модель для хаба: комиссии за токен-трансферы. Комиссии за транзакции в Bitcoin и Ethereum составляют десятки/сотни миллионов, и мы еще не достигли масштаба VISA. ATOM — это не деньги, это акции VISA, IBM и Федеральной резервной системы (но где держатели ATOM являются генеральными партнерами, а не ограниченными).
 
-It's an alternative to the status quo that Bitcoin originally wanted to be, but
-more. Well, imagine what kind of social manipulation we must be under, to be
-pursuing such a dream.
+Это альтернатива текущему положению вещей, которую изначально хотел создать Bitcoin, но больше. Представьте, под каким видом социального воздействия мы должны находиться, чтобы стремиться к такой мечте.
 
-The best part is we've done most of the work already. With minimal ICS the
-simple-transfer-zones are already more or less done. We're 90% done with
-massive scale MVP, and after that scaling will be relatively easy. AND this
-ATOM1 hub is a minimal hub that zones will want to use. The product market fit
-is already there. It's simple, and we are already positioned for it. It is
-neutral to application zones that provide more functionality than token
-transfers.
+Лучшая часть в том, что большинство работы уже сделано. С минимальными ICS простые зоны для передачи токенов уже более или менее готовы. Мы на 90% завершили работу над MVP масштабом, и после этого масштабирование будет относительно простым. И этот хаб ATOM1 — это минимальный хаб, который захотят использовать зоны. Соответствие продукта рынку уже присутствует. Это просто, и мы уже находимся в хорошем положении для этого. Это нейтрально к зонам приложений, предоставляющим большую функциональность, чем просто передача токенов.
 
-As IBM's CEO once said, the secret cash cow of IBM is transaction processing.
-> IBM Mainframe=FT, Tendermint=BFT
+Как сказал генеральный директор IBM, тайная дойная корова IBM — это обработка транзакций.
 
-Cosmos is the VISA network built upon this decentralized BFT mainframe system.
-Always was, and should remain.
+IBM Mainframe=FT, Tendermint=BFT
+Cosmos - сеть VISA, построенная на этой децентрализованной системе BFT-мейнфреймов. Всегда был и должен оставаться.
 
-New functionality can always be permissionlessly added on top of this base
-ATOM1 framework. The gno.land prop69 #exitdrop is a demonstration of value-add
-to the Cosmos Hub, as it will provide Gnolang smart contracts while IBC pegging
-to the Cosmos Hub for tokens.
+Новый функционал всегда можно добавлять без разрешения поверх этой базовой структуры ATOM1. Предложение gno.land prop69 #exitdrop является демонстрацией добавленной ценности для Cosmos Hub, поскольку оно будет предоставлять смарт-контракты Gnolang, а также IBC-привязку к Cosmos Hub для токенов.
 
-Using ICS, it should be possible to run new Gnolang VM powered zones secured by
-the Cosmos Hub, but also IBC connected to the gno.land chain for importing
-logic hosted on the gno.land "github" (and paying gas fees & license fees to
-each).
+Используя ICS, можно будет запускать новые зоны с поддержкой Gnolang VM, защищенные Cosmos Hub, а также подключенные через IBC к цепочке gno.land для импорта логики, размещенной на "github" gno.land (и выплаты комиссий за газ и лицензионных сборов каждому).
 
-### The need for hubs
 
-Imagine there are 10,000 zones. Now, if a zone fails and requires manual
-intervention, having 10,000 IBC connections means needing agreement from all
-10,000 zones on the recovery procedure, which will never happen. But, a zone
-connected to a more secure hub will be protected when it needs intervention.
+### Необходимость хабов
 
-Another need for hubs; uniformity of guarantees. You need a hub to coordinate
-shard zones where governance/policy and staking are applied to all shards.
-Otherwise, you don’t have one system of guarantees, you have many independent
-chains. Need to scale sendtx, might as well ICS.
+Представьте, что есть 10 000 зон. Теперь, если какая-то зона сбоит и требует ручного вмешательства, иметь 10 000 соединений по IBC означает, что для восстановления необходимо согласие всех 10 000 зон на процедуру восстановления, что никогда не произойдет. Но зона, подключенная к более безопасному хабу, будет защищена, когда потребуется вмешательство.
 
-### About security, and the need for ATOM/PHOTON separation
+Еще одна потребность в хабах — единообразие гарантий. Вам нужен хаб для координации областей с отдельным управлением/политикой и стейкингом, применяемыми ко всем фрагментам. В противном случае у вас не будет одной системы гарантий, а будет много независимых цепочек. Необходимо масштабировать sendtx, возможно также использовать ICS.
 
-_UPDATE: My thinking on this section has evolved since PHOTON can be
-implemented as auto-staking on top of ICS1_.
+### О безопасности и необходимости разделения ATOM/PHOTON
 
-The staking ratio today on Ethereum PoS is 12%. With massive adoption, unless
-we have complete laymen involved in staking, and with ETH becoming money, the
-stake ratio should fall even lower, perhaps even to <1%. At that point it
-becomes easy to coordinate a fund to take over the consensus process of the
-chain. PoW networks have two “tokens” the mining infrastructure (which can be
-bought or sold, and also is “inflationary”) and the coins themselves. This
-separation allows Bitcoin to become widely adopted without worrying about
-security vulnerabilties, because even the largest of whales cannot simply buy
-1/2 of mining infrastructure. It isn’t a superfluid market, which makes it more
-secure.
+ОБНОВЛЕНИЕ: Мое мнение по этому разделу изменилось, так как PHOTON может быть реализован как автостейкинг поверх ICS1.
 
-(In biology, it’s the difference between Eukaryotic (cell nucleus) and
-Procaryotic (no nucleus) cells. Evolution has proven that multicellular
-(inter-cellular) systems like us are generally Eukaryotic. They both exist, but
-complexity demands more intracellular security.)
+Коэффициент стейкинга в Ethereum PoS на сегодняшний день составляет 12%. При массовом внедрении, если только в стейкинге не будут участвовать абсолютные дилетанты, а ETH станет деньгами, коэффициент стейкинга должен упасть еще ниже, возможно, даже до <1%. В этот момент становится легко скоординировать фонд, чтобы взять под контроль процесс консенсуса в цепочке.
 
-Imagine how easy it would be to create a fund and simply buy VISA… well not
-even buy, but simply bond the capital of the market cap of VISA, of $391B.
-That’s a lot of money, but if bonding that capital means one can take control
-over the financial system, people would lend their money in a heartbeat. But
-thankfully VISA shares are not money, and there are probably plenty of
-shareholders who don’t want to sell.
+Сети PoW имеют два "токена": инфраструктуру майнинга (которую можно купить или продать, а также "инфляционную") и сами монеты. Это разделение позволяет Bitcoin широко внедряться, не беспокоясь об уязвимостях безопасности, потому что даже самые крупные "киты" не могут просто купить 1/2 инфраструктуры майнинга. Это не суперфлюидный рынок, что делает его более безопасным.
 
-Once there are ATOMs and PHOTONs, and the hub finds good ways to incentive
-PHOTON usage, we will end up promoting PHOTON more than ATOMs, and the market
-cap of PHOTON should theoretically eclipse that of the market cap of ATOM.
-There’s much more money in circulation than the market cap of VISA/IBM/FED
-combined.
+(В биологии это различие между эукариотическими (с клеточным ядром) и прокариотическими (без ядра) клетками. Эволюция доказала, что многоклеточные (межклеточные) системы, подобные нам, как правило, эукариотические. Они оба существуют, но сложность требует большей внутриклеточной безопасности.)
 
-Finally, with the rollout of ICS1 and ICS2, simple-transfer zones and other
-application zones, the inflation rate of the ATOM may even become negative to
-maintain the target of 2/3 bonding. 
+Представьте, насколько легко было бы создать фонд и просто купить VISA... ну, даже не купить, а просто обеспечить капиталом рыночную капитализацию VISA в размере $391 млрд. Это много денег, но если обеспечивание этим капиталом означает возможность взять под контроль финансовую систему, люди предоставили бы свои деньги в мгновение ока. Но, к счастью, акции VISA не являются деньгами, и, вероятно, есть много акционеров, которые не хотят продавать.
 
-Liquid staking somewhat usurps the point of bonded staking, and thus by nature
-its utility is limited. It is already supported through the usage of interchain
-accounts, so that is all that needs to be done to support it. Rather we should
-limit liquid staking and other systemic risks by limiting how much can be
-bonded through interchain accounts.
+Когда появятся ATOM и PHOTON, и хаб найдет хорошие способы поощрения использования PHOTON, мы будем продвигать PHOTON больше, чем ATOM, и капитализация PHOTON должна теоретически превзойти капитализацию ATOM. В обращении гораздо больше денег, чем рыночная капитализация VISA/IBM/FED в совокупности.
 
-### About consensus-driven investments
+Наконец, с внедрением ICS1 и ICS2, простых зон передачи и других зон приложений, уровень инфляции ATOM может даже стать отрицательным, чтобы поддерживать целевой показатель в 2/3 бондинга.
 
-Global governance consensus driven investments will fail worse than local
-competition-driven investments, like central planning fails. Wherever
-possible, we should ensure that intelligence is preserved or amplified in
-decisions. The way to ensure that good decisions are rewarded and bad decisions
-punished, is to require individual decision makers to put skin in the game.
-This is why innovation happens in the private sector, and why governance
-funding is seen as a corruption of private sector innovation, and why central
-government planning historically has led to failure. It turns the incentive
-model of individual merit, into a game of politics. This is true even when
-decision making is weighted by relative capital.
+Ликвидный стейкинг в какой-то степени подрывает смысл бондированного стейкинга, и поэтому его полезность по своей природе ограничена. Он уже поддерживается через использование интерчейн аккаунтов, так что это все, что нужно сделать для его поддержки. Скорее, мы должны ограничить ликвидный стейкинг и другие системные риски, ограничив максимальную сумму, которая может быть привязана через интерчейн аккаунты.
 
-We can see this clearly in the private sector investment world. The best
-performing funds do not have their decisions made by weighted voting of LPs.
-Rather, the LPs are free to join and leave, while the investment thesis of each
-fund is maintained by select GPs. The ATOM2.0 tokenomics model is akin to
-taxing all investment funds and putting the proceeds into a giant super-fund
-controlled by LPs. If this were to happen in the real world, the super-fund
-would create such a large distortion of incentives as to destroy innovation in
-general. It would turn into a game of media/mind/political control, and actual
-innovators would fail to get the funding they need, and even if they did get
-funding, the entire private sector would become swamped with the resulting dumb
-money, making it harder for innovators to compete with incumbent politicians.
-The world would not accept such a policy toward central planning, and we should
-not accept it either, as it will lead to sure failure not only of the Cosmos
-Hub, but of the entire ecosystem.
+### О консенсус-ориентированных инвестициях
 
-This Constitution defines Treasury DAOs that have local decision making
-authority, where Treasury DAOs compete with each other.
+Инвестиции, управляемые консенсусом глобального управления, потерпят неудачу больше, чем локальные инвестиции, ориентированные на конкуренцию, как это происходит с централизованным планированием. По возможности мы должны следить за тем, чтобы при принятии решений интеллект сохранялся или усиливался. Способ обеспечить вознаграждение за хорошие решения и наказание за плохие - это требовать от отдельных лиц, принимающих решения, вкладывать свои средства в дело. Вот почему инновации происходят в частном секторе, а финансирование государственных органов рассматривается как коррупция частного сектора и почему централизованное государственное планирование исторически приводило к неудачам. Это превращает модель мотивации индивидуальных заслуг в игру в политику. Это верно даже тогда, когда принятие решений зависит от относительного капитала.
 
-### How to immunize against the mark of the beast
+Мы можем ясно видеть это в мире инвестиций частного сектора. Самые эффективные фонды не принимают решения путем взвешенного голосования LPs. Скорее, LPs могут свободно присоединяться и выходить, в то время как инвестиционный тезис каждого фонда поддерживается избранными GPs. Модель токеномики ATOM2.0akin заключается в налогообложении всех инвестиционных фондов и направлении выручки в гигантский суперфонд, контролируемый LPs. Если бы это произошло в реальном мире, суперфонд создал бы такое большое искажение стимулов, что это привело бы к уничтожению инноваций в целом. Это превратилось бы в игру в медиа/ментальное/политическое управление, и настоящие новаторы не смогли бы получить финансирование, которое им нужно, и даже если бы они его получили, весь частный сектор был бы затоплен образовавшимися «дурацкими» деньгами, что сделало бы новаторам сложнее конкурировать с действующими политиками. Мир не принял бы такой политики централизованного планирования, и мы также не должны ее принимать, поскольку она приведет к неминуемому провалу не только Cosmos Hub, но и всей экосистемы.
 
-The powers of the world, as represented by the WEF, are intent on implementing the
-mark of the beast. As per the Book of Revelation,
+Настоящая конституция определяет казну DAO, которые обладают местной властью принятия решений, где казна DAO конкурирует друг с другом.
 
-* The nations of the world were deceived by pharmakia/medicine (Revelation 18
-  23)
-* The mark (in original Koine greek, a needle prick) is required to buy or sell
-  (Revelation 13:17)
-* The mark gives you sores (Revelation 16:2) // NOTE: have no fear about it
-  even if you got the shot.
+### Как защититься от начертания зверя
 
-How could it be that a two millenia old document can predict what is happening
-today? Well, most people don't read the bible at all, and anyone can see the
-light and turn into a white-hat. It appears to me that the white-hats have
-shepherded the black-hats into following a script that ends up exposes them
-when it is too late. And now the "true Christians" have indeed exposed the NWO
-agenda, and this awareness is growing exponentially.
+Силы мира, представленные WEF, намерены реализовать начертание зверя. Согласно Книге Откровения:
 
-This control grid was leaked by whistleblower Senator Larry McDonald in the
-70's, whose plane was soon after shot down.
-[(ODY)](https://odysee.com/@Commentator:e4/Former_US_Congressman_Larry_McDonald:1)[(TWT)](https://twitter.com/Xx17965797N/status/1578662395358384128?s=20&t=MrwxzKymkKv6ehdfhvKlAA).
-The "monolithic and ruthless conspiracy that relies on covert means" was leaked
-before by JFK who was assassinated in 1963.
-[(ODY)](https://odysee.com/@Real_Solutions:b/JFK's-Monolithic-Conspiracy-Revelation:7)[(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
-Now we have experienced the NWO control grid by the WEF, and its young global
-leaders, such as Fauci, Gates, Gavin Newsom, Trudeau; and even experiencing the
-war between Zelenski and Putin. The WEF, whose leader Schwab boasted about
-having infiltrated government cabinets, also wants us to "own nothing and be
-happy".  If it isn't clear enough, their logo even includes a subtle 666.
+Нации мира были обмануты фармацевтикой/медициной (Откровение 18:23).
+Требуется клеймо (в оригинальном коине-греческом, укол иглой), чтобы купить или продать (Откровение 13:17).
+Клеймо вызывает болячки (Откровение 16:2) // Примечание: не бойтесь этого, даже если вы сделали прививку.
+* Как может быть, что документ двухтысячелетней давности может предсказать то, что происходит сегодня? Ну, большинство людей вообще не читают Библию, и каждый может увидеть свет и превратиться в «white-hat». Мне кажется, что «white-hat» подвели «black-hat» к сценарию, который в конечном итоге разоблачает их. И теперь «истинные христиане» действительно разоблачили повестку дня NWO, и эта осведомленность растет в геометрической прогрессии.
 
-The fact of the matter is, we probably do want some regulatory system to deal
-with large scale theft of coins resulting from bugs or human error/malice. Even
-if such a regulatory system is not imposed upon any zones, zones may want to
-voluntarily adopt some kind of regulatory policy. And zones probably want to
-enforce these policies across zones that choose to adopt the same policies.
+Эта система контроля была раскрыта сенатором-разоблачителем Ларри Макдональдом в 70-е годы, чей самолет вскоре после этого был сбит. (ODY)(TWT). О "монолитном и безжалостном заговоре, который опирается на тайные средства", ранее сообщил Дж. Ф. Кеннеди, который был убит в 1963 году. (ODY)(YT). Теперь мы испытали на себе сетку управления NWO от WEF и его молодых мировых лидеров, таких как Фаучи, Гейтс, Гэвин Ньюсом, Трюдо; и даже переживая войну между Зеленским и Путиным. WEF, чей лидер Шваб хвастался тем, что он проник в кабинеты министров, также хочет, чтобы мы "ничего не имели и были счастливы". Если этого недостаточно, их логотип даже включает в себя тонкое 666.
 
-It follows that, in a minimal system, zones should be allowed to choose their
-own set of regulatory policies, and the Hub can help enforce these policies
-when it comes to IBC transfers across zones, or from hub to zone. From the
-perspective of the Hub, this is still a permissionless, voluntary system.
+Суть в том, что, вероятно, нам нужна какая-то регулятивная система для решения проблем крупномасштабного кражи монет из-за ошибок или злонамеренных действий человека. Даже если такая регулятивная система не навязывается каким-либо зонам, зоны могут добровольно принять какую-то регулятивную политику. И, вероятно, зоны захотят соблюдать эти политики в пределах зон, которые выберут принять такие же политики.
 
-When it comes to transactions on the hub, and transactions from zones to the
-hub, we should adopt the most minimal regulatory system. We could arguably do
-nothing--until it is too late, and we learn our lesson that we need *something*
-in the case of large scale theft from malice or bugs. The minimal nonzero
-policy we can adopt, is to enable one or more bonded DAOs to designate one or
-more addresses as being affected, with full justification, to temporarily
-freeze those coins, where the coins will unfreeze automatically until the hub's
-governance votes to act upon the frozen coins or to freeze the coins for longer
-to determine the facts. Something along these lines is a minimal regulatory
-system. Also, it is probably sensible for the hub to implement a kind of
-delayed transfer system, so that accounts with large token amounts can be
-protected by this regulatory system in the case of theft. Perhaps accounts can
-opt out of this transfer-delay protection.
+Из этого следует, что в минимальной системе зоны должны иметь право выбирать свой собственный набор регулятивных политик, и Хаб может помогать соблюдению этих политик в случае трансграничных передач через зоны или от хаба к зоне. С точки зрения Хаба, это по-прежнему является системой без разрешения и добровольной системой.
 
-The above minimal regulatory system still begs for a full system of checks and
-balances. That's another rabbit hole for another issue/document. The ATOM1
-constitution hints at a system of checks and balances, but IMO it isn't
-complete yet, at least not in its current written form.
+Когда речь идет о транзакциях в хабе и транзакциях из зон в хаб, нам следует принять минимальную систему регулирования. Можно утверждать, что мы ничего не можем сделать - пока не станет слишком поздно, и мы не усвоим урок, что нам нужно что-то в случае крупномасштабного воровства из-за злонамеренности или ошибок. Минимальная ненулевая политика, которую мы можем принять, - это позволить одной или нескольким связанным DAO назначить один или несколько адресов как затронутые, с полным обоснованием, для временной заморозки этих монет, где монеты будут автоматически разморожены до тех пор, пока голосование хаба не решит действовать в отношении замороженных монет или заморозить их на более длительный срок для установления фактов. Что-то подобное является минимальной системой регулирования. Кроме того, вероятно, разумно для хаба реализовать своего рода систему отложенного перевода, чтобы учетные записи с большими суммами токенов могли быть защищены этой системой регулирования в случае кражи. Возможно, учетные записи могут отказаться от этой защиты с задержкой перевода.
 
-The challenge is to (a) further refine and minimize the aforementioned hub
-internal regulatory policy, and (b) to define the inter-zone permissionless
-regulatory framework. With these implemented, the hub can ensure the rights to
-property, protect property in the case of theft, and allow zones to
-permissionlessly set their own policies. This is a critical
-architecture/constitutional/regulatory problem we should be discussing today.
-Until it is implemented, IMO crypto will not be ready for the general
-population.
+Вышеописанная минимальная регулятивная система все еще требует полной системы сдержек и противовесов. Это еще одна кроличья нора для другого вопроса/документа. Конституция ATOM1 намекает на систему сдержек и противовесов, но, на мой взгляд, она еще не завершена, по крайней мере, в ее текущей письменной форме.
 
-The problem is, getting this wrong is _significantly worse_ than not
-implementing it. When done wrong, either it will become destructive (tokens
-being frozen/stolen by the regulatory system), or it will become abusive (think
-1984 global dictatorship as per the NWO agenda, followed by global human
-depopulation). It follows that the Cosmos Hub should not implement a regulatory
-framework such that it can allow the permission innovation and proofing of
-regulatory frameworks over time. This best increases the chances of success in
-designing the right regulatory framework.
+Здесь стоит перед нами задача: (a) дальнейшее уточнение и минимизация упомянутой выше внутренней регулятивной политики хаба и (b) определение разрешающей регулятивной структуры между зонами. После их внедрения хаб сможет обеспечить права на собственность, защитить собственность в случае кражи и позволить зонам самостоятельно устанавливать свои собственные политики. Это критическая архитектурная/конституционная/регулятивная проблема, которую мы должны обсудить сегодня. По моему мнению, пока она не будет реализована, криптовалюты не будут готовы для общественного использования.
 
-A Rule should be added to the constitution to succinctly represent the above
-paragraph.
+Проблема в том, что сделать это неправильно значительно хуже, чем не внедрять вообще. При неправильном подходе это может стать разрушительным (токены будут заморожены/украдены системой регулирования), или это может стать злоупотреблением (представьте себе глобальную диктатуру 1984 года в соответствии с повесткой дня NWO, за которой последует глобальное сокращение населения).  Следовательно, Cosmos Hub не должен внедрять нормативную базу таким образом, чтобы давать возможность для разрешенных инноваций и проверки нормативных баз с течением времени. Это лучший способ увеличить шансы на успех в разработке правильной нормативной базы.
+
+Конституции следует добавить правило, которое лаконично отражает вышеприведенный параграф.
