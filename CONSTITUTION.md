@@ -140,8 +140,8 @@ following functions:
 
 The working language of AtomOne Hub governance is English.
 
-The quorum necessary for a proposal to be valid shall depend solely on the number
-of bonded ATOMs.
+The quorum necessary for a proposal to be valid shall depend solely on the
+number of bonded ATOMs.
 
 The governance process must extend the voting deadline to ensure a minimum of 2
 weeks of voting after the minimum quorum has been met.
@@ -217,7 +217,8 @@ all ATOMs. The maximum inflation rate is 20% non-compounded per year. There is
 no minimum inflation rate, and it can even be negative (deflationary).
 
 Inflated ATOMs are paid to bonded ATOM holders in proportion to each
-delegator's staking amount, and staked ATOMs are converted to Bonded Share Units.
+delegator's staking amount, and staked ATOMs are converted to Bonded Share
+Units. 
 
 The Atom Unbonding Period shall be 3 weeks, and redelegation is allowed twice
 per Atom Unbonding Period.
@@ -263,8 +264,8 @@ beyond the default inflation rate described in the Constitution shall require a
 two-thirds supermajority vote of a special inflation governance proposal type.
 
 The special inflation proposal can include a description of the purpose of the
-inflation, but it cannot include any other modifications to the AtomOne Hub or its
-Constitution, nor the adoption of any new Treasury DAOs.
+inflation, but it cannot include any other modifications to the AtomOne Hub or
+its Constitution, nor the adoption of any new Treasury DAOs.
 
 ### Article 3.E. The Common Pool 
 
@@ -444,8 +445,8 @@ authority, where Treasury DAOs compete with each other.
 
 ### How to immunize against the mark of the beast
 
-The powers of the world, as represented by the WEF, are intent on implementing the
-mark of the beast. As per the Book of Revelation,
+The powers of the world, as represented by the WEF, are intent on implementing
+the mark of the beast. As per the Book of Revelation,
 
 * The nations of the world were deceived by pharmakia/medicine (Revelation 18
   23)
