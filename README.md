@@ -136,7 +136,7 @@ use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
 ## Role as $ATOM "Liquid Staking" Provider
 
-XXX Try to make this work with one $phATOM using bonding curves within bounds
+XXX Try to make this work with one $PHOTON using bonding curves within bounds
 with all three tokens. This would still rely on imperfect measures like present
 AMM rate and can lead to manipulation and losses, but you can still maybe
 restrict these losses by restricting the bounds, say to 2:1 1:2. 
@@ -145,42 +145,42 @@ AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
 automatically delegated via ICA (interchain accounts) to aligned validators as
 determined by the the system determined by the $ATOM1 stakers. The bonders of
-$ATOM toward this service will receive liquid $phATOM tokens.
+$ATOM toward this service will receive liquid $PHOTON tokens.
 
 In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
-$phATOM1 tokens. So there will be $phATOM along side $phATOM1 tokens, but with
+$phATOM1 tokens. So there will be $PHOTON along side $phATOM1 tokens, but with
 some differences in tokenomics between them. We have more control over $phATOM1
 tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
-Gaia for $phATOM.
+Gaia for $PHOTON.
 
-In return for delegating voting decisions from $ATOM bonded $phATOM holders to
-$ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity for
-all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
+In return for delegating voting decisions from $ATOM bonded $PHOTON holders to
+$ATOM1 stakers, the AtomHub will offer the $PHOTON holders the opportunity for
+all perpetuity, the merger of $PHOTON to $phATOM1 according to a reasonable
 exchange ratio as determined by the best available means as determined by
 $ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
-to $phATOM than 1:2 by total market cap between $phATOM and $phATOM1. For
-clarity this means that upon the failure of Gaia the $phATOM token holders can
+to $PHOTON than 1:2 by total market cap between $PHOTON and $phATOM1. For
+clarity this means that upon the failure of Gaia the $PHOTON token holders can
 dilute the $phATOM1 holders such that $phATOM1 holders have as low as 2/3 the
 underlying $ATOM1 as before the merge (but no less).
 
-The conversion penalty may decrease below 20% for $phATOM to $phATOM1 merger
+The conversion penalty may decrease below 20% for $PHOTON to $phATOM1 merger
 with a Supermajority of $ATOM1 stakers.
 
 AtomOne with a Constitutional Majority may decrease the merger ratio cap from
-1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
-execution must be delayed for a period of at least 3 months to allow $phATOM
+1:2 (1/3) even down to zero (e.g. to terminate the support of $PHOTON) but the
+execution must be delayed for a period of at least 3 months to allow $PHOTON
 holders to preempt this with a merge. Nothing outside of the merge will prevent
-$phATOM holders from being able to redeem their due pro-rata $ATOM tokens for
+$PHOTON holders from being able to redeem their due pro-rata $ATOM tokens for
 all time.
 
-Should the $phATOM be discontinued in support as decided by AtomOne with a
+Should the $PHOTON be discontinued in support as decided by AtomOne with a
 Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
-itself but must be a separate proposal), the $phATOM holders must be made whole
-by redistributing the underlying $ATOM tokens to their respective $phATOM
+itself but must be a separate proposal), the $PHOTON holders must be made whole
+by redistributing the underlying $ATOM tokens to their respective $PHOTON
 holders completely with the same exchange factors applied to everyone equally,
 but as with decreasing the merger ratio cap, (for the purpose of giving
-precedent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
-a period of 3 months to allow $phATOM holders to preempt this with a merge.
+precedent to the $PHOTON -> $phATOM1 merge mechanism) this must be delayed by
+a period of 3 months to allow $PHOTON holders to preempt this with a merge.
 
 Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
 actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
@@ -190,14 +190,14 @@ decide through AtomOne governance. Everybody must acknowledge the risks of this
 experiment.
 
 All other parameters defined here regarding the merger that may negatively
-affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
+affect $PHOTON holders and $ATOM holders on AtomOne cannot change even with a
 Constitutional Majority.
 
 In the case of Gaia failure this could be seen as a detriment to $phATOM1
 holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
 shrunk by up to half; but if the $ATOM token were to recover it would now be of
 benefit to $phATOM1 holders; and this is an agreement that was pre-established
-in these Founding Documents to support the mutual success of $phATOM and
+in these Founding Documents to support the mutual success of $PHOTON and
 $phATOM1to ensure mutual success rather than sabotage. While in the end the
 $ATOM1 stakers and before that the validators have complete freedom of will,
 how well they adhere to these founding agreements is left to everyone to
@@ -205,7 +205,7 @@ enforce, such as by blacklisting or slashing staking tokens and validators held
 by violators. XXX specify the conversion rate before and after the merger both ways.
 
 There is no merge mechanism for the opposing case upon AtomOne failure. In this
-case the $ATOM underlying $phATOM must be distributed back to the $phATOM
+case the $ATOM underlying $PHOTON must be distributed back to the $PHOTON
 holders in proportion, or if there was already a merger, to the $phATOM1
 holders in proportion.
 
@@ -220,7 +220,7 @@ forks will reduce risk at the local and global levels; at the local level
 through competition of implementations, and at the global level through the
 diversity of hubs and frameworks.
 
-We hope that the economic recovery measures between $phATOM and $phATOM1 will
+We hope that the economic recovery measures between $PHOTON and $phATOM1 will
 incentivize mutual success and allow Gaia to transition safely into a more
 experimental hub as compared to the more immutable and conservative AtomOne.
 
@@ -437,7 +437,7 @@ distinct partyhubs should be allowed to compete against the voteless one. There
 will generally be demand for the original voteless liquid token because it is
 managed directly by the stakers of the hub.
 
-Later we show the $phATOM token which is deflationary AND liquid, yet fully
+Later we show the $PHOTON token which is deflationary AND liquid, yet fully
 backed by $ATOM1s.
 
 ## 6. Declaration of Independence & Constitution
@@ -706,43 +706,43 @@ control, such that it can also regulate it, especially as it relates to control
 over AtomOne governance.
 
 Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
-$phATOM. In order to incentivize the usage of $phATOM, the AtomOne hub offers a
-trade that makes $phATOM deflationary: *non-atom rewards are taxed with an
-immutable cap, but inflated atoms are not* for $ATOM1 bonded $phATOM holders,
+$PHOTON. In order to incentivize the usage of $PHOTON, the AtomOne hub offers a
+trade that makes $PHOTON deflationary: *non-atom rewards are taxed with an
+immutable cap, but inflated atoms are not* for $ATOM1 bonded $PHOTON holders,
 and with the right conversion equation (which adjusts for $ATOM1 inflation) we
-can construct a perfectly fixed $phATOM supply (say of 1 billion $phATOMs) no
-matter how many $ATOM1s bond to $phATOMs.
+can construct a perfectly fixed $PHOTON supply (say of 1 billion $PHOTONs) no
+matter how many $ATOM1s bond to $PHOTONs.
 
 Should this "more monetary" construction of the fixed supply ("deflationary")
-$phATOM token incentivize a large liquid supply, it becomes more susceptible to
+$PHOTON token incentivize a large liquid supply, it becomes more susceptible to
 hostile takeovers, simply because there are more liquid $ATOM1 staking tokens
 available in comparison to the total bonded voting power. Therefore for a more
-secure AtomOne hub we also limit the conversion back from $phATOM to $ATOM1 so
+secure AtomOne hub we also limit the conversion back from $PHOTON to $ATOM1 so
 as to make hostile takeovers more expensive.
 
 The known ways are:
- * Widen the gap in bidirectional conversion price between $phATOM and $ATOM1.
+ * Widen the gap in bidirectional conversion price between $PHOTON and $ATOM1.
  * Limit the amount of $ATOM1 that can be released per time period auction.
  * Essentially the same as above with some conversion curve.
 
-In the case of validator & delegator $ATOM1 slashing, $phATOM holders will of
-course also get slashed, but the ratio of $phATOM-bonded $ATOM1s and all other
-(non-$phATOM) $ATOM1s remains the same. The conversion factor from $phATOM to
+In the case of validator & delegator $ATOM1 slashing, $PHOTON holders will of
+course also get slashed, but the ratio of $PHOTON-bonded $ATOM1s and all other
+(non-$PHOTON) $ATOM1s remains the same. The conversion factor from $PHOTON to
 $ATOM1 will change because of slashing, but the conversion factor from $ATOM1
-to $phATOM will not before and after slashing, thereby making the total
-possible supply of $phATOM lower than before (more deflationary) and over time
-making the cost of conversion to $phATOM more expensive in comparison to the
+to $PHOTON will not before and after slashing, thereby making the total
+possible supply of $PHOTON lower than before (more deflationary) and over time
+making the cost of conversion to $PHOTON more expensive in comparison to the
 inverse, thereby allowing the exchange rate between the two tokens to naturally
 float between two reasonable bounds.
 
-NOTE: This uses the market imperfection of the $ATOM1 and $phATOM tokens to
+NOTE: This uses the market imperfection of the $ATOM1 and $PHOTON tokens to
 create a (larger) gap in the conversion price, thereby making the tokens more
-independent of each other. $phATOM holders might be happy that their token has
+independent of each other. $PHOTON holders might be happy that their token has
 become more deflationary (total supply reduction), and while they can only get
 the post slash amount of $ATOM1s, the value of those $ATOM1s might be preserved
 or catch up soon after new validators start operations. The alternative where
-the total amount of $phATOM remains invariant in comparison appears strictly
-worse for $phATOM holders. This widening of the gap could in theory happen at
+the total amount of $PHOTON remains invariant in comparison appears strictly
+worse for $PHOTON holders. This widening of the gap could in theory happen at
 any time with governance.
 
 The $ATOM1s bonded toward auto-staking do not count toward calculating the
@@ -873,7 +873,7 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Scan through twitter posts for more ideaas.
  - [ ] Argument for why hub and spokes are needed (from atom one)
  - [ ] Quantum resistance
- - [ ] Constitution updates: $ATOM -> $ATOM1; Add $phATOM and $phATOM1; conversion
+ - [ ] Constitution updates: $ATOM -> $ATOM1; Add $PHOTON and $phATOM1; conversion
  - [ ] At least one week for decentralists feedback on proposals that meet the
    spam threshold.
  - [ ] Proposals should be self contained no PDF necessary.
@@ -892,6 +892,6 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
  - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
  - [ ] Indemnify all actors given no malice outside of the chain. Allow the chain to enforce penalties from outside the chain.
- - [ ] Specify that $ATOM1 held in pools and bonded for $phATOM1 do not count toward the bond ratio.
+ - [ ] Specify that $ATOM1 held in pools and bonded for $PHOTON do not count toward the bond ratio.
  - [ ] Add rules for what non-hubs and hubs (separate rules) must abide by. Not all hubs can connect due to this.
  - [ ] XXX
