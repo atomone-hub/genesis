@@ -14,7 +14,7 @@ We, the people of the Cosmos, in order to create a free world, enable voluntary
 and borderless transactions, facilitate permissionless innovation, ensure
 economic security, cater to economic and technological development, allow for
 the creation of sovereign zones, and maintain order among sovereign zones, do
-ordain and establish this Constitution for the Cosmos Hub.
+ordain and establish this Constitution for the AtomOne Hub.
 
 ## Part 0 Definitions
 
@@ -24,13 +24,13 @@ IBC.
 A zone is an independent chain (or an application hosted on a parent chain)
 with a well-defined governing body or bodies that dictate the governance and
 economic rules internal to that zone. By definition, a zone is sovereign or
-partially sovereign. A treasury DAO of the Cosmos Hub is partially sovereign.
+partially sovereign. A treasury DAO of the AtomOne Hub is partially sovereign.
 
 IBC is short for Interchain Blockchain Communication, and includes all
 protocols that allow one chain to communicate state or messages with another
 chain by tracking the consensus state of the other.
 
-The ATOM is the primary staking token of the Cosmos Hub.
+The ATOM is the primary staking token of the AtomOne Hub.
 
 ICS is short for Interchain Security, and includes all protocols that allow the
 consensus of one chain to be partially or wholly secured by mechanisms on
@@ -45,16 +45,16 @@ scenarios of one validator set are handled by another validator set, where
 slashing affects tokens on the latter validator set.
 
 ICS2A includes all protocols of ICS2 where stake is entirely managed by the
-Cosmos Hub (in the form of ATOMs or other derivatives).
+AtomOne Hub (in the form of ATOMs or other derivatives).
 
 ICS2B includes all protocols of ICS2 where stake is entirely managed by the
 logic of the other chain.
 
 Auto-staking is staking across all current validators in proportion to their
 voting power. For example, if a validator that had 10% of the voting power were
-to get slashed 30% on the Cosmos Hub, and 50% of ATOMs were either staked onto
-the Cosmos Hub or free (not auto-staked), everyone who auto-staked ATOMs
-on the Cosmos Hub would get slashed 1.5%. Inflationary ATOMs are paid to
+to get slashed 30% on the AtomOne Hub, and 50% of ATOMs were either staked onto
+the AtomOne Hub or free (not auto-staked), everyone who auto-staked ATOMs
+on the AtomOne Hub would get slashed 1.5%. Inflationary ATOMs are paid to
 auto-stakers such that they do not suffer from the inflation rate of ATOMs.
 
 A two-thirds supermajority is where more than 2/3rd of all participating staked
@@ -65,27 +65,27 @@ the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
 
 ### Article 1.A. Fundamental Principles
 
-This Constitution of the Cosmos Hub, hereinafter “the Constitution” hereby
+This Constitution of the AtomOne Hub, hereinafter “the Constitution” hereby
 establishes the foundations of the governance model, economical model, and
-operating system of the Cosmos Hub.
+operating system of the AtomOne Hub.
 
 All subsequent governance proposals must align with the provisions of
 the Constitution, and proponents of each proposal, along with all active
 governance voters, are required to ensure consistency between such proposals
 and the Constitution.
 
-### Article 1.B. Sovereignty of the Cosmos Hub
+### Article 1.B. Sovereignty of the AtomOne Hub
 
 The Cosmos interchain network is composed of many sovereign zones, such as the
-Cosmos Hub.
+AtomOne Hub.
 
-The Cosmos Hub is composed of many chains including the root hub chain where
+The AtomOne Hub is composed of many chains including the root hub chain where
 staking and governance transactions are committed and executed, but also other
 chains secured by ICS that are subservient to the governance of the root hub
 chain, hereinafter referred to as "Hub Governance".
 
-Other sovereign zones that are completely or partially secured by Cosmos Hub
-ICS, by definition, have their own governance mechanism. The Cosmos Hub
+Other sovereign zones that are completely or partially secured by AtomOne Hub
+ICS, by definition, have their own governance mechanism. The AtomOne Hub
 principally enables and follows the will of the governance of such sovereign
 zones regarding the pegged tokens originating from said zones, except in
 well-defined exceptional circumstances involving bugs, theft, or harm to the
@@ -93,41 +93,41 @@ Cosmonauts of the Cosmos ecosystem.
 
 ### Article 1.C. General Mission and Objectives
 
-The mission of the Cosmos Hub is to create a new world, enabling permissionless
+The mission of the AtomOne Hub is to create a new world, enabling permissionless
 yet secure interactions between the Cosmonauts of Cosmos in the Solar system.
 
-The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
+The objective of the AtomOne Hub is to provide a classical BFT proof-of-stake
 multi-token payment and transfer system; and to scale the security of the
-platform to many applications hosted in other zones via Cosmos Hub ICS.
+platform to many applications hosted in other zones via AtomOne Hub ICS.
 
 ### Article 1.D. Cosmonauts
 
 Every person has the right to become a Cosmonaut and can freely engage on the
-Cosmos Hub. As such, every Cosmonaut has the right to own at least one address
-on the Cosmos Hub.
+AtomOne Hub. As such, every Cosmonaut has the right to own at least one address
+on the AtomOne Hub.
 
-Any Cosmonaut can also become a Citizen of the Cosmos Hub by using their
-address to stake ATOMs toward the Cosmos Hub and participate actively in
+Any Cosmonaut can also become a Citizen of the AtomOne Hub by using their
+address to stake ATOMs toward the AtomOne Hub and participate actively in
 governance. The status of citizenship is granted in an autonomous manner.
 
-### Article 1.E. Rights, Liberties, and Obligations in the Cosmos Hub
+### Article 1.E. Rights, Liberties, and Obligations in the AtomOne Hub
 
-The Liberty and Property of all Cosmonauts engaging in the Cosmos Hub is hereby
+The Liberty and Property of all Cosmonauts engaging in the AtomOne Hub is hereby
 guaranteed. Any restriction to the Liberty and Property of Citizens on the
-Cosmos Hub can be done only through the Cosmos Hub's governance.
+AtomOne Hub can be done only through the AtomOne Hub's governance.
 
 Every Cosmonaut has the right to receive benefits from their engagement in the
-Cosmos Hub, including rights derived from held or staked ATOMS in line with the
+AtomOne Hub, including rights derived from held or staked ATOMS in line with the
 provisions of this Constitution.
 
-Every Citizen allows the Governance of the Cosmos Hub to restrict their staked
+Every Citizen allows the Governance of the AtomOne Hub to restrict their staked
 ATOM property by partial or full slashing according to their voting activity.
 
 ## Part 2 Governance
 
-### Article 2.A. The Cosmos Hub Chain
+### Article 2.A. The AtomOne Hub Chain
 
-The root hub chain of the Cosmos Hub is uniquely identified by chainid
+The root hub chain of the AtomOne Hub is uniquely identified by chainid
 "cosmoshub". This chain commits and executes transactions that serve the
 following functions:
 
@@ -136,9 +136,9 @@ following functions:
  * IBC token transfers
  * ICS1 and ICS2 management
 
-### Article 2.B. Cosmos Hub governance
+### Article 2.B. AtomOne Hub governance
 
-The working language of Cosmos Hub governance is English.
+The working language of AtomOne Hub governance is English.
 
 The quorum necessary for a proposal to be valid shall depend solely on the number
 of bonded ATOMs.
@@ -164,14 +164,14 @@ according to well defined principles at any time.
 
 ### Article 2.D. Treasury DAOs
 
-The Cosmos Hub governance may establish one or more transparent and accountable
+The AtomOne Hub governance may establish one or more transparent and accountable
 Treasury DAOs by simple majority vote.
 
 The operations of the Treasury DAO must operate on an ICS secured zone outside
 of the hub. As an exception, the tokens of the Treasury DAO may reside on the
-the Cosmos Hub as a m-of-n multisig account where n is at least 3 and m is at
+the AtomOne Hub as a m-of-n multisig account where n is at least 3 and m is at
 least 1/2 of n, where each signatory is an authorized member of the Treasury
-DAO and Citizen of the Cosmos Hub.
+DAO and Citizen of the AtomOne Hub.
 
 The Treasury DAO shall be composed of Cosmonauts, and at the top Executive
 Board level be composed of one or more Citizens. All Cosmonauts and Citizens of
@@ -179,7 +179,7 @@ Treasury DAOs including their Oversight Committee must have public and known
 real personal identities. 
 
 To enable the well-functioning of Treasury DAOs and the separation of powers in
-the utmost interest of the Cosmos Hub, each member can hold just one type of
+the utmost interest of the AtomOne Hub, each member can hold just one type of
 role within each Treasury DAO.
 
 The members of the DAO must perform efficiently in their role in line with
@@ -190,26 +190,26 @@ Hub.
 
 The role and functions of the Executive Board shall be further developed
 through governance proposals within each DAO, unless the DAO chooses to defer
-to Cosmos Hub governance by Citizens.
+to AtomOne Hub governance by Citizens.
 
 Each Treasury DAO shall have an Oversight Committee composed of any number of
 Cosmonauts. The Oversight Committee must have at least the right to freeze all
 transfers of tokens from the Treasury or its designated m-of-n multisig account
-on the Cosmos Hub.
+on the AtomOne Hub.
 
 ## Part 3 Economics
 
 ### Article 3.A. Economic model
 
-The one and only economic incentive model of the Cosmos Hub is the collection
+The one and only economic incentive model of the AtomOne Hub is the collection
 of market-based transaction fees from a large number of transactions across all
-the chains secured by the staking of ATOMs on the Cosmos Hub, including ICS1
+the chains secured by the staking of ATOMs on the AtomOne Hub, including ICS1
 hosted blockchains.
 
 ### Article 3.B. The ATOM Token
 
 The ATOM functions as voting shares, economic incentive shares, and security
-bond for the Cosmos Hub.
+bond for the AtomOne Hub.
 
 To preserve the security and identity of the acting governance and validator
 set, the inflation rate of the ATOM is made to vary over time to target 2/3 of
@@ -232,9 +232,9 @@ Complex signing failures (those that require +1/3 to coordinate) shall result
 in slashing the Upper Slashing Limit.
 
 The Upper Slashing Limit shall be 50%. This parameter may be increased by a two
-thirds majority of the Cosmos Hub. In cases where there is sufficient evidence
+thirds majority of the AtomOne Hub. In cases where there is sufficient evidence
 of malice and intent, this parameter may be overruled by a simple majority of
-the Cosmos Hub on a per-case basis up to 100%.
+the AtomOne Hub on a per-case basis up to 100%.
 
 Liquid staking may only be supported through interchain accounts (aka
 non-native liquid staking).
@@ -243,12 +243,12 @@ To limit the amount of liquid staked tokens so as to reduce systemic risk from
 liquid staking, there shall be imposed a 5% tax (the "Liquid Staking Tax") on
 all rewards paid out to staked interchain accounts at time of reward
 withdrawal. This Liquid Staking Tax parameter may be adjusted by a two-thirds
-supermajority vote of the Cosmos Hub. 
+supermajority vote of the AtomOne Hub. 
 
 If the amount of ATOMs staked using interchain accounts exceeds 20% (the
 "Liquid Staking Factor") of the total staked ATOMs, the Liquid Staking Tax
 shall automatically increase by 1% per month. The Liquid Staking Factor
-parameter may be adjusted by a two-thirds supermajority vote of the Cosmos Hub.
+parameter may be adjusted by a two-thirds supermajority vote of the AtomOne Hub.
 
 TODO: simplify the above two rules.
 
@@ -263,7 +263,7 @@ beyond the default inflation rate described in the Constitution shall require a
 two-thirds supermajority vote of a special inflation governance proposal type.
 
 The special inflation proposal can include a description of the purpose of the
-inflation, but it cannot include any other modifications to the Cosmos Hub or its
+inflation, but it cannot include any other modifications to the AtomOne Hub or its
 Constitution, nor the adoption of any new Treasury DAOs.
 
 ### Article 3.E. The Common Pool 
@@ -272,44 +272,44 @@ The Common Pool tax proceeds shall apply to transaction fees and inflationary
 ATOMs, and shall be sent to the Community Pool.
 
 The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
-by two-thirds supermajority of the Cosmos Hub governance.
+by two-thirds supermajority of the AtomOne Hub governance.
 
 
 ## Part 4 Final Dispositions
 
-## Article 4.A. Updates to the Cosmos Hub
+## Article 4.A. Updates to the AtomOne Hub
 
-New updates to the Cosmos Hub should be broken down into independent components
+New updates to the AtomOne Hub should be broken down into independent components
 and discussed/proposed separately with adequate time between, regardless of any
 omnibus whitepaper. 
 
 ## Article 4.B. The Implementation
 
-The Cosmos Hub shall not have any VM functionality, but shall be plainly
+The AtomOne Hub shall not have any VM functionality, but shall be plainly
 implemented in a single garbage-collected language as reference (namely Go);
 and other clients may implement all or portions of the stack in another
 language like Rust.
 
-The only cryptographic assumptions allowed to be used by the Cosmos Hub,
+The only cryptographic assumptions allowed to be used by the AtomOne Hub,
 including its consensus protocol shall be Ed25519 and Secp256k1 elliptic
 curves, and RIPEMD160 and SHA256 hash functions.
 
-No zero-knowledge proof systems may be adopted on the Cosmos Hub even if they
+No zero-knowledge proof systems may be adopted on the AtomOne Hub even if they
 are composed of the approved primitives.
 
 The rules of this article may only be changed by two-thirds supermajority vote
-of the Cosmos Hub.
+of the AtomOne Hub.
 
 ## Article 4.C. Compute/storage/memory limitations
 
 For the sake of decentralization, accessibility, accountability, and security,
-the Cosmos Hub and each ICS zone shall be restricted so that each can run on
+the AtomOne Hub and each ICS zone shall be restricted so that each can run on
 a commodity computer.
 
 ## Article 4.D. Amendment of the Constitution
 
 This constitution may be modified or additional parts and rules appended by 
-two-thirds supermajority of Cosmos Hub governance.
+two-thirds supermajority of AtomOne Hub governance.
 
 <hr />
 
@@ -347,11 +347,11 @@ Always was, and should remain.
 
 New functionality can always be permissionlessly added on top of this base
 ATOM1 framework. The gno.land prop69 #exitdrop is a demonstration of value-add
-to the Cosmos Hub, as it will provide Gnolang smart contracts while IBC pegging
-to the Cosmos Hub for tokens.
+to the AtomOne Hub, as it will provide Gnolang smart contracts while IBC pegging
+to the AtomOne Hub for tokens.
 
 Using ICS, it should be possible to run new Gnolang VM powered zones secured by
-the Cosmos Hub, but also IBC connected to the gno.land chain for importing
+the AtomOne Hub, but also IBC connected to the gno.land chain for importing
 logic hosted on the gno.land "github" (and paying gas fees & license fees to
 each).
 
@@ -516,7 +516,7 @@ The problem is, getting this wrong is _significantly worse_ than not
 implementing it. When done wrong, either it will become destructive (tokens
 being frozen/stolen by the regulatory system), or it will become abusive (think
 1984 global dictatorship as per the NWO agenda, followed by global human
-depopulation). It follows that the Cosmos Hub should not implement a regulatory
+depopulation). It follows that the AtomOne Hub should not implement a regulatory
 framework such that it can allow the permission innovation and proofing of
 regulatory frameworks over time. This best increases the chances of success in
 designing the right regulatory framework.
