@@ -35,5 +35,3 @@ $ md5sum cosmoshub-4-export-18010657.json
 $ jq '.app_state.gov.votes[] | select(.proposal_id == "848")'  cosmoshub-4-export-18010657.json 
 [...]
 ```
-
-#### Get All No voters
