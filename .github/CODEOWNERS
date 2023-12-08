@@ -10,6 +10,7 @@
 /CONSTITUTION.md @jaekwon
 /DECENTRALISTS.md @jaekwon
 /GOVERNANCE.md @giunatale @jaekwon
+/FORKING.md @moul @jaekwon
 
 # XXX: Pending Ownership Assignments
 # The CODEOWNERS file will be invalid if it lists users without write permissions to the repository.
