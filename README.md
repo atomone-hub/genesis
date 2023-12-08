@@ -45,7 +45,7 @@ hub with a renewed focus and Alignment to serve as the canonical minimal
 IBC/ICS token hub with respect to Cosmos to champion the ideals of sovereignty,
 security, and decentralization everywhere; and secondarily to serve as the main
 base for a political party and more-intelligent voting bloc with respect to
-Gaia to save Gaia from itself. A modification to the distribution of $ATOM1
+Gaia to save Gaia from itself. A modification to the distribution of $ATONE
 through slashing those who voted in favor of #848 would help ensure that the
 resultant distribution is more intelligent about security and would make us
 anti-fragile against even the most powerful of adversaries.
@@ -92,7 +92,7 @@ is a double-spend attack on the hub, the staking tokens of those responsible
 for the attack should be used to compensate the victims as much as reasonable,
 and the non-zero remainder of the penalty burned. A staking token of an
 exchange zone for example must consequently have additional risks related to
-its business, and so $ATOM1 occupies a niche of minimal risk profile in
+its business, and so $ATONE occupies a niche of minimal risk profile in
 comparison.
 
 IBC/ICS hubs should in general remain conservative in its function and offer
@@ -120,7 +120,7 @@ thus act as a kind of political base. For example, which validators to stake to
 is determined through governance in Informal/Stride.
 
 By modifying the distribution of staking token holders for AtomOne to be more
-aligned with hub security based on voting activity we can make the $ATOM1
+aligned with hub security based on voting activity we can make the $ATONE
 distribution a more intelligent distribution than all other alternatives (until
 another split is needed due to corruption). As the project grows, by virtue of
 its growth the distribution will naturally evolve (or by default, devolve), so
@@ -148,27 +148,27 @@ restrict these losses by restricting the bounds, say to 2:1 1:2.
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
 automatically delegated via ICA (interchain accounts) to aligned validators as
-determined by the the system determined by the $ATOM1 stakers. The bonders of
+determined by the the system determined by the $ATONE stakers. The bonders of
 $ATOM toward this service will receive liquid $phATOM tokens.
 
-In addition to Gaia's $ATOM, AtomOne's $ATOM1 tokens will also be bondable to
-$phATOM1 tokens. So there will be $phATOM along side $phATOM1 tokens, but with
-some differences in tokenomics between them. We have more control over $phATOM1
-tokenomics, though the changes we introduce for $phATOM1 may be upstreamed to
+In addition to Gaia's $ATOM, AtomOne's $ATONE tokens will also be bondable to
+$phATONE tokens. So there will be $phATOM along side $phATOM1 tokens, but with
+some differences in tokenomics between them. We have more control over $phATONE
+tokenomics, though the changes we introduce for $phATONE may be upstreamed to
 Gaia for $phATOM.
 
 In return for delegating voting decisions from $ATOM bonded $phATOM holders to
-$ATOM1 stakers, the AtomHub will offer the $phATOM holders the opportunity for
-all perpetuity, the merger of $phATOM to $phATOM1 according to a reasonable
+$ATONE stakers, the AtomHub will offer the $phATOM holders the opportunity for
+all perpetuity, the merger of $phATOM to $phATONE according to a reasonable
 exchange ratio as determined by the best available means as determined by
-$ATOM1 stakers, with a minimum conversion penalty of 20% and no more favorable
-to $phATOM than 1:2 by total market cap between $phATOM and $phATOM1. For
+$ATONE stakers, with a minimum conversion penalty of 20% and no more favorable
+to $phATOM than 1:2 by total market cap between $phATOM and $phATONE. For
 clarity this means that upon the failure of Gaia the $phATOM token holders can
-dilute the $phATOM1 holders such that $phATOM1 holders have as low as 2/3 the
-underlying $ATOM1 as before the merge (but no less).
+dilute the $phATONE holders such that $phATOM1 holders have as low as 2/3 the
+underlying $ATONE as before the merge (but no less).
 
-The conversion penalty may decrease below 20% for $phATOM to $phATOM1 merger
-with a Supermajority of $ATOM1 stakers.
+The conversion penalty may decrease below 20% for $phATOM to $phATONE merger
+with a Supermajority of $ATONE stakers.
 
 AtomOne with a Constitutional Majority may decrease the merger ratio cap from
 1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
@@ -183,13 +183,13 @@ itself but must be a separate proposal), the $phATOM holders must be made whole
 by redistributing the underlying $ATOM tokens to their respective $phATOM
 holders completely with the same exchange factors applied to everyone equally,
 but as with decreasing the merger ratio cap, (for the purpose of giving
-precedent to the $phATOM -> $phATOM1 merge mechanism) this must be delayed by
+precedent to the $phATOM -> $phATONE merge mechanism) this must be delayed by
 a period of 3 months to allow $phATOM holders to preempt this with a merge.
 
 Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
-actions of the AtomOne hub and its $ATOM1 stakers are completely at the risk of
+actions of the AtomOne hub and its $ATONE stakers are completely at the risk of
 the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
-users within reason, but what is reasonable is up to the $ATOM1 stakers to
+users within reason, but what is reasonable is up to the $ATONE stakers to
 decide through AtomOne governance. Everybody must acknowledge the risks of this
 experiment.
 
@@ -197,20 +197,20 @@ All other parameters defined here regarding the merger that may negatively
 affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
 Constitutional Majority.
 
-In the case of Gaia failure this could be seen as a detriment to $phATOM1
-holders because their underlying $ATOM1 claims from $phATOM1 has seemingly
+In the case of Gaia failure this could be seen as a detriment to $phATONE
+holders because their underlying $ATONE claims from $phATOM1 has seemingly
 shrunk by up to half; but if the $ATOM token were to recover it would now be of
-benefit to $phATOM1 holders; and this is an agreement that was pre-established
+benefit to $phATONE holders; and this is an agreement that was pre-established
 in these Founding Documents to support the mutual success of $phATOM and
-$phATOM1to ensure mutual success rather than sabotage. While in the end the
-$ATOM1 stakers and before that the validators have complete freedom of will,
+$phATONEto ensure mutual success rather than sabotage. While in the end the
+$ATONE stakers and before that the validators have complete freedom of will,
 how well they adhere to these founding agreements is left to everyone to
 enforce, such as by blacklisting or slashing staking tokens and validators held
 by violators. XXX specify the conversion rate before and after the merger both ways.
 
 There is no merge mechanism for the opposing case upon AtomOne failure. In this
 case the $ATOM underlying $phATOM must be distributed back to the $phATOM
-holders in proportion, or if there was already a merger, to the $phATOM1
+holders in proportion, or if there was already a merger, to the $phATONE
 holders in proportion.
 
 ## Expected Outcomes and Benefits 
@@ -224,7 +224,7 @@ forks will reduce risk at the local and global levels; at the local level
 through competition of implementations, and at the global level through the
 diversity of hubs and frameworks.
 
-We hope that the economic recovery measures between $phATOM and $phATOM1 will
+We hope that the economic recovery measures between $phATOM and $phATONE will
 incentivize mutual success and allow Gaia to transition safely into a more
 experimental hub as compared to the more immutable and conservative AtomOne.
 
@@ -277,13 +277,13 @@ judgement by AtomOne or any other community or governing set.
 
 These objectives can only be changed through Constitutional Majority.
 
-## 1. Define $ATOM1
+## 1. Define $ATONE
 
-The $ATOM1 is defined to be a staking token of a minimal ICS1.5 IBC AtomOne Hub
-that keeps 2/3 of $ATOM1s staked at all times.
+The $ATONE is defined to be a staking token of a minimal ICS1.5 IBC AtomOne Hub
+that keeps 2/3 of $ATONEs staked at all times.
 
 All forks that lose consensus continuity must change their token ticker symbol
-to be distinct from $ATOM1 ($ATOM2 is ok). If there are competing chains with
+to be distinct from $ATONE ($ATOM2 is ok). If there are competing chains with
 comparably similar continuity, then the fork that has a higher market cap (as
 measured after both tokens have discovered fair market value with sufficient
 liquidity for at least one week) should retain the name while other forks
@@ -294,7 +294,7 @@ conditions such as any additional premines (besides those in the original first
 genesis) disqualify the fork from retaining the same token ticker symbol; those
 are new airdrops of a different token. No additional premines besides those
 already defined in this planning document are allowed for any forks whose token
-shall be called $ATOM1.
+shall be called $ATONE.
 
 ## 2. IBC/ICS Hub and Minimalism
 
@@ -442,7 +442,7 @@ will generally be demand for the original voteless liquid token because it is
 managed directly by the stakers of the hub.
 
 Later we show the $phATOM token which is deflationary AND liquid, yet fully
-backed by $ATOM1s.
+backed by $ATONEs.
 
 ## 6. Declaration of Independence & Constitution
 
@@ -540,7 +540,7 @@ milestones, with an emphasis on completion and even potential phase-out.
 
 ## Genesis Distribution
 
-It should be some distribution of the Cosmos Hub $ATOM1 token with those who
+It should be some distribution of the Cosmos Hub $ATONE token with those who
 voted against the spirit of this project slashed because they never joined to
 use the system in the first place (e.g. they were more interested in price
 appreciation of original $ATOM).
@@ -548,9 +548,9 @@ appreciation of original $ATOM).
 Additionally, the Interchain Foundation playing a key role in the evolution of
 the hub, should also be removed.
 
-Finally, 10% of the $ATOM1s are premined for various purposes.
+Finally, 10% of the $ATONEs are premined for various purposes.
 
-The $ATOM1s in genesis are locked and cannot be transferred due to the value of
+The $ATONEs in genesis are locked and cannot be transferred due to the value of
 the parameter ENABLE_SENDTX except for chosen addresses (e.g. for faucets).
 
 The Genesis Distribution is largely an opinionated fork of the cosmoshub4 $ATOM
@@ -579,7 +579,7 @@ will be split as per the following:
  -  2% of the inflation+rewards going to pool for securing open source wallet systems (w/ airgap).
  -  1% of the inflation+rewards going to pool for public relations and growth.
 
-XXX But the % of rewards going to $phATOM1 bonders is at least 90%. XXX refactor.
+XXX But the % of rewards going to $phATONE bonders is at least 90%. XXX refactor.
 
 A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
 percent of inflation+rewards going to stakers cannot be lower than this figure.
@@ -602,7 +602,7 @@ distribution to all validators, to incentivize the creation of peer validators
 
 The maximum bounds on the auto-adjust inflation parameter will be set at 20%.
 
-The inflation will target 2/3 of $ATOM1 to be bonded. 
+The inflation will target 2/3 of $ATONE to be bonded. 
 
 ### ICS Fee Distribution
 Every ICS zone should be paid for somehow. AtomOne owned ICS shards should be
@@ -615,14 +615,14 @@ In short, every ICS zone should be profitable to every validator.
 The DISTRIBUTION_FRACTION parameter is the fraction (between 0 and 1) of ICS
 shard and consumer chain payments that are shared among the validators equally.
 This is initially set to 0.8, giving the majority to the validators, and only
-20% as royalty to be paid to $ATOM1 stakers, with the COMMUNITY_TAX taking its
+20% as royalty to be paid to $ATONE stakers, with the COMMUNITY_TAX taking its
 portion.
 
 ### Staking
 
 The main difference being introduced is that the total amount of stake going to
 one validator doesn't actually increase the validator's power, even though all
-of those staked $ATOM1s are at stake should this validator get slashed. This
+of those staked $ATONEs are at stake should this validator get slashed. This
 creates a potential exploit opportunity whereby some validators have relatively
 little at stake, and 1/3 by total of voting power of those initial validators end
 up causing a double spend attack. To prevent this, overstaking to a validator
@@ -633,62 +633,62 @@ the voting powers after the original Gaia staking algorithm. You can over-stake
 to a validator but your voting power and returns will be much less, almost
 inverse to the amount of overstaking.
 
-Suppose that 1/3 of the $ATOM1 stakers are slashed due to a complex double
+Suppose that 1/3 of the $ATONE stakers are slashed due to a complex double
 spend attack. Assuming that we want to allow the recompensation of victims upon
 double spend attacks (within the bounds specified clearly in the constitution)
-only from the recently slashed $ATOM1s, some nonzero portion of the slashed
+only from the recently slashed $ATONEs, some nonzero portion of the slashed
 stake must be burned to prevent using the double spend attack as a fast way to
 unbond.
 
 If no victims need to be made whole, then it could be appropriate to burn the
-slashed $ATOM1s of the perpetrators. The end result is that the remaining
+slashed $ATONEs of the perpetrators. The end result is that the remaining
 stakers own the network, and in a steady state this would result in the price
-of $ATOM1s increasing due to the reduced supply, assuming that the confidence in
+of $ATONEs increasing due to the reduced supply, assuming that the confidence in
 and usage of AtomOne hasn't changed; though in perfect theory it should take a
 bit of a hit, at least in proportion to the destruction of the reputation of
 those validators.
 
-If victims are to be made whole with slashed $ATOM1s, this may require the
-selling of $ATOM1s into the market, or result in it, therefore the price of
-$ATOM1s will be pushed lower, and the composition of the $ATOM1 holders mutated
+If victims are to be made whole with slashed $ATONEs, this may require the
+selling of $ATONEs into the market, or result in it, therefore the price of
+$ATONEs will be pushed lower, and the composition of the $ATOM1 holders mutated
 according to market conditions.
 
-### $phATOM1 the More Deflationary Version of $ATOM1
+### $phATONE the More Deflationary Version of $ATOM1
 
 XXX can this be made fully deflationary?
 
-The only fee token required to be accepted by all shards shall be the $phATOM1
+The only fee token required to be accepted by all shards shall be the $phATONE
 token. This must not change even with a Constitutional Majority as a matter of
 trust of a preagreed transaction declared in these Founding Documents, except
 to better serve this invariant such as by allowing for an alias or by
-supporting different denominations of the same underlying $phATOM1. AtomOne
-will not promote the $ATOM1 token to be used as a fee token directly, even
+supporting different denominations of the same underlying $phATONE. AtomOne
+will not promote the $ATONE token to be used as a fee token directly, even
 though it must be supported as a bootstrapping and recovery measure.
 
-While the convertibility from $phATOM1 to the underlying $ATOM1 may be managed,
-paused, or throttled by governance of $ATOM1 with a Constitutional Majority of
-the $ATOM1 stakers not including the $ATOM1 of the $phATOM1 bonders, all the
-underlying $ATOM1 must be distributable back to $phATOM1 holders through a fair
-system and all of the $ATOM1 withdrawn within 20 years starting at any given
+While the convertibility from $phATONE to the underlying $ATOM1 may be managed,
+paused, or throttled by governance of $ATONE with a Constitutional Majority of
+the $ATONE stakers not including the $ATOM1 of the $phATOM1 bonders, all the
+underlying $ATONE must be distributable back to $phATOM1 holders through a fair
+system and all of the $ATONE withdrawn within 20 years starting at any given
 moment.
 
-Rewards from the $ATOM1 tokens bonded to $phATOM1 tokens shall be distributed
-back to $phATOM1 as if they were any other $ATOM1 staked tokens, but they shall
-not exercise their voting power and instead yield entirely to the other $ATOM1
+Rewards from the $ATONE tokens bonded to $phATOM1 tokens shall be distributed
+back to $phATONE as if they were any other $ATOM1 staked tokens, but they shall
+not exercise their voting power and instead yield entirely to the other $ATONE
 staked tokens.
 
-Tax will be deducted from these $phATOM1 bonded $ATOM1 rewards as usual just
-like regular validator staked $ATOM1 tokens, but unlike the tax burden for
-validator staked $ATOM1 tokens, the tax burden for $phATOM1 bonded $ATOM tokens
+Tax will be deducted from these $phATONE bonded $ATOM1 rewards as usual just
+like regular validator staked $ATONE tokens, but unlike the tax burden for
+validator staked $ATONE tokens, the tax burden for $phATOM1 bonded $ATOM tokens
 shall be capped at 10%. This cap cannot be changed even with a Constitutional
-Majority except by also a two-thirds supermajority from the $phATOM1 holders
+Majority except by also a two-thirds supermajority from the $phATONE holders
 with a prominently announced vote put forth by the AtomOne hub with a voting
 period of at least one year, and a quorum threshold of at least 10% of the
-total supply of $phATOM1 tokens by direct participation where the increased tax
+total supply of $phATONE tokens by direct participation where the increased tax
 burden above the 10% must be used for common goods purposes on transparent and
 accountable DAO systems.
 
-$ATOM1 isn't a monetary token, but a related instrument can serve better as
+$ATONE isn't a monetary token, but a related instrument can serve better as
 one.
 
 Auto-staking (staking across all validators proportionally to existing voting
@@ -709,47 +709,47 @@ AtomOne hub to provide a standard minimal correct implementation under its
 control, such that it can also regulate it, especially as it relates to control
 over AtomOne governance.
 
-Say when you auto-stake $ATOM1 through this sanctioned mechanism, you get
+Say when you auto-stake $ATONE through this sanctioned mechanism, you get
 $phATOM. In order to incentivize the usage of $phATOM, the AtomOne hub offers a
 trade that makes $phATOM deflationary: *non-atom rewards are taxed with an
-immutable cap, but inflated atoms are not* for $ATOM1 bonded $phATOM holders,
-and with the right conversion equation (which adjusts for $ATOM1 inflation) we
+immutable cap, but inflated atoms are not* for $ATONE bonded $phATOM holders,
+and with the right conversion equation (which adjusts for $ATONE inflation) we
 can construct a perfectly fixed $phATOM supply (say of 1 billion $phATOMs) no
-matter how many $ATOM1s bond to $phATOMs.
+matter how many $ATONEs bond to $phATOMs.
 
 Should this "more monetary" construction of the fixed supply ("deflationary")
 $phATOM token incentivize a large liquid supply, it becomes more susceptible to
-hostile takeovers, simply because there are more liquid $ATOM1 staking tokens
+hostile takeovers, simply because there are more liquid $ATONE staking tokens
 available in comparison to the total bonded voting power. Therefore for a more
-secure AtomOne hub we also limit the conversion back from $phATOM to $ATOM1 so
+secure AtomOne hub we also limit the conversion back from $phATOM to $ATONE so
 as to make hostile takeovers more expensive.
 
 The known ways are:
- * Widen the gap in bidirectional conversion price between $phATOM and $ATOM1.
- * Limit the amount of $ATOM1 that can be released per time period auction.
+ * Widen the gap in bidirectional conversion price between $phATOM and $ATONE.
+ * Limit the amount of $ATONE that can be released per time period auction.
  * Essentially the same as above with some conversion curve.
 
-In the case of validator & delegator $ATOM1 slashing, $phATOM holders will of
-course also get slashed, but the ratio of $phATOM-bonded $ATOM1s and all other
-(non-$phATOM) $ATOM1s remains the same. The conversion factor from $phATOM to
-$ATOM1 will change because of slashing, but the conversion factor from $ATOM1
+In the case of validator & delegator $ATONE slashing, $phATOM holders will of
+course also get slashed, but the ratio of $phATOM-bonded $ATONEs and all other
+(non-$phATOM) $ATONEs remains the same. The conversion factor from $phATOM to
+$ATONE will change because of slashing, but the conversion factor from $ATOM1
 to $phATOM will not before and after slashing, thereby making the total
 possible supply of $phATOM lower than before (more deflationary) and over time
 making the cost of conversion to $phATOM more expensive in comparison to the
 inverse, thereby allowing the exchange rate between the two tokens to naturally
 float between two reasonable bounds.
 
-NOTE: This uses the market imperfection of the $ATOM1 and $phATOM tokens to
+NOTE: This uses the market imperfection of the $ATONE and $phATOM tokens to
 create a (larger) gap in the conversion price, thereby making the tokens more
 independent of each other. $phATOM holders might be happy that their token has
 become more deflationary (total supply reduction), and while they can only get
-the post slash amount of $ATOM1s, the value of those $ATOM1s might be preserved
+the post slash amount of $ATONEs, the value of those $ATOM1s might be preserved
 or catch up soon after new validators start operations. The alternative where
 the total amount of $phATOM remains invariant in comparison appears strictly
 worse for $phATOM holders. This widening of the gap could in theory happen at
 any time with governance.
 
-The $ATOM1s bonded toward auto-staking do not count toward calculating the
+The $ATONEs bonded toward auto-staking do not count toward calculating the
 bonding ratio target of 2/3 in either the numerator or denominator--they are
 ignored.
 
@@ -760,7 +760,7 @@ See also the introductory section
 
 ## AtomOne Governance
 
-Ultimately this hub is owned by the $ATOM1 holders. 
+Ultimately this hub is owned by the $ATONE holders. 
 
 We will prioritize all of these items:
 [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
@@ -877,7 +877,7 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Scan through twitter posts for more ideaas.
  - [ ] Argument for why hub and spokes are needed (from atom one)
  - [ ] Quantum resistance
- - [ ] Constitution updates: $ATOM -> $ATOM1; Add $phATOM and $phATOM1; conversion
+ - [ ] Constitution updates: $ATOM -> $ATONE; Add $phATOM and $phATOM1; conversion
  - [ ] At least one week for decentralists feedback on proposals that meet the
    spam threshold.
  - [ ] Proposals should be self contained no PDF necessary.
@@ -896,6 +896,6 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
  - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
  - [ ] Indemnify all actors given no malice outside of the chain. Allow the chain to enforce penalties from outside the chain.
- - [ ] Specify that $ATOM1 held in pools and bonded for $phATOM1 do not count toward the bond ratio.
+ - [ ] Specify that $ATONE held in pools and bonded for $phATOM1 do not count toward the bond ratio.
  - [ ] Add rules for what non-hubs and hubs (separate rules) must abide by. Not all hubs can connect due to this.
  - [ ] XXX

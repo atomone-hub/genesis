@@ -16,8 +16,8 @@ Its purpose is multi-fold:
 | [<ins>#7: Decentralists Party and AtomOne Hub Governance</ins>](https://github.com/atomone-hub/genesis/issues/11)    | jaekwon              | Discussion on distinct governance for the Decentralists party and AtomOne hub. Suggestions for limiting Decentralists' control.                     |
 | [<ins>#8: Defining "Foster Diversity and Alignment"</ins>](https://github.com/atomone-hub/genesis/issues/10)         | moul                 | Need for a clear definition of fostering diversity and alignment. Emphasis on open dialogue among competing groups.                                 |
 | [<ins>#10: Money as Tokenized Trust</ins>](https://github.com/atomone-hub/genesis/issues/12)                         | irreverentsimplicity | Money as a medium of social cooperation and trust. Concept of soft forks and trust as primary value in monetary systems.                            |
-| [<ins>#12: ATOM vs ATOM1 Integration & Genesis Distribution</ins>](https://github.com/atomone-hub/genesis/issues/13) | jaekwon              | Strategic approach to integration and distribution between ATOM and ATOM1. Models for effective integration.                                        |
-| [<ins>#13: Include stATOM Holders in ATOM1</ins>](https://github.com/atomone-hub/genesis/issues/14)                  | asalzmann            | Proposal to include stATOM holders in ATOM1 genesis or airdrop. Discussion on the treatment of stATOM holders.                                          |
+| [<ins>#12: ATOM vs ATONE Integration & Genesis Distribution</ins>](https://github.com/atomone-hub/genesis/issues/13) | jaekwon              | Strategic approach to integration and distribution between ATOM and ATOM1. Models for effective integration.                                        |
+| [<ins>#13: Include stATOM Holders in ATONE</ins>](https://github.com/atomone-hub/genesis/issues/14)                  | asalzmann            | Proposal to include stATOM holders in ATOM1 genesis or airdrop. Discussion on the treatment of stATOM holders.                                          |
 | [<ins>#16: Fix Cosmos Hub Failures</ins>](https://github.com/atomone-hub/genesis/issues/16)                          | COverS8              | Addressing centralization of voting power in Cosmos Hub. Proposal for snapshot and distribution for AtomOne airdrop.                                |
 | [<ins>#14: Brand Identity and Twitter Handle</ins>](https://github.com/atomone-hub/genesis/issues/15)                | wnmnsr               | Discussion on the brand identity and @_atomone Twitter handle. Proposal for a new symbol representative of an atom.                                 |
 | [<ins>#17: Choosing the Genesis Software Target</ins>](https://github.com/atomone-hub/genesis/issues/17)             | moul                 | Discussion on starting with Tendermint 2 or forking from Cosmos Hub 4. Trade-offs between early start and required work.                            |
@@ -113,28 +113,28 @@ tokenized trust, examining its role in social cooperation and value perception.
 - Collective trust in money's tokenized form impacts its value and community trust.
 - Discussions include soft forking in financial ecosystems and trust's role in governance.
 
-### ATOM vs ATOM1 Integration & Genesis Distribution
+### ATOM vs ATONE Integration & Genesis Distribution
 
 [<ins>Issue #12</ins>](https://github.com/atomone-hub/genesis/issues/12) aims to address 
-integrating ATOM and ATOM1, focusing on distribution and slashing mechanisms for ATOM1.
+integrating ATOM and ATONE, focusing on distribution and slashing mechanisms for ATOM1.
 
 #### Key points
 
-- Slashing in ATOM1 is necessary to enhance security decision-making intelligence.
+- Slashing in ATONE is necessary to enhance security decision-making intelligence.
 - Debates on penalizing or rewarding ATOM holders based on proposal voting.
-- Various methods for ATOM1 distribution and integration are considered.
+- Various methods for ATONE distribution and integration are considered.
 - Trust and governance vulnerability in tokenized money reliance.
 
-### Include stATOM Holders in ATOM1
+### Include stATOM Holders in ATONE
 
 [<ins>Issue #13</ins>](https://github.com/atomone-hub/genesis/issues/13) considers including 
-stATOM holders in the ATOM1 genesis file or airdrop.
+stATOM holders in the ATONE genesis file or airdrop.
 
 #### Key points
 
-- Potential inclusion of stATOM holders in ATOM1 genesis or airdrop.
+- Potential inclusion of stATOM holders in ATONE genesis or airdrop.
 - Debate on the treatment of stATOM holders about governance participation.
-- Distribution methods for ATOM1 to stATOM holders.
+- Distribution methods for ATONE to stATOM holders.
 
 ### Community Pool Financial Model
 
@@ -156,8 +156,8 @@ design and functionality of the $PHOTON token system.
 #### Key points:
 
 - Discussion on PHOTON not providing governance rights, except for specific PHOTON-related proposals.
-- Auto-staking of underlying ATOM1s linked to PHOTON and challenges in rebalancing voting power.
-- Proposal for a tax mechanism on auto-staked ATOM1s and auto-compounding of underlying assets.
+- Auto-staking of underlying ATONEs linked to PHOTON and challenges in rebalancing voting power.
+- Proposal for a tax mechanism on auto-staked ATONEs and auto-compounding of underlying assets.
 - The total supply cap for PHOTON is set at 1 Billion, with specific conversion formulae for
   bonding and unbonding.
 - Examination of bonding dynamics, including incentives and impacts of slashing events.
