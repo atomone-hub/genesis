@@ -15,7 +15,7 @@ Decentralists:
  * Require constitutions and bylaws.
  * Create rather than destroy.
 
-It is important to note that AtomOne is a proof-of-stake hub governed by $ATOM1
+It is important to note that AtomOne is a proof-of-stake hub governed by $ATONE
 tokens, while the Decentralists is a membership oriented quasi-political party
 with members associated with various companies (or individual proprietors). The
 various missions and objectives of this party may eventually drift from the
@@ -43,14 +43,14 @@ type of group or DAO) to replace the Decentralists at that time with the same
 system but with a new criteria for membership, under a new name.
 
 Initially the only criteria for Decentralists membership is that members hold
-any nonzero amount of $ATOM1 or $PHOTON tokens (more on $PHOTON later) and
+any nonzero amount of $ATONE or $PHOTON tokens (more on $PHOTON later) and
 agree with the spirit of the Founding Documents, and agree to at all times
 abide by and enforce the living AtomOne Constitution for the AtomOne hub.
 
 While we respect the stakers and the staking distribution, we also recognize
 that the unequal token distribution must be balanced by the natural inalienable
 God given powers to individual humans who are vital to make this project
-succeed. While the voting on AtomOne is handled solely by the $ATOM1 stakers,
+succeed. While the voting on AtomOne is handled solely by the $ATONE stakers,
 the Decentralists self-organize as a whole and with groups within, and every
 proposal in the governance of the Gaia and AtomOne hubs as well as every open
 group are enriched with the best arguments from both sides of the isle as
@@ -109,7 +109,7 @@ attacks).
    Documents linked to from here, and make payments for these purposes from an
    internal Decentralists Treasury separate from the AtomOne community pool,
    and conduct releases according to the roadmap specified here and other
-   Founding documents with oversight by the $ATOM1 stakers.
+   Founding documents with oversight by the $ATONE stakers.
 
 AtomOne will subsidize at least one ICS shard if needed, to serve as the zone
 for the Decentralists' dapp/DAO needs, including hosting a dapp for
