@@ -335,7 +335,7 @@ pursuing such a dream.
 The best part is we've done most of the work already. With minimal ICS the
 simple-transfer-zones are already more or less done. We're 90% done with
 massive scale MVP, and after that scaling will be relatively easy. AND this
-ATOM1 hub is a minimal hub that zones will want to use. The product market fit
+AtomOne hub is a minimal hub that zones will want to use. The product market fit
 is already there. It's simple, and we are already positioned for it. It is
 neutral to application zones that provide more functionality than token
 transfers.
@@ -347,7 +347,7 @@ Cosmos is the VISA network built upon this decentralized BFT mainframe system.
 Always was, and should remain.
 
 New functionality can always be permissionlessly added on top of this base
-ATOM1 framework. The gno.land prop69 #exitdrop is a demonstration of value-add
+AtomOne framework. The gno.land prop69 #exitdrop is a demonstration of value-add
 to the AtomOne Hub, as it will provide Gnolang smart contracts while IBC pegging
 to the AtomOne Hub for tokens.
 
@@ -500,7 +500,7 @@ protected by this regulatory system in the case of theft. Perhaps accounts can
 opt out of this transfer-delay protection.
 
 The above minimal regulatory system still begs for a full system of checks and
-balances. That's another rabbit hole for another issue/document. The ATOM1
+balances. That's another rabbit hole for another issue/document. The AtomOne
 constitution hints at a system of checks and balances, but IMO it isn't
 complete yet, at least not in its current written form.
 
