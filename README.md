@@ -206,7 +206,8 @@ $phATONEto ensure mutual success rather than sabotage. While in the end the
 $ATONE stakers and before that the validators have complete freedom of will,
 how well they adhere to these founding agreements is left to everyone to
 enforce, such as by blacklisting or slashing staking tokens and validators held
-by violators. XXX specify the conversion rate before and after the merger both ways.
+by violators. XXX specify the conversion rate before and after the merger both
+ways.
 
 There is no merge mechanism for the opposing case upon AtomOne failure. In this
 case the $ATOM underlying $phATOM must be distributed back to the $phATOM
@@ -445,7 +446,7 @@ distinct partyhubs should be allowed to compete against the voteless one. There
 will generally be demand for the original voteless liquid token because it is
 managed directly by the stakers of the hub.
 
-Later we show the $phATOM token which is deflationary AND liquid, yet fully
+Later we show the $PHOTON token which is deflationary AND liquid, yet fully
 backed by $ATONEs.
 
 ## 6. Declaration of Independence & Constitution
@@ -589,14 +590,15 @@ A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
 percent of inflation+rewards going to stakers cannot be lower than this figure.
 Changing this value requires a constitutional majority.
 
-A parameter MIN_VALIDATORS_DISTRIBUTION_FRACTION will be set to 10%, where the percent
-of inflation+rewards going to stakers cannot be lower than this figure.
+A parameter MIN_VALIDATORS_DISTRIBUTION_FRACTION will be set to 10%, where the
+percent of inflation+rewards going to stakers cannot be lower than this figure.
 
-The funds held in all the pools above will not be counted toward the bonding ratio.
+The funds held in all the pools above will not be counted toward the bonding
+ratio.
 
 The last three following the pool/treasury will initially go to multisigs set in
-consensus params of the chain, until they get set as URIs pointing at
-blockchain based DAOs hosted on ICS1.5.
+consensus params of the chain, until they get set as URIs pointing at blockchain
+based DAOs hosted on ICS1.5. 
 
 ## Tokenomics
 
@@ -628,9 +630,10 @@ The main difference being introduced is that the total amount of stake going to
 one validator doesn't actually increase the validator's power, even though all
 of those staked $ATONEs are at stake should this validator get slashed. This
 creates a potential exploit opportunity whereby some validators have relatively
-little at stake, and 1/3 by total of voting power of those initial validators end
-up causing a double spend attack. To prevent this, overstaking to a validator
-will be taxed incrementally with the proceeds going toward general rewards.
+little at stake, and 1/3 by total of voting power of those initial validators
+end up causing a double spend attack. To prevent this, overstaking to a
+validator will be taxed incrementally with the proceeds going toward general
+rewards.
 
 XXX TODO improve this. Maybe instead there is simply a sqrt(vp) applied to all
 the voting powers after the original Gaia staking algorithm. You can over-stake
@@ -714,43 +717,43 @@ control, such that it can also regulate it, especially as it relates to control
 over AtomOne governance.
 
 Say when you auto-stake $ATONE through this sanctioned mechanism, you get
-$phATOM. In order to incentivize the usage of $phATOM, the AtomOne hub offers a
-trade that makes $phATOM deflationary: *non-atom rewards are taxed with an
-immutable cap, but inflated atoms are not* for $ATONE bonded $phATOM holders,
+$PHOTON. In order to incentivize the usage of $PHOTON, the AtomOne hub offers a
+trade that makes $PHOTON deflationary: *non-atom rewards are taxed with an
+immutable cap, but inflated atoms are not* for $ATONE bonded $PHOTON holders,
 and with the right conversion equation (which adjusts for $ATONE inflation) we
-can construct a perfectly fixed $phATOM supply (say of 1 billion $phATOMs) no
-matter how many $ATONEs bond to $phATOMs.
+can construct a perfectly fixed $PHOTON supply (say of 1 billion $PHOTONs) no
+matter how many $ATONE bond to $PHOTONs.
 
 Should this "more monetary" construction of the fixed supply ("deflationary")
-$phATOM token incentivize a large liquid supply, it becomes more susceptible to
+$PHOTON token incentivize a large liquid supply, it becomes more susceptible to
 hostile takeovers, simply because there are more liquid $ATONE staking tokens
 available in comparison to the total bonded voting power. Therefore for a more
-secure AtomOne hub we also limit the conversion back from $phATOM to $ATONE so
+secure AtomOne hub we also limit the conversion back from $PHOTON to $ATONE so
 as to make hostile takeovers more expensive.
 
 The known ways are:
- * Widen the gap in bidirectional conversion price between $phATOM and $ATONE.
+ * Widen the gap in bidirectional conversion price between $PHOTON and $ATONE.
  * Limit the amount of $ATONE that can be released per time period auction.
  * Essentially the same as above with some conversion curve.
 
-In the case of validator & delegator $ATONE slashing, $phATOM holders will of
-course also get slashed, but the ratio of $phATOM-bonded $ATONEs and all other
-(non-$phATOM) $ATONEs remains the same. The conversion factor from $phATOM to
+In the case of validator & delegator $ATONE slashing, $PHOTON holders will of
+course also get slashed, but the ratio of $PHOTON-bonded $ATONEs and all other
+(non-$PHOTON) $ATONEs remains the same. The conversion factor from $PHOTON to
 $ATONE will change because of slashing, but the conversion factor from $ATONE
-to $phATOM will not before and after slashing, thereby making the total
-possible supply of $phATOM lower than before (more deflationary) and over time
-making the cost of conversion to $phATOM more expensive in comparison to the
+to $PHOTON will not before and after slashing, thereby making the total
+possible supply of $PHOTON lower than before (more deflationary) and over time
+making the cost of conversion to $PHOTON more expensive in comparison to the
 inverse, thereby allowing the exchange rate between the two tokens to naturally
 float between two reasonable bounds.
 
-NOTE: This uses the market imperfection of the $ATONE and $phATOM tokens to
+NOTE: This uses the market imperfection of the $ATONE and $PHOTON tokens to
 create a (larger) gap in the conversion price, thereby making the tokens more
-independent of each other. $phATOM holders might be happy that their token has
+independent of each other. $PHOTON holders might be happy that their token has
 become more deflationary (total supply reduction), and while they can only get
 the post slash amount of $ATONEs, the value of those $ATONEs might be preserved
 or catch up soon after new validators start operations. The alternative where
-the total amount of $phATOM remains invariant in comparison appears strictly
-worse for $phATOM holders. This widening of the gap could in theory happen at
+the total amount of $PHOTON remains invariant in comparison appears strictly
+worse for $PHOTON holders. This widening of the gap could in theory happen at
 any time with governance.
 
 The $ATONEs bonded toward auto-staking do not count toward calculating the
@@ -881,7 +884,7 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Scan through twitter posts for more ideaas.
  - [ ] Argument for why hub and spokes are needed (from atom one)
  - [ ] Quantum resistance
- - [ ] Constitution updates: $ATOM -> $ATONE; Add $phATOM and $phATONE; conversion
+ - [ ] Constitution updates: $ATOM -> $ATONE; Add $PHOTON and $phATOM; conversion
  - [ ] At least one week for decentralists feedback on proposals that meet the
    spam threshold.
  - [ ] Proposals should be self contained no PDF necessary.
@@ -900,6 +903,6 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
  - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
  - [ ] Indemnify all actors given no malice outside of the chain. Allow the chain to enforce penalties from outside the chain.
- - [ ] Specify that $ATONE held in pools and bonded for $phATONE do not count toward the bond ratio.
+ - [ ] Specify that $ATONE held in pools and bonded for $PHOTON do not count toward the bond ratio.
  - [ ] Add rules for what non-hubs and hubs (separate rules) must abide by. Not all hubs can connect due to this.
  - [ ] XXX
