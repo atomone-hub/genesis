@@ -1,10 +1,12 @@
-NWV to Prop 848 – $ATOM Must NOT be Money.
+_Originally published Nov 21st, 2023 by All in Bits, Inc; Christina Comben, Adriana Mihai, Giuseppe Natale, Jae Kwon, Valeh Tehranchi_
+
+# NWV to Prop 848 – $ATOM Must NOT be Money.
 
 AiB will soon be voting NWV to prop 848, $ATOM “Halving,” which aims at turning the $ATOM token into a monetary token rather than a staking token. We value Cosmos' core components of security, sustainability, and decentralization, and cannot support a proposal that may threaten its foundational pillars. Halving $ATOM max inflation at this time with insufficient research and discussion will lead to more undesirable outcomes, namely lowering the bonded ratio of staked $ATOMs significantly, hampering the growth of IBC and ICS adoption, affecting the rewards for validators, and placing the entire Cosmos network at risk. 
 
 Prop 848 represents a significant shift from the established tokenomics of the Cosmos Hub that has kept our ecosystem secure and dependable since inception. While prop 848 argues that it would enhance the $ATOM Economic Zone (AEZ) and increase $ATOM's competitiveness in the DeFi space, we disagree categorically and raise the following substantial concerns:
 
-Destabilizing the Security Model
+## Destabilizing the Security Model
 
 An IBC hub must not be secured by a monetary token. Securing the chain with a monetary token might make sense for non-hubs that don’t rely on the security of its IBC token pegs (for example, if the chain is only concerned about itself). But this isn’t true by definition in the Cosmos of IBC interconnected chains. A good money token is widely distributed by definition, and therefore less by proportion to the whole would be staked to validators. This leaves the governance of the chain open to be taken-over by anyone who has enough of these monetary tokens, and the increase in the liquidity of this token practically guarantees the success of any adversary with sufficient capital. When the competition is the status quo banking system, there is ample capital to be used against the underdog.
 
@@ -14,7 +16,7 @@ Should proposal 848 pass, it starts a precedent of sliding down the slippery slo
 
 $ATOM's primary utility is – and has always been – staking. $ATOM was never designed to be a monetary token but a staking token enabling an IBC hub that requires the highest level of security (see original token model paper). The original design of $ATOM's dynamic inflation, acting as a penalty to non-stakers, plays a crucial role in incentivizing network participation and security by intentionally limiting the amount of liquid trading $ATOMs so as to make hostile takeovers prohibitively expensive. Prop 848 risks undermining these foundational principles and destabilizing the network's security model.
 
-Phantom Revenue and Flawed Arguments
+## Phantom Revenue and Flawed Arguments
 
 We should not be passing proposals that are based on faulty premises. The way the proponents of prop 848 have been calculating the cost of security, as well as, in general, how the community is calculating staking income or revenue, is fundamentally flawed because $ATOM is a staking token with ⅔ staked. What we need now is to address this problem by better explaining the better mental model to everyone, and by getting the needed clarification from tax authorities. Please note that nothing here is tax advice, and you should talk to your own tax advisors.
 
@@ -32,11 +34,11 @@ This is not tax advice, but we will approach the relevant tax authorities to get
 
 Those voting in favor of #848 and choosing to deviate from the ⅔ staking target (which is what will happen after #848) are further sabotaging themselves and everyone else by destroying the arguments above in favor of more favorable tax treatment. The inflation rewards of a monetary token are less likely to be seen as a penalty for non-staking, but a positive incentive to stake.
 
-A Bad Precedent
+## A Bad Precedent
 
 Those who argued in favor of #848 have gone so far as to argue that they are merely gauging the interest of the stakers. This fundamental change to tokenomics that goes counter to security and stability is offered without full disclaimers about the true intended purpose (to make $ATOM a monetary token) and its effects. It is also offered without sufficient planning and guarantees for any sort of consistency, and without the needed disclosures of risks. Indeed we don’t even have a Constitution ratified for the Cosmos Hub yet. Furthermore, to make things worse, this proposal is marketed as a “halvening” which has implications about expected price movements, while what is proposed is nothing at all like the immutable halvening schedule of the Bitcoin chain. 
 
-A Further Decline in the Bond Ratio 
+## A Further Decline in the Bond Ratio 
 
 As noted in the proposal, the current bond ratio of the Cosmos Hub is slightly below the target, not surpassing the ⅔ threshold. This existing condition raises a significant concern: by halving the max inflation, the proposal effectively arrests the increase in staking reward rate, a mechanism currently in place to disincentivize non-staking and push the bond ratio towards the target.
 
@@ -56,19 +58,19 @@ The real risk in security here is not with ICS AEZ economics because what is wit
 
 All these tokens by default create a real incentive for a malicious actor to exploit. This might be tolerable if the total amount of IBC pegged tokens never exceeded the value of (hypothetically monetary) $ATOM tokens staked divided by 3 (since only ⅓ is guaranteed to be slashable for double-spend attacks with a network partition) but we can’t assume that the Hub will even enforce this invariant when its voters cannot understand the risks of converting $ATOM into a monetary token. Furthermore, most tokens may not be liquid, and re-compensation may not be sufficient recourse for the victims. 
 
-Beating the Dead Horse of Validator Incentives
+## Beating the Dead Horse of Validator Incentives
 
 Validator incentives are broken in the Cosmos Hub today. Every validator should be roughly equally incentivized to secure each ICS chain in the AEZ, because the work that every validator should be performing to secure each ICS chain is roughly the same. The current incentive model of rewarding validators in proportion to their stake (multiplied by their set commission) is flawed in this regard because nothing guarantees that tail validators will receive the income they need to remain competitive vs top validators, and this is made worse with ICS scaling. With enough scale, all tail validators will necessarily become insolvent and fail, while the ones that are struggling to stay afloat and survive will necessarily need to make business decisions that affect the security of that validator. This is not only suboptimal but cruel.
 
 The proposed change disproportionately affects smaller validators. While this will cease to be a problem once validator incentives are fixed to be more equal, it still remains a problem until the overall validator incentive model is fixed, and therefore presents an unnecessary risk to smaller validators. One analysis showed that over 74% of Cosmos Hub validators risk becoming unprofitable with less than six consumer chains. Reducing the max inflation can only exacerbate this problem, and make all these validators unprofitable sooner. We should never tolerate the risk of mass validator failures leading to centralization.
 
-The Min Inflation Rate shouldn’t change either
+## The Min Inflation Rate shouldn’t change either
 
 While it is true that with the ICS-enabled transaction scaling, the rewards from transaction fees can and will drive the inflation rate to zero and even negative if we allow it, this is not good if it leads to the promotion and adoption of the $ATOM token as a monetary token (and it will). For this reason, we do not suggest removing the minimum inflation rate bounds of 7% either. This will help retain the intelligence of the $ATOM token distribution and prevent naive token holders from affecting it negatively (and the target demographic of a monetary token is naive because it is the general population).
 
 The negative consequence of keeping the minimum inflation bound at 7% is that the ratio of bonded tokens may rise above ⅔ and the amount of liquid supply may be too small for an accurate measure of the staking token market cap, which can negatively impact the quantifiable security offered by the Hub. However, this effect is limited because when the rewards from ICS transaction throughputs are high (presumably why the bonding rate is high), then there are other ways to calculate the value of the Hub through its continuous revenue, as long as the fees are primarily paid in other tokens besides the $ATOM token.
 
-Where Do We Go From Here?
+## Where Do We Go From Here?
 
 While we are most staunchly against prop 848 for all the reasons detailed above, there should always be room for experimentation, innovation, and open discussion and debate – as long as we agree to never compromise the network’s security and follow a cautious and measured approach. Given that $ATOM should not be a monetary token, the current design with a minimum inflation rate of 7% and a maximum one of 20% put in place to secure the network is working as intended. Any change to this model would make the $ATOM token too tempting to be marketed as a monetary token. 
 
@@ -80,7 +82,7 @@ We will soon publish a plan that will improve this situation with the Hub. Pleas
 
 —----
 
-Twitter Thread
+## Twitter Thread
 
 1/ Dear Cosmonauts, All in Bits (AiB) will vote NWV on prop 848, ATOM Halving. We value Cosmos' core components of security, sustainability, and decentralization and cannot support a proposal that threatens its foundational pillars.
 
@@ -99,6 +101,3 @@ Twitter Thread
 8/ A thorough understanding of the presented arguments is vital for informed decision-making, and we invite the community to assess the points raised and actively participate in the discussion. For full details, please read our complete post: https://forum.cosmos.network/t/proposal-set-max-inflation-at-10/11841/240?u=aib
 
 9/ We will hold a Twitter space at 10 pm PDT today (7 am CET Wednesday) to discuss prop #848. If you share our concerns or would like to meaningfully contribute to the discussion, join us and be part of the dialogue. #CosmosDebate #TwitterSpace
-
-
-_Originally published Nov 21st, 2023 by All in Bits, Inc; Christina Comben, Adriana Mihai, Giuseppe Natale, Jae Kwon, Valeh Tehranchi_

@@ -28,7 +28,8 @@ challenges stemming from differences about core tokenomics, about the very
 nature of the $ATOM token (whether it is staking or monetary), about
 monetization strategy and what types of projects to fund; and there generally
 appears to be a great cultural chasm that shows no sign of closing about our
-role and responsibilities as compared to our profit interests.
+role and responsibilities as compared to our profit interests. (see [_NWV to
+Prop 848 – $ATOM Must NOT be Money_](./STAKING_VS_MONEY.md)).
 
 Proposal #848 ("halvening") succeeded in getting the required threshold of 50%
 to pass on Gaia, but a significant portion voted NO or NWV which means that
