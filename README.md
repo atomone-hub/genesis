@@ -140,11 +140,6 @@ use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
 ## Role as $ATOM "Liquid Staking" Provider
 
-XXX Try to make this work with one $phATOM using bonding curves within bounds
-with all three tokens. This would still rely on imperfect measures like present
-AMM rate and can lead to manipulation and losses, but you can still maybe
-restrict these losses by restricting the bounds, say to 2:1 1:2. 
-
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
 automatically delegated via ICA (interchain accounts) to aligned validators as
@@ -152,67 +147,10 @@ determined by the the system determined by the $ATONE stakers. The bonders of
 $ATOM toward this service will receive liquid $phATOM tokens.
 
 In addition to Gaia's $ATOM, AtomOne's $ATONE tokens will also be bondable to
-$phATONE tokens. So there will be $phATOM along side $phATONE tokens, but with
-some differences in tokenomics between them. We have more control over $phATONE
-tokenomics, though the changes we introduce for $phATONE may be upstreamed to
+$PHOTON tokens. So there will be $phATOM along side $PHOTON tokens, but with
+some differences in tokenomics between them. We have more control over $PHOTON
+tokenomics, though the changes we introduce for $PHOTON may be upstreamed to
 Gaia for $phATOM.
-
-In return for delegating voting decisions from $ATOM bonded $phATOM holders to
-$ATONE stakers, the AtomHub will offer the $phATOM holders the opportunity for
-all perpetuity, the merger of $phATOM to $phATONE according to a reasonable
-exchange ratio as determined by the best available means as determined by
-$ATONE stakers, with a minimum conversion penalty of 20% and no more favorable
-to $phATOM than 1:2 by total market cap between $phATOM and $phATONE. For
-clarity this means that upon the failure of Gaia the $phATOM token holders can
-dilute the $phATONE holders such that $phATONE holders have as low as 2/3 the
-underlying $ATONE as before the merge (but no less).
-
-The conversion penalty may decrease below 20% for $phATOM to $phATONE merger
-with a Supermajority of $ATONE stakers.
-
-AtomOne with a Constitutional Majority may decrease the merger ratio cap from
-1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
-execution must be delayed for a period of at least 3 months to allow $phATOM
-holders to preempt this with a merge. Nothing outside of the merge will prevent
-$phATOM holders from being able to redeem their due pro-rata $ATOM tokens for
-all time.
-
-Should the $phATOM be discontinued in support as decided by AtomOne with a
-Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
-itself but must be a separate proposal), the $phATOM holders must be made whole
-by redistributing the underlying $ATOM tokens to their respective $phATOM
-holders completely with the same exchange factors applied to everyone equally,
-but as with decreasing the merger ratio cap, (for the purpose of giving
-precedent to the $phATOM -> $phATONE merge mechanism) this must be delayed by
-a period of 3 months to allow $phATOM holders to preempt this with a merge.
-
-Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
-actions of the AtomOne hub and its $ATONE stakers are completely at the risk of
-the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
-users within reason, but what is reasonable is up to the $ATONE stakers to
-decide through AtomOne governance. Everybody must acknowledge the risks of this
-experiment.
-
-All other parameters defined here regarding the merger that may negatively
-affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
-Constitutional Majority.
-
-In the case of Gaia failure this could be seen as a detriment to $phATONE
-holders because their underlying $ATONE claims from $phATONE has seemingly
-shrunk by up to half; but if the $ATOM token were to recover it would now be of
-benefit to $phATONE holders; and this is an agreement that was pre-established
-in these Founding Documents to support the mutual success of $phATOM and
-$phATONEto ensure mutual success rather than sabotage. While in the end the
-$ATONE stakers and before that the validators have complete freedom of will,
-how well they adhere to these founding agreements is left to everyone to
-enforce, such as by blacklisting or slashing staking tokens and validators held
-by violators. XXX specify the conversion rate before and after the merger both
-ways.
-
-There is no merge mechanism for the opposing case upon AtomOne failure. In this
-case the $ATOM underlying $phATOM must be distributed back to the $phATOM
-holders in proportion, or if there was already a merger, to the $phATONE
-holders in proportion.
 
 ## Expected Outcomes and Benefits 
 
@@ -225,7 +163,7 @@ forks will reduce risk at the local and global levels; at the local level
 through competition of implementations, and at the global level through the
 diversity of hubs and frameworks.
 
-We hope that the economic recovery measures between $phATOM and $phATONE will
+We hope that the economic recovery measures between $phATOM and $PHOTON will
 incentivize mutual success and allow Gaia to transition safely into a more
 experimental hub as compared to the more immutable and conservative AtomOne.
 
@@ -268,9 +206,10 @@ experimental hub as compared to the more immutable and conservative AtomOne.
   prominent self-reinforcing constitution; or a fork of a chain with a modified
   constitution or modified software that is intended to achieve the same.
 * $ATONE: the primary staking token for AtomOne. Previously known as $ATOM1.
-* $phATONE: the liquid staking token for AtomOne. Previously known as $phATOM1.
-* $PHOTON: currently refers to $phATONE. the latest in fee token design, a more
-  deflationary alternative to $ATOM, by popular demad.
+* $PHOTON: the liquid staking token for AtomOne. Previously known as $phATOM1
+  or $phATONE. the latest in tokenomics design.
+* $phATOM: the liquid staking token for Gaia offered on AtomOne for $ATOM (not
+  $ATONE).
 
 ----------------------------------------
 # Objectives
@@ -584,7 +523,7 @@ will be split as per the following:
  -  2% of the inflation+rewards going to pool for securing open source wallet systems (w/ airgap).
  -  1% of the inflation+rewards going to pool for public relations and growth.
 
-XXX But the % of rewards going to $phATONE bonders is at least 90%. XXX refactor.
+XXX But the % of rewards going to $PHOTON bonders is at least 90%. XXX refactor.
 
 A parameter MIN_STAKER_DISTRIBUTION_FRACTION will be set to 80%, where the
 percent of inflation+rewards going to stakers cannot be lower than this figure.
@@ -660,38 +599,38 @@ selling of $ATONEs into the market, or result in it, therefore the price of
 $ATONEs will be pushed lower, and the composition of the $ATONE holders mutated
 according to market conditions.
 
-### $phATONE the More Deflationary Version of $ATONE
+### $PHOTON the More Deflationary Version of $ATONE
 
 XXX can this be made fully deflationary?
 
-The only fee token required to be accepted by all shards shall be the $phATONE
+The only fee token required to be accepted by all shards shall be the $PHOTON
 token. This must not change even with a Constitutional Majority as a matter of
 trust of a preagreed transaction declared in these Founding Documents, except
 to better serve this invariant such as by allowing for an alias or by
-supporting different denominations of the same underlying $phATONE. AtomOne
+supporting different denominations of the same underlying $PHOTON. AtomOne
 will not promote the $ATONE token to be used as a fee token directly, even
 though it must be supported as a bootstrapping and recovery measure.
 
-While the convertibility from $phATONE to the underlying $ATONE may be managed,
+While the convertibility from $PHOTON to the underlying $ATONE may be managed,
 paused, or throttled by governance of $ATONE with a Constitutional Majority of
-the $ATONE stakers not including the $ATONE of the $phATONE bonders, all the
-underlying $ATONE must be distributable back to $phATONE holders through a fair
+the $ATONE stakers not including the $ATONE of the $PHOTON bonders, all the
+underlying $ATONE must be distributable back to $PHOTON holders through a fair
 system and all of the $ATONE withdrawn within 20 years starting at any given
 moment.
 
-Rewards from the $ATONE tokens bonded to $phATONE tokens shall be distributed
-back to $phATONE as if they were any other $ATONE staked tokens, but they shall
+Rewards from the $ATONE tokens bonded to $PHOTON tokens shall be distributed
+back to $PHOTON as if they were any other $ATONE staked tokens, but they shall
 not exercise their voting power and instead yield entirely to the other $ATONE
 staked tokens.
 
-Tax will be deducted from these $phATONE bonded $ATONE rewards as usual just
+Tax will be deducted from these $PHOTON bonded $ATONE rewards as usual just
 like regular validator staked $ATONE tokens, but unlike the tax burden for
-validator staked $ATONE tokens, the tax burden for $phATONE bonded $ATOM tokens
+validator staked $ATONE tokens, the tax burden for $PHOTON bonded $ATOM tokens
 shall be capped at 10%. This cap cannot be changed even with a Constitutional
-Majority except by also a two-thirds supermajority from the $phATONE holders
+Majority except by also a two-thirds supermajority from the $PHOTON holders
 with a prominently announced vote put forth by the AtomOne hub with a voting
 period of at least one year, and a quorum threshold of at least 10% of the
-total supply of $phATONE tokens by direct participation where the increased tax
+total supply of $PHOTON tokens by direct participation where the increased tax
 burden above the 10% must be used for common goods purposes on transparent and
 accountable DAO systems.
 
@@ -732,29 +671,18 @@ secure AtomOne hub we also limit the conversion back from $PHOTON to $ATONE so
 as to make hostile takeovers more expensive.
 
 The known ways are:
- * Widen the gap in bidirectional conversion price between $PHOTON and $ATONE.
+
+ * Widen the gap in bidirectional conversion price between $PHOTON and $ATONE
+   such as by adding a burn premium to for $ATONE -> $PHOTON conversion.
  * Limit the amount of $ATONE that can be released per time period auction.
  * Essentially the same as above with some conversion curve.
 
 In the case of validator & delegator $ATONE slashing, $PHOTON holders will of
-course also get slashed, but the ratio of $PHOTON-bonded $ATONEs and all other
-(non-$PHOTON) $ATONEs remains the same. The conversion factor from $PHOTON to
-$ATONE will change because of slashing, but the conversion factor from $ATONE
-to $PHOTON will not before and after slashing, thereby making the total
-possible supply of $PHOTON lower than before (more deflationary) and over time
-making the cost of conversion to $PHOTON more expensive in comparison to the
-inverse, thereby allowing the exchange rate between the two tokens to naturally
-float between two reasonable bounds.
-
-NOTE: This uses the market imperfection of the $ATONE and $PHOTON tokens to
-create a (larger) gap in the conversion price, thereby making the tokens more
-independent of each other. $PHOTON holders might be happy that their token has
-become more deflationary (total supply reduction), and while they can only get
-the post slash amount of $ATONEs, the value of those $ATONEs might be preserved
-or catch up soon after new validators start operations. The alternative where
-the total amount of $PHOTON remains invariant in comparison appears strictly
-worse for $PHOTON holders. This widening of the gap could in theory happen at
-any time with governance.
+course also get slashed, but the ratio of $phATOM-bonded $ATONEs and all other
+(non-$phATOM) $ATONEs remains the same. The conversion factor from $PHOTON to
+and from $ATONE will change to correspond with slashing. Any gap manufactured
+between the round trip exchange rate (such as via a burn premium one way) is
+independent of slash events, and is explained in the next section.
 
 The $ATONEs bonded toward auto-staking do not count toward calculating the
 bonding ratio target of 2/3 in either the numerator or denominator--they are
@@ -764,6 +692,103 @@ TODO: add benefits over liquid staking and collective "liquid staking".
 
 See also the introductory section 
 
+### Create $ATONE / $PHOTON Price Gap
+
+XXX Explain desirability of independence.
+XXX Link to Issues discussion.
+
+## $ATOM "Liquid Staking" Service
+
+XXX Explain goal of Gaia and AtomOne alignment.
+
+### Earn $ATONE or $PHOTON Inflation Rewards
+
+XXX $phATOM holders could be earning $ATONE over time, and this could be the
+primary method of incentivizing mutual success and value alignment.
+
+XXX Imperfect Analogy: $ATOM is PoW miner, $PHOTON is the reward.
+
+As an improvement to security, $phATOM holders will earn $PHOTON, with
+market-rate $ATONE -> $PHOTON conversion (with all throttling limitations and
+premium charges that may apply). If the demand for $phATOM and $PHOTON is
+great then this helps AtomOne influence governance of the hub with the
+intelligence of $ATONE. On the other hand, if the demand is not great, then
+the $PHOTON to $ATONE conversion is presumalby already efficient.
+
+XXX Discussion of inflation schedule, or bounds.
+
+XXX Discussion of touchpoints for governance control.
+
+XXX The earned $ATONE rewards may have some vesting period.
+
+### Parent Chain Failure Insurance
+
+_TODO: discuss further before integration... maybe this isn't wanted._ 
+
+In return for delegating voting decisions from $ATOM bonded $phATOM holders to
+$ATONE stakers, the AtomHub will offer the $phATOM holders the opportunity for
+all perpetuity, the merger of $phATOM to $PHOTON according to a reasonable
+exchange ratio as determined by the best available means as determined by
+$ATONE stakers, with a minimum conversion penalty of 20% and no more favorable
+to $phATOM than 1:2 by total market cap between $phATOM and $PHOTON. For
+clarity this means that upon the failure of Gaia the $phATOM token holders can
+dilute the $PHOTON holders such that $PHOTON holders have as low as 2/3 the
+underlying $ATONE as before the merge (but no less).
+
+In the case of Gaia failure this could be seen as a detriment to $PHOTON
+holders because their underlying $ATONE claims from $PHOTON has seemingly
+shrunk by up to half; but if the $ATOM token were to recover it would now be of
+benefit to $PHOTON holders; and this is an agreement that was pre-established
+in these Founding Documents to support the mutual success of $phATOM and
+$PHOTONto ensure mutual success rather than sabotage. While in the end the
+$ATONE stakers and before that the validators have complete freedom of will,
+how well they adhere to these founding agreements is left to everyone to
+enforce out of band.
+
+The conversion penalty may decrease below 20% for $phATOM to $PHOTON merger
+with a Supermajority of $ATONE stakers.
+
+AtomOne with a Constitutional Majority may decrease the merger ratio cap from
+1:2 (1/3) even down to zero (e.g. to terminate the support of $phATOM) but the
+execution must be delayed for a period of at least 3 months to allow $phATOM
+holders to preempt this with a merge. Nothing outside of the merge will prevent
+$phATOM holders from being able to redeem their due pro-rata $ATOM tokens for
+all time.
+
+Should the $phATOM be discontinued in support as decided by AtomOne with a
+Constitution Majority (which is NOT signified by a merger ratio cap of 0 by
+itself but must be a separate proposal), the $phATOM holders must be made whole
+by redistributing the underlying $ATOM tokens to their respective $phATOM
+holders completely with the same exchange factors applied to everyone equally,
+but as with decreasing the merger ratio cap, (for the purpose of giving
+precedent to the $phATOM -> $PHOTON merge mechanism) this must be delayed by
+a period of 3 months to allow $phATOM holders to preempt this with a merge.
+
+Any slashings of the underlying $ATOM, or theft, or loss of $ATOM due to the
+actions of the AtomOne hub and its $ATONE stakers are completely at the risk of
+the original $ATOM holder who brought it into AtomOne. AtomOne must compensate
+users within reason, but what is reasonable is up to the $ATONE stakers to
+decide through AtomOne governance. Everybody must acknowledge the risks of this
+experiment.
+
+All other parameters defined here regarding the merger that may negatively
+affect $phATOM holders and $ATOM holders on AtomOne cannot change even with a
+Constitutional Majority.
+
+There is no merge mechanism for the opposing case upon AtomOne failure. In this
+case the $ATOM underlying $phATOM must be distributed back to the $phATOM
+holders in proportion, or if there was already a merger, to the $PHOTON
+holders in proportion.
+
+XXX specify the conversion rate before and after the merger both ways.
+
+### Avoid Mixed ATOM+ATONE Liquid Staking
+
+In an hypothetical alternative model, there could be a three-token AMM system
+whereby a singular $PHOTON token is backed by both $ATOM and $ATONE, but these
+can suffer from manipulation; and even with the enforcement of safety bounds
+for the relative capitalization between $ATOM and $ATONE (such as 2:1 to 1:2)
+they have the unwanted side effect of additional exposure to unwanted risk. 
 
 ## AtomOne Governance
 
