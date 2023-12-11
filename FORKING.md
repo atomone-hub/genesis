@@ -7,44 +7,41 @@ In a similar fashion to the CONTRIBUTING.md, the FORKING.md file helps people
 understand when and how they should fork. This isn't a common practice, so let's
 dive into the specifics.
 
-For context, you can refer to this issue: [#64](https://github.com/atomone-hub/genesis/issues/64). 
+For context, you can refer to this issue: [Proposal: ‘How-to-Fork’ Guide #64](https://github.com/atomone-hub/genesis/issues/64). 
 
 ## What is this repository about?
 
-This genesis repository is about forking, specifically forking cosmos-hub-4 and
-gaia. The primary objective here is to help people switch from the perception
-that forking is necessarily bad, to the understanding that it could be useful
+This 'genesis' repository is about branching (which is like forking software but chains and communities),
+specifically forking and branching cosmoshub-4 aka Gaia. The primary objective here is to help people switch from the perception
+that forking and branching is necessarily bad, to the understanding that it could be useful
 and eventually the best thing to do.
 
-Forking is not always about competition with the original fork. It can also be
-about exploring alternative paths that could potentially merge or be used in
-parallel. A fork is also, by nature, something that can fail and just be an
+Forking and branching are not necessarily about competition with the original.
+It can also be about exploring alternative paths that could potentially merge or be used in
+parallel. A fork or branch is also, by nature, something that can fail and just be an
 experiment. But even in failure, the goal is to learn lessons.
 
-Forking is not necessarily bad, but the goal is to avoid making bad forks. We
-aim to optimize the forking process to maximize chances of success and
-efficiency.
+Forking and branching are not necessarily bad, but the goal is to avoid making bad ones. We
+aim to optimize the forking and branching processes to maximize chances of success and efficiency.
 
 This repository was created with the expectation that it will be forked, a lot,
-and probably recursively with potential grand-grand-grand-children.
+and probably recursively with many descendants.
 
-## What to Fork?
+## What to Fork or Branch?
 
-You can fork this genesis repository as a plan, or you can fork a chain (the
-software, its communities). When you fork a chain, you need to have a plan; this
-repo is the plan.
+You can fork the software of a chain, or more broadly you can branch the chain itself
+(with the same software, or with a fork of the software, or even a different choice of
+the software altogether; but always with some meaningful subset of the original community
+and token distribution, and possibly with new external members and air-drops included).
+When the chain branches itself, they need to have a plan; this repo is that emergent plan
+to fork and branch Gaia to AtomOne. You can also fork this genesis repository to propose
+an alternative plan.
 
-Once our plan is finished, the goal is for blockchain(s) to be run using that
-plan. The plan is intended to become finished at some point, so that if we want
-to do differently, we fork the plan and propose a new one.
-
-So to say it differently; a plan is independent and becomes implemented with the
-launch of new blockchains; 1 plan can have 0 to N implementations; plans can be
-forked to other plans even without implementation; and then we can think about
-creating new plans from existing chains.
-
-Just take care with the term fork; it’s the same word for a git fork which is
-relatively light and low in engagement, and about launching a real chain.
+Once our Founding Documents and Plan are finished, the goal is for blockchain(s) to be run using
+those documents. The Plan is intended to become finished at some point, so those who want to
+change the plan must either get a Constitutional Majority to update the Plan and perhaps 
+other parts of the Founding Documents including the Constitution; or they must create a new branch
+of AtomOne (or Gaia) and they can do so by first forking this repository.
 
 ## Why to Fork this Repo?
 
@@ -63,17 +60,15 @@ If you want to fork this repo, make sure:
 - the vision/mission statements and the development/growth/maintenance plans in
 the README are substantially different (you should explain why the fork is
 needed).
-- Branding, trademark tickers also need to be unique.
+- Branding, trademark, tickers also need to be unique.
 - XXX
 
-### About Token Names
+### About Trademark Terms and Token Names
 
-XXX
+GovNo may be used for any chain, if it is preceded by your chain's name, such as
+"Osmosis GovNo". Likewise "Osmosis GovNoA" to include abstainers, is acceptable.
 
-### About Trademark Terms
-
-XXX
-
-### XXX
-
+AtomOne and Atone, and $ATONE are reserved for the AtomOne branch of Gaia. Unless
+you are proposing a contribution to the github.com/atomone-hub/genesis repository,
+please choose distinct names for your project name, repo, and token.
 XXX
