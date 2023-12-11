@@ -45,6 +45,7 @@ As noted in the proposal, the current bond ratio of the Cosmos Hub is slightly b
 
 The design of the Cosmos network dynamically adjusts the inflation rate to encourage staking when the bond ratio is below the desired threshold. This mechanism is functioning as intended, gradually increasing the inflation rate to incentivize more $ATOM holders to stake their tokens, thereby securing the network. And it has worked as intended in the past, as shown in the graph below. Yet, it was cited as showing that the mechanism doesn’t work using flawed math (however, we concede that the rate of change could be faster). The proposed reduction will likely result in a further decline in the bond ratio when the mechanism should push the ratio to go higher. 
 
+![graph of time vs bond ratio on Gaia](https://github.com/atomone-hub/genesis/blob/0e65b56e4a0739287f2615ebd2c99d0c1bab4a74/resources/stakingrate.png)
 
 The proposal claims that the high $ATOM inflation rate makes DeFi yields less competitive. The proposal states, “However, due to the high inflation rate of $ATOM, DeFi yield can hardly compete which slows down user growth and adoption.” First and foremost this is a gross misunderstanding of the real yield from inflation, which as mentioned before, is with the maximum 20% compounded annual inflation rate, not at most 30% annual yield, but a net 8.33%. Secondly, the reasoning is completely flawed because if the yield from $ATOM is so high then it should *increase* user growth and adoption, not decrease it. This would be something to celebrate, if true, not stifle. 
 
