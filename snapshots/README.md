@@ -35,3 +35,8 @@ $ md5sum cosmoshub-4-export-18010657.json
 $ jq '.app_state.gov.votes[] | select(.proposal_id == "848")'  cosmoshub-4-export-18010657.json 
 [...]
 ```
+
+## TODO
+
+- [ ] independently verify the snapshot data with another full node. each validator that wants to participate can start by attesting to the generated export.
+- [ ] is there a schema for the exported json? how is it used? 
