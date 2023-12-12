@@ -57,8 +57,9 @@ these tokens outright.
 
 $ATOM's primary utility is – and has always been – staking. $ATOM was never
 designed to be a monetary token but a staking token enabling an IBC hub that
-requires the highest level of security (see original token model paper). The
-original design of $ATOM's dynamic inflation, acting as a penalty to
+requires the highest level of security (see [original token model
+paper](https://github.com/cosmos/cosmos/blob/0141bbcdbf68a784348ba059096f8238c696f9a8/Cosmos_Token_Model.pdf)).
+The original design of $ATOM's dynamic inflation, acting as a penalty to
 non-stakers, plays a crucial role in incentivizing network participation and
 security by intentionally limiting the amount of liquid trading $ATOMs so as to
 make hostile takeovers prohibitively expensive. Prop 848 risks undermining
@@ -269,7 +270,7 @@ intended. Any change to this model would make the $ATOM token too tempting to
 be marketed as a monetary token.
 
 What we would like to do instead is to open up a discussion for adjusting the
-NextInflationRate function to become more responsive to reaching the target
+`NextInflationRate` function to become more responsive to reaching the target
 ratio. Let’s find the best way of doing this together and discuss the pros and
 cons openly. Balancing market competitiveness with fundamental aspects of
 network security and economic stability is essential for the continued growth
