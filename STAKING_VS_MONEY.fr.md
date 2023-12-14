@@ -149,7 +149,9 @@ plus favorable. Les récompenses inflationnistes d'un token monétaire sont moin
 susceptibles d'être considérées comme une pénalité pour le non-staking, mais un
 incitatif positif au staking.
 
-## Un Mauvais Précédent Ceux qui ont plaidé en faveur de la #848 ont même
+## Un Mauvais Précédent
+
+Ceux qui ont plaidé en faveur de la #848 ont même
 argumenté qu'ils ne faisaient que mesurer l'intérêt des stakers. Ce changement
 fondamental dans la tokenomie qui va à l'encontre de la sécurité et de la
 stabilité est proposé sans avertissement complet sur le véritable objectif
@@ -161,8 +163,10 @@ choses, cette proposition est commercialisée comme un "halvening", ce qui
 implique des mouvements de prix attendus, alors que ce qui est proposé n'a rien
 à voir avec le calendrier immuable du halvening de la chaîne Bitcoin.
 
-## Une Autre Baisse du Ratio de Staking Comme indiqué dans la proposition, le
-ratio de staking actuel du Cosmos Hub est légèrement inférieur à l'objectif, ne
+## Une Autre Baisse du Ratio de Staking
+
+Comme indiqué dans la proposition, le ratio de staking actuel du
+Cosmos Hub est légèrement inférieur à l'objectif, ne
 dépassant pas le seuil de ⅔. Cette condition existante soulève une
 préoccupation majeure : en réduisant de moitié l'inflation maximale, la
 proposition arrête effectivement l'augmentation du taux de récompense de
