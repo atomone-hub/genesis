@@ -53,6 +53,7 @@ Its purpose is multi-fold:
 | [<ins>#74: Improving Delegators and Chain Safety</ins>](https://github.com/atomone-hub/genesis/issues/74)             | stevenoruzi              | Addressing the safety of delegators in the Cosmos ecosystem and proposing solutions for better validator accountability and network security.       |
 | [<ins>#75: Validators and KYC</ins>](https://github.com/atomone-hub/genesis/issues/75)                                | jaekwon                  | Exploring KYC requirements and jurisdiction policies for validators in AtomOne.   
 | [<ins>#81: Liquid Staked ATONE</ins>](https://github.com/atomone-hub/genesis/issues/81)                               | WaqarMMirza          | Proposal to improve liquid staking in the AtomOne ecosystem by introducing multilevel Liquid Staking Tokens (LSTs) with a unified pool and universal recognition. |
+| [<ins>#83: AtomOne GovNo Community Townhalls</ins>](https://github.com/atomone-hub/genesis/issues/83)                | adrianakalpa         | Planning and discussion of community townhalls for the GovNo chain, including agendas, member participation, and development updates.                |
 
 ---
 
@@ -117,7 +118,7 @@ the improvement of governance and community pool design for AtomOne.
 - Discussion on preventing governance misuse for "griefing" and ensuring it represents the will of the common Atom One delegator.
 - Proposals to lock voting rights to addresses staked at the beginning of each proposal and to restrict last-minute vote changes.
 - Mandating public community hearings for new governance proposals and a minimum discussion period on public forums.
-- Exploring better utilization of Atom One delegators/voters in negotiations and proposal iterations.
+- Exploring better utilization of AtomOne delegators/voters in negotiations and proposal iterations.
 - Strategies to minimize spam proposals and standardize community pool-funded operations.
 - Suggestions for alternative validator power structures, including validators voting as per their delegator's majority.
 - Debating voting limitations for "dust accounts" and recalibrating quorum requirements.
@@ -410,8 +411,6 @@ communication alternatives for AtomOne users.
 - Community feedback on various naming options, including '$ATONE'.
 - Discussion on balancing the need for a distinctive identity with avoiding contention and confusion.
 - Various perspectives on how to distinguish AtomOne's branding from existing trademarks.
-- Suggestions for names that reflect the project's identity as a fork and its unique economic security model.
-- Feedback on the use of 'ATONE' as a potential ticker and its reception within the community.
 
 ### Choose the $ATOM1 ticker ($ATONE)
 
@@ -512,7 +511,6 @@ list for AtomOne.
 - The repository could serve as a reference for new forks, important tweets, and other relevant information.
 - Discussion on limiting AI usage to a specific section within the repository and setting boundaries for its use.
 - Support for the idea of starting with an AWESOME.md file and observing how it evolves.
-- Suggestions for maintaining a balance between AI assistance and human curation.
 
 ### How to Attract Aligned Individuals to a New Constitutional Hub
 
@@ -522,12 +520,24 @@ list for AtomOne.
 
 - Focus on drawing in individuals both inside and outside the crypto space who align with AtomOne's vision of prioritizing security and hub minimalism.
 - Addressing societal issues that led to distrust in current institutions as a way to connect with a broader audience.
-- Proposing content creation that highlights problems created by existing systems, targeting a wider audience beyond crypto-natives.
+- Proposing content creation that highlights problems created by existing systems, targeting a wider audience beyond crypto-natives and to encourage participation from non-technical members.
 - Idea of creating a "political economy" within the AtomOne Hub, involving commerce of physical goods to engage the community in a new way.
 - Suggestion to scale voting power in favor of delegators, reducing the influence of validators in governance decisions to enhance the sense of equality in participation.
-- Discussions on how to make the ATOM1 Hub appealing to a wider range of people, particularly those disillusioned with traditional institutions.
-- Considerations of how to structure the ecosystem to encourage participation from non-technical members.
-- Suggestions for integrating commerce and real-world applications into the AtomOne ecosystem to foster a sense of community and participation.
+- Discussions on how to make the AtomOne Hub appealing to a wider range of people, particularly those disillusioned with traditional institutions.
+
+### AtomOne GovNo Community Townhalls
+
+[<ins>Issue #83</ins>](https://github.com/atomone-hub/genesis/issues/83) proposes a structure for community townhalls focused on the GovNo chain.
+
+#### Key points:
+
+- Establishing a regular schedule for community townhalls to discuss GovNo chain developments.
+- Preliminary agenda includes defining the GovNo chain, its governance token, governance structure, and its relationship with AtomOne.
+- Discussion on the role of validators, members, and external contributors in the GovNo ecosystem.
+- Addressing the process of self-organization and autonomy within the GovNo community.
+- Providing updates on the technical development, validator onboarding, and current priorities of the GovNo chain.
+- Planning for future community initiatives, prioritizing community concerns, and setting action items for subsequent meetings.
+- Encouragement for community members to contribute topics or questions for the townhall agenda.
 
 ---
 
@@ -602,8 +612,6 @@ for categorizing issues in AtomOne.
 - Items include defining the constitution, legal and licensing issues, governance and community engagement strategies, technical aspects and innovation, documentation and resources, recovery and compliance, and preparation for mainnet launch.
 - Discussion on maintaining a single source of truth for the roadmap, with a suggestion to keep it in the README for better accessibility.
 - The roadmap includes links to related issues and discussions, such as governance improvements and software targets.
-- Preference for maintaining the roadmap tasks in the README for visibility and ease of access.
-- Suggestions for organizing the roadmap in a tree structure with checkboxes for better tracking and visualization.
 
 ### Internationalization
 
@@ -617,4 +625,3 @@ for categorizing issues in AtomOne.
 - Encouragement for community members to contribute translations to naturally gauge interest and grow the decentralized localized community ecosystem.
 - Community members volunteering to translate documents into Spanish, Persian, Italian, and French, with an emphasis on collaborative efforts.
 - Suggestions for contracting human translators for languages where community volunteers are not available.
-- Discussion on the importance of human translators in conveying ideas accurately and preserving linguistic nuances.
