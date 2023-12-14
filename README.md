@@ -435,7 +435,7 @@ Create and support competing marketing, growth, infra, dapp subDAOs, and
 especially help them foster the best in class in Cosmos; from the user level
 down to the VM, every component should have a good selection of competition.
 
-See https://gitub.com/gnolang/gno
+See https://github.com/gnolang/gno
 TODO add more smart contract projects.
 
 ## 10. Engineering Task Force
