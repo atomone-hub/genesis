@@ -12,6 +12,10 @@
 /GOVERNANCE.md @giunatale @jaekwon
 /FORKING.md @moul @jaekwon
 
+# i18n
+*.fr.md @moul @tbruyelle
+*.it.md @giunatale
+
 # XXX: Pending Ownership Assignments
 # The CODEOWNERS file will be invalid if it lists users without write permissions to the repository.
 # Once the necessary permissions are granted and protected branches are set up, these lines can be uncommented.
