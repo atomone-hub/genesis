@@ -1,64 +1,74 @@
-_This document is a work in progress, please make PRs_ _What matters at this
-very moment is that we open ISSUEs and begin discussions about every facet that
-should go in the founding documents_
+> [!NOTE]
+> **This document is a work in progress. We encourage you to make pull requests. Currently, our priority is to open issues and initiate discussions about every facet that should be included in the founding documents.**
 
-_ALL CONTRIBUTIONS TO THIS REPO, ITS ISSUES, PROJECTS, AND DISCUSSIONS MAY BE USED
-IN ANY EXPLICIT GITHUB FORK WITH A NEW AND DISTINCT NAME TO LAUNCH ANY FORK OR SPLIT
-THAT MODIFIES ANY OF THE IDEAS MENTIONED HERE UNDER THE GnoNGPL COPYLEFT LICENSE._
+> [!IMPORTANT]
+> **ALL CONTRIBUTIONS TO THIS REPOSITORY, INCLUDING ITS ISSUES, PROJECTS, AND DISCUSSIONS, MAY BE USED IN ANY EXPLICIT GITHUB FORK WITH A NEW AND DISTINCT NAME TO LAUNCH ANY FORK OR SPLIT THAT MODIFIES ANY OF THE IDEAS MENTIONED HERE UNDER THE GnoNGPL COPYLEFT LICENSE.**
 
 ----------------------------------------
 # Preamble
 
-The Cosmos community, at a crossroads, confronts divergent views on key aspects
-such as mission, tokenomics, and security philosophy. AtomOne emerges as a
-beacon, offering an alternative fork to navigate these waters, equipped to
-handle contingencies and embodying a bastion for diverse political thought.
+At a crossroad, the Cosmos community faces varied perspectives on tokenomics, 
+security, and the broader mission of decentralized computing. This divergence 
+in views, encompassing economic foundations, system design, and philosophic 
+tenets, leads community members and stakers to consider the wisdom of supporting 
+a parallel fork alongside the original Cosmos Hub, prepared for any eventualities.
+
+AtomOne emerges as a necessary alternative, accounting for contingencies and 
+prepared for challenges, while providing a haven for varied political ideas.
 
 ----------------------------------------
 # Declaration of Genesis
 
-There comes a time when there is enough disagreement among community members
-and stakers about key concerns regarding the business of their chain, such as
-its vision, mission, tokenomics, architecture, implementation, or philosophy;
-that it makes the most sense to support an alternative fork running alongside
-the original so as to be prepared against all contingencies.
+In the constellations of the Cosmos community, profound challenges have 
+emerged, arising from differing opinions on the core aspects of tokenomics 
+and the intrinsic nature of the $ATOM token—its identity as either a staking 
+or monetary instrument. This period is marked by debates over monetization 
+strategies and the prioritization of project funding. 
 
-Recent times have seen the Cosmos community grappling with significant
-challenges stemming from differences about core tokenomics, about the very
-nature of the $ATOM token (whether it is staking or monetary), about
-monetization strategy and what types of projects to fund; and there generally
-appears to be a great cultural chasm that shows no sign of closing about our
-role and responsibilities as compared to our profit interests. (see [_NWV to
-Prop 848 – $ATOM Must NOT be Money_](./STAKING_VS_MONEY.md)).
+The passage of Proposal #848, known as "halvening," although achieving 
+the required 50% threshold, revealed a deep-seated division among $ATOM 
+stakeholders.
 
-Proposal #848 ("halvening") succeeded in getting the required threshold of 50%
-to pass on Gaia, but a significant portion voted NO or NWV which means that
-that $ATOM stakers are largely split on the most fundamental tokenomics
-security design element. 73,165,203ATOM YES vs 56,667,011ATOM NO +
-11,669,549ATOM NWV overall YES:NO is 1.07:1. Furthermore, this change was
-proposed on chain without addressing the valid security concerns raised by the
-community, with huge errors about the cost of inflation by miscalculating true
-income, and without a complete halvening schedule, thereby working to undermine
-hub credibility.
+- **In Favor (YES):** `73,165,203 ATOM`
+- **Against (NO):** `56,667,011 ATOM`
+- **NoWithVeto (NWV):** `11,669,549 ATOM`
 
-These and prior disagreements have now made clear the need for an alternative
-hub with a renewed focus and Alignment to serve as the canonical minimal
-IBC/ICS token hub with respect to Cosmos to champion the ideals of sovereignty,
-security, and decentralization everywhere; and secondarily to serve as the main
-base for a political party and more-intelligent voting bloc with respect to
-Gaia to save Gaia from itself. A modification to the distribution of $ATONE
-through slashing those who voted in favor of #848 would help ensure that the
-resultant distribution is more intelligent about security and would make us
-anti-fragile against even the most powerful of adversaries.
+This resulted in a finely balanced YES:NO ratio of `1.07:1`.
+
+Notable objections of 'NO' voters were the proposal's failure to address 
+security concerns before proposing on-chain, its inaccurate inflation 
+cost calculations, and the absence of a detailed halvening schedule, 
+all of which undermined the Hub's credibility. 
+
+Most importantly:
+
+- The voting outcome displayed a significant division within the community 
+on the most fundamental security design elemenet.
+- A discernible cultural schism has arisen, spotlighting the contrast 
+between roles, responsibilities, and profit interests, as detailed 
+in [NWV to Prop 848 – $ATOM Must NOT be Money](./STAKING_VS_MONEY.md).
+
+In light of these unfolding events and persistent disagreements, the 
+emergence of an alternative Hub has become necessary. This new entity is 
+envisioned to realign and serve as the minimal canonical IBC/ICS token 
+Hub within the Cosmos network, upholding the principles of sovereignty, 
+security, and decentralization. Further, it aspires to establish a 
+political faction and a more discerning voting bloc in relation to Gaia, 
+thereby seeking to restore equilibrium and address the internal discord. 
+
+The introduction of a revised distribution model for $ATOM via $ATONE, 
+particularly penalizing those who endorsed Proposal #848, is proposed 
+to foster a heightened sense of security awareness and fortify resilience 
+against even the most formidable adversaries.
 
 ----------------------------------------
 # Vision and Missions
 
 The vision behind this AtomOne fork is to be an alternative minimal fork of
-Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies,
+Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies
 and also to operate as a political party base in relation to Gaia. We strive to
 complement the broader Cosmos ecosystem while introducing innovative solutions
-and perspectives. Our goals are not just to resolve current challenges but are
+and perspectives. Our goals are not just to resolve current challenges but 
 also to set a new precedent for adaptive and responsive self-organization in
 the multichain multitoken universe that we call the Cosmos.
 
@@ -87,8 +97,8 @@ AtomOne re-commits to the original vision and primary mission of Gaia to serve
 as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
 stake to be bonded. We believe that minimizing the risk profile is necessary as
 an existential issue for the hub, and an issue of financial security of the
-highest order for not just the hub but its hosted shards and IBC connected
-network allowing AtomOne to occupy a real and an important niche. When there
+the highest order for not just the hub but its hosted shards and IBC connected
+network allowing AtomOne to occupy a real and important niche. When there
 is a double-spend attack on the hub, the staking tokens of those responsible
 for the attack should be used to compensate the victims as much as reasonable,
 and the non-zero remainder of the penalty burned. A staking token of an
@@ -99,7 +109,7 @@ comparison.
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
 nature of the hub belong in new forks or splits, and an ideal hub enables them
-despite of and in order to celebrate these differences. In the Cosmos there is
+despite and in order to celebrate these differences. In the Cosmos, there is
 no need for contention as with land-locked states because there is no
 limitation of finite land. We can create new forks/splits/groups that are
 better aligned with what we need if there is enough need or support for it.
@@ -112,11 +122,11 @@ the AtomOne hub.
 ## Significance as a Political Base 
 
 There are many of stakers and users of Gaia that are aligned with the
-values, principles, original mission of Gaia and those of AtomOne, but we have
+values, principles, and original mission of Gaia and those of AtomOne, but we have
 no explicit base of operations. In contrast, the informal opposition majority
 party (which came about first) is well organized in comparison, usually behind
 closed doors. Meanwhile "liquid staking" providers are providing a service that
-does more than liquid staking, but have their own governance and powers and
+does more than liquid staking, but has their own governance and powers and
 thus act as a kind of political base. For example, which validators to stake to
 is determined through governance in Informal/Stride.
 
