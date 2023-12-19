@@ -10,7 +10,7 @@ This is because after the tally is completed, the votes a removed from state.
 
 ### Download
 
-An export is stored in S3 accessible here: https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/cosmoshub-4-export-18010657.json
+An export is stored in S3 accessible here: https://atomeone.fra1.digitaloceanspaces.com/cosmoshub-4/cosmoshub-4-export-18010657.json
 
 ### How the block has been exported
 
