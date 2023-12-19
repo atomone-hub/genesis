@@ -58,13 +58,13 @@
 ## Preamble
 
 At a crossroad, the Cosmos community faces varied perspectives on tokenomics, 
-security, and the broader mission of decentralized computing. This divergence 
-in views, encompassing economic foundations, system design, and philosophic 
-tenets, leads community members and stakers to consider the wisdom of supporting 
+security, and the broader mission of decentralized computing. The difference of 
+views regarding economic foundations, system design, and philosophic 
+tenets has led community members and stakers to consider the wisdom of supporting 
 a parallel fork alongside the original Cosmos Hub, prepared for any eventualities.
 
 AtomOne emerges as a necessary alternative, accounting for contingencies and 
-prepared for challenges, while providing a haven for varied political ideas.
+prepared for challenges, while providing a haven for various political ideas.
 
 <details>
 <summary>Terms</summary>
@@ -110,13 +110,12 @@ strategies and the prioritization of project funding.
 
 The passage of Proposal #848, known as "halvening," although achieving 
 the required 50% threshold, revealed a deep-seated division among $ATOM 
-stakeholders.
+stakeholders. The voting resulted in a finely balanced YES:NO ratio 
+of `1.07:1`:
 
 - **In Favor (YES):** `73,165,203 ATOM`
 - **Against (NO):** `56,667,011 ATOM`
 - **NoWithVeto (NWV):** `11,669,549 ATOM`
-
-This resulted in a finely balanced YES:NO ratio of `1.07:1`.
 
 Notable objections of 'NO' voters were the proposal's failure to address 
 security concerns before proposing on-chain, its inaccurate inflation 
