@@ -1,11 +1,69 @@
-> [!NOTE]
-> **This document is a work in progress. We encourage you to make pull requests. Currently, our priority is to open issues and initiate discussions about every facet that should be included in the founding documents.**
+<div align="Center">
+<h1>AtomOne Genesis</h1>
+<h3>Proposal for a Minimal Inter-Blockchain Hub</h3>
+
+</div>
+
+<p align="left">
+  AtomOne is a strategic fork of Gaia ("cosmoshub4"). It redefines the Cosmos 
+  ecosystem as a minimal IBC/ICS Hub. AtomOne is committed to secure, decentralized 
+  decision-making, and focuses on driving innovative advancements within the Cosmos 
+  ecosystem.
+</p>
 
 > [!IMPORTANT]
 > **ALL CONTRIBUTIONS TO THIS REPOSITORY, INCLUDING ITS ISSUES, PROJECTS, AND DISCUSSIONS, MAY BE USED IN ANY EXPLICIT GITHUB FORK WITH A NEW AND DISTINCT NAME TO LAUNCH ANY FORK OR SPLIT THAT MODIFIES ANY OF THE IDEAS MENTIONED HERE UNDER THE GnoNGPL COPYLEFT LICENSE.**
+>
+> **This document is a work in progress. We encourage you to make pull requests. Currently, our priority is to open issues and initiate discussions about every facet that should be included in the founding documents.**
 
-----------------------------------------
-# Preamble
+<!-- TOC -->
+
+- [Preamble](#preamble)
+- [Declaration of Genesis](#declaration-of-genesis)
+- [Vision and Mission](#vision-and-mission)
+  * [Minimal IBC/ICS Hub](#minimal-ibcics-hub)
+  * [Significance as a Political Base](#significance-as-a-political-base)
+  * [AtomOne's Strategy for ATOM Bonding and Liquid Staking](#atomones-strategy-for-atom-bonding-and-liquid-staking)
+  * [Expected Outcomes and Benefits](#expected-outcomes-and-benefits)
+- [Objectives](#objectives)
+  * [1. Define ATONE](#1-define-atone)
+  * [2. IBC/ICS Hub and Minimalism](#2-ibcics-hub-and-minimalism)
+  * [3. Validator Incentives](#3-validator-incentives)
+  * [4. Governance](#4-governance)
+    + [The Supermajority of Two Thirds](#the-supermajority-of-two-thirds)
+    + [The Constitutional Majority](#the-constitutional-majority)
+  * [5. Fix Liquid Staking](#5-fix-liquid-staking)
+  * [6. Declaration of Independence & Constitution](#6-declaration-of-independence--constitution)
+  * [7. IBC1.5](#7-ibc15)
+  * [8. Transparent Security System](#8-transparent-security-system)
+  * [9. Fund SubDAOs](#9-fund-subdaos)
+  * [10. Engineering Task Force](#10-engineering-task-force)
+  * [11. Enable Meiosis](#11-enable-meiosis)
+- [Plan](#plan)
+  * [Genesis Distribution](#genesis-distribution)
+  * [Tokenomics](#tokenomics)
+  * [ICS Fee Distribution](#ics-fee-distribution)
+    + [Staking](#staking)
+    + [PHOTON the More Deflationary Version of ATONE](#photon-the-more-deflationary-version-of-atone)
+    + [Create ATONE / PHOTON Price Gap](#create-atone--photon-price-gap)
+  * [ATOM Liquid Staking Service](#atom-liquid-staking-service)
+    + [Earn ATONE or PHOTON Inflation Rewards](#earn-atone-or-photon-inflation-rewards)
+    + [Parent Chain Failure Insurance](#parent-chain-failure-insurance)
+    + [Avoid Mixed ATOM+ATONE Liquid Staking](#avoid-mixed-atomatone-liquid-staking)
+  * [AtomOne Governance](#atomone-governance)
+  * [Milestones](#milestones)
+    + [AtomOne Phase 1: Pre-IBC](#atomone-phase-1-pre-ibc)
+    + [AtomOne Phase 2: Post-IBC](#atomone-phase-2-post-ibc)
+    + [AtomOne Phase 3: ICS1.5 scaling](#atomone-phase-3-ics15-scaling)
+    + [AtomOne Phase 4: Maintenance](#atomone-phase-4-maintenance)
+  * [AtomOne Technical Steering Committee](#atomone-technical-steering-committee)
+- [FAQ](#faq)
+  * [AtomOne vs Gaia](#atomone-vs-gaia)
+  * [AtomOne vs Gno.land](#atomone-vs-gnoland)
+
+<!--/ TOC -->
+
+## Preamble
 
 At a crossroad, the Cosmos community faces varied perspectives on tokenomics, 
 security, and the broader mission of decentralized computing. This divergence 
@@ -16,8 +74,41 @@ a parallel fork alongside the original Cosmos Hub, prepared for any eventualitie
 AtomOne emerges as a necessary alternative, accounting for contingencies and 
 prepared for challenges, while providing a haven for varied political ideas.
 
-----------------------------------------
-# Declaration of Genesis
+<details>
+<summary>Terms</summary>
+
+- **Alignment:** Full agreement with AtomOne's founding documents in speech and
+  action.
+- **AtomOne:** An opinionated fork of the Cosmos hub Gaia, identified as
+  "cosmoshub4". It functions as a minimal IBC-token-pegging and ICS hosting hub.
+- **Constitutional Majority:** A consensus threshold set above the standard two-thirds
+  majority, initially at 90%.
+- **IBC (Inter-Blockchain Communication):** A protocol facilitating communication
+  and asset transfer between different blockchain networks, using Byzantine Fault
+  Tolerant (BFT) light client proofs. Essential to the Cosmos network, it embodies
+  the 'Internet of Blockchains' vision.
+- **ICS (Inter-blockChain Security):** A mechanism for running multiple shard chains
+  under one validator set. ICS1.5, an upgrade to ICS1, enhances inter-shard communication.
+  It scales AtomOne's core functionality and allows the hosting of 'consumer chains' with
+  the same validator set.
+- **Zone:** A sovereign or partially sovereign chain, or a dApp on a smart contract
+  chain. Zones have defined governance and economic rules.
+- **Fork:** A duplicate of a blockchain distribution, often with a different chain
+  identifier.
+- **Air-drop:** A fork with distribution modifications, like a new premine, exclusion
+  of certain addresses, or changes in token allocations. It can also include distributions
+  from other chains.
+- **Split:** An air-drop or fork based on staker voting, aligning with a constitution,
+  or aiming to achieve specific goals with modified software or constitution.
+- **$ATONE:** The primary staking token for AtomOne, previously $ATOM1.
+- **$PHOTON:** AtomOne's liquid staking token, previously known as $phATOM1 or $phATONE,
+  representing the latest in tokenomics.
+- **$phATOM:** The liquid staking token for Gaia available on AtomOne, for $ATOM
+  (not $ATONE).
+
+</details>
+
+## Declaration of Genesis
 
 In the constellations of the Cosmos community, profound challenges have 
 emerged, arising from differing opinions on the core aspects of tokenomics 
@@ -61,65 +152,65 @@ particularly penalizing those who endorsed Proposal #848, is proposed
 to foster a heightened sense of security awareness and fortify resilience 
 against even the most formidable adversaries.
 
-----------------------------------------
-# Vision and Missions
+## Vision and Mission
 
-The vision behind this AtomOne fork is to be an alternative minimal fork of
-Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies
-and also to operate as a political party base in relation to Gaia. We strive to
-complement the broader Cosmos ecosystem while introducing innovative solutions
-and perspectives. Our goals are not just to resolve current challenges but 
-also to set a new precedent for adaptive and responsive self-organization in
-the multichain multitoken universe that we call the Cosmos.
+The AtomOne fork is envisioned to be an alternative to Gaia ("cosmoshub4"), 
+designed to run parallel to Gaia, protecting the community from contingencies. 
 
-AtomOne will lead the development and praxis of giving representation to every
-(sub)group (such as a political party), each defined and strengthened by their
-own living constitutions that state their values, missions, philosophies and so
-on. This will foster a more diverse ecosystem of specialized zones in
-coopetition (cooperation and competition) with each other despite
-irreconcilable differences. AtomOne will be a base for many more partyhubs,
-and itself function as a partyhub in relation to Gaia. There will be many
-partyhubs in a great sea of divisions, and from this soup will emerge
-specialization, interoperation through common protocols, and fault tolerance in
-numbers, we pray for the helping hand of reason, wisdom, foresight, empathy,
-temperance, and all other necessary faculties.
+Primarily, AtomOne will serve as a foundational base for political engagement 
+within the Gaia framework. The objective is to augment the broader Cosmos 
+ecosystem by introducing innovative solutions and fresh perspectives. 
+As a result, AtomOne is committed to addressing present challenges and 
+establishing new standards for adaptive and responsive self-organization 
+in Cosmos's dynamic, multichain, multitoken environment.
 
-## Role as Minimal IBC/ICS Hub
+AtomOne is also committed to pioneering the practice of representing every 
+subgroup, equivalent to political parties, each secured by its dynamic 
+constitution outlining its values, missions, and philosophies. This approach 
+will nurture a diverse ecosystem of specialized zones, engaging in 
+'coopetition' (cooperation and competition) despite fundamental disagreements. 
 
-While AtomOne aims to steer Gaia toward safe decisions, it cannot by itself
-determine the decisions made by the Cosmos Hub. Yet, Cosmos *needs* minimal
-IBC/ICS hubs without any confusion about what it is, and as mentioned in the
-Declaration of Genesis Gaia does not embody this (yet). Ergo, AtomOne must not
-only guide Gaia, but it must also run the desired alternative minimal IBC/ICS
-hub as an alternative in addition to Gaia.
+AtomOne will serve as a foundational Hub for numerous other partyhubs 
+and as a central partyhub in relation to Gaia. In this vast network 
+of diverse partyhubs, we envision the emergence of specialization, seamless 
+interoperation through shared protocols, and robust fault tolerance. 
+In our journey, we invoke the guiding principles of reason, wisdom, foresight, 
+empathy, temperance, and all other essential faculties to steer our course.
 
-AtomOne re-commits to the original vision and primary mission of Gaia to serve
-as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
-stake to be bonded. We believe that minimizing the risk profile is necessary as
-an existential issue for the hub, and an issue of financial security of the
-the highest order for not just the hub but its hosted shards and IBC connected
-network allowing AtomOne to occupy a real and important niche. When there
-is a double-spend attack on the hub, the staking tokens of those responsible
-for the attack should be used to compensate the victims as much as reasonable,
-and the non-zero remainder of the penalty burned. A staking token of an
-exchange zone for example must consequently have additional risks related to
-its business, and so $ATONE occupies a niche of minimal risk profile in
-comparison.
+### Minimal IBC/ICS Hub
 
-IBC/ICS hubs should in general remain conservative in its function and offer
-utility through dependability and scaling. Any experiments that change the
-nature of the hub belong in new forks or splits, and an ideal hub enables them
-despite and in order to celebrate these differences. In the Cosmos, there is
-no need for contention as with land-locked states because there is no
-limitation of finite land. We can create new forks/splits/groups that are
-better aligned with what we need if there is enough need or support for it.
+**AtomOne renews the commitment to Gaia's original mission, serving as a minimal 
+IBC/ICS Hub secured by a staking token, aiming for two-thirds of the stake to be 
+bonded.**
 
-The powers not delegated to the AtomOne hub by the Constitution, nor prohibited
-by it to the consumer chains, are reserved to the consumer chains respectively,
-or to the stakers, token holders, and people; or to other splits or forks of
-the AtomOne hub.
+While AtomOne is dedicated to guiding Gaia toward prudent decisions, it cannot 
+unilaterally dictate the choices of the Cosmos Hub. The Cosmos ecosystem requires 
+clear, minimal IBC/ICS hubs, a role that Gaia has not fully embraced, as outlined 
+in the [Declaration of Genesis](declaration-of-genesis). Therefore, AtomOne's 
+mission extends beyond merely advising Gaia; it also involves operating as an 
+essential alternative minimal IBC/ICS hub, complementing Gaia's function within 
+the ecosystem.
 
-## Significance as a Political Base 
+We recognize that minimizing risk is vital for the Hub's existence and the 
+financial security of its hosted shards and IBC-connected network, allowing 
+AtomOne to fulfill a crucial niche. In a double-spend attack, 
+the responsible parties' staking tokens should compensate victims as far as 
+possible, with any remaining penalty being burned. This approach positions 
+$ATONE is a token with a minimal risk profile, especially compared to tokens 
+in exchange zones, which carry additional business-related risks.
+
+This way, IBC/ICS hubs should prioritize conservative operation, ensuring 
+reliability and scalability. Any fundamental changes should be explored in 
+new forks or splits. The ideal hub facilitates and celebrates these 
+divergences. In the Cosmos ecosystem, unlike land-locked states, there is no 
+scarcity of space, allowing the creation of new forks/splits/groups aligned 
+with specific needs and support.
+
+Powers not granted to the AtomOne Hub by the Constitution or prohibited to 
+consumer chains are reserved for the consumer chains, stakers, token holders, 
+and the public, or for other splits or forks of the AtomOne Hub.
+
+### Significance as a Political Base 
 
 There are many of stakers and users of Gaia that are aligned with the
 values, principles, and original mission of Gaia and those of AtomOne, but we have
@@ -149,7 +240,7 @@ pegging and using these $ATOMs to make voting decisions on Cosmos as a voting
 bloc. The following section describes the one and only way the AtomOne hub will
 use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
-## Role as $ATOM "Liquid Staking" Provider
+### AtomOne's Strategy for $ATOM Bonding and Liquid Staking
 
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
@@ -163,7 +254,7 @@ some differences in tokenomics between them. We have more control over $PHOTON
 tokenomics, though the changes we introduce for $PHOTON may be upstreamed to
 Gaia for $phATOM.
 
-## Expected Outcomes and Benefits 
+### Expected Outcomes and Benefits 
 
 We believe that by embracing diversity and fostering open dialogue between
 competing self-aligned groups we can create a more robust, innovative, and
@@ -179,51 +270,7 @@ incentivize mutual success and allow Gaia to transition safely into a more
 experimental hub as compared to the more immutable and conservative AtomOne.
 
 ----------------------------------------
-# Terms
-
-* Alignment: full agreement with the founding documents in speech and action
-  with relation to AtomOne.
-* AtomOne: an opinionated fork of the Cosmos hub Gaia with chainid
-  "cosmoshub4". It is a minimal IBC-token-pegging and ICS hosting hub.
-* Constitutional Majority: a consensus threshold set at a higher bar than the
-  standard two-thirds majority initially set at 90%.
-* IBC: short for Inter-Blockchain Communication, is a protocol that enables
-  communication between different blockchain networks using Byzantine Fault
-  Tolerant (BFT) light client proofs. It allows for the transfer of assets and
-  information across independent blockchains, fostering interoperability and
-  flexibility in the blockchain ecosystem. IBC is a cornerstone of the Cosmos
-  network's architecture, enabling its vision of an 'Internet of Blockchains'.
-* ICS: short for Inter-blockChain Security, is a mechanism for running multiple
-  shard chains under the same validator set. ICS1.5 is an upgrade to ICS1 that
-  improves inter-shard communication efficiency. ICS1 and ICS1.5 help scale the
-  core functionality of AtomOne as well as offer anyone the service of running
-  "consumer chains" for any purpose (within the guidelines set forth by
-  AtomOne) secured and hosted by the same validator set as the AtomOne hub root
-  and core shards.
-* Zone: an independent or ICS hosted chain (or a dapp hosted on a smart
-  contract chain or an instance on a parent chain) with a well-defined
-  governing body or bodies that dictate the governance and economic rules
-  internal to that zone. A zone is sovereign or partially sovereign.
-* Fork: an exact copy of a distribution with either the same or different
-  blockchain software, usually with a different chain identifier than the
-  original.
-* Air-drop: like a fork but with modifications to the distribution such as by
-  including a new premine, or excluding addresses (such as those on sanctions
-  lists), or changing the number of tokens for an address in any way, or even
-  including modified or unmodified distributions of other chains.
-* Split: an air-drop of a chain that modifies the distribution based on staker
-  voting activity in both consensus and governance through their cryptographic
-  signatures as well as any other criteria based on a well defined and
-  prominent self-reinforcing constitution; or a fork of a chain with a modified
-  constitution or modified software that is intended to achieve the same.
-* $ATONE: the primary staking token for AtomOne. Previously known as $ATOM1.
-* $PHOTON: the liquid staking token for AtomOne. Previously known as $phATOM1
-  or $phATONE. the latest in tokenomics design.
-* $phATOM: the liquid staking token for Gaia offered on AtomOne for $ATOM (not
-  $ATONE).
-
-----------------------------------------
-# Objectives
+## Objectives
 
 All users and members must agree with these objectives, and at all times when
 contributing take all appropriate actions to meet these objectives both in the
@@ -232,7 +279,7 @@ judgement by AtomOne or any other community or governing set.
 
 These objectives can only be changed through Constitutional Majority.
 
-## 1. Define $ATONE
+### 1. Define $ATONE
 
 The $ATONE is defined to be a staking token of a minimal ICS1.5 IBC AtomOne Hub
 that keeps 2/3 of $ATONEs staked at all times.
@@ -251,7 +298,7 @@ are new airdrops of a different token. No additional premines besides those
 already defined in this planning document are allowed for any forks whose token
 shall be called $ATONE.
 
-## 2. IBC/ICS Hub and Minimalism
+### 2. IBC/ICS Hub and Minimalism
 
 We are not concerned about any business plan or tokenomics strategy for the
 AtomOne hub besides offering the scaling of transaction throughput through
@@ -335,19 +382,19 @@ should a fork of AtomOne or a new chain be proposed with an entirely different
 constitution. The spirit of the AtomOne Constitution and the general mission
 and purpose of the AtomOne hub as a utility must not change. 
 
-## 3. Validator Incentives
+### 3. Validator Incentives
 
 Fix Validator incentives so that every validator is PAID to run ICS consumer
 chains and hub shards. Actually, develop a minimal economic model that accurately
 describes physical reality in an intuitive and adaptable way for all scenarios.
 Let's implement a system where every ICS chain pays supermajority to validators!
 
-## 4. Governance
+### 4. Governance
 
 Import elements from
 [github.com/decentralists/DAO](https://github.com/decentralists/DAO/tree/main/governance)
 
-### The Supermajority of Two Thirds
+#### The Supermajority of Two Thirds
 
 All governance proposals must pass the required ratio threshold of 2/3 in
 addition to the auto-adjusting deposit threshold and the auto-adjusting quorum
@@ -363,7 +410,7 @@ The Supermajority is defined to be exactly "more than two thirds" (+2/3, or at
 least one iota more than two thirds) and cannot change even by a Constitutional
 Majority.
 
-### The Constitutional Majority
+#### The Constitutional Majority
 
 The Constitutional Majority is initially set at 90% which is higher than the
 default required Supermajority. The Constitutional Majority cannot be lowered
@@ -373,7 +420,7 @@ agreement and inclusivity in critical decision-making processes. It reflects a
 commitment to achieving near-unanimous consensus on essential governance
 decisions, enhancing the legitimacy and stability of the outcomes.
 
-## 5. Fix "Liquid Staking"
+### 5. Fix "Liquid Staking"
 
 What we have isn't liquid staking in its pure form where every validator gets
 its own liquid staking derivative; rather what we have are a collectivized form
@@ -399,14 +446,14 @@ managed directly by the stakers of the hub.
 Later we show the $PHOTON token which is deflationary AND liquid, yet fully
 backed by $ATONEs.
 
-## 6. Declaration of Independence & Constitution
+### 6. Declaration of Independence & Constitution
 
 Adopt a Declaration of Independence and Constitution with cryptographic
 signatures.
 
 See [draft declaration](./TODO) and [draft constitution](./CONSTITUTION.md).
 
-## 7. IBC1.5
+### 7. IBC1.5
 
 Solve IBC1.5, or ICS1.5, where the validator sets are implicit, for fast
 inter-hub communication with implied IBC, WITHOUT sacrificing independent BFT
@@ -414,14 +461,14 @@ consensus layers.
 
 XXX add more
 
-## 8. Transparent Security System
+### 8. Transparent Security System
 
 Create a permissioned and fully accountable, and 100% predetermined-finite-
 time-delayed transparent security reporting system. Ensure that ABSOLUTELY
 ALL information within the system eventually becomes public knowledge to help
 deal with zero day vulnerabilities and current attacks & fund it.
 
-## 9. Fund SubDAOs
+### 9. Fund SubDAOs
 
 In addition to the staking token distribution (and any choice of modifications
 if any to them) we should also consider the vote of individuals (in its purest
@@ -448,7 +495,7 @@ down to the VM, every component should have a good selection of competition.
 See https://gitub.com/gnolang/gno
 TODO add more smart contract projects.
 
-## 10. Engineering Task Force
+### 10. Engineering Task Force
 
 Create a team tasked with minimizing and simplifying code and reducing
 unnecessary dependencies, taking the best examples from various forks taken
@@ -457,7 +504,7 @@ into one where-ever possible. FINISH software.
 
 See https://github.com/gnolang/gno/tree/master/tm2 for Tendermint2
 
-## 11. Enable Meiosis
+### 11. Enable Meiosis
 
 Ossify the partyhub after it has become its own competing IBC/ICS hub. Allow
 others to likewise fork from you by enabling ICA partyhubs when there is
@@ -479,7 +526,7 @@ philosophies, expertise, concerns, and jurisdictions.
 See https://github.com/gnolang/gno/pull/1224 for prototype WIP of splitting.
 
 ----------------------------------------
-# Plan
+## Plan
 
 The AtomOne hub exists as a separate minimalist fork of Gaia. Both are separate
 and distinct from gno.land, though gno.land and the GnoVM (as well as other
@@ -493,7 +540,7 @@ the chain.
 First we describe the tokenomics of the AtomOne hub, followed by the main
 milestones, with an emphasis on completion and even potential phase-out.
 
-## Genesis Distribution
+### Genesis Distribution
 
 It should be some distribution of the Cosmos Hub $ATONE token with those who
 voted against the spirit of this project slashed because they never joined to
@@ -550,7 +597,7 @@ The last three following the pool/treasury will initially go to multisigs set in
 consensus params of the chain, until they get set as URIs pointing at blockchain
 based DAOs hosted on ICS1.5. 
 
-## Tokenomics
+### Tokenomics
 
 We opt to replace the market-based "commission" system with a flat
 distribution to all validators, to incentivize the creation of peer validators
@@ -574,7 +621,7 @@ This is initially set to 0.8, giving the majority to the validators, and only
 20% as royalty to be paid to $ATONE stakers, with the COMMUNITY_TAX taking its
 portion.
 
-### Staking
+#### Staking
 
 The main difference being introduced is that the total amount of stake going to
 one validator doesn't actually increase the validator's power, even though all
@@ -610,7 +657,7 @@ selling of $ATONEs into the market, or result in it, therefore the price of
 $ATONEs will be pushed lower, and the composition of the $ATONE holders mutated
 according to market conditions.
 
-### $PHOTON the More Deflationary Version of $ATONE
+#### $PHOTON the More Deflationary Version of $ATONE
 
 XXX can this be made fully deflationary?
 
@@ -703,16 +750,16 @@ TODO: add benefits over liquid staking and collective "liquid staking".
 
 See also the introductory section 
 
-### Create $ATONE / $PHOTON Price Gap
+#### Create $ATONE / $PHOTON Price Gap
 
 XXX Explain desirability of independence.
 XXX Link to Issues discussion.
 
-## $ATOM "Liquid Staking" Service
+### $ATOM "Liquid Staking" Service
 
 XXX Explain goal of Gaia and AtomOne alignment.
 
-### Earn $ATONE or $PHOTON Inflation Rewards
+#### Earn $ATONE or $PHOTON Inflation Rewards
 
 XXX $phATOM holders could be earning $ATONE over time, and this could be the
 primary method of incentivizing mutual success and value alignment.
@@ -732,7 +779,7 @@ XXX Discussion of touchpoints for governance control.
 
 XXX The earned $ATONE rewards may have some vesting period.
 
-### Parent Chain Failure Insurance
+#### Parent Chain Failure Insurance
 
 _TODO: discuss further before integration... maybe this isn't wanted._ 
 
@@ -793,7 +840,7 @@ holders in proportion.
 
 XXX specify the conversion rate before and after the merger both ways.
 
-### Avoid Mixed ATOM+ATONE Liquid Staking
+#### Avoid Mixed ATOM+ATONE Liquid Staking
 
 In an hypothetical alternative model, there could be a three-token AMM system
 whereby a singular $PHOTON token is backed by both $ATOM and $ATONE, but these
@@ -801,7 +848,7 @@ can suffer from manipulation; and even with the enforcement of safety bounds
 for the relative capitalization between $ATOM and $ATONE (such as 2:1 to 1:2)
 they have the unwanted side effect of additional exposure to unwanted risk. 
 
-## AtomOne Governance
+### AtomOne Governance
 
 Ultimately this hub is owned by the $ATONE holders. 
 
@@ -814,32 +861,32 @@ constitutional majority to change.
 
 The constitution itself must be amended by a constitutional majority.
 
-## Milestones
+### Milestones
 
 There are largely four phases to this plan.
 
-### AtomOne Phase 1: Pre-IBC
+#### AtomOne Phase 1: Pre-IBC
 
 1. Define Constitution
 2. Governance Fixes
 3. Launch Governance-Only Chain
 4. Implement IBC
 
-### AtomOne Phase 2: Post-IBC
+#### AtomOne Phase 2: Post-IBC
 
 1. $PHOTON with Auto-Staking
 2. Fix Validator Incentives
 3. Implement ICS1.5
 4. Prototypes with SubDAOs (including GNO)
 
-### AtomOne Phase 3: ICS1.5 scaling
+#### AtomOne Phase 3: ICS1.5 scaling
 
 1. Migrate $PHOTON to ICS
 2. Promote Smart Contract Use Cases
 3. Develop Scalable Validator Infrastructure
 4. Develop Recovery Procedures
 
-### AtomOne Phase 4: Maintenance
+#### AtomOne Phase 4: Maintenance
 
 1. Create OnChain Education Curriculum
 2. Promote Good Forks and Projects
@@ -865,7 +912,7 @@ template will have split into a million different forks and conquered the
 world. AtomOne Eschatology will be well documented and planned, for a time when
 nobody was around for these early beginnings.
 
-## AtomOne Technical Steering Committee
+### AtomOne Technical Steering Committee
 
 The AtomOne Technical Steering Committee (TSC) is a self-mutating organization
 that is tasked with overseeing the development of the necessary software. It is
@@ -885,9 +932,9 @@ XXX 3 year term, after 3 years must demonstrate; or otherwise removed.
 XXX 
 
 ----------------------------------------
-# FAQ
+## FAQ
 
-## AtomOne vs Gaia
+### AtomOne vs Gaia
 AtomOne is designed as an alternative fork of Gaia with a distinct focus on
 minimalism in its ICS & Token IBC hub. This results in a leaner, more efficient
 architecture. In terms of governance, AtomOne introduces a higher consensus
@@ -895,7 +942,7 @@ threshold (Constitutional Majority) and emphasizes decentralized
 decision-making. In terms of software, AtomOne will start as a fork of
 "cosmoshub4".
 
-## AtomOne vs Gno.land
+### AtomOne vs Gno.land
 Gno.land will be a hub for GnoVM based smart contracts. It may benefit from
 ICS1.5 in the future, but we will first offer GnoVM scaling on the AtomOne ICS
 economic zone. Gno.land will not connect to Gaia and other external chains for
@@ -906,39 +953,3 @@ Gno.land will run its own separate validator set but the Gno VM will be made
 available for hosting on AtomOne ICS and its successors.
 
 ----------------------------------------
-# TODO
-
- - [ ] Complete the CONSTITUTION w/ all known functionality
- - [ ] Reconcile this README with CONSTITUTION
- - [ ] Incorporate the "Constitutional Majority" in the Constitution.
- - [ ] Move Decentralists governance roadmap here.
- - [ ] Keplr & Ledger need competition.
- - [ ] Consider referencing https://twitter.com/jaekwon/status/1724641822398681547 with more insight.
- - [ ] Roadmap Timeline
- - [ ] Links to Additional Resources such as technical documentation, or community forums, for in-depth information.
- - [ ] Channels for reaching out to the core team or support, especially for technical support or collaboration inquiries.
- - [ ] Scan through twitter posts for more ideaas.
- - [ ] Argument for why hub and spokes are needed (from atom one)
- - [ ] Quantum resistance
- - [ ] Constitution updates: $ATOM -> $ATONE; Add $PHOTON and $phATOM; conversion
- - [ ] At least one week for decentralists feedback on proposals that meet the
-   spam threshold.
- - [ ] Proposals should be self contained no PDF necessary.
- - [ ] TM2 Consensus Court
- - [ ] Subsidize relayers and require payment for every IBC tx.
- - [ ] Fork proves that slashing is real.
- - [ ] Increased Voting Period.
- - [ ] Globally decentralized validator set.
- - [ ] What is a hub? connected zones and shards should use it as such, not
-   make more connections out.
- - [ ] Allow the staking distribution to hone its intelligence via slashing.
- - [ ] Use real human connections to defend against AI.
- - [ ] About diversity of implementation, and its limitations.
- - [ ] Add old PHOTON elements back in if relevant; not counting 2/3 ratio...
- - [ ] Recovery procedure by AtomOne in the case of IBC zone failure.
- - [ ] Recovery procedure by AtomOne in the case of ICS shard failure.
- - [ ] Require the ICF to buy back ATOMs and to allocate them for on-chain disbursement.
- - [ ] Indemnify all actors given no malice outside of the chain. Allow the chain to enforce penalties from outside the chain.
- - [ ] Specify that $ATONE held in pools and bonded for $PHOTON do not count toward the bond ratio.
- - [ ] Add rules for what non-hubs and hubs (separate rules) must abide by. Not all hubs can connect due to this.
- - [ ] XXX
