@@ -21,45 +21,42 @@
 - [Preamble](#preamble)
 - [Declaration of Genesis](#declaration-of-genesis)
 - [Vision and Mission](#vision-and-mission)
-  * [Minimal IBC/ICS Hub](#minimal-ibcics-hub)
-  * [Significance as a Political Base](#significance-as-a-political-base)
-  * [AtomOne's Strategy for ATOM Bonding and Liquid Staking](#atomones-strategy-for-atom-bonding-and-liquid-staking)
-  * [Expected Outcomes and Benefits](#expected-outcomes-and-benefits)
+  - [Minimal IBC/ICS Hub](#minimal-ibcics-hub)
+  - [Significance as a Political Base](#significance-as-a-political-base)
+  - [AtomOne's Strategy for $ATOM Bonding and Liquid Staking](#atomones-strategy-for-atom-bonding-and-liquid-staking)
+  - [Expected Outcomes and Benefits](#expected-outcomes-and-benefits)
 - [Objectives](#objectives)
-  * [1. Define ATONE](#1-define-atone)
-  * [2. IBC/ICS Hub and Minimalism](#2-ibcics-hub-and-minimalism)
-  * [3. Validator Incentives](#3-validator-incentives)
-  * [4. Governance](#4-governance)
-    + [The Supermajority of Two Thirds](#the-supermajority-of-two-thirds)
-    + [The Constitutional Majority](#the-constitutional-majority)
-  * [5. Fix Liquid Staking](#5-fix-liquid-staking)
-  * [6. Declaration of Independence & Constitution](#6-declaration-of-independence--constitution)
-  * [7. IBC1.5](#7-ibc15)
-  * [8. Transparent Security System](#8-transparent-security-system)
-  * [9. Fund SubDAOs](#9-fund-subdaos)
-  * [10. Engineering Task Force](#10-engineering-task-force)
-  * [11. Enable Meiosis](#11-enable-meiosis)
+  - [1. Define $ATONE](#1-define-atone)
+  - [2. IBC/ICS Hub and Minimalism](#2-ibcics-hub-and-minimalism)
+  - [3. Validator Incentives](#3-validator-incentives)
+  - [4. Governance](#4-governance)
+    - [The Supermajority of Two Thirds](#the-supermajority-of-two-thirds)
+    - [The Constitutional Majority](#the-constitutional-majority)
+  - [5. Fix "Liquid Staking"](#5-fix-liquid-staking)
+  - [6. Declaration of Independence \& Constitution](#6-declaration-of-independence--constitution)
+  - [7. IBC1.5](#7-ibc15)
+  - [8. Transparent Security System](#8-transparent-security-system)
+  - [9. Fund SubDAOs](#9-fund-subdaos)
+  - [10. Engineering Task Force](#10-engineering-task-force)
+  - [11. Enable Meiosis](#11-enable-meiosis)
 - [Plan](#plan)
-  * [Genesis Distribution](#genesis-distribution)
-  * [Tokenomics](#tokenomics)
-  * [ICS Fee Distribution](#ics-fee-distribution)
-    + [Staking](#staking)
-    + [PHOTON the More Deflationary Version of ATONE](#photon-the-more-deflationary-version-of-atone)
-    + [Create ATONE / PHOTON Price Gap](#create-atone--photon-price-gap)
-  * [ATOM Liquid Staking Service](#atom-liquid-staking-service)
-    + [Earn ATONE or PHOTON Inflation Rewards](#earn-atone-or-photon-inflation-rewards)
-    + [Parent Chain Failure Insurance](#parent-chain-failure-insurance)
-    + [Avoid Mixed ATOM+ATONE Liquid Staking](#avoid-mixed-atomatone-liquid-staking)
-  * [AtomOne Governance](#atomone-governance)
-  * [Milestones](#milestones)
-    + [AtomOne Phase 1: Pre-IBC](#atomone-phase-1-pre-ibc)
-    + [AtomOne Phase 2: Post-IBC](#atomone-phase-2-post-ibc)
-    + [AtomOne Phase 3: ICS1.5 scaling](#atomone-phase-3-ics15-scaling)
-    + [AtomOne Phase 4: Maintenance](#atomone-phase-4-maintenance)
-  * [AtomOne Technical Steering Committee](#atomone-technical-steering-committee)
-- [FAQ](#faq)
-  * [AtomOne vs Gaia](#atomone-vs-gaia)
-  * [AtomOne vs Gno.land](#atomone-vs-gnoland)
+  - [Genesis Distribution](#genesis-distribution)
+  - [Tokenomics](#tokenomics)
+  - [ICS Fee Distribution](#ics-fee-distribution)
+    - [Staking](#staking)
+    - [$PHOTON the More Deflationary Version of $ATONE](#photon-the-more-deflationary-version-of-atone)
+    - [Create $ATONE / $PHOTON Price Gap](#create-atone--photon-price-gap)
+  - [$ATOM "Liquid Staking" Service](#atom-liquid-staking-service)
+    - [Earn $ATONE or $PHOTON Inflation Rewards](#earn-atone-or-photon-inflation-rewards)
+    - [Parent Chain Failure Insurance](#parent-chain-failure-insurance)
+    - [Avoid Mixed ATOM+ATONE Liquid Staking](#avoid-mixed-atomatone-liquid-staking)
+  - [AtomOne Governance](#atomone-governance)
+  - [Milestones](#milestones)
+    - [AtomOne Phase 1: Pre-IBC](#atomone-phase-1-pre-ibc)
+    - [AtomOne Phase 2: Post-IBC](#atomone-phase-2-post-ibc)
+    - [AtomOne Phase 3: ICS1.5 scaling](#atomone-phase-3-ics15-scaling)
+    - [AtomOne Phase 4: Maintenance](#atomone-phase-4-maintenance)
+  - [AtomOne Technical Steering Committee](#atomone-technical-steering-committee)
 
 <!--/ TOC -->
 
@@ -930,26 +927,3 @@ XXX Decentralists: On self-organization and funding...
 XXX 3 year term, after 3 years must demonstrate; or otherwise removed.
 
 XXX 
-
-----------------------------------------
-## FAQ
-
-### AtomOne vs Gaia
-AtomOne is designed as an alternative fork of Gaia with a distinct focus on
-minimalism in its ICS & Token IBC hub. This results in a leaner, more efficient
-architecture. In terms of governance, AtomOne introduces a higher consensus
-threshold (Constitutional Majority) and emphasizes decentralized
-decision-making. In terms of software, AtomOne will start as a fork of
-"cosmoshub4".
-
-### AtomOne vs Gno.land
-Gno.land will be a hub for GnoVM based smart contracts. It may benefit from
-ICS1.5 in the future, but we will first offer GnoVM scaling on the AtomOne ICS
-economic zone. Gno.land will not connect to Gaia and other external chains for
-the purpose of token pegging except indirectly through AtomOne, or its minimal
-successor (how a hub is meant to be used).
-
-Gno.land will run its own separate validator set but the Gno VM will be made
-available for hosting on AtomOne ICS and its successors.
-
-----------------------------------------
