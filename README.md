@@ -5,7 +5,7 @@
 </div>
 
 <p align="left">
-  AtomOne is a strategic fork of Gaia ("cosmoshub4"). It redefines the Cosmos 
+  AtomOne is a strategic fork of the Cosmos Hub. It redefines the Cosmos 
   ecosystem as a minimal IBC/ICS Hub. AtomOne is committed to secure, decentralized 
   decision-making, and focuses on driving innovative advancements within the Cosmos 
   ecosystem.
