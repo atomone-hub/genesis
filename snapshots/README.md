@@ -33,17 +33,43 @@ $ md5sum cosmoshub-4-export-18010657.json
 
 ```sh
 $ jq '[.app_state.gov.votes[] | select(.proposal_id == "848")]'  cosmoshub-4-export-18010657.json > votes.json
+
 $ md5sum votes.json
 a9782883000b3064e22d2200ea9cbdca  votes.json
 ```
-
 Returns 173,165 votes (41Mb).
+
+We need to manually add the last votes from block [18010658][0], there's only
+[one][1] actually:
+
+```sh
+$ jq '. += [{
+  "option": "VOTE_OPTION_YES",
+  "options": [
+    {
+      "option": "VOTE_OPTION_YES",
+      "weight": "1.000000000000000000"
+    }
+  ],
+  "proposal_id": "848",
+  "voter": "cosmos1jq6rpkf233jq9h98tlarzk8w3pl3lx87sv3t28"
+}]' votes.json > votes_final.json
+
+$ md5sum votes_final.json
+3c8af5f1a3e00b02de6e819cee6f3638  votes_final.json
+```
+
+With that last vote, we have 173,166 votes.
+
+[0]: https://www.mintscan.io/cosmos/block/18010658
+[1]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
 
 #### Get all delegations
 
 ```sh
 $ jq jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json >
 delegations.json
+
 $ md5sum delegations.json
 be316ecfb9d5853ffcb65b29cf1ddd8d  delegations.json
 ```
@@ -56,6 +82,7 @@ delegation address will inherit validator's vote.
 ```sh
 $ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json >
 validators.json
+
 $ md5sum validators.json
 16cb26b14afb4799b5c2504285b2cc14  validators.json
 ```
