@@ -32,7 +32,9 @@ $ md5sum cosmoshub-4-export-18010657.json
 #### Get all direct voters
 
 ```sh
-$ jq '[.app_state.gov.votes[] | select(.proposal_id == "848")]'  cosmoshub-4-export-18010657.json
+$ jq '[.app_state.gov.votes[] | select(.proposal_id == "848")]'  cosmoshub-4-export-18010657.json > votes.json
+$ md5sum votes.json
+a9782883000b3064e22d2200ea9cbdca  votes.json
 ```
 
 Returns 173,165 votes (41Mb).
@@ -40,7 +42,10 @@ Returns 173,165 votes (41Mb).
 #### Get all delegations
 
 ```sh
-$ jq jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json
+$ jq jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json >
+delegations.json
+$ md5sum delegations.json
+be316ecfb9d5853ffcb65b29cf1ddd8d  delegations.json
 ```
 
 Returns 1,061,423 delegations (238Mb). If not found in direct voters, any
@@ -49,7 +54,10 @@ delegation address will inherit validator's vote.
 #### Get all validators
 
 ```sh
-$ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json
+$ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json >
+validators.json
+$ md5sum validators.json
+16cb26b14afb4799b5c2504285b2cc14  validators.json
 ```
 
 Returns 531 validators (610Kb). Useful for determining which votes belong to
