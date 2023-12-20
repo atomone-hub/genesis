@@ -29,6 +29,9 @@ $ md5sum cosmoshub-4-export-18010657.json
 
 ### Get direct & indirect voters
 
+While direct voters are easy to extract, indirect voters must be determined by
+iterating over delegations and correlating them with validator votes.
+
 #### Get all direct voters
 
 ```sh
@@ -77,7 +80,7 @@ be316ecfb9d5853ffcb65b29cf1ddd8d  delegations.json
 Returns 1,061,423 delegations (238Mb). If not found in direct voters, any
 delegation address will inherit validator's vote.
 
-#### Get all validators
+#### Get active bonded validators
 
 ```sh
 $ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json >
@@ -87,19 +90,32 @@ $ md5sum validators.json
 16cb26b14afb4799b5c2504285b2cc14  validators.json
 ```
 
-Returns 531 validators (610Kb). Useful for determining which votes belong to
-which validators, and also for subtracting the voting power of direct voters.
+Returns 531 validators (610Kb).
 
-To have only the active set, we need to get the `max_validator` parameters:
-
+To have the active set, we need to:
+- Get the `max_validator` parameters:
 ```sh
 $ jq '.app_state.staking.params.max_validators' cosmoshub-4-export-18010657.json
 180
 ```
+- Filter out bonded validators
+- Sort by the `tokens` field (descending)
+- Limit to `max_validators`
 
-Then we need to sort the list according to the `tokens` field, and limit to
-180.
+```sh
+$ jq '[.[] | select(.status == "BOND_STATUS_BONDED")] | sort_by(.tokens|tonumber) | reverse | .[:180]' validators.json > active_validators.json
 
+$ $ md5sum  active_validators.json
+cb890a6fe9054816e0ad3f41ce0a3c86  active_validators.json
+```
+
+Now we have only the 180 active validators.
+
+This procedures follows the code of the
+[`x/staking.Keeper.IterateBondedValidatorsByPower()`][3] function, which is used in the [`x/gov.Keeper.Tally`][4] function.
+
+[3]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
+[4]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/gov/keeper/tally.go#L13
 
 ## TODO
 
