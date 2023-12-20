@@ -27,14 +27,44 @@ $ md5sum cosmoshub-4-export-18010657.json
 84cdf83c11c7a88e0cf60070391a2519  cosmoshub-4-export-18010657.json
 ```
 
-### Get the list of voters
+### Get direct & indirect voters
 
-#### Get All voters
+#### Get all direct voters
 
 ```sh
-$ jq '.app_state.gov.votes[] | select(.proposal_id == "848")'  cosmoshub-4-export-18010657.json 
-[...]
+$ jq '[.app_state.gov.votes[] | select(.proposal_id == "848")]'  cosmoshub-4-export-18010657.json
 ```
+
+Returns 173,165 votes (41Mb).
+
+#### Get all delegations
+
+```sh
+$ jq jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json
+```
+
+Returns 1,061,423 delegations (238Mb). If not found in direct voters, any
+delegation address will inherit validator's vote.
+
+#### Get all validators
+
+```sh
+$ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json
+```
+
+Returns 531 validators (610Kb). Useful for determining which votes belong to
+which validators, and also for subtracting the voting power of direct voters.
+
+To have only the active set, we need to get the `max_validator` parameters:
+
+```sh
+$ jq '.app_state.staking.params.max_validators' cosmoshub-4-export-18010657.json
+180
+```
+
+Then we need to sort the list according to the `tokens` field, and limit to
+180.
+
 
 ## TODO
 
