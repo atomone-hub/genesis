@@ -106,7 +106,7 @@ $ jq '.app_state.staking.params.max_validators' cosmoshub-4-export-18010657.json
 $ jq '[.[] | select(.status == "BOND_STATUS_BONDED")] | sort_by(.tokens|tonumber) | reverse | .[:180]' validators.json > active_validators.json
 
 $ $ md5sum  active_validators.json
-cb890a6fe9054816e0ad3f41ce0a3c86  active_validators.json
+d3c09490eba24a1c0ec52fa9af3f28ac  active_validators.json
 ```
 
 Now we have only the 180 active validators.
