@@ -112,7 +112,8 @@ cb890a6fe9054816e0ad3f41ce0a3c86  active_validators.json
 Now we have only the 180 active validators.
 
 This procedures follows the code of the
-[`x/staking.Keeper.IterateBondedValidatorsByPower()`][3] function, which is used in the [`x/gov.Keeper.Tally`][4] function.
+[`x/staking.Keeper.IterateBondedValidatorsByPower()`][3] function, which is
+used in the [`x/gov.Keeper.Tally()`][4] function.
 
 [3]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
 [4]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/gov/keeper/tally.go#L13
