@@ -64,6 +64,8 @@ $ md5sum votes_final.json
 
 With that last vote, we have 173,166 votes.
 
+The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/votes_final.json
+
 [0]: https://www.mintscan.io/cosmos/block/18010658
 [1]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
 
@@ -79,6 +81,8 @@ be316ecfb9d5853ffcb65b29cf1ddd8d  delegations.json
 
 Returns 1,061,423 delegations (238Mb). If not found in direct voters, any
 delegation address will inherit validator's vote.
+
+The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/delegations.json
 
 #### Get active bonded validators
 
@@ -114,6 +118,8 @@ Now we have only the 180 active validators.
 This procedures follows the code of the
 [`x/staking.Keeper.IterateBondedValidatorsByPower()`][3] function, which is
 used in the [`x/gov.Keeper.Tally()`][4] function.
+
+The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/active_validators.json
 
 [3]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
 [4]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/gov/keeper/tally.go#L13
