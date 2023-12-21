@@ -23,7 +23,7 @@
 - [Vision and Mission](#vision-and-mission)
   - [Minimal IBC/ICS Hub](#minimal-ibcics-hub)
   - [Significance as a Political Base](#significance-as-a-political-base)
-  - [AtomOne's Strategy for $ATOM Bonding and Liquid Staking](#atomones-strategy-for-atom-bonding-and-liquid-staking)
+  - [Role as $ATOM "Liquid Staking" Provider](#role-as-atom-liquid-staking-provider)
   - [Expected Outcomes and Benefits](#expected-outcomes-and-benefits)
 - [Objectives](#objectives)
   - [1. Define $ATONE](#1-define-atone)
@@ -207,8 +207,8 @@ There are many of stakers and users of Gaia that are aligned with the
 values, principles, and original mission of Gaia and those of AtomOne, but we have
 no explicit base of operations. In contrast, the informal opposition majority
 party (which came about first) is well organized in comparison, usually behind
-closed doors. Meanwhile "liquid staking" providers are providing a service that
-does more than liquid staking, but has their own governance and powers and
+closed doors. Meanwhile, "liquid staking" providers are providing a service that
+does more than liquid staking, where they have their own governance and powers and
 thus act as a kind of political base. For example, which validators to stake to
 is determined through governance in Informal/Stride.
 
@@ -231,7 +231,7 @@ pegging and using these $ATOMs to make voting decisions on Cosmos as a voting
 bloc. The following section describes the one and only way the AtomOne hub will
 use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 
-### AtomOne's Strategy for $ATOM Bonding and Liquid Staking
+### Role as $ATOM "Liquid Staking" Provider
 
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
