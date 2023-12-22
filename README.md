@@ -144,7 +144,7 @@ use $ATOMs; by offering what is misleadingly referred to as "liquid staking".
 AtomOne will offer an $ATOM bonding zone in a core shard to compete with
 collective "liquid staking" service providers. These $ATOMs will be
 automatically delegated via ICA (interchain accounts) to aligned validators as
-determined by the the system determined by the $ATONE stakers. The bonders of
+determined by the system determined by the $ATONE stakers. The bonders of
 $ATOM toward this service will receive liquid $phATOM tokens.
 
 In addition to Gaia's $ATOM, AtomOne's $ATONE tokens will also be bondable to
@@ -320,7 +320,7 @@ adequately long testing period in other zones.
 When it comes to the innovative spirit and creative potential beyond those
 specified in these founding documents and the living constitution, we recommend
 that they be implemented as ICS1.5 hosted zones, and only in those cases where
-AtomOne can provably not solve the problem at hand through ICS1.5 hosting
+AtomOne can probably not solve the problem at hand through ICS1.5 hosting
 should a fork of AtomOne or a new chain be proposed with an entirely different
 constitution. The spirit of the AtomOne Constitution and the general mission
 and purpose of the AtomOne hub as a utility must not change. 
@@ -480,7 +480,7 @@ The main goal is to fix what must be fixed in governance and the need for an
 explicit constitution, before launching the full IBC and ICS functionality of
 the chain.
 
-First we describe the tokenomics of the AtomOne hub, followed by the main
+First, we describe the tokenomics of the AtomOne hub, followed by the main
 milestones, with an emphasis on completion and even potential phase-out.
 
 ## Genesis Distribution
@@ -519,7 +519,7 @@ In addition to these premines, the earned tax revenue (rewards) and inflation
 will be split as per the following:
  - 80% of the inflation+rewards going to the stakers who select validators.
  - 10% of the inflation+rewards going to active validators equally.
- -  5% of the inflation+rewards going to general commons pool with no standalone governance.
+ -  5% of the inflation+rewards going to the general commons pool with no standalone governance.
  -  2% of the inflation+rewards going to pool for open source blockchain explorer hosting.
  -  2% of the inflation+rewards going to pool for securing open source wallet systems (w/ airgap).
  -  1% of the inflation+rewards going to pool for public relations and growth.
@@ -544,7 +544,7 @@ based DAOs hosted on ICS1.5.
 
 We opt to replace the market-based "commission" system with a flat
 distribution to all validators, to incentivize the creation of peer validators
-(who should all plan to become datacenter providers).
+(who should all plan to become data center providers).
 
 The maximum bounds on the auto-adjust inflation parameter will be set at 20%.
 
@@ -700,7 +700,7 @@ XXX Link to Issues discussion.
 
 ## $ATOM "Liquid Staking" Service
 
-XXX Explain goal of Gaia and AtomOne alignment.
+XXX Explain the goal of Gaia and AtomOne alignment.
 
 ### Earn $ATONE or $PHOTON Inflation Rewards
 
@@ -714,7 +714,7 @@ market-rate $ATONE -> $PHOTON conversion (with all throttling limitations and
 premium charges that may apply). If the demand for $phATOM and $PHOTON is
 great then this helps AtomOne influence governance of the hub with the
 intelligence of $ATONE. On the other hand, if the demand is not great, then
-the $PHOTON to $ATONE conversion is presumalby already efficient.
+the $PHOTON to $ATONE conversion is presumably already efficient.
 
 XXX Discussion of inflation schedule, or bounds.
 
@@ -907,7 +907,7 @@ available for hosting on AtomOne ICS and its successors.
  - [ ] Roadmap Timeline
  - [ ] Links to Additional Resources such as technical documentation, or community forums, for in-depth information.
  - [ ] Channels for reaching out to the core team or support, especially for technical support or collaboration inquiries.
- - [ ] Scan through twitter posts for more ideaas.
+ - [ ] Scan through X (formally Twitter) posts for more ideas.
  - [ ] Argument for why hub and spokes are needed (from atom one)
  - [ ] Quantum resistance
  - [ ] Constitution updates: $ATOM -> $ATONE; Add $PHOTON and $phATOM; conversion
