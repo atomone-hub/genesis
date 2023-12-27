@@ -76,7 +76,7 @@ sécurité du réseau.
 Nous ne devrions pas adopter des propositions basées sur des prémisses
 erronées. La façon dont les partisans de la proposition 848 ont calculé le coût
 de la sécurité, ainsi que, en général, la façon dont la communauté calcule le
-revenu du staking, est fondamentalement erronée car $ATOM est un token de
+revenu du staking, est fondamentalement erronée, car $ATOM est un token de
 staking avec ⅔ stakés. Ce que nous devons faire maintenant, c'est résoudre ce
 problème en expliquant mieux le meilleur modèle mental à tout le monde, et
 obtenir les clarifications nécessaires des autorités fiscales. Veuillez noter
@@ -105,7 +105,7 @@ un événement imposable, et ce n'est pas le cas dans le cadre d'un
 fractionnement d'actions.
 
 À titre d'autre exercice de réflexion, considérez la définition de $MASS =
-$ATOM / somme($ATOM), où somme($MASS) équivaut par exemple à 1. Cette unité de
+$ATOM / somme ($ATOM), où somme ($MASS) équivaut par exemple à 1. Cette unité de
 mesure représente mieux la valeur intrinsèque du token $ATOM en tant que
 fraction du tout. Avec cette unité de mesure, le revenu calculé serait en
 réalité de 8,33 % (par opposition à 30 % dans notre exemple).
@@ -139,7 +139,7 @@ Ceci n'est pas un conseil fiscal, mais nous approcherons les autorités fiscales
 compétentes pour obtenir une meilleure clarté et plaider en faveur de ce
 modèle. Parmi toutes les options à notre disposition, l’option la moins
 favorable est de continuer à calculer les revenus/les gains de la manière
-naïve, en plus d’être irrationnelle car elle se sabote toute seule de manière
+naïve, en plus d’être irrationnelle, car elle se sabote toute seule de manière
 inutile.
 
 Ceux qui votent en faveur de la #848 et choisissent de dévier du taux de
@@ -156,7 +156,7 @@ argumenté qu'ils ne faisaient que mesurer l'intérêt des stakers. Ce changemen
 fondamental dans la tokenomie qui va à l'encontre de la sécurité et de la
 stabilité est proposé sans avertissement complet sur le véritable objectif
 (faire d’$ATOM un token monétaire) et ses effets. Il est également proposé sans
-planification suffisante et garanties pour une quelconque cohérence, et sans
+planification suffisante et garantie pour une quelconque cohérence, et sans
 les divulgations nécessaires des risques. En effet, nous n'avons même pas
 encore de Constitution ratifiée pour le Cosmos Hub. De plus, pour aggraver les
 choses, cette proposition est commercialisée comme un "halvening", ce qui
@@ -248,7 +248,7 @@ Chaque validateur devrait être à peu près également incité à sécuriser ch
 chaîne ICS dans l'AEZ, car le travail que chaque validateur devrait effectuer
 pour sécuriser chaque chaîne ICS est à peu près le même. Le modèle actuel
 d'incitation qui récompense les validateurs en proportion de leur mise
-(multipliée par leur commission fixée) est défectueux à cet égard car rien ne
+(multipliée par leur commission fixée) est défectueux à cet égard, car rien ne
 garantit que les petits validateurs recevront les revenus dont ils ont besoin
 pour rester compétitifs par rapport aux meilleurs validateurs, et cela est
 exacerbé à l'échelle d’ICS. Avec une échelle suffisante, tous les petits
@@ -278,14 +278,14 @@ token monétaire (ce qui arrivera). Pour cette raison, nous ne suggérons pas no
 plus de supprimer les limites du taux d'inflation minimal de 7 %. Cela
 contribuera à maintenir l'intelligence de la distribution du token $ATOM et à
 empêcher les détenteurs de tokens naïfs d'avoir un impact négatif dessus (et le
-public cible d'un token monétaire est naïf car il s'agit de la population
+public cible d'un token monétaire est naïf, car il s'agit de la population
 générale).
 
 La conséquence négative de maintenir la limite du taux d'inflation minimal à 7
 % est que le ratio de tokens stakés peut dépasser ⅔ et que la quantité d'offre
 liquide peut être trop petite pour une mesure précise de la capitalisation
 boursière du token de staking, ce qui peut avoir un impact négatif sur la
-sécurité quantifiable offerte par le Hub. Cependant, cet effet est limité car
+sécurité quantifiable offerte par le Hub. Cependant, cet effet est limité, car
 lorsque les récompenses des flux de transactions ICS sont élevées (précisément
 pourquoi le taux de staking est élevé), il existe d'autres moyens de calculer
 la valeur du Hub grâce à ses revenus continus, tant que les frais sont
