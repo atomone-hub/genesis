@@ -4,9 +4,8 @@
 
 This block is selected to be pre-tally for [cosmoshub-4 proposal 848](https://www.mintscan.io/cosmos/proposals/848)
 
-Block [18010657](https://www.mintscan.io/cosmos/block/18010657) is the last block where vote are present in the state.
-In order to get all votes, we need to add the votes present in block [18010658](https://www.mintscan.io/cosmos/block/18010658) where the tally happens.
-This is because after the tally is completed, the votes a removed from state.
+Block [18010658](https://www.mintscan.io/cosmos/block/18010658) is where the tally takes place, and where the proposal 848 is finally passed. But since the votes are removed from the state during the tally, we can only read the votes from the previous block, hence block [18010657](https://www.mintscan.io/cosmos/block/18010657).
+The votes added in the block 18010658 will be added manually, as explained below.
 
 ### Download
 
@@ -71,8 +70,11 @@ The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub
 
 #### Get all delegations
 
+
+TODO indicates why we don't use block 58 for thatj
+
 ```sh
-$ jq jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json >
+$ jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json >
 delegations.json
 
 $ md5sum delegations.json
