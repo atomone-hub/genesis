@@ -2,7 +2,7 @@
 
 ## Block [18010657]
 
-This block is selected to be pre-tally for [cosmoshub-4 proposal 848][prop848]
+This block is selected to be pre-tally for [cosmoshub-4 proposal 848][prop848].
 
 > [!NOTE]
 > Block [18010658] is where the tally takes place, and where the proposal 848
@@ -17,7 +17,7 @@ An export is stored in S3 accessible here: https://atomone.fra1.digitaloceanspac
 
 ### How the block has been exported
 
-On a stopped blockchain node containing the block 18010657
+On a stopped blockchain node containing the block 18010657:
 
 ```sh
 $ gaiad export --height 18010657 > cosmoshub-4-export-18010657.json 2>&1
