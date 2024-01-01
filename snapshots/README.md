@@ -30,6 +30,13 @@ $ md5sum cosmoshub-4-export-18010657.json
 84cdf83c11c7a88e0cf60070391a2519  cosmoshub-4-export-18010657.json
 ```
 
+> [!NOTE]
+> The JSON schema of the export is the following :
+> `{ "app_state" : { "gov": {...}, "staking": {...} }`
+> where each module object corresponds to the `GenesisState` proto message of
+> the underlying module (example `proto/cosmos/staking/v1beta1/genesis.proto`
+> for the `staking` module).
+
 ### Get direct & indirect voters
 
 While direct voters are easy to extract, indirect voters must be determined by
@@ -128,7 +135,6 @@ The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub
 - [ ] independently verify the snapshot data with another full node. each
   validator that wants to participate can start by attesting to the generated
   export.
-- [ ] is there a schema for the exported json? how is it used? 
 
 [18010657]: https://www.mintscan.io/cosmos/block/18010657
 [18010658]: https://www.mintscan.io/cosmos/block/18010658
