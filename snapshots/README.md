@@ -45,7 +45,7 @@ a9782883000b3064e22d2200ea9cbdca  votes.json
 Returns 173,165 votes (41Mb).
 
 We need to manually add the last votes from block [18010658], there's only
-[one][tx18010658] actually:
+[one][votes18010658] actually:
 
 ```sh
 $ jq '. += [{
@@ -70,8 +70,10 @@ The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub
 
 #### Get all delegations
 
-
-TODO indicates why we don't use block 58 for thatj
+> [!NOTE]
+> Delegations and validators should be taken from block [18010658] where the
+> tally takes place. But since there's no delegation or redelegation in this
+> block, we'll continue to extract from block [18010657] for convenience.
 
 ```sh
 $ jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json > delegations.json
@@ -130,6 +132,6 @@ The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub
 [18010657]: https://www.mintscan.io/cosmos/block/18010657
 [18010658]: https://www.mintscan.io/cosmos/block/18010658
 [prop848]: https://www.mintscan.io/cosmos/proposals/848
-[tx18010658]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
+[votes18010658]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
 [code-validators]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
 [code-tally]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/gov/keeper/tally.go#L13
