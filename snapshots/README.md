@@ -4,11 +4,12 @@
 
 This block is selected to be pre-tally for [cosmoshub-4 proposal 848][prop848]
 
-Block [18010658] is where the tally takes place, and where the proposal 848
-is finally passed. But since the votes are removed from the state during the
-tally, we can only read the votes from the previous block, hence block
-[18010657] The votes added in the block 18010658 will be added manually, as
-explained below.
+> [!NOTE]
+> Block [18010658] is where the tally takes place, and where the proposal 848
+> is finally passed. But since the votes are removed from the state during the
+> tally, we can only read the votes from the previous block, hence block
+> [18010657]. The votes added in the block [18010658] will be added manually, as
+> explained below.
 
 ### Download
 
