@@ -1,11 +1,14 @@
 # Snapshots
 
-## Block [18010657](https://www.mintscan.io/cosmos/block/18010657)
+## Block [18010657]
 
-This block is selected to be pre-tally for [cosmoshub-4 proposal 848](https://www.mintscan.io/cosmos/proposals/848)
+This block is selected to be pre-tally for [cosmoshub-4 proposal 848][prop848]
 
-Block [18010658](https://www.mintscan.io/cosmos/block/18010658) is where the tally takes place, and where the proposal 848 is finally passed. But since the votes are removed from the state during the tally, we can only read the votes from the previous block, hence block [18010657](https://www.mintscan.io/cosmos/block/18010657).
-The votes added in the block 18010658 will be added manually, as explained below.
+Block [18010658] is where the tally takes place, and where the proposal 848
+is finally passed. But since the votes are removed from the state during the
+tally, we can only read the votes from the previous block, hence block
+[18010657] The votes added in the block 18010658 will be added manually, as
+explained below.
 
 ### Download
 
@@ -34,15 +37,15 @@ iterating over delegations and correlating them with validator votes.
 #### Get all direct voters
 
 ```sh
-$ jq '[.app_state.gov.votes[] | select(.proposal_id == "848")]'  cosmoshub-4-export-18010657.json > votes.json
+$ jq '[.app_state.gov.votes[] | select(.proposal_id == "848")]' cosmoshub-4-export-18010657.json > votes.json
 
 $ md5sum votes.json
 a9782883000b3064e22d2200ea9cbdca  votes.json
 ```
 Returns 173,165 votes (41Mb).
 
-We need to manually add the last votes from block [18010658][0], there's only
-[one][1] actually:
+We need to manually add the last votes from block [18010658], there's only
+[one][tx18010658] actually:
 
 ```sh
 $ jq '. += [{
@@ -65,17 +68,13 @@ With that last vote, we have 173,166 votes.
 
 The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/votes_final.json
 
-[0]: https://www.mintscan.io/cosmos/block/18010658
-[1]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
-
 #### Get all delegations
 
 
 TODO indicates why we don't use block 58 for thatj
 
 ```sh
-$ jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json >
-delegations.json
+$ jq '.app_state.staking.delegations' cosmoshub-4-export-18010657.json > delegations.json
 
 $ md5sum delegations.json
 be316ecfb9d5853ffcb65b29cf1ddd8d  delegations.json
@@ -89,8 +88,7 @@ The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub
 #### Get active bonded validators
 
 ```sh
-$ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json >
-validators.json
+$ jq '.app_state.staking.validators' cosmoshub-4-export-18010657.json > validators.json
 
 $ md5sum validators.json
 16cb26b14afb4799b5c2504285b2cc14  validators.json
@@ -111,22 +109,27 @@ $ jq '.app_state.staking.params.max_validators' cosmoshub-4-export-18010657.json
 ```sh
 $ jq '[.[] | select(.status == "BOND_STATUS_BONDED")] | sort_by(.tokens|tonumber) | reverse | .[:180]' validators.json > active_validators.json
 
-$ $ md5sum  active_validators.json
-d3c09490eba24a1c0ec52fa9af3f28ac  active_validators.json
+$ md5sum active_validators.json
+d3c09490eba24a1c0ec52fa9af3f28ac active_validators.json
 ```
 
 Now we have only the 180 active validators.
 
-This procedures follows the code of the
-[`x/staking.Keeper.IterateBondedValidatorsByPower()`][3] function, which is
-used in the [`x/gov.Keeper.Tally()`][4] function.
+This procedures follows the code of the [`staking.Keeper.IterateBondedValidatorsByPower()`][code-validators]
+function, which is used in the [`x/gov.Keeper.Tally()`][code-tally] function.
 
 The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/active_validators.json
 
-[3]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
-[4]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/gov/keeper/tally.go#L13
-
 ## TODO
 
-- [ ] independently verify the snapshot data with another full node. each validator that wants to participate can start by attesting to the generated export.
+- [ ] independently verify the snapshot data with another full node. each
+  validator that wants to participate can start by attesting to the generated
+  export.
 - [ ] is there a schema for the exported json? how is it used? 
+
+[18010657]: https://www.mintscan.io/cosmos/block/18010657
+[18010658]: https://www.mintscan.io/cosmos/block/18010658
+[prop848]: https://www.mintscan.io/cosmos/proposals/848
+[tx18010658]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
+[code-validators]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
+[code-tally]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/gov/keeper/tally.go#L13
