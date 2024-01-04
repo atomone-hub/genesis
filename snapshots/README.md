@@ -52,29 +52,11 @@ a9782883000b3064e22d2200ea9cbdca  votes.json
 ```
 Returns 173,165 votes (41Mb).
 
-We need to manually add the last votes from block [18010658], there's only
-[one][votes18010658] actually:
+We need to manually add the lastest votes from block [18010658]. There's only
+[one][votes18010658] and it's a vote that has already been broadcasted in block
+[17903222] with the same option (yes), so we can safely discard it.
 
-```sh
-$ jq '. += [{
-  "option": "VOTE_OPTION_YES",
-  "options": [
-    {
-      "option": "VOTE_OPTION_YES",
-      "weight": "1.000000000000000000"
-    }
-  ],
-  "proposal_id": "848",
-  "voter": "cosmos1jq6rpkf233jq9h98tlarzk8w3pl3lx87sv3t28"
-}]' votes.json > votes_final.json
-
-$ md5sum votes_final.json
-3c8af5f1a3e00b02de6e819cee6f3638  votes_final.json
-```
-
-With that last vote, we have 173,166 votes.
-
-The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/votes_final.json
+The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/votes.json
 
 #### Get all delegations
 
@@ -138,6 +120,7 @@ The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub
 
 [18010657]: https://www.mintscan.io/cosmos/block/18010657
 [18010658]: https://www.mintscan.io/cosmos/block/18010658
+[17903222]: https://www.mintscan.io/cosmos/tx/6B07667333ED46DAB41A0E7355671BE0007E56644B3B24A16703AE8F5E19914F?height=17903222
 [prop848]: https://www.mintscan.io/cosmos/proposals/848
 [votes18010658]: https://www.mintscan.io/cosmos/tx/9E0250C856A9F3B369A5C85BAA07C5F7284C8466EA7F15AACCA5F0F3C99F59A4?height=18010658
 [code-validators]: https://github.com/cosmos/cosmos-sdk/blob/9abd946ba0cdc6d0e708bf862b2ca202b13f2d7b/x/staking/keeper/alias_functions.go#L33
