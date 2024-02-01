@@ -112,6 +112,17 @@ function, which is used in the [`x/gov.Keeper.Tally()`][code-tally] function.
 
 The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/active_validators.json
 
+### Get account types
+
+In order to determine the type of the accounts, we need the account list from
+the auth module.
+
+```
+jq '.app_state.auth' cosmoshub-4-export-18010657.json > auth_genesis.json
+```
+
+The file is available here https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/auth_genesis.json
+
 ## TODO
 
 - [ ] independently verify the snapshot data with another full node. each
