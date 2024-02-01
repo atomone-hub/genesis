@@ -52,9 +52,7 @@ _Proposed Agenda for Townhall for Feb 6th 2024, 9 AM PDT/ 6 PM CET_ 
 
   - Give a brief overview of the directory, what it means, and what you can anticipate as a validator 
 
-  - Invite Forbole, who has already signed up: <https://github.com/atomone-hub/validator>
-
-  - What inspired you to align with GovGen and AtomOne? 
+  - Forbole team has already signed up: https://github.com/atomone-hub/validator. @kwunyeung Would you like to join the Townhall and share with the community what inspired you to apply and what does your alignment with GovGen and AtomOne look like? 
 
 **Engineering updates:**
 
