@@ -10,21 +10,49 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	proposaltypes "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	icatypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/types"
 )
 
-var unmarshaler jsonpb.Unmarshaler
+var (
+	registry    = codectypes.NewInterfaceRegistry()
+	unmarshaler jsonpb.Unmarshaler
+)
 
 func init() {
-	registry := codectypes.NewInterfaceRegistry()
 	cryptocodec.RegisterInterfaces(registry)
 	govtypes.RegisterInterfaces(registry)
 	sdk.RegisterInterfaces(registry)
 	proposaltypes.RegisterInterfaces(registry)
+	authtypes.RegisterInterfaces(registry)
+	vestingtypes.RegisterInterfaces(registry)
+	icatypes.RegisterInterfaces(registry)
 	unmarshaler = jsonpb.Unmarshaler{AnyResolver: registry}
+}
+
+func parseAccountTypesPerAddr(path string) (map[string]string, error) {
+	f, err := os.Open(filepath.Join(path, "auth_genesis.json"))
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+	var genesis authtypes.GenesisState
+	err = unmarshaler.Unmarshal(f, &genesis)
+	if err != nil {
+		return nil, err
+	}
+	accountTypesPerAddr := make(map[string]string)
+	for i, any := range genesis.Accounts {
+		var acc authtypes.GenesisAccount
+		registry.UnpackAny(any, &acc)
+		accountTypesPerAddr[acc.GetAddress().String()] = genesis.Accounts[i].GetTypeUrl()
+	}
+	return accountTypesPerAddr, nil
 }
 
 func parseVotesByAddr(path string) (map[string]govtypes.WeightedVoteOptions, error) {

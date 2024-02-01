@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"path/filepath"
 
 	h "github.com/dustin/go-humanize"
 )
@@ -54,14 +55,22 @@ func main() {
 		printTallyResults(results, totalVotingPower, parseProp(datapath))
 
 	case "accounts":
-		accounts := getAccounts(delegsByAddr, votesByAddr, valsByAddr, balancesByAddr)
+		accountTypesByAddr, err := parseAccountTypesPerAddr(datapath)
+		if err != nil {
+			panic(err)
+		}
+		fmt.Printf("%s accounts\n", h.Comma(int64(len(accountTypesByAddr))))
+
+		accounts := getAccounts(delegsByAddr, votesByAddr, valsByAddr, balancesByAddr, accountTypesByAddr)
 
 		bz, err := json.MarshalIndent(accounts, "", "  ")
 		if err != nil {
 			panic(err)
 		}
-		if err := os.WriteFile("accounts.json", bz, 0o666); err != nil {
+		accountsFile := filepath.Join(datapath, "accounts.json")
+		if err := os.WriteFile(accountsFile, bz, 0o666); err != nil {
 			panic(err)
 		}
+		fmt.Printf("%s file created.\n", accountsFile)
 	}
 }

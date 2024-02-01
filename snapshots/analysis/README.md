@@ -12,6 +12,7 @@ Where PATH is a directory containing the following files:
 - [`delegations.json`][2]
 - [`active_validators.json`][3]
 - [`prop.json`][4]
+- [`auth_genesis.json`][6]
 
 > [!NOTE]
 > The links to these files corresponds to data extracted for the proposal 848,
@@ -64,3 +65,4 @@ their vote on prop 848.
 [3]: https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/active_validators.json
 [4]: https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/prop.json
 [5]: https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/accounts.json 
+[6]: https://atomone.fra1.digitaloceanspaces.com/cosmoshub-4/prop848/auth_genesis.json
