@@ -64,9 +64,9 @@ _Proposed Agenda for Townhall for Feb 6th 2024, 9 AM PDT/ 6 PM CET_ 
 
     - Validate data against prop 848 final tally result, consolidate data with all accounts, balances (liquid and staked) and votes (direct & indirect). <https://github.com/atomone-hub/genesis/pull/103>
 
-    - Created python script to get initial balances. 1:1 GOVGEN distribution to No and NWV voters (only staked amount and only the weight that voted either No or NWV) (<https://github.com/giunatale/govgen-genesis> )
+    - Created python script to get initial balances. 1:1 GOVGEN distribution to No and NWV voters (only staked amount and only the weight that voted either No or NWV) (<https://github.com/atomone-hub/govgen-genesis> )
 
-* Building govgen chain: (<https://github.com/giunatale/govgen> )
+* Building govgen chain: (<https://github.com/atomone-hub/govgen> )
 
   - Starting from Gaia 14.1.0
 
