@@ -66,42 +66,52 @@ _Proposed Agenda for Townhall for Feb 6th 2024, 9 AM PDT/ 6 PM CET_ 
 
     - Created python script to get initial balances. 1:1 GOVGEN distribution to No and NWV voters (only staked amount and only the weight that voted either No or NWV) (<https://github.com/atomone-hub/govgen-genesis> )
 
+    - Chain params forked from Cosmso Hub, with the following changes:
+
+      - Bank module:
+
+        - Disabled sendTx
+
+      - Distribution module:
+
+        - community tax, proposer reward and bonus all set to 0
+
+      - Mint module:
+
+        - inflation disabled, no new minting of tokens
+
+      - Gov module:
+
+        - Deposit amount raised to 5000 GOVGEN
+
+        - Voting period extended to 365 days
+
+        - Vote threshold for pass raised to ⅔
+
+        - Quorum raised to 50%
+
+      - Staking module:
+
+        - reduced validators to 30 tentatively
+
+
 * Building govgen chain: (<https://github.com/atomone-hub/govgen> )
 
   - Starting from Gaia 14.1.0
 
   - Revert to standard sdk 0.45.16 without LSM
 
-  - Remove globalfee and revert to old mempool decorator
+  - Remove globalfee module and revert to old mempool decorator
 
-  - Bank module:
-
-    - Disabled sendTx
-
-  - Distribution module:
-
-    - community tax, proposer reward and bonus all set to 0
-
-  - Mint module:
-
-    - inflation disabled, no new minting of tokens
-
-  - Gov module:
-
-    - Deposit amount raised to 5000 GOVGEN
-
-    - Voting period extended to 365 days
-
-    - Vote threshold for pass raised to ⅔
-
-    - Quorum raised to 50%
-
-  - Staking module:
-
-    - reduced validators to 30 tentatively
-
-  - Removed IBC & ICS
+  - Removed IBC & ICS and related modules (e.g. ICA)
 
   - Set bech32 prefix to govgen
 
+  - Reduced gov initial deposit to 1% to better fit the 5000 $GOVGEN deposit threshold (initial deposit 50 $GOVGEN)
+
 - What happens next? (5 minutes)
+  
+  - Testing, we are ready for launch!
+  - Discuss initial parameters with the community
+  - Build the validator set
+  - Coordinate chain launch
