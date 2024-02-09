@@ -1,4 +1,42 @@
-_Proposed Agenda for Townhall for Feb 6th 2024, 9 AM PDT/ 6 PM CET_ 
+### **GovNo Townhall Meeting 2 Notes**
+
+### Date: February 9th, 20224
+
+<br>
+
+
+- Link to the [full transcript here](https://docs.google.com/document/d/12yRU9Lt1MUIsbwdUBmb6jXZY-AHyjagtqRiGlXuiu1o/edit?usp=sharing)
+- Link to the [full recording here](https://drive.google.com/file/d/1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN/view)
+
+<br>
+
+**Main action items**
+
+- If you're interested in becoming a validator, make a PR on the [validator directory](https://github.com/atomone-hub/validator) following the process listed on there.
+
+- Take a look at this code for [GovGen Genesis Creation](https://github.com/atomone-hub/govgen-genesis) and the [GovGen Chain Software](https://github.com/atomone-hub/govgen), submit an issue if you have something you want to bring up.
+
+- [Join our Discord](https://discord.gg/atomone)
+
+<br> 
+
+**Main talking points**
+
+- Validator Onboarding Process
+- Technical Updates and Governance Discussions
+- Governance Mechanisms and Validator Requirements
+- Chain Architecture and Documentation
+- Governance Model and Community Involvement
+- Technical Updates and Validator Rewards
+- Governance Policies and Tokenomics
+- KYC Processes and Regulatory Considerations
+- Governance Structures and Meeting Scheduling
+
+<br>
+<br>
+
+
+ _This was the original Proposed Agenda for Townhall for Feb 6th 2024, 9 AM PDT/ 6 PM CET_ 
 
 **Community growth and Ecosystem Development**
 
