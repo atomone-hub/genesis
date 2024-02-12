@@ -7,6 +7,7 @@
 
 - Link to the [full transcript here](https://docs.google.com/document/d/12yRU9Lt1MUIsbwdUBmb6jXZY-AHyjagtqRiGlXuiu1o/edit?usp=sharing)
 - Link to the [full recording here](https://drive.google.com/file/d/1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN/view)
+[![Recording](https://res.cloudinary.com/marcomontalbano/image/upload/v1707724221/video_to_markdown/images/google-drive--1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN/view "Recording")
 
 <br>
 
