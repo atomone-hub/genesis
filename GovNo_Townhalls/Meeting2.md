@@ -55,7 +55,8 @@ Part of the conversation focused on onboarding validators, discussing criteria, 
    - Discussion on methods to improve accessibility and clarity.
 
 - Governance Model and Community Involvement
-   - Emphasis on the need for transparency, accountability, and inclusivity in decision-making processes. Discussion on general incentive for early participation in GovGen, potentially being called a founder.   -      - Talking through gamification of incentives.
+   - Emphasis on the need for transparency, accountability, and inclusivity in decision-making processes. Discussion on general incentive for early participation in GovGen, potentially being called a founder.     
+   - Talking through gamification of incentives.
 
 - Validator Rewards
    - Discussion focused on whether it makes sense for GovGen or not
