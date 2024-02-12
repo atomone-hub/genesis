@@ -4,7 +4,6 @@
 
 <br>
 
-
 - Link to the [full transcript here](https://docs.google.com/document/d/12yRU9Lt1MUIsbwdUBmb6jXZY-AHyjagtqRiGlXuiu1o/edit?usp=sharing)
 - Link to the [full recording here](https://drive.google.com/file/d/1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN/view)
 [![Recording](https://res.cloudinary.com/marcomontalbano/image/upload/v1707724221/video_to_markdown/images/google-drive--1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1wrAhCuxrPDGcc8aRBOZUxQC2VcLsG0TN/view "Recording")
@@ -21,6 +20,55 @@
 
 <br> 
 
+**Brief Summary of Discussion**
+
+Technical Updates and Governance Discussions:
+- Distribution is 1:1 with No and NWV voters, initial distribution will probably be ~ 68m million GovGen tokens
+- GovGen will have a few changes from the starting point of the fork of Cosmos Hub:
+
+   - GovGen is non-transferable
+   - Inflation Disabled
+   - Community tax, proposer reward and bonus all set to 0
+   - Deposit raised to 5000 GovGen
+   - Voting period suggested to be extended to 365 days, discussion followed on different voting periods for different types of proposals, specifically for software upgrades, changing parameters. Conversation followed some consensus with talks about voting incentives then shut down.
+   - Vote threshold set to 2/3
+   - Quorum raised to 50%
+   - Validators tentatively reduced to 30
+   - Standard SDK v14.1 without the liquid-staking module
+   - IBC module removed
+   - ICS module removed
+   - Spam prevention changed to 1% of initial deposit by proposer
+   - GovGen will probably skip the testnet phase.
+
+- Validator Onboarding Process
+Part of the conversation focused on onboarding validators, discussing criteria, documentation and verification steps.
+  - Some discussion on how to onboard validators that won't receive GovGen
+   - Removing self-stake
+   - Remove delegation potentially or whether validators should be able to vote.
+
+- Governance Mechanisms and Validator Requirements
+   - Discussion on how to proceed with multiple choice proposals
+   - Only allowing tokens staked at the time of a proposal
+   - Topic focused on the roles of validators and their requirements
+
+- Chain Architecture and Documentation
+   - Discussion on methods to improve accessibility and clarity.
+
+- Governance Model and Community Involvement
+   - Emphasis on the need for transparency, accountability, and inclusivity in decision-making processes. Discussion on general incentive for early participation in GovGen, potentially being called a founder.   -      - Talking through gamification of incentives.
+
+- Validator Rewards
+   - Discussion focused on whether it makes sense for GovGen or not
+
+- Covered the Condorcet Paradox 
+   - https://en.wikipedia.org/wiki/Condorcet_paradox
+
+- Conclusion
+   - Covered Action Items
+   - Covered scheduling next meeting
+
+<br>
+
 **Main talking points**
 
 - Validator Onboarding Process
@@ -34,6 +82,7 @@
 - Governance Structures and Meeting Scheduling
 
 <br>
+
 <br>
 
 
