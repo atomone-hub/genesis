@@ -1,6 +1,6 @@
 ### **GovNo Townhall Meeting 2 Notes**
 
-### Date: February 9th, 20224
+### Date: February 9th, 2024
 
 <br>
 
