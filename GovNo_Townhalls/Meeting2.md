@@ -34,7 +34,7 @@ Technical Updates and Governance Discussions:
    - Vote threshold set to 2/3
    - Quorum raised to 50%
    - Validators tentatively reduced to 30
-   - Standard SDK v14.1 without the liquid-staking module
+   - Gaia v14.1 without the liquid-staking module
    - IBC module removed
    - ICS module removed
    - Spam prevention changed to 1% of initial deposit by proposer
