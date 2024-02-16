@@ -65,8 +65,8 @@ needed).
 
 ### About Trademark Terms and Token Names
 
-GovNo may be used for any chain, if it is preceded by your chain's name, such as
-"Osmosis GovNo". Likewise "Osmosis GovNoA" to include abstainers, is acceptable.
+GovGen may be used for any chain, if it is preceded by your chain's name, such as
+"Osmosis GovGen". Likewise "Osmosis GovGenA" to include abstainers, is acceptable.
 
 AtomOne and Atone, and $ATONE are reserved for the AtomOne branch of Gaia. Unless
 you are proposing a contribution to the github.com/atomone-hub/genesis repository,
