@@ -1,4 +1,4 @@
-### **GovNo Townhall Meeting 2 Notes**
+### **GovGen Townhall Meeting 2 Notes**
 
 ### Date: February 9th, 2024
 
@@ -105,7 +105,7 @@ Part of the conversation focused on onboarding validators, discussing criteria, 
 
   - Community town halls and get togethers:  (5 minutes)
 
-    - Structure of town halls, alternating between engineering and community calls.Tentative agendas to be published on GitHub at <https://github.com/atomone-hub/genesis/tree/main/GovNo_Townhalls> 2-3 days in advance of the each call - make sure you make suggestions for topics that you would like to discuss
+    - Structure of town halls, alternating between engineering and community calls.Tentative agendas to be published on GitHub at <https://github.com/atomone-hub/genesis/tree/main/GovGen_Townhalls> 2-3 days in advance of the each call - make sure you make suggestions for topics that you would like to discuss
 
     - Meeting notes and recordings will be published after each community call on GitHub 
 
@@ -129,7 +129,7 @@ Part of the conversation focused on onboarding validators, discussing criteria, 
 
 - Branding, naming and visuals (10 minutes)
 
-  - Discuss the name change - [proposing](https://github.com/atomone-hub/genesis/pull/108) GovNo becomes GovGen due to community feedback
+  - Discuss the name change - [proposing](https://github.com/atomone-hub/genesis/pull/108) GovGen becomes GovGen due to community feedback
 
   - @wnmnsr would you want to come to the townhall to discuss AtomOne branding ideas?
 

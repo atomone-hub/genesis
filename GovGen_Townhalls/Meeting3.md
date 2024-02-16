@@ -1,4 +1,4 @@
-### **GovNo Townhall Meeting 3 Notes**
+### **GovGen Townhall Meeting 3 Notes**
 
 ### Date: February 13th, 2024
 
