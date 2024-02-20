@@ -24,7 +24,7 @@
 **Suggested talking points**
 
 - Validator Onboarding Process & Timeline
-  - Tuesday, 20th Feb- publish the Genesis
+  - Tuesday, 20th Feb- publish the Genesis - link will be up in a link in the README of https://github.com/atomone-hub/govgen-genesis
   - Friday 29th, 5PM PDT- validators submit your Gentx cut off time
   - GovGen launch - Tuesday 27th, 6 am PST
 - Technical Updates and Governance Discussions
