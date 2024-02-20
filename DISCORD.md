@@ -89,9 +89,9 @@ Welcome aboard! Enjoy your stay!
 
 **Ensure that you are not sharing rumors, and make an effort to guide conversations back to constructive, productive and building-focused chats**
 
-- Conversations should be relevant to AtomOne, or GovNo
+- Conversations should be relevant to AtomOne, or GovGen
 
-- If conversation steers away from AtomOne or GovNo in a way that is not bringing relevant or benefit to the conversation, try to invite the community members in the conversation to come back to the main topic or to continue the conversation in an off-topic channel.
+- If conversation steers away from AtomOne or GovGen in a way that is not bringing relevant or benefit to the conversation, try to invite the community members in the conversation to come back to the main topic or to continue the conversation in an off-topic channel.
 
 **Try to ensure that people show respect each other, even while sharing differing opinions:**
 
