@@ -25,7 +25,20 @@
 
 - Validator Onboarding Process
 - Technical Updates and Governance Discussions
-  - [Engineering updates go here] 
+  - Working on x/gov changes as discussed in last townhall ([GitHub EPIC](https://github.com/atomone-hub/govgen/issues/6))
+    - Forked x/gov to implement discussed modifications
+        - https://github.com/atomone-hub/govgen/pull/4    
+        - https://github.com/atomone-hub/govgen/pull/9
+    - Remove ability for validators to vote
+        - https://github.com/atomone-hub/govgen/pull/10
+    - Allow different voting periods for different types of proposals
+      - https://github.com/atomone-hub/govgen/pull/16
+  - Updated base genesis to reflect software changes
+    - https://github.com/atomone-hub/govgen-genesis/pull/1
+    - 365 days voting period for text, 14 days for parameter change and 28 days for software upgrade
+  - Potential discussions:
+    - [refund text proposal deposit before the end of the voting period](https://github.com/atomone-hub/govgen/issues/8)
+    - [consider disallowing validator vote on text proposal only](https://github.com/atomone-hub/govgen/issues/15)
 - Governance Mechanisms and Validator Requirements
 - Chain Architecture and Documentation
 - Governance Model and Community Involvement
