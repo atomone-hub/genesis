@@ -66,10 +66,6 @@ A: The initial distribution snapshot will likely be taken from the final results
 
 A: The airdrop will happen when all the work is completed and the chain is live. 
 
-### Q: How can I buy the new ATONE token outside the airdrop?
-
-A: ATONE will likely be available on the open market (exchanges) after launch. Contributors seeking ATONE tokens who were not holding ATOM tokens at the time of the snapshot can be compensated for meaningful contributions to the repo.
-
 ### Q: How can I become a validator on AtomOne?
 
 A: AtomOne will use a Proof-of-Stake delegation system similar to Cosmos Hub with some modifications to fix validator incentives and ensure that validators are paid more fairly and evenly. The incentive system is still a work in progress on the repo. However, priority will be given to validators who voted ‘NO’ and ‘NWV’ on Prop 848.
