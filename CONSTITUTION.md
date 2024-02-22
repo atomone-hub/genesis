@@ -47,7 +47,7 @@ slashing affects tokens on the latter validator set.
 **ICS2A** includes all protocols of ICS2 where the stake is entirely managed by the
 AtomOne Hub (in the form of ATOMs or other derivatives).
 
-**ICS2B** includes all protocols of ICS2 where the stake is entirely managed by
+**ICS2B** includes all protocols of ICS2 where stake is entirely managed by
 the logic of the other chain.
 
 **Auto-staking** is staking across all current validators in proportion to their
