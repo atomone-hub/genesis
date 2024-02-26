@@ -30,6 +30,11 @@ https://allinbits.com/blog/shape-the-future-of-atomone-with-govgen/
     - validator accounts that do not exist in genesis distribution are funded with 25 $GOVGEN (self-stake is 1 $GOVGEN)
     - validator accounts that have balance less than 25 $GOVGEN are also topped off to fund operations
     - final genesis link will be available both at https://github.com/atomone-hub/govgen-genesis and https://github.com/atomone-hub/validator/tree/main/govgen-1 as soon as complete.
+  - Initial staking distribution: we want validators to have some delegations on block 0. For this we decided on the following numbers, which can be discussed:
+    - select accounts with balance >= 25govgen
+    - stake 50% of that balance to validators with a fair distribution
+    
+    With the current genesis, that will stake 33,890,002 govgen, which makes an initial staking ratio of ~49% (total supply is 68,336,631 govgen). We are working on the algorithm to distribute this stake evenly among the validators.
   - questions:
     - fee and validator setup discussion and recommendations
     - final review of genesis parameters:
