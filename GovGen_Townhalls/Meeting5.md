@@ -26,6 +26,14 @@ https://allinbits.com/blog/shape-the-future-of-atomone-with-govgen/
 - Technical Updates and Governance Discussions
   - errata corrige: [PR 7](https://github.com/atomone-hub/govgen/issues/7) is superseded by [PR 20](https://github.com/atomone-hub/govgen/issues/20): validators are allowed to vote in governance, but delegations won't count there, and validators can vote on proposals only using self-stake. Block production/tendermint voting power distribution/staking will work regularly though.
   - GovGen v1.0.0 released: https://github.com/atomone-hub/govgen/releases/tag/v1.0.0
+  - PR for final genesis that collects `gentxs` ready: https://github.com/atomone-hub/govgen-genesis/pull/3
+    - validator accounts that do not exist in genesis distribution are funded with 25 $GOVGEN (self-stake is 1 $GOVGEN)
+    - validator accounts that have balance less than 25 $GOVGEN are also topped off to fund operations
+    - final genesis link will be available both at https://github.com/atomone-hub/govgen-genesis and https://github.com/atomone-hub/validator/tree/main/govgen-1 as soon as complete.
+  - questions:
+    - fee and validator setup discussion and recommendations
+    - final review of genesis parameters:
+      - x/gov: are pass threshold, quorum, deposits and voting periods OK?
+      - any other param to discuss/change?
 - First Proposals for GovGen
 - Cover any questions
-- 
