@@ -21,7 +21,7 @@ There comes a time when there is enough disagreement among community members
 and stakers about key concerns regarding the business of their chain, such as
 its vision, mission, tokenomics, architecture, implementation, or philosophy;
 that it makes the most sense to support an alternative fork running alongside
-the original so as to be prepared against all contingencies.
+the original to be prepared against all contingencies.
 
 Recent times have seen the Cosmos community grappling with significant
 challenges stemming from differences about core tokenomics, about the very
@@ -43,11 +43,11 @@ hub credibility.
 
 These and prior disagreements have now made clear the need for an alternative
 hub with a renewed focus and Alignment to serve as the canonical minimal
-IBC/ICS token hub with respect to Cosmos to champion the ideals of sovereignty,
+IBC/ICS token hub for Cosmos to champion the ideals of sovereignty,
 security, and decentralization everywhere; and secondarily to serve as the main
 base for a political party and more-intelligent voting bloc with respect to
-Gaia to save Gaia from itself. A modification to the distribution of $ATONE
-through slashing those who voted in favor of #848 would help ensure that the
+Gaia to save Gaia from itself. A modification to the distribution of $ATONE,
+a through slashing of those who voted in favor of #848 would help ensure that the
 resultant distribution is more intelligent about security and would make us
 anti-fragile against even the most powerful of adversaries.
 
@@ -55,10 +55,10 @@ anti-fragile against even the most powerful of adversaries.
 # Vision and Missions
 
 The vision behind this AtomOne fork is to be an alternative minimal fork of
-Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies,
+Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies
 and also to operate as a political party base in relation to Gaia. We strive to
 complement the broader Cosmos ecosystem while introducing innovative solutions
-and perspectives. Our goals are not just to resolve current challenges but are
+and perspectives. Our goals are not just to resolve current challenges but 
 also to set a new precedent for adaptive and responsive self-organization in
 the multichain multitoken universe that we call the Cosmos.
 
@@ -87,8 +87,8 @@ AtomOne re-commits to the original vision and primary mission of Gaia to serve
 as a minimal IBC/ICS hub secured by a staking token that targets 2/3 of the
 stake to be bonded. We believe that minimizing the risk profile is necessary as
 an existential issue for the hub, and an issue of financial security of the
-highest order for not just the hub but its hosted shards and IBC connected
-network allowing AtomOne to occupy a real and an important niche. When there
+the highest order for not just the hub but its hosted shards and IBC connected
+network allowing AtomOne to occupy a real and important niche. When there
 is a double-spend attack on the hub, the staking tokens of those responsible
 for the attack should be used to compensate the victims as much as reasonable,
 and the non-zero remainder of the penalty burned. A staking token of an
@@ -99,7 +99,7 @@ comparison.
 IBC/ICS hubs should in general remain conservative in its function and offer
 utility through dependability and scaling. Any experiments that change the
 nature of the hub belong in new forks or splits, and an ideal hub enables them
-despite of and in order to celebrate these differences. In the Cosmos there is
+despite and in order to celebrate these differences. In the Cosmos, there is
 no need for contention as with land-locked states because there is no
 limitation of finite land. We can create new forks/splits/groups that are
 better aligned with what we need if there is enough need or support for it.
@@ -112,11 +112,11 @@ the AtomOne hub.
 ## Significance as a Political Base 
 
 There are many of stakers and users of Gaia that are aligned with the
-values, principles, original mission of Gaia and those of AtomOne, but we have
+values, principles, and original mission of Gaia and those of AtomOne, but we have
 no explicit base of operations. In contrast, the informal opposition majority
 party (which came about first) is well organized in comparison, usually behind
 closed doors. Meanwhile "liquid staking" providers are providing a service that
-does more than liquid staking, but have their own governance and powers and
+does more than liquid staking, but has their own governance and powers and
 thus act as a kind of political base. For example, which validators to stake to
 is determined through governance in Informal/Stride.
 
