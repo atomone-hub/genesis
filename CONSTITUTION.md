@@ -30,7 +30,7 @@ IBC is short for Interchain Blockchain Communication, and includes all
 protocols that allow one chain to communicate state or messages with another
 chain by tracking the consensus state of the other.
 
-The ATOM is the primary staking token of the AtomOne Hub.
+The ATONE is the primary staking token of the AtomOne Hub.
 
 ICS is short for Interchain Security, and includes all protocols that allow the
 consensus of one chain to be partially or wholly secured by mechanisms on
@@ -45,20 +45,20 @@ scenarios of one validator set are handled by another validator set, where
 slashing affects tokens on the latter validator set.
 
 ICS2A includes all protocols of ICS2 where stake is entirely managed by the
-AtomOne Hub (in the form of ATOMs or other derivatives).
+AtomOne Hub (in the form of ATONEs or other derivatives).
 
 ICS2B includes all protocols of ICS2 where stake is entirely managed by the
 logic of the other chain.
 
 Auto-staking is staking across all current validators in proportion to their
 voting power. For example, if a validator that had 10% of the voting power were
-to get slashed 30% on the AtomOne Hub, and 50% of ATOMs were either staked onto
+to get slashed 30% on the AtomOne Hub, and 50% of ATONEs were either staked onto
 the AtomOne Hub or free (not auto-staked), everyone who auto-staked ATOMs
-on the AtomOne Hub would get slashed 1.5%. Inflationary ATOMs are paid to
-auto-stakers such that they do not suffer from the inflation rate of ATOMs.
+on the AtomOne Hub would get slashed 1.5%. Inflationary ATONEs are paid to
+auto-stakers such that they do not suffer from the inflation rate of ATONEs.
 
 A two-thirds supermajority is where more than 2/3rd of all participating staked
-ATOMs vote YES and the vote is above the current governance quorum value and
+ATONEs vote YES and the vote is above the current governance quorum value and
 the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
 
 ## Part 1 General Provisions
@@ -107,7 +107,7 @@ AtomOne Hub. As such, every Cosmonaut has the right to own at least one address
 on the AtomOne Hub.
 
 Any Cosmonaut can also become a Citizen of the AtomOne Hub by using their
-address to stake ATOMs toward the AtomOne Hub and participate actively in
+address to stake ATONEs toward the AtomOne Hub and participate actively in
 governance. The status of citizenship is granted in an autonomous manner.
 
 ### Article 1.E. Rights, Liberties, and Obligations in the AtomOne Hub
@@ -117,11 +117,11 @@ guaranteed. Any restriction to the Liberty and Property of Citizens on the
 AtomOne Hub can be done only through the AtomOne Hub's governance.
 
 Every Cosmonaut has the right to receive benefits from their engagement in the
-AtomOne Hub, including rights derived from held or staked ATOMS in line with the
+AtomOne Hub, including rights derived from held or staked ATONEs in line with the
 provisions of this Constitution.
 
 Every Citizen allows the Governance of the AtomOne Hub to restrict their staked
-ATOM property by partial or full slashing according to their voting activity.
+ATONE property by partial or full slashing according to their voting activity.
 
 ## Part 2 Governance
 
@@ -141,7 +141,7 @@ following functions:
 The working language of AtomOne Hub governance is English.
 
 The quorum necessary for a proposal to be valid shall depend solely on the
-number of bonded ATOMs.
+number of bonded ATONEs.
 
 The governance process must extend the voting deadline to ensure a minimum of 2
 weeks of voting after the minimum quorum has been met.
@@ -203,29 +203,29 @@ on the AtomOne Hub.
 
 The one and only economic incentive model of the AtomOne Hub is the collection
 of market-based transaction fees from a large number of transactions across all
-the chains secured by the staking of ATOMs on the AtomOne Hub, including ICS1
+the chains secured by the staking of ATONEs on the AtomOne Hub, including ICS1
 hosted blockchains.
 
 ### Article 3.B. The ATOM Token
 
-The ATOM functions as voting shares, economic incentive shares, and security
+The ATONE functions as voting shares, economic incentive shares, and security
 bond for the AtomOne Hub.
 
 To preserve the security and identity of the acting governance and validator
-set, the inflation rate of the ATOM is made to vary over time to target 2/3 of
-all ATOMs. The maximum inflation rate is 20% non-compounded per year. There is
+set, the inflation rate of the ATONE is made to vary over time to target 2/3 of
+all ATONEs. The maximum inflation rate is 20% non-compounded per year. There is
 no minimum inflation rate, and it can even be negative (deflationary).
 
-Inflated ATOMs are paid to bonded ATOM holders in proportion to each
-delegator's staking amount, and staked ATOMs are converted to Bonded Share
+Inflated ATONEs are paid to bonded ATONE holders in proportion to each
+delegator's staking amount, and staked ATONEs are converted to Bonded Share
 Units. 
 
-The Atom Unbonding Period shall be 3 weeks, and redelegation is allowed twice
+The ATONE Unbonding Period shall be 3 weeks, and redelegation is allowed twice
 per Atom Unbonding Period.
 
 Double signing at any height/round/step results in slashing penalty that is
 proportional to the total amount of double signing by all validators for that
-height/round/step, with evidence collected during the Atom Unbonding Period;
+height/round/step, with evidence collected during the ATONE Unbonding Period;
 the penalty shall range from +0% to 100% of the Upper Slashing Limit in linear
 proportion, the latter when 1/3 of voting power double-signs.
 
@@ -246,8 +246,8 @@ all rewards paid out to staked interchain accounts at time of reward
 withdrawal. This Liquid Staking Tax parameter may be adjusted by a two-thirds
 supermajority vote of the AtomOne Hub. 
 
-If the amount of ATOMs staked using interchain accounts exceeds 20% (the
-"Liquid Staking Factor") of the total staked ATOMs, the Liquid Staking Tax
+If the amount of ATONEs staked using interchain accounts exceeds 20% (the
+"Liquid Staking Factor") of the total staked ATONEs, the Liquid Staking Tax
 shall automatically increase by 1% per month. The Liquid Staking Factor
 parameter may be adjusted by a two-thirds supermajority vote of the AtomOne Hub.
 
@@ -259,7 +259,7 @@ TODO: simplify the above two rules.
 
 ### Article 3.D. Inflation
 
-Any inflation of ATOMs to the Community Pool or a designated Treasury DAO
+Any inflation of ATONEs to the Community Pool or a designated Treasury DAO
 beyond the default inflation rate described in the Constitution shall require a
 two-thirds supermajority vote of a special inflation governance proposal type.
 
@@ -270,7 +270,7 @@ its Constitution, nor the adoption of any new Treasury DAOs.
 ### Article 3.E. The Common Pool 
 
 The Common Pool tax proceeds shall apply to transaction fees and inflationary
-ATOMs, and shall be sent to the Community Pool.
+ATONE NOs, and shall be sent to the Community Pool.
 
 The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
 by two-thirds supermajority of the AtomOne Hub governance.
@@ -470,7 +470,7 @@ before by JFK who was assassinated in 1963.
 [(ODY)](https://odysee.com/@Real_Solutions:b/JFK's-Monolithic-Conspiracy-Revelation:7)[(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
 Now we have experienced the NWO control grid by the WEF, and its young global
 leaders, such as Fauci, Gates, Gavin Newsom, Trudeau; and even experiencing the
-war between Zelenski and Putin. The WEF, whose leader Schwab boasted about
+war between Zelensky and Putin. The WEF, whose leader Schwab boasted about
 having infiltrated government cabinets, also wants us to "own nothing and be
 happy".  If it isn't clear enough, their logo even includes a subtle 666.
 
