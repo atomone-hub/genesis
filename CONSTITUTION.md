@@ -44,7 +44,7 @@ conditions are always submitted to a root chain.
 scenarios of one validator set are handled by another validator set, where
 slashing affects tokens on the latter validator set.
 
-**ICS2A** includes all protocols of ICS2 where the stake is entirely managed by the
+**ICS2A** includes all protocols of ICS2 where stake is entirely managed by the
 AtomOne Hub (in the form of ATOMs or other derivatives).
 
 **ICS2B** includes all protocols of ICS2 where stake is entirely managed by
