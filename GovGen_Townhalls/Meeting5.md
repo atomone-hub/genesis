@@ -4,8 +4,8 @@
 
 <br> 
 
-- Link to the [full transcript here] will go here
-- Link to the [full recording here] will go here
+- Link to the [full transcript here](https://docs.google.com/document/d/1W59eqPi4Qudgya4MgDHxircPZZEt8MrEEfdD-qxO-T0/edit?usp=sharing)
+- Link to the [full recording here](https://drive.google.com/file/d/18w3G0NMVyot4kxlVUHYJAM4S33HgAj-R/view?usp=sharing)
 
 **Main action items**
 
@@ -13,8 +13,6 @@
 - [Join our Discord](https://discord.gg/atomone)
 
 <br> 
-
-**Brief Summary of Discussion will go here**
 
 You can read a synopsis of the existing state of GovGen in this blog post, including that the term for applications has been slightly extended. 
 
