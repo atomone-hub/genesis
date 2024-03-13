@@ -24,7 +24,7 @@
 **Suggested Talking Points**
 
 - Disclaimer to warn users to never enter mnemonics
-- How to Sign offline [guide](https://github.com/atomone-hub/govgen-proposals/pull/4/commits/6cfb38a8a91a2bcee05702e943ab798a0802e792#diff-a7643cd2dc642a9e33a40b4ab154dd43a4fb749485d1c1d5fa6e21eef278fe7c) 
+- How to Sign offline [guide](https://github.com/tbruyelle/govgen-proposals/blob/tbruyelle/doc/submit-tx-securely/submit-tx-securely.md) 
      - Reach out to security@allinbits.com if you find any issues.
 - Cosmostation, Keplr (Testnet) and Leap have integrated support for GovGen
 - Mintscan explorer has added support for GovGen - https://www.mintscan.io/govgen/
