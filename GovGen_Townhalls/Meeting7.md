@@ -29,12 +29,14 @@
 
 |                    |  DIDN'T VOTE  | YES | ABSTAIN | NO |    NWV    |
 |:------------------:|:-------------:|:---:|:-------:|:--:|:---------:|
-| Staking multiplier | blend x malus |  1  |  blend  |  4 | 4 x bonus |
+| Staking multiplier | B x malus |  1  |  B  |  4 | 4 x bonus |
 | Liquid multiplier  |       1       |  1  |    1    |  1 |     1     |
 
-  - Where the blend is the sum of the percentages of the distribution of YES, NO, and NWV with their respective multipliers, but not taking into account any bonus. Giving the prop848 tally results, the blend is ~1.9486.
-  - Bonus and malus are less than 5%
-  - This makes the total supply of ATONE about 5 times higher than the supply of ATOM.
+  - Where the "blend" `B` is the sum of the percentages of the distribution of YES, NO, and NWV with their respective multipliers, but *not* taking into account any bonus. Giving the prop848 tally results, B is ~1.9486.
+  - Bonus and malus are less than 5% (set to 3% currently)
+  - This makes the total supply of $ATONE about 3.3x times higher than the supply of $ATOM as of now (potential supply of ~921M ) [**NOTE**: might have miscounted accounts that *did not vote* at all and had not staked, we are reviewing internally, final supply could be higher]
+
+- Distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
  
 - Tech Details of ICS
 - Liquid Staking / Photon Atom vs Photon Atone
