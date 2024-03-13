@@ -24,7 +24,10 @@
 **Suggested Talking Points**
 
 - Disclaimer to warn users to never enter mnemonics
-- How to Sign offline [guide](https://github.com/atomone-hub/govgen-proposals/pull/4/commits/6cfb38a8a91a2bcee05702e943ab798a0802e792#diff-a7643cd2dc642a9e33a40b4ab154dd43a4fb749485d1c1d5fa6e21eef278fe7c)
+- How to Sign offline [guide](https://github.com/atomone-hub/govgen-proposals/pull/4/commits/6cfb38a8a91a2bcee05702e943ab798a0802e792#diff-a7643cd2dc642a9e33a40b4ab154dd43a4fb749485d1c1d5fa6e21eef278fe7c) 
+     - Reach out to security@allinbits.com if you find any issues.
+- Cosmostation, Keplr (Testnet) and Leap have integrated support for GovGen
+- Mintscan explorer has added support for GovGen - https://www.mintscan.io/govgen/
 - Distribution proposal draft discussion
      - Where the "blend" `B` is the sum of the relative percentages of the distribution of YES, NO, and NWV with their respective multipliers, but *not* taking into account any bonus. Given the prop848 tally results, B is ~1.9486. The multiplier `B` is computed as `B = Y + (N + V) * 4` where `Y` is the *relative* percentage of *YES* votes (i.e. the total $ATOMs that voted *YES* over the sum of total $ATOMs that voted either *YES*, *NO*, or *NWV*), and `N` and `V` are the *relative percentages* of respectively *NO* and *NWV* votes.
      - Bonus and malus are less than 5% (set to 3% currently)
@@ -36,8 +39,6 @@
      | Liquid multiplier  | B x malus |  -  |    -    |  - |     -     |
 
 - Distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
-
-- Suggested template for creating proposals: https://github.com/atomone-hub/govgen-proposals/blob/main/XXX_proposal_template.md
  
 - Tech Details of ICS
 - Liquid Staking / Photon Atom vs Photon Atone
