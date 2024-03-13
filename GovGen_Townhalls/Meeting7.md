@@ -36,6 +36,8 @@
      | Liquid multiplier  | B x malus |  -  |    -    |  - |     -     |
 
 - Distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
+
+- Suggested template for creating proposals: https://github.com/atomone-hub/govgen-proposals/blob/main/XXX_proposal_template.md
  
 - Tech Details of ICS
 - Liquid Staking / Photon Atom vs Photon Atone
