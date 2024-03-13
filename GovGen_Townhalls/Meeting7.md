@@ -26,15 +26,14 @@
 - Disclaimer to warn users to never enter mnemonics
 - How to Sign offline [guide](https://github.com/atomone-hub/govgen-proposals/pull/4/commits/6cfb38a8a91a2bcee05702e943ab798a0802e792#diff-a7643cd2dc642a9e33a40b4ab154dd43a4fb749485d1c1d5fa6e21eef278fe7c)
 - Distribution proposal draft discussion
-
-|                    |  DIDN'T VOTE  | YES | ABSTAIN | NO |    NWV    |
-|:------------------:|:-------------:|:---:|:-------:|:--:|:---------:|
-| Staking multiplier | B x malus |  1  |  B  |  4 | 4 x bonus |
-| Liquid multiplier  |       1       |  1  |    1    |  1 |     1     |
-
      - Where the "blend" `B` is the sum of the percentages of the distribution of YES, NO, and NWV with their respective multipliers, but *not* taking into account any bonus. Giving the prop848 tally results, B is ~1.9486.
      - Bonus and malus are less than 5% (set to 3% currently)
      - This makes the total supply of $ATONE about 3.3x times higher than the supply of $ATOM as of now (potential supply of ~921M ) [**NOTE**: might have miscounted accounts that *did not vote* at all and had not staked, we are reviewing internally, final supply could be higher]
+       
+     |                    |  DIDN'T VOTE  | YES | ABSTAIN | NO |    NWV    |
+     |:------------------:|:-------------:|:---:|:-------:|:--:|:---------:|
+     | Staking multiplier | B x malus |  1  |  B  |  4 | 4 x bonus |
+     | Liquid multiplier  |       1       |  1  |    1    |  1 |     1     |
 
 - Distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
  
