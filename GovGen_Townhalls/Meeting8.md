@@ -33,8 +33,7 @@
 - Engineering updates on latest state of distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
 - Distribution proposal companion doc (and code): https://github.com/atomone-hub/govbox/blob/master/PROP-001.md
 - All tools, scripts and code stuff for GovGen proposals (e.g. snapshots analysis code, prop 001 code) now available at https://github.com/atomone-hub/govbox
-- [Further engineering updates goes here]
-- Further conversation on Defining ICS
+- Further conversation on Defining ICS: https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
 - Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks. 
 
 - Urgencies in constitution for minimal working draft to move forward such as,
