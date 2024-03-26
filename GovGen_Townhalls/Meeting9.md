@@ -55,7 +55,9 @@
 - Distribution proposal companion doc (and code): https://github.com/atomone-hub/govbox/blob/master/PROP-001.md
     - Added details on the new formula mentioned above
 - Further conversation on Defining "ICS 1.5": https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
-- Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks. 
+- Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks.
+- Demonstration of Post Human's [proposal interface](https://proposals.posthuman.digital/)
+- Demonstraton of [GovGen.io](https://govgen.io/)
 
 - Urgencies in constitution for minimal working draft to move forward such as,
   - How exactly to reform governance
