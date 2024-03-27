@@ -3,8 +3,9 @@
 ### Date: March 26th, 2024, time TBD
 <br> 
 
-- Link to the [full transcript here] goes here
-- Link to the [full recording here] goes here
+- Link to the [full transcript here](https://docs.google.com/document/d/18sf3QUJ-FA-CSgPyG3ulB95_MiLC4TnsVVlJApQMC7U/edit?usp=sharing)
+- Link to the [full recording here](https://drive.google.com/file/d/1DPPRUEkSim5b1kdBmgCbISBbnJOvbjua/view?usp=sharing)
+- Link to the [full message log](https://drive.google.com/file/d/1pQcrnr6KMZ17L6LMlLDAMDhm4RHx6Q0L/view?usp=sharing)
 
 **Main action items**
 
@@ -16,20 +17,15 @@
  
 <br> 
 
-**Brief Summary of Discussion will go here**
+**Brief Summary of Discussion**
 
 <br>
 
-**Other suggested talking points**
-
-
-<br> 
-
-### Please feel free to add your own talking points here, more to come next week
+- Distribution of this first proposal has changed, check the notes here:
 
 <br>
 
-- Engineering updates on latest state of distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
+ - Engineering updates on latest state of distribution prop draft: https://github.com/atomone-hub/govgen-proposals/pull/5
     - We took into account the community feedback regarding the previous
       distribution, especially the fact that non-voters (including abstrainers)
       had too much of the supply (61%). As a result we replaced the blend
@@ -49,23 +45,9 @@
 | Old $ATONE Distr.     | 809,415,611 |  158,897,406 | 63,746,761 | 213,404,392 | 47,911,135 | 86,287,988 | 239,167,930 |
 | Percentage over total |             | 20%          | 8%         | 26%         | 6%         | 11%        | 30%         |
 
-
-
-
 - Distribution proposal companion doc (and code): https://github.com/atomone-hub/govbox/blob/master/PROP-001.md
     - Added details on the new formula mentioned above
-- Further conversation on Defining "ICS 1.5": https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
-- Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks.
-- Demonstration of Post Human's [proposal interface](https://proposals.posthuman.digital/)
-- Demonstraton of [GovGen.io](https://govgen.io/)
-
-- Urgencies in constitution for minimal working draft to move forward such as,
-  - How exactly to reform governance
-  - Remove NWV or remove delegations altogether
-  - Remove validator commission, include fixed rate
-  - Validator distribution
-  - Validators have machines onsite, i.e no white labels, no AWS
-  - Validators should declare conflicts of interest
-  - Should not roll out fixes that validators don't understand
-  - If anything to be added to constitution, should be unchallenged for a given term (3 months?)
-  - Potentially funding multiple teams of leading developers to compete to build ICS
+- Long discussion ensues regarding the validity of the new distribution, including some comments on abstain votes, no/nwv distribution to be upped a bit and concession on the not staked and not voted voters.
+- There’s a note brought up that this is the first proposal for distribution and changes can happen over the lifespan of GovGen, every proposal is intended to measure sentiment so 
+- Vladimir of Post Human shares a demonstration of their work on a [governance interface](https://proposals.posthuman.digital/) allowing you to create text proposals with some comments on including different types of proposal in the future.
+- Alex gives a presentation of the feature set of the [GovGen](https://govgen.io/) governance dApp, including sorting proposals, GitHub discussions integration to allow convenience in following discussions per proposal and touching on some intended features
