@@ -42,6 +42,8 @@
   ![$ATONE distribution x9](/resources/ATONE_distribution_x9.png)
   - All the charts are visibles [here](https://atomone-hub.github.io/govbox/).
   
+- 'How to Submit Transactions Securely' guide has been merged and is available
+  [here](https://github.com/atomone-hub/govgen-proposals/blob/main/submit-tx-securely.md)
 
 - Further conversation on Defining "ICS 1.5": https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
 - Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks.
