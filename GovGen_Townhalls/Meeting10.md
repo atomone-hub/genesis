@@ -20,6 +20,7 @@
 
 <br>
 
+**Proposed Discussion Points**
 - Engineering updates:
   - Updates on $ATONE distribution: given last Townhall discussions, we
     investigated on higher multipliers for the No voters, and it appears that the
