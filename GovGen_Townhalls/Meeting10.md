@@ -42,6 +42,8 @@
 - Further conversation on Defining "ICS 1.5": https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
 - Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks.
 
+- MVP of the governance dApp has been completed and mainnet deployment is being scheduled.
+
 - We intend to make significant progress on the constitution this month, beginning with remote meetings to determine participation. We aim to distribute a brief application form for interested individuals to submit later this week.
 
 - Urgencies in constitution for minimal working draft to move forward such as,
