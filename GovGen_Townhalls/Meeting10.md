@@ -1,6 +1,6 @@
 ### **GovGen Townhall Meeting 10 Notes**
 
-### Date: April 2nd, 2024, time TBD
+### Date: April 2nd, 2024, 9am PST
 <br> 
 
 - Link to the [full transcript here] goes here
@@ -20,26 +20,19 @@
 
 <br>
 
-**Proposed Discussion Points**
-- Engineering updates:
-  - Updates on $ATONE distribution: given last Townhall discussions, we
-    investigated on higher multipliers for the No voters, and it appears that the
-    x9 multiplier is the best fit for our case because:
-    - No Voters get more than 60% of the supply
-    - Yes voters get 1/3 of their initial part of the supply
-    - Here is the general bar chart that shows the votes distribution with No
-    multipliers from x4 to x10:
-    ![votes distribution](/resources/votes_distribution.png)
-    - Here is a more detailled pie chart of the $ATONE distribution for the x9
-    multiplier:
-    ![$ATONE distribution x9](/resources/ATONE_distribution_x9.png)
-    - All the charts are visibles [here](https://atomone-hub.github.io/govbox/).
-    
-  - 'How to Submit Transactions Securely' guide has been merged and is available
-    [here](https://github.com/atomone-hub/govgen-proposals/blob/main/submit-tx-securely.md)
+**Other suggested talking points**
+
+
+<br> 
+
+### Please feel free to add your own talking points here, more to come next week
+
+<br>
 
 - Further conversation on Defining "ICS 1.5": https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
 - Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks.
+
+- We intend to make significant progress on the constitution this month, beginning with remote meetings to determine participation. We aim to distribute a brief application form for interested individuals to submit later this week.
 
 - Urgencies in constitution for minimal working draft to move forward such as,
   - How exactly to reform governance
