@@ -8,7 +8,7 @@
 
 **Main action items**
 
-- Please fill out this [form](https://forms.gle/TLJ4q1Nu5V5GNGBr5) if you are interested in contributing to the [Constitution](https://github.com/atomone-hub/genesis/blob/a9b9d9d5a2440fb623d3bad3c672ae4754377b00/CONSTITUTION.md)
+- Please fill out this [form link to go here] if you are interested in contributing to the [Constitution](https://github.com/atomone-hub/genesis/blob/a9b9d9d5a2440fb623d3bad3c672ae4754377b00/CONSTITUTION.md)
 - Contribute to the [issue consolidating ideas for the Constitution](https://github.com/atomone-hub/genesis/issues/136)
 - [Join our Discord](https://discord.gg/atomone)
 - [Help Define ICS](https://github.com/atomone-hub/genesis/issues/66)
