@@ -3,12 +3,12 @@
 ### Date: April 2nd, 2024, 9am PST
 <br> 
 
-- Link to the [full transcript here] goes here
-- Link to the [full recording here] goes here
+- Link to the [full transcript here](https://drive.google.com/file/d/1TyyUK5DNtzyWkme7kX2GsbsocJ3_JONf/view?usp=sharing)
+- Link to the [full recording here](https://drive.google.com/file/d/1_LhpR0A-ZteNzpoHWntJ1s8yoxPqcqch/view?usp=sharing)
 
 **Main action items**
 
-- Contribute to the [Constitution](https://github.com/atomone-hub/genesis/blob/a9b9d9d5a2440fb623d3bad3c672ae4754377b00/CONSTITUTION.md)
+- Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe95o3gDCaeF8UoTaIxQ9MB1NdWPqCO19pn7PjG16v6OD2yNg/viewform) if you are interested in contributing to the [Constitution](https://github.com/atomone-hub/genesis/blob/a9b9d9d5a2440fb623d3bad3c672ae4754377b00/CONSTITUTION.md)
 - Contribute to the [issue consolidating ideas for the Constitution](https://github.com/atomone-hub/genesis/issues/136)
 - [Join our Discord](https://discord.gg/atomone)
 - [Help Define ICS](https://github.com/atomone-hub/genesis/issues/66)
@@ -16,11 +16,9 @@
  
 <br> 
 
-**Brief Summary of Discussion will go here**
+**Brief Summary of Discussion**
 
-<br>
-
-**Suggested talking points**
+Distribution of the first proposal has been finalized, it was presented and all attendees seemed to be in agreement or satisfied with the changes made, check the specifics in the notes here:
 
 - Engineering updates:
   - Updates on $ATONE distribution: given last Townhall discussions, we
@@ -39,20 +37,25 @@
   - 'How to Submit Transactions Securely' guide has been merged and is available
     [here](https://github.com/atomone-hub/govgen-proposals/blob/main/submit-tx-securely.md)
 
-- Further conversation on Defining "ICS 1.5": https://github.com/atomone-hub/genesis/issues/66#issuecomment-2006912939
-- Further conversation on what the relationship between Photon Atom vs Photon Atone might look like, to be discussed as a community over the coming weeks.
 
 - MVP of the governance dApp has been completed and mainnet deployment is being scheduled.
 
 - We intend to make significant progress on the constitution this month, beginning with remote meetings to determine participation. We aim to distribute a brief application form for interested individuals to submit later this week.
 
-- Urgencies in constitution for minimal working draft to move forward such as,
-  - How exactly to reform governance
-  - Remove NWV or remove delegations altogether
-  - Remove validator commission, include fixed rate
-  - Validator distribution
-  - Validators have machines onsite, i.e no white labels, no AWS
-  - Validators should declare conflicts of interest
-  - Should not roll out fixes that validators don't understand
-  - If anything to be added to constitution, should be unchallenged for a given term (3 months?)
-  - Potentially funding multiple teams of leading developers to compete to build ICS
+- Some attendees show interest in participating in the constitution calls and many verbalize agreement that they should be filtered down into smaller calls.
+
+- Attendees express enthusiam about how transparent and effective the Townhall calls are in conjunction with the GitHub repository to stay aligned with community. 
+
+- A couple UI suggestions were made to filter everything into folders that Trevor of the governance dApp picked up on to potentially implement into their dApp
+
+- Some questions are covered on what the goal of AtomOne is, a minimial permissionless ICS hub
+
+- Converation ensues about a suggestion to slash or penalize those who aren't voting in AtomOne
+  - Some points are made about how incentive works better than punishment, someone suggests that your vote should weigh more than longer you are staked
+  - Consider the possibility of delegating to non-validators
+
+- A long conversation follows when an attendee proposes a multi-token approach to divide voting power from economic security however,
+  - Many quickly point out there could be some issues with this sort of structure
+  - Another attendee references some studies that were ran to disprove this system
+
+- Another attendee points to a different model where different proposals have differing weights
