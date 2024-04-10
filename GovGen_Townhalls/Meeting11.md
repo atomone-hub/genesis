@@ -8,7 +8,7 @@
 
 **Main action items**
 
-- Sign up for the constitution calls by filling out this [form to be added]
+- Sign up for the constitution calls by filling out this [form](https://forms.gle/W8vXbcL1NSqqpotL8)
 - Contribute to the [Constitution](https://github.com/atomone-hub/genesis/blob/a9b9d9d5a2440fb623d3bad3c672ae4754377b00/CONSTITUTION.md)
 - Contribute to the [issue consolidating ideas for the Constitution](https://github.com/atomone-hub/genesis/issues/136)
 - [Join our Discord](https://discord.gg/atomone)
