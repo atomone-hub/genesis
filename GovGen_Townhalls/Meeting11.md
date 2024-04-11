@@ -3,8 +3,10 @@
 ### Date: April 9th, 2024, time TBD
 <br> 
 
-- Link to the [full transcript here] goes here
-- Link to the [full recording here] goes here
+- Link to the [full transcript here](https://docs.google.com/document/d/1JbXFwhQO0TKrRUlx1dOyG_bb0qPFCckHSr4GGx4W19Q/edit?usp=sharing)
+- Link to the [full recording here](https://drive.google.com/file/d/1SyXDFICaa81w00aHvp3OdsgCygKGm5zJ/view?usp=sharing)
+- Link to the [full message log](https://drive.google.com/file/d/1IR4GtMDLKDZYZzUK7g_3-vBjo3kV0RL3/view?usp=sharing)
+
 
 **Main action items**
 
@@ -15,18 +17,43 @@
 - [Help Define ICS](https://github.com/atomone-hub/genesis/issues/66)
 - Consider applying for [open roles](https://jobs.lever.co/allinbits)
 
-<br> 
+**Notice**
 
-**Brief Summary of Discussion will go here**
+- Townhall restarts on the 23rd of April with a bi-monthly cadence.
+- Constitution calls start on the 30th of April, with a bi-monthly cadence.
+- We will still have a Govgen call every week but with different talking points.
+- We are extending the form sign-ups until the 20th of April.
+- We will be using the data from the form to pick a timeslot (or 2) for the Constitution calls
 
-<br>
+<BR>
 
+**Statement**
+
+We are pleased to announce that the AtomOne draft distribution proposal is now finalized and available for community review. You can access it [here](https://github.com/atomone-hub/govgen-proposals/blob/main/001_ATONE_DISTRIBUTION.md)
+
+In accordance with best practices, we are currently focused on completing rigorous code audit processes for both the GovGen dApp and the GovGen chain binaries. To this end, we are working to ensure that all necessary measures are in place for a secure code release process.
+
+Based on our current progress, we anticipate this process to be concluded within the next three weeks.
+Once this is completed, we plan to proceed with the deployment of the GovGen dApp followed shortly after by the release of the AtomOne draft distribution proposal on chain.
+
+Your ongoing contribution and commitment are greatly appreciated as we navigate through these final stages.
+
+<BR><BR>
+**Brief Summary of Discussion**
+
+This call was relatively short with a pending need to audit the AtomOne draft distribution. The Proposal is to go live after auditing for the signing process has happened 
+
+There was some discussion on a need for a disclaimer on the binary within the repo which some engineers offered to implement.
+
+The majority of the call is focused on the signing process and the auditing process that needs to be finished before the proposal can be put on chain.
+
+Further discusson on repeatable deterministic builds and being able to build it using Go 1.21
+
+Last minute suggestion to split the constitution calls into seperate working groups.
+
+
+<BR>
 **Other suggested talking points**
-
-
-<br> 
-
-### Please feel free to add your own talking points here, more to come next week
 
 <br>
 
