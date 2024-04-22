@@ -36,6 +36,11 @@
 - #### GovGen dApp Update
   - deets
 
+- #### Bug Bounty
+  - Launching in coming days
+  - Rewards 200-10k USD per finding
+  - Scope covers Govgen and the governance dApp
+  - Follow on Twitter to receive a link when it launches. Rewards go to the first finder of each vulnerability.
 
 
 - #### Logo Competition Update
