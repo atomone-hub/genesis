@@ -46,11 +46,11 @@
   - deets
 
 - #### GovGen dApp Update
-- Working on going public by finalizing License
-- Working on Main Network launch for dApp
-- Platform has 100% coverage for translations
-- Ramping up additional features to launch for the dApp after Main Network
-- Building a minimalistic Calisto inspired Indexer with a very small footprint
+  - Working on going public by finalizing License
+  - Working on Main Network launch for dApp
+  - Platform has 100% coverage for translations
+  - Ramping up additional features to launch for the dApp after Main Network
+  - Building a minimalistic Calisto inspired Indexer with a very small footprint
 
 - #### Bug Bounty
   - Launching in coming days
