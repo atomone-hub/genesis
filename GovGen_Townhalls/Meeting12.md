@@ -28,7 +28,9 @@
 **Other suggested talking points**
 
 - #### Engineering Update
-  - 
+  - internally reviewing the available initial [constitution.md](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md)
+  - code disclaimers and reproducible build for GovGen
+  - analysis of PHOTON design
 
 - #### Proposal Audit Update
   - deets
