@@ -3,9 +3,9 @@
 ### Date: Date: April 23 2024, 8am PDT
 <br> 
 
-- Link to the [full transcript goes here]
-- Link to the [full recording goes here]
-- Link to the [full message log goes here]
+- Link to the [full transcript](https://docs.google.com/document/d/1lLrhe0pNKTsXMAtkJgOjelKSgwvCtCwLMimteEnDh7I/edit?usp=sharing)
+- Link to the [full recording](https://drive.google.com/file/d/1OgyF0myC90_Yu7hpiogLQcHR_4waOdQG/view?usp=sharing)
+- Link to the [full message log](https://drive.google.com/file/d/1iGB39795fad1aVIgr1C1oPmy2k25ggcF/view?usp=sharing)
 
 
 **Main action items**
@@ -21,11 +21,20 @@
 
 <BR>
 
-**Brief Summary of Discussion goes here**
+**Brief Summary of Discussion**
 
-<br>
-
-**Other suggested talking points**
+- The call starts with an introduction bringing attention to the main action items including the Atom One Design competition and a call for contribution to the Constitution.
+- There was a discussion about efforts to prevent dependency injections in binary distributions, particularly focusing on reproducible builds. The conversation highlighted the reproducibility of builds in Go 1.20 and emphasized the importance of ensuring consistent builds for user confidence.
+- The concept of autostaking, where users stake their tokens to receive rewards, was explained. Two staking methods were detailed: regular staking and autostaking, and discussions revolved around how rewards are distributed among validators based on uptime rather than direct delegation.
+- There was also conversation on ideas to ensure equal rewards for validators performing the same work, regardless of the number of delegations they receive.
+- Discussions also covered maintaining fairness in rewards distribution and preventing economic attacks on the network.
+- The technical implementation of a pool-based delegation system was outlined, where tokens are pooled and distributed among validators based on uptime. This approach aims to simplify delegation for users and promote network security however there were some concerns covered, like how do you define the validator set to begin with?
+- Various ideas for selecting validators were discussed, including validators deciding on new additions or community-driven proposals to expand the validator set based on network needs and performance.
+- The conversation continued to cover various perspectives on incentivizing governance participation, with participants discussing the importance of validation and delegation mechanisms in ensuring network success and security.
+- One participant highlighted the significance of governance participation and suggested considering the the idea of incentivizing governance participation in validating the network's success.
+- Another expressed skepticism towards incentivizing governance participation, arguing that not incentivizing participation might lead to more meaningful engagement and better outcomes. They emphasized the need to preserve proof of stake mechanisms while encouraging intelligent delegation.
+- A third participant proposed a strategy of distributing tokens equally among good validators to ensure network security, with penalties for validators who do not adhere to the rules.
+- The discussion then shifted with a conclusion wrapping up the call focused on updates of the various ongoing projects and initiatives, including the development of the GovGen dapp, a bug bounty programs, and the logo design competition.
 
 - #### Engineering Update
   - internally reviewing the available initial [constitution.md](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md)
@@ -57,7 +66,7 @@
 
 
 - #### Logo Competition Update
-  -   All In Bits is hosting a design competition for the AtomOne project's logo. Participants have three weeks to submit their designs, followed by a week of voting. The competition starts on April 22nd, 2024, and ends on May 31st, 2024. The voting period is from April 22nd to May 20th, 2024.
+  -   All In Bits is hosting a design competition for the AtomOne project's logo. Participants have three weeks to submit their designs, followed by a week of voting. The competition starts on April 22nd, 2024, and ends on May 31st, 2024. Last day to submit is 13th of May.  The voting period is from April 22nd to May 20th, 2024.
   -   Participants must create unique logos that reflect their creativity and innovation. They must submit full-size and short logos, each in three colors (including white and black). Participants can submit up to two entries.
   -   The total prize pool is $28,000, with four grand prizes of $7,000 each. Winners must waive their rights to the intellectual property of their designs in favor of All In Bits, allowing them to use the logos for the AtomOne project.
   -   Participants must have a GitHub account to participate and submit their entries via the dedicated GitHub repository. They must also meet eligibility requirements and agree to transfer their submission's rights to All In Bits if selected as a winner.
@@ -89,6 +98,5 @@
     - **Community Development and Innovation** **Support**: There was significant interest in contributing to crafting guidelines and support systems for innovation within the AtomOne ecosystem, including mentorship programs and collaborations with external partners.
     - **Philosophical and Fundamental Principles**: Some respondents expressed a desire to contribute to defining clear fundamental principles that would guide the constitution and the project as a whole.
     - **Proofreading and Legal Advisory**: A notable number of people expressed interest in proofreading the entire constitution, providing input on specific topics, and offering legal advice regarding the content, structure, and design of the AtomOne Constitution.
-
 
 - Define a process for deciding what time the working group calls are held
