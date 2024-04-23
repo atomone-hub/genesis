@@ -30,6 +30,15 @@
 - #### Engineering Update
   - internally reviewing the available initial [constitution.md](https://github.com/atomone-hub/genesis/blob/main/CONSTITUTION.md)
   - code disclaimers and reproducible build for GovGen
+    - govgen uses go1.20 which provides [reproducible builds](https://go.dev/blog/rebuild) when cgo is disabled
+    - need to align goreleaser and Makefile so they produce the same binary signature
+    
+| Go version | Debian (glibc) | Alpine (musl) | Arch (glibc) | Reproducible build |
+|------------|----------------|---------------|--------------|--------------------|
+| 1.20.14    | c1d25ff        | c1d25ff       |              | ✅              |
+| 1.21.9     | 6bbfd3c        | 6bbfd3c       |              | ✅              |
+| 1.22.2     | 27affed        | 27affed       | 27affed      | ✅           |
+
   - analysis of PHOTON design
 
 - #### Proposal Audit Update
