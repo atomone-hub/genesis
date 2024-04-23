@@ -42,9 +42,6 @@
   - analysis of PHOTON design
   <image src="https://atomone-hub.github.io/govbox/photon-design-draft.png" width="80%">
 
-- #### Proposal Audit Update
-  - deets
-
 - #### GovGen dApp Update
 - Working on going public by finalizing License
 - Working on Main Network launch for dApp
