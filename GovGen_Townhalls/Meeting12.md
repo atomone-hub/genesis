@@ -40,7 +40,7 @@
 | 1.22.2     | 27affed        | 27affed       | 27affed      | ✅           |
 
   - analysis of PHOTON design
-  <image src="https://atomone-hub.github.io/govbox/photo-design-draft.png" width="80%">
+  <image src="https://atomone-hub.github.io/govbox/photon-design-draft.png" width="80%">
 
 - #### Proposal Audit Update
   - deets
