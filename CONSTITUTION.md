@@ -10,7 +10,9 @@ description of the constitution of the hub._
 ## Preamble
 
 > TO DO: 
-> - Add Vision and Mission statement for AtomOne Hub and a bit of history for context for newcomers; a “Declaration of intent” (note however that we have Article 1.3 for stating the mission)
+> - Add Vision and Mission statement for AtomOne Hub and a bit of history for
+>   context for newcomers; a “Declaration of intent” (note however that we have
+>   Article 1.3 for stating the mission)
 
 
 We, the people of the Cosmos, in order to create a free world, enable voluntary
