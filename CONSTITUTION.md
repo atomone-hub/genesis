@@ -725,14 +725,10 @@ two-thirds supermajority of AtomOne Hub governance.
   organization's success, productivity, and profitability. They serve as a tool
   for motivating and retaining key individuals by linking their financial
       rewards to the organization's performance.
-- **Security bonds**: In an organizational context are financial instruments
-  issued by an organization as a means of raising capital, which obligate the
-  issuer to pay the bondholders a fixed interest over a specified period and to
-  return the principal amount on the bond's maturity date. These bonds are used
-  to finance operations, projects, or expansions and are considered a form of
-  debt security. They provide a relatively secure investment for bondholders,
-  offering predictable returns and prioritizing their claims over equity
-  holders in case of the organization's liquidation.
+- **Security bonds**: Assets that are at stake and collateralized that are made
+  non transferable for the purpose of slashing or use as collateral for paying
+  victims in the event of faulty consensus votes and qualified governance
+  faults or other provable misbehavior.
 - **Shard**: a partition of the blockchain network that allows for parallel
   processing of transactions. In the context of Cosmos, a shard is simply a
   blockchain.
