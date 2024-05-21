@@ -417,10 +417,9 @@ Hub.
 >   Celestia multisig?
 
 
-> TODO:
-> 
+> [!NOTE]
 > The text below on $PHOTON is for now just a copy-paste of relevant text from
-> the README.md, it requires mering
+> the [README.md](https://github.com/atomone-hub/genesis/blob/main/README.md), it requires merging.
 
 
 By default, Consumer chains can accept any fees token, it’s possible for the
