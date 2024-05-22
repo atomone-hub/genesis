@@ -596,175 +596,195 @@ two-thirds supermajority of AtomOne Hub governance.
 
 ## Defined Terms
 
-- **$ATONE**: the primary staking token for AtomOne. The ATONE token functions 
-  as voting shares, economic incentive shares, and security bonds for the 
+- **$ATONE** - the primary staking token for AtomOne. The ATONE token functions
+  as voting shares, economic incentive shares, and security bonds for the
   AtomOne Hub.
-- **$PHOTON**: the liquid staking token for AtomOne.
-- **$phATOM**: the liquid staking token for Gaia offered on AtomOne for $ATOM
-  (not $ATONE).
-- **Additive**: When used in the context of software, it means that it does not
-  require modifying existing primitives
-- **Airdrop**: a distribution of tokens to some accounts based on predefined
+- **$PHOTON** - the liquid staking token for AtomOne.
+- **$phATOM** - the liquid staking token for Cosmos Hub Gaia offered on AtomOne
+  for $ATOM (not $ATONE).
+- **Additive** - when used in the context of software, it means that it does
+  not require modifying existing primitives.
+- **Airdrop** - a distribution of tokens to some accounts based on predefined
   criterias. May be distributed automatically at genesis or post-launch, and
   may require one or more claim transactions from the accounts, or some other
-  predefined action. 
-- **AtomOne Hub**: an opinionated fork of the Cosmos Hub Gaia. It is a minimal
+  predefined action.
+- **AtomOne Hub** - an opinionated fork of the Cosmos Hub Gaia. It is a minimal
   IBC-token-pegging and ICS hosting hub.
-- **BFT**: Byzantine Fault Tolerant, property of distributed systems that
+- **BFT** - Byzantine Fault Tolerant, property of distributed systems that
   brings resilience over Byzantine faults.
-- **Bonding**: In Proof of Stake, Bonding is the process of locking one’s token
-  to a validator node in order to help secure the network. Also known as
-  “staking”.
-- **Bonded Share Unit**: A static representation of a delegator bonded stake in
-  relation to the total stake of the validators to whom he/she has delegated.
-  The Bonded Share Unit quantifies the delegator's claim on the rewards and
-  risks associated with the validator's performance. The total number of Bonded
-  Share Units held by a delegator is fixed unless changes occur due to
-  redelegation or slashing events. It remains unaffected by the validator's
-  total stake unless these specific actions are taken.
-- **Citizen**: Cosmonaut that has staked his ATONEs toward the AtomeOne Hub,
+- **Bonding** - in delegated Proof of Stake, Bonding is the process of locking
+  one’s token to a validator node in order to help secure the network and
+  attain governance voting rights. Also known as “staking”.
+- **Bonded Share Unit** - a static representation of a delegator bonded stake
+  in relation to the total stake of the validators to whom he/she has
+  delegated. The Bonded Share Unit quantifies the delegator's claim on the
+  rewards and risks associated with the validator's performance. The total
+  number of Bonded Share Units held by a delegator is fixed unless changes
+  occur due to redelegation or slashing events. It remains unaffected by the
+  validator's total stake unless these specific actions are taken.
+- **Citizen** - Cosmonaut that has staked his ATONEs toward the AtomeOne Hub,
   participating in the security of the network and in governance.
-- **Constitutional Majority**: See **Majority**
-- **Community Pool**: A community pool is an allocation set aside by the
-  protocol that is continuously growing through the means of a tiny percentage
-  of fees on transactions executed throughout the network. They can be used to
-  fund community-driven initiatives, such as development projects, marketing
-  campaigns, or community events. 
-- **Consumer Shards**: ICS-secured chains that retain full sovereignty due to
-  their own governance and they are in client relationship with AtomOne Hub. 
-- **Core Shards**: ICS-secured chains that function as an extension of
-  functionality of the AtomOne Hub, these consumer chains are completely
-  controlled by the AtomOne Hub.
-- **Cosmonaut**: a participant of the Cosmos, incumbent and token holder of any
-  Cosmos ecosystem token
-- **Cosmos**: the interchain network composed of many sovereign zones connected
-  by IBC.
-- **DAO**: Decentralized Autonomous Organization
-- **Fork**: In the context of blockchain, a fork is a copy of an existing
-  blockchain’s distribution and software, with potential modifications and
-  usually a different chain identifier than the original.
-- **Governor**: a type of account that can have tokens’ governance voting power
-  delegated to them.
-- **IBC**: short for Inter-Blockchain Communication, is a protocol that enables
-  communication between different blockchain networks using Byzantine Fault
-  Tolerant (BFT) light client proofs. It allows for the transfer of assets and
-  information across independent blockchains, fostering interoperability and
-  flexibility in the blockchain ecosystem. IBC is a cornerstone of the Cosmos
-  network's architecture, enabling its vision of an 'Internet of Blockchains'.
-- **ICS1**: ICS1 short for Inter-Blockchain Security version one, also known as
-  Simple Replicated Security, includes all protocols where the validator set is
-  simply replicated across multiple blockchains, and slash conditions are
-  always submitted to a root chain. 
-- **ICS2**: ICS2 short for Inter-Blockchain Security version two, includes all
-  protocols where slash conditions for complex failure scenarios of one
-  validator set are handled by another validator set, where slashing affects
-  tokens on the latter validator set.
-- **ICS-secured chain**: a chain that borrows security from the validator set
-  of the AtomOne Hub by replicating it either fully or partially.
-- **Interchain Accounts (if we include it)**: a CosmosSDK module that allows an
-  IBC-connected chain to hold an account on another chain and perform
-  transactions through a remote account on the other chain.
-- **Liberty**: “The condition of being free from oppressive restriction or
-  control by a government or other power.”
-- **Liquid Staking**: A protocol that allows users to receive a tradeable 
-  derivative token in exchange for native staking tokens that are autonomously
-  bonded by the protocol or by delegated entity. These derivative tokens
-  represent some claim on the underlying bonded tokens and may accrue rewards.
-- **Majority**: The specified percentage of affirmative votes (YES votes) among
-  bonded ATONEs required for a proposal to be approved at the end of the voting
-  period. This approval is contingent upon the voting participation meeting or
-  exceeding a predefined quorum value.
-    - **Simple majority**: A simple majority is achieved when more than 50% of
-      total votes is in favor (YES votes). This threshold definition cannot be
-      changed even with a Constitutional Majority.
-    - **Supermajority of Two-Thirds**: The Supermajority is defined to be
-      exactly "more than two thirds" (+2/3, or at least one iota more than two
-      thirds) and cannot change even by a Constitutional Majority.
-    - **Constitutional majority**: The Constitutional Majority is initially set
-      at 90%. The Constitutional Majority cannot be lowered lower than 90% even
-      with a Constitutional Majority, but it may be set to any value between
-      90% and 100%. This elevated threshold aims to ensure broader agreement
-      and inclusivity in critical decision-making processes. It reflects a
-      commitment to achieving near-unanimous consensus on essential governance
-      decisions, enhancing the legitimacy and stability of the outcomes.
-
-> TO DO:
-> - Decide whether ABSTAIN votes do not count toward a Constitutional Majority
-> - Quorum values
-
-- **Person**: In juridical terms, a person is an entity that has legal rights
-  and obligations. The concept of a person includes both natural persons and
-  juridical (or legal) persons. A natural person is a human being with legal
-  capacity to have rights and duties. A juridical person, also known as an
-  artificial or legal person, is an entity created by law that is recognized as
-  having legal rights and duties similar to those of a natural person.
-- **Property**: “The exclusive right to possess, enjoy, and dispose of a
-  thing.”
-- **Proposal**: In the context of blockchain, a proposal refers to a document
-  that requires deliberation in the form of voting from a blockchain governance
-  structure. It is a formal request for funding, resources, or support to bring
-  a specific project or idea to life or to make changes or updates to the
-  existing software and parameters. A proposal has a voting period in which
-  every citizen can participate, and after which it is considered approved or
-  rejected depending on the tally of votes and some predefined thresholds. 
-- **Quantum Computing**: Quantum computing is a multidisciplinary field
-  comprising aspects of computer science, physics, and mathematics that
-  utilizes quantum mechanics to solve complex problems faster than on classical
-  computers. This has implications for blockchain technology that are worth
-  exploring.  Root Hub Chain**: It is the chain where $ATONE staking and
-  AtomOne Hub Governance transactions are committed and executed. It is also
-  the chain acting as ICS provider.
-- **Voting shares**: Units of ownership in an organization that confer the
-  right to vote on organizational matters, such as making decisions on policies
-  and other significant issues that require stakeholder approval. These shares
-  are typically distributed among stakeholders (e.g., shareholders in a
-  corporation or members of a cooperative) and serve as a mechanism for
-  democratic participation and governance within the organization.
-- **Economic incentive shares**: Units of ownership or participation in an
+- **Community Pool** - a community pool is an allocation set aside by the
+  protocol that is continuously growing through the means of a fixed percentage
+  of fees on transactions executed throughout the network and inflationary
+  rewards. They can be used to fund community-driven initiatives, such as
+  development projects, marketing campaigns, or community events. It can be
+  considered as the budget of the network.
+- **Constitutional Majority** - see **Majority**.
+- **Consumer Shards** - see **Shard**.
+- **Core Shards** - see **Shard**.
+- **Cosmonaut** - a participant of the Cosmos Ecosystem, incumbent and token
+  holder of any Cosmos Ecosystem token.
+- **Cosmos** - the interchain network composed of many sovereign zones
+  connected by IBC.
+- **DAO** - Decentralized Autonomous Organization
+- **Economic incentive shares** - units of ownership or participation in an
   organization designed to align the financial interests of individuals (such
   as employees, managers, or stakeholders) with the long-term goals and
   performance of the organization. These shares provide economic benefits, such
   as dividends or profit-sharing, to incentivize behavior that promotes the
   organization's success, productivity, and profitability. They serve as a tool
   for motivating and retaining key individuals by linking their financial
-      rewards to the organization's performance.
-- **Security bonds**: Assets that are at stake and collateralized that are made
-  non transferable for the purpose of slashing or use as collateral for paying
-  victims in the event of faulty consensus votes and qualified governance
-  faults or other provable misbehavior.
-- **Shard**: a partition of the blockchain network that allows for parallel
-  processing of transactions. In the context of Cosmos, a shard is simply a
-  blockchain.
-- **Simple Majority**: See **Majority**.
-- **Slashing**: In Proof of Stake, slashing refers to the process of penalizing
-  validators for misbehaving or engaging in malicious activities.
-- **Supermajority**: See **Majority**.
-- **TreasuryDAO**: 
+  rewards to the organization's performance.
+- **Fork** - in the context of blockchain, a fork is a copy of an existing
+  blockchain’s distribution and software, with potential modifications and
+  usually a different chain identifier than the original.
+- **Governor** - a type of account that can have tokens’ governance voting
+  power delegated to them.
+- **IBC** - short for Inter-Blockchain Communication, is a protocol that
+  enables communication between different blockchain networks using Byzantine
+  Fault Tolerant (BFT) light-client proofs. It allows for the transfer of
+  assets and information across independent blockchains, fostering
+  interoperability and flexibility in the blockchain ecosystem. IBC is a
+  cornerstone of the Cosmos network's architecture, enabling its vision of an
+  'Internet of Blockchains'.
+- **ICS1** - ICS1 short for Inter-Blockchain Security version one, also known
+  as Simple Replicated Security, includes all protocols where the validator set
+  is simply replicated across multiple blockchains, and slash conditions are
+  always submitted to a root chain. 
+- **ICS2** - ICS2 short for Inter-Blockchain Security version two, includes all
+  protocols where slash conditions for complex failure scenarios of one
+  validator set are handled by another validator set, where slashing affects
+  tokens on the latter validator set.
+  - **ICS2A** - includes all protocols of ICS2 where stake is entirely managed
+    by the AtomOne Hub (in the form of ATONEs or other derivatives).
+  - **ICS2B** - includes all protocols of ICS2 where stake is entirely managed
+    by the logic of the other chain.
+- **ICS-secured chain** - a chain that borrows security from the validator set
+  of the AtomOne Hub by replicating it either fully or partially.
+- **Interchain Accounts (if we include it)** - a Cosmos-SDK module that allows
+  an IBC-connected chain to hold an account on another chain and perform
+  transactions on this other chain.
+- **Liberty** - “the condition of being free from oppressive restriction or
+  control by a government or other power.”
+- **Liquid Staking** - a protocol that allows users to receive a tradeable
+  derivative token in exchange for native staking tokens that are autonomously
+  bonded by the protocol or by delegated entity. These derivative tokens
+  represent some claim on the underlying bonded tokens and may accrue rewards.
+- **Majority** - the specified percentage of affirmative votes (YES votes)
+  among bonded ATONEs required for a proposal to be approved at the end of the
+  voting period. This approval is contingent upon the voting participation
+  meeting or exceeding a predefined quorum value.
+  - **Constitutional majority** - the Constitutional Majority is initially set
+    at 90%. The Constitutional Majority cannot be made lower than 90% even with
+    a Constitutional Majority, but it may be set to any value between 90% and
+    100%. This elevated threshold aims to ensure broader agreement and
+    inclusivity in critical decision-making processes. It reflects a commitment
+    to achieving near-unanimous consensus on essential governance decisions,
+    enhancing the legitimacy and stability of the outcomes.
+  - **Simple majority** - a simple majority is achieved when more than 50% of
+    total votes is in favor (YES votes). This threshold definition cannot be
+    changed even with a Constitutional Majority.
+  - **Supermajority of Two-Thirds** - the Supermajority is defined to be
+    exactly "more than two thirds" (+2/3, or at least one iota more than two
+    thirds) and cannot change even by a Constitutional Majority.
+
+> TO DO:
+> - Decide whether ABSTAIN votes do not count toward Majority
+
+- **Person** - in juridical terms, a person is an entity that has legal rights
+  and obligations. The concept of a person includes both natural persons and
+  juridical (or legal) persons. A natural person is a human being with legal
+  capacity to have rights and duties. A juridical person, also known as an
+  artificial or legal person, is an entity created by law that is recognized as
+  having legal rights and duties similar to those of a natural person.
+- **Property** - “the exclusive right to possess, enjoy, and dispose of a
+  thing.”
+- **Proposal** - in the context of blockchain, a proposal refers to a document
+  that requires deliberation in the form of voting from a blockchain governance
+  structure. It is a formal request for funding, resources, or support to bring
+  a specific project or idea to life or to make changes or updates to the
+  existing software, parameters and foundational documents. A proposal may have
+  a voting period in which any entity with voting power can participate, and
+  after which it is considered approved or rejected depending on the tally of
+  votes and some predefined thresholds. 
+- **Quantum Computing** - quantum computing is a multidisciplinary field
+  comprising aspects of computer science, physics, and mathematics that
+  utilizes quantum mechanics to solve complex problems faster than on classical
+  computers. This may have implications for blockchain technology that are
+  worth exploring.
+- **Quorum** - Percentage that represents the vote participation threshold on a
+  proposal over the total existing voting power. . Whatever the final vote
+  results are, a proposal is automatically rejected if the quorum is not
+  reached. 
+- **Root Hub Chain** - see **Root Shard**.
+- **Root Shard** - see **Shard**.
+- **Security bonds** - assets that are at stake and collateralized that are
+  made non transferable for the purpose of slashing or use as collateral for
+  paying victims in the event of faulty consensus votes and qualified
+  governance faults or other provable misbehavior.
+- **Shard** - a partition of the blockchain network that allows for
+  parallel processing of transactions. In the context of Cosmos, a shard is
+  simply a blockchain.
+  - **Root Shard** - it is the chain where $ATONE staking and AtomOne Hub
+    Governance transactions are committed and executed. It is also the chain
+    acting as ICS provider.
+  - **Core Shards** - ICS-secured chains that function as an extension of
+    functionality of the AtomOne Hub, these consumer chains are completely
+    controlled by the AtomOne Hub.
+  - **Consumer Shards** - ICS-secured chains that retain full sovereignty due
+    to their own governance and they are in a client relationship with AtomOne
+    Hub.
+- **Simple Majority** - See **Majority**.
+- **Slashing** - in Proof of Stake, slashing refers to the process of
+  penalizing validators and delegators for misbehaving or engaging in malicious
+  activities.
+- **Supermajority** - See **Majority**.
+- **TreasuryDAO** -
 
 > TO DO:
 > - to clarify TreasuryDAO
 
-- **Unbonding**: In Proof of Stake, Unbonding is the process of withdrawing
-  one’s stake from a blockchain network. Unbonding is the beginning of the
-  process and then it falls into what is called an “unbonding period.”
-- **Unbonding Period**: The unbonding period is a time frame during which a
+- **Unbonding** - in Proof of Stake, Unbonding is the process of withdrawing
+  one’s stake from its bonded state to receive fungible tokens. Unbonding is
+  also the action performed in order to initiate this process, which includes
+  the “unbonding period.”
+- **Unbonding Period** - the unbonding period is a time frame during which a
   staker’s coins are locked on the blockchain after being unbonded and cannot
   be used in any transaction or earn further staking rewards. This is the
   estimated maximum amount of time it will take to detect misbehavior and still
-  be able to slash the author of the misbehavior.
-- **Validator**: A validator is a crucial part of a blockchain network,
+  be able to slash the author of such misbehavior. The unbonding period should
+  be longer than Governance voting periods in order to allow Governance to
+  react in time whenever required.
+- **Validator** - a validator is a crucial part of a blockchain network,
   particularly in Proof-of-Stake (PoS) consensus mechanisms. They play a vital
   role in verifying transactions and adding them to the blockchain. Validators
   are responsible for confirming the authenticity and accuracy of transaction
   records, ensuring the integrity and security of the network.
-- **VM**: A virtual machine (VM) in the context of programming is an abstract
- computing machine that enables a computer program to be executed in a
- consistent, platform-independent manner. This VM provides a layer of
- abstraction between the executing program and the underlying hardware,
- typically interpreting or compiling the program's code at runtime, thus
- ensuring portability and compatibility across different hardware and operating
- systems.
-- **ZK**: a zero-knowledge proof or zero-knowledge protocol is a method by
+- **VM** - a virtual machine (VM) in the context of programming is an abstract
+  computing machine that enables a computer program to be executed in a
+  consistent, platform-independent manner. This VM provides a layer of
+  abstraction between the executing program and the underlying hardware,
+  typically interpreting or compiling the program's code at runtime, thus
+  ensuring portability and compatibility across different hardware and
+  operating systems.
+- **Voting shares** - units of ownership in an organization that confer the
+  right to vote on organizational matters, such as making decisions on policies
+  and other significant issues that require stakeholder approval. These shares
+  are typically distributed among stakeholders (e.g., shareholders in a
+  corporation or members of a cooperative) and serve as a mechanism for
+  democratic participation and governance within the organization.
+- **ZK** - a zero-knowledge proof or zero-knowledge protocol is a method by
   which one party (the prover) can prove to another party (the verifier) that a
   given statement is true, while avoiding conveying to the verifier any
   information beyond the mere fact of the statement's truth. The intuition
@@ -772,9 +792,7 @@ two-thirds supermajority of AtomOne Hub governance.
   possession of certain information by simply revealing it; the challenge is to
   prove this possession without revealing the information, or any aspect of it
   whatsoever.
-- **(Sovereign) Zone**: A sovereign zone is an independent blockchain (or an
+- **(Sovereign) Zone** - a (sovereign) zone is an independent blockchain (or an
   application hosted on a parent chain) with a well-defined governing body or
   bodies that dictate the governance and economic rules internal to that zone.
   By definition, a zone is sovereign or partially sovereign.
-- **Ed25519 and Secp256k1 elliptic curves, and RIPEMD160 and SHA256 hash
-  functions.
