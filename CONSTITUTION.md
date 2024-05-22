@@ -27,7 +27,7 @@ AtomOne Hub.
 The vision of AtomOne Hub is to be a minimal, secure, and resilient fork of the
 Cosmos Hub (Gaia), providing a reliable alternative that champions sovereignty,
 security, and decentralization. AtomOne aims to complement the broader Cosmos
-ecosystem while introducing innovative solutions and perspectives, fostering a
+Ecosystem while introducing innovative solutions and perspectives, fostering a
 diverse ecosystem of specialized zones in cooperation and competition.
 
 By providing a secure and minimal alternative to the existing Cosmos Hub,
@@ -40,7 +40,7 @@ tokenomics and security design.
 
 The AtomOne Hub is established to serve as the canonical minimal IBC/ICS token
 hub and a base for a more intelligent and unified voting bloc to safeguard the
-Cosmos ecosystem. By aligning with these ideals and fostering a diverse and
+Cosmos Ecosystem. By aligning with these ideals and fostering a diverse and
 cooperative environment, AtomOne Hub strives to set a new precedent for
 adaptive and responsive self-organization in the multichain, multitoken
 universe of the Cosmos.
@@ -173,8 +173,8 @@ following functions:
 - IBC token transfers
 - ICS1 and ICS2 management
 
-The hub shall not be used for experimentation. Experimentation should occur in
-other zones.
+The root hub chain shall not be used for experimentation. Experimentation
+should occur in other zones.
 
 ### Section 2: AtomOne Hub Governance
 
@@ -378,11 +378,11 @@ simple majority of the AtomOne Hub on a per-case basis up to 100%.
 
 ### Section 3: “Liquid Staking”
 
-For purposes of this Constitution we distinguish Liquid Staking from staking as
-the protocol or application that provides tradeable derivative tokens in
-exchange for native staking tokens, which are autonomously bonded by the
-protocol. The derivative token represents a claim on the underlying bonded
-tokens and accrued rewards.
+For purposes of this Constitution we classify Liquid Staking as a protocol or
+application that allows users to receive a tradeable derivative token in
+exchange for native staking tokens that are autonomously bonded by the protocol
+or by delegated entity. These derivative tokens represent some claim on the
+underlying bonded tokens and may accrue rewards.
 
 Liquid staking may only be supported through interchain accounts (aka
 non-native liquid staking).
@@ -596,10 +596,10 @@ two-thirds supermajority of AtomOne Hub governance.
 
 ## Defined Terms
 
-- **$ATONE**: the primary staking token for AtomOne. Previously known as
-  $ATOM1.
-- **$PHOTON**: the liquid staking token for AtomOne. Previously known as
-  $phATOM1 or $phATONE. the latest in tokenomics design.
+- **$ATONE**: the primary staking token for AtomOne. The ATONE token functions 
+  as voting shares, economic incentive shares, and security bonds for the 
+  AtomOne Hub.
+- **$PHOTON**: the liquid staking token for AtomOne.
 - **$phATOM**: the liquid staking token for Gaia offered on AtomOne for $ATOM
   (not $ATONE).
 - **Additive**: When used in the context of software, it means that it does not
@@ -615,11 +615,13 @@ two-thirds supermajority of AtomOne Hub governance.
 - **Bonding**: In Proof of Stake, Bonding is the process of locking one’s token
   to a validator node in order to help secure the network. Also known as
   “staking”.
-- **Bonded Share Unit**: “Represents percentage units; the intent is to
-  introduce a unit that represents this non inflationary view of the token.
-  There is an already existing unit in the code. The internal representation
-  that is not inflationary, that is proportional to the fraction of the ATONE
-  that you have.”
+- **Bonded Share Unit**: A static representation of a delegator bonded stake in
+  relation to the total stake of the validators to whom he/she has delegated.
+  The Bonded Share Unit quantifies the delegator's claim on the rewards and
+  risks associated with the validator's performance. The total number of Bonded
+  Share Units held by a delegator is fixed unless changes occur due to
+  redelegation or slashing events. It remains unaffected by the validator's
+  total stake unless these specific actions are taken.
 - **Citizen**: Cosmonaut that has staked his ATONEs toward the AtomeOne Hub,
   participating in the security of the network and in governance.
 - **Constitutional Majority**: See **Majority**
@@ -664,9 +666,10 @@ two-thirds supermajority of AtomOne Hub governance.
   transactions through a remote account on the other chain.
 - **Liberty**: “The condition of being free from oppressive restriction or
   control by a government or other power.”
-- **Liquid Staking**: A protocol that allows users to receive a tradeable
+- **Liquid Staking**: A protocol that allows users to receive a tradeable 
   derivative token in exchange for native staking tokens that are autonomously
-  bonded by the protocol.
+  bonded by the protocol or by delegated entity. These derivative tokens
+  represent some claim on the underlying bonded tokens and may accrue rewards.
 - **Majority**: The specified percentage of affirmative votes (YES votes) among
   bonded ATONEs required for a proposal to be approved at the end of the voting
   period. This approval is contingent upon the voting participation meeting or
@@ -754,8 +757,13 @@ two-thirds supermajority of AtomOne Hub governance.
   role in verifying transactions and adding them to the blockchain. Validators
   are responsible for confirming the authenticity and accuracy of transaction
   records, ensuring the integrity and security of the network.
-- **VM**: short for virtual machine, a VM is a compute resource that uses
-  software instead of a physical computer to run programs and deploy apps
+- **VM**: A virtual machine (VM) in the context of programming is an abstract
+ computing machine that enables a computer program to be executed in a
+ consistent, platform-independent manner. This VM provides a layer of
+ abstraction between the executing program and the underlying hardware,
+ typically interpreting or compiling the program's code at runtime, thus
+ ensuring portability and compatibility across different hardware and operating
+ systems.
 - **ZK**: a zero-knowledge proof or zero-knowledge protocol is a method by
   which one party (the prover) can prove to another party (the verifier) that a
   given statement is true, while avoiding conveying to the verifier any
