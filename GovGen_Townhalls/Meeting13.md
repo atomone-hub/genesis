@@ -34,7 +34,7 @@
     - ATONE Token
     - PHOTON design
   - [Application form, opened to all community members](https://docs.google.com/forms/d/e/1FAIpQLScMUf_Jp7iWDObx5efWEwn4wCF08Z3JjkJd0_XzdHI_ZKEzRA/viewform?usp=pp_url)
-  - [Check out the Blog post for more information](link)
+  - [Check out the Blog post for more information](https://allinbits.com/blog/atomone-constitution-update-on-progress/)
   
 - #### Logo Competition Update
   - 53 submissions
