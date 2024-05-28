@@ -3,9 +3,9 @@
 ### Date: Date: May 28th 2024, 9am PDT
 <br> 
 
-- Link to the [full transcript](goes here)
-- Link to the [full recording](goes here)
-- Link to the [full message log](goes here)
+- Link to the [full transcript](https://drive.google.com/file/d/1TYjwKrgMsh0a5GwhnJ8Rt2QX7TSAInK4/view)
+- Link to the [full recording](https://drive.google.com/file/d/1_a4waq1-F-4zoZfDrli0GqnwO-MSNqlU/view?usp=sharing)
+- Link to the [full message log](https://docs.google.com/document/d/1BfPSbYXCk5Z62Hi5erq_SKlalEuNA0PSAdblfe8Qjwc/edit#heading=h.m2j8z83d9x4l)
 
 
 **Main action items**
@@ -18,7 +18,7 @@
 
 <BR>
 
-**Brief Summary of Discussion goes here**
+**Brief Summary of Discussion**
 
 - #### AtomOne Proposed Working Groups
   - Objective and community support: Strong backing for establishing a Constitution to define community’s rights, liberties, obligations, governance, economics, and implementation for the proposed AtomOne chain
@@ -35,6 +35,12 @@
     - PHOTON design
   - [Application form, opened to all community members](https://docs.google.com/forms/d/e/1FAIpQLScMUf_Jp7iWDObx5efWEwn4wCF08Z3JjkJd0_XzdHI_ZKEzRA/viewform?usp=pp_url)
   - [Check out the Blog post for more information](https://allinbits.com/blog/atomone-constitution-update-on-progress/)
+ 
+  - The proposal for the ATO token distribution is delayed due to technical security reviews and other factors. One additional reason for the delay is the reconsideration of how tokens are allocated, instead of excluding the Interchain Foundation (ICF) entirely, there is a suggestion to distribute tokens between the community pool and the first treasury, to foster initial funding and planned usage for these resources.
+
+  - Discussion on notable issues with the management and transparency of funds within the Cosmos ecosystem, particularly concerning the ICF and the AADAO. Issues include conflicts of interest and a lack of transparency in project funding. A recent election within the community highlighted these concerns, but also showed positive steps toward addressing conflicts of interest.
+
+  - The community is urged to join the treasury DAO working group to help define and improve the operations of DAOs, ensuring transparent and appropriate use of community funds. Emphasis is placed on the importance of constructive feedback and participation from those concerned with how the ICF and the DAO manage funds, advocating for greater community involvement in these processes.
   
 - #### Logo Competition Update
   - 53 submissions
