@@ -169,7 +169,7 @@ Treasury DAOs by simple majority vote.
 
 The operations of the Treasury DAO must operate on an ICS secured zone outside
 of the hub. As an exception, the tokens of the Treasury DAO may reside on the
-the AtomOne Hub as a m-of-n multisig account where n is at least 3 and m is at
+AtomOne Hub as a m-of-n multisig account where n is at least 3 and m is at
 least 1/2 of n, where each signatory is an authorized member of the Treasury
 DAO and Citizen of the AtomOne Hub.
 
