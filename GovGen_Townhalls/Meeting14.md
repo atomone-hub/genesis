@@ -21,15 +21,3 @@
 - #### Proposed AtomOne Roadmap Discussion
   - [Notes go here]
 
-- #### Engineering Update
-  - 
-
-- #### GovGen proposal updates
-  - 
-
-- #### Security Updates
-  -
-
-- #### GovGen dApp:
-  -
-
