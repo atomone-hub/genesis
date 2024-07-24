@@ -3,9 +3,9 @@
 ### Date: Date: July 23rd, 9am PDT
 <br> 
 
-- Link to the [full transcript goes here]
-- Link to the [full recording goes here]
-- Link to the [full message log goes here]
+- Link to the [full transcript](https://docs.google.com/document/d/1RV7kyg0bnKoMlWOnsnXY16mC8EM_lEkwI54O32vSE_k/edit?usp=sharing)
+- Link to the [full recording](https://drive.google.com/file/d/1pL-l5rsHVdlMw2vsxOkw7_tGOVtocwlA/view?usp=drive_link)
+- Link to the [full message log](https://drive.google.com/file/d/1brMmpqfaQCbpdvGOs_EWLvebQSvwn3yT/view)
 
 
 **Main action items**
