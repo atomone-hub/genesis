@@ -101,7 +101,7 @@ to stake ATONE tokens towards the AtomOne Hub and participate in governance.
 The Liberty and Property of all Cosmonauts engaging in the AtomOne Hub is
 hereby guaranteed. Any restriction to the Liberty and Property of Cosmonauts on
 the AtomOne Hub shall be done only through the AtomOne Hub's governance and
-requires a Constitutional Majority to pass an amendment to the constitution and
+requires a Constitutional Majority to pass an amendment to the Constitution and
 optionally a set of laws specifying its enforcement.
 
 Every Cosmonaut is entitled to participation rights from their engagement in
@@ -208,7 +208,7 @@ that are not Core DAOs or Special Purpose DAOs or Descendants of these DAOs
 need not implement these specifications.
 
 All sub-DAOs have parent DAOs. The parent DAO of the Core DAOs and Special
-Purpose DAOs are the governance of the AtomOne Hub itself. Therefore all Core
+Purpose DAOs are the governance of the AtomOne Hub itself. Therefore, all Core
 DAOs and Special Purpose DAOs as well as their sub-DAOs and the Hub Governance
 itself altogether form a tree structure. The parent DAO and the parent DAO’s
 parent DAO and so on, all the way up to Hub Governance are altogether called
@@ -291,7 +291,7 @@ must have public and known real human identities.
 Members are encouraged to engage in multiple DAOs within the AtomOne Hub to
 foster collaboration, innovation, and the exchange of ideas. However, to
 maintain the integrity of governance, members must declare their conflicts of
-interest  and are required to comply with the conflict of interest policies
+interest and are required to comply with the conflict of interest policies
 outlined in this Constitution, the Laws, and applicable Governing Documents.
 Members must recuse themselves by not voting or voting ABSTAIN on proposals
 that pose a conflict of interest.
@@ -338,7 +338,7 @@ proposal timelines must be defined to prevent abuse.
 Upon genesis there will be no Steering DAO. A Steering DAO may be created,
 dismissed, or replaced by a Supermajority vote on AtomOne hub governance. 
 
-For the purpose of cohesion, before the Steering DAO can be created (or
+For the purpose of cohesion, before the Steering DAO can be officially created (or
 replaced), its initial (or new) set of Council members must have all agreed to
 joining that Council by cryptographically signing a list of all the council
 members, along with the DAO’s identifier.
@@ -347,7 +347,7 @@ members, along with the DAO’s identifier.
 
 An Oversight DAO is responsible for ensuring that all laws, bylaws, mandates,
 and core DAO governance proposals as well as AtomOne Hub governance proposals
-within the scope of its mandate) are in compliance with their respective
+(within the scope of its mandate) are in compliance with their respective
 Governing Documents. 
 
 There can be one or more Oversight DAOs.
@@ -365,7 +365,7 @@ Any Oversight DAO can (within the scope of its mandate):
   law, or specific proposal types with the same criteria as passing new law.
 
 The broad veto power of Oversight DAOs ensures that no single proposal can
-override constitutional principles or violate the Constitution, but vetoes
+override constitutional principles or violate this Constitution, but vetoes
 should be used sparingly and with justification.
 
 Upon genesis there will be no Oversight DAOs. An Oversight DAO may be created,
@@ -393,7 +393,7 @@ for at least one month) should retain the name while other forks change their
 The AtomOne Hub Governance may establish and fund one or more transparent and
 accountable Special Purpose DAOs by Supermajority vote. Each Special Purpose
 DAO must have an established Charter outlining its purpose, description,
-bylaws, and mandates before it can be approved or funded.
+Bylaws, and Mandates before it can be approved or funded.
 
 Upon genesis, the **BUIDLDAO** will be the only Special Purpose DAO, but it
 will initially have no council members.
@@ -415,7 +415,7 @@ engagement. The grant proposal process involves community discussion, feedback,
 and voting to ensure broad support and alignment with the Hub’s goals.
 
 **Strategic Investments**  BUIDLDAO will not directly make strategic
-investments. Investments must be made by a special purpose DAO created for the
+investments. Investments must be made by a Special Purpose DAO created for the
 purpose of making investments.
 
 ## Article 3: Economics
