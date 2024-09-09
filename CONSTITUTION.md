@@ -215,11 +215,6 @@ parent DAO and so on, all the way up to Hub Governance are altogether called
 the Ancestors of a DAO. The sub-DAOs and their sub-DAOs and so on are called
 the Descendants of a DAO.
 
-~~Cousin DAOs are those that share a common ancestor but do not have a direct
-parent-child relationship.  For example, if DAO A creates sub-DAO B and sub-DAO
-C, B and C would be considered Cousin DAOs, as they stem from the same parent
-but operate independently of each other.~~
-
 Every DAO, upon creation, must have a Charter (which is composed of Purpose and
 Description), an initial set of Council members (which may be empty) and may
 also have  Bylaws and Mandates, The Purpose and Description must be plaintext
@@ -300,21 +295,6 @@ interest  and are required to comply with the conflict of interest policies
 outlined in this Constitution, the Laws, and applicable Governing Documents.
 Members must recuse themselves by not voting or voting ABSTAIN on proposals
 that pose a conflict of interest.
-
-~~cannot occupy multiple roles within DAOs that have a direct parent-child
-relationship. This safeguard is designed to avoid conflicts of interest and
-ensure independent decision-making across interconnected DAOs.~~
-
-~~Members are permitted to participate in Cousin DAOs, but they are limited to
-holding only one specific type of role within each DAO and its sub-DAOs. For
-example, if a member holds a “council member” role in DAO A, they cannot hold
-another “council member” role in sub-DAO B but could hold a distinct role, such
-as an advisor in DAO C or its sub-DAOs. When holding roles across Cousin DAOs,
-members must ensure these roles remain distinct and free from any potential
-conflicts. In all cases, members are required to comply with the conflict of
-interest policies outlined in this Constitution, and transparency about their
-involvement in various DAOs is essential to maintaining trust and
-accountability within the community.~~
 
 The following are Core DAOs of AtomOne:
 
@@ -712,7 +692,6 @@ restricted so that each can run on a commodity computer.
   be approved at the end of the voting period. This approval is contingent upon
   the voting participation meeting or exceeding a predefined quorum value for
   Hub Governance.
-> XXX link to separate definitions for simple and supermajority for both hub and DAO governance.
   - **Constitutional majority** - the Constitutional Majority is initially set
     at 90%. The Constitutional Majority cannot be made lower than 90% even with
     a Constitutional Majority, but it may be set to any value between 90% and
@@ -726,6 +705,7 @@ restricted so that each can run on a commodity computer.
   - **Supermajority of Two-Thirds** - the Supermajority is defined to be
     exactly "more than two thirds" (+2/3, or at least one iota more than two
     thirds) and cannot change even by a Constitutional Majority.
+> XXX link to separate definitions for simple and supermajority for both hub and DAO governance.
 
 - **Mandates:** - Binding directives issued by the AtomOne Hub or parent DAOs
   that cannot be amended or repealed by sub-DAOs.
