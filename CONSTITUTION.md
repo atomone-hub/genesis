@@ -235,7 +235,7 @@ members unless otherwise specified in its Governing Documents.
 The Council of a DAO may change the Bylaws of the DAO, and otherwise make
 Decisions on behalf of the DAO by passing Proposals.
 
-A DAO may establish any number of sub-DAOs through the DAO Council’s   Simple
+A DAO may establish any number of sub-DAOs through the DAO Council’s Simple
 Majority vote, with their own defined Charters and specific bylaws and
 mandates, as necessity may arise and in accordance with the parent DAO Charter
 and bylaws. Sub-DAOs are owned by and can be controlled by the parent DAO, and
@@ -601,10 +601,10 @@ restricted so that each can run on a commodity computer.
 
 ## Defined Terms
 
-- **$ATONE** - the primary staking token for AtomOne. The ATONE token functions
+- **ATONE** - the primary staking token for AtomOne. The ATONE token functions
   as voting shares, economic incentive shares, and security bonds for the
   AtomOne Hub.
-- **$PHOTON** - the only fee token for AtomOne.
+- **PHOTON** - the only fee token for AtomOne.
 - **Additive** - when used in the context of software, it means that it does
   not require modifying existing primitives.
 - **Airdrop** - a distribution of tokens to some accounts based on predefined
