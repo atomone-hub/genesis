@@ -3,7 +3,7 @@
 _TODO: add phATOM from README.md_
 
 _This document is a work in progress. This document assumes familiarity with
-the current workings of cosmoshub4 as of Oct 11th 2022. What is described here
+the current workings of cosmoshub4 as of Oct 11th, 2022. What is described here
 are modifications to what already is. This clause will be removed with future
 revisions, and the corresponding parts of the document updated with a full
 description of the constitution of the hub._
@@ -21,43 +21,43 @@ ordain and establish this Constitution for the AtomOne Hub.
 Cosmos is the interchain network composed of many sovereign zones connected by
 IBC.
 
-A zone is an independent chain (or an application hosted on a parent chain)
+**A zone** is an independent chain (or an application hosted on a parent chain)
 with a well-defined governing body or bodies that dictate the governance and
 economic rules internal to that zone. By definition, a zone is sovereign or
 partially sovereign. A treasury DAO of the AtomOne Hub is partially sovereign.
 
-IBC is short for Interchain Blockchain Communication, and includes all
+**IBC** is short for Interchain Blockchain Communication, and includes all
 protocols that allow one chain to communicate state or messages with another
 chain by tracking the consensus state of the other.
 
 The ATOM is the primary staking token of the AtomOne Hub.
 
-ICS is short for Interchain Security, and includes all protocols that allow the
+**ICS** is short for Interchain Security and includes all protocols that allow the
 consensus of one chain to be partially or wholly secured by mechanisms on
 another chain.
 
-ICS1, also known as Simple Replicated Security, includes all protocols where the
+**ICS1** also known as Simple Replicated Security, includes all protocols where the
 validator set is simply replicated across multiple blockchains, and slash
 conditions are always submitted to a root chain.
 
-ICS2 includes all protocols where slash conditions for complex failure
+**ICS2** includes all protocols where slash conditions for complex failure
 scenarios of one validator set are handled by another validator set, where
 slashing affects tokens on the latter validator set.
 
-ICS2A includes all protocols of ICS2 where stake is entirely managed by the
+**ICS2A** includes all protocols of ICS2 where stake is entirely managed by the
 AtomOne Hub (in the form of ATOMs or other derivatives).
 
-ICS2B includes all protocols of ICS2 where stake is entirely managed by the
-logic of the other chain.
+**ICS2B** includes all protocols of ICS2 where stake is entirely managed by
+the logic of the other chain.
 
-Auto-staking is staking across all current validators in proportion to their
+**Auto-staking** is staking across all current validators in proportion to their
 voting power. For example, if a validator that had 10% of the voting power were
 to get slashed 30% on the AtomOne Hub, and 50% of ATOMs were either staked onto
 the AtomOne Hub or free (not auto-staked), everyone who auto-staked ATOMs
 on the AtomOne Hub would get slashed 1.5%. Inflationary ATOMs are paid to
 auto-stakers such that they do not suffer from the inflation rate of ATOMs.
 
-A two-thirds supermajority is where more than 2/3rd of all participating staked
+**A two-thirds supermajority** is where more than 2/3rd of all participating staked
 ATOMs vote YES and the vote is above the current governance quorum value and
 the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
 
@@ -66,7 +66,7 @@ the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
 ### Article 1.A. Fundamental Principles
 
 This Constitution of the AtomOne Hub, hereinafter “the Constitution” hereby
-establishes the foundations of the governance model, economical model, and
+establishes the foundations of the governance model, economic model, and
 operating system of the AtomOne Hub.
 
 All subsequent governance proposals must align with the provisions of
@@ -108,7 +108,7 @@ on the AtomOne Hub.
 
 Any Cosmonaut can also become a Citizen of the AtomOne Hub by using their
 address to stake ATOMs toward the AtomOne Hub and participate actively in
-governance. The status of citizenship is granted in an autonomous manner.
+governance. The status of citizenship is granted autonomously.
 
 ### Article 1.E. Rights, Liberties, and Obligations in the AtomOne Hub
 
@@ -150,7 +150,7 @@ UX interfaces that present the results of voting on governance proposals should
 also display the content of the memo field of each voting transaction such that
 the reason for the vote can be seen.
 
-TODO: fill in rules of cosmoshub4 governance.
+TODO: fill in the rules of cosmoshub4 governance.
 
 ### Article 2.C. Air-drops and forks
 
@@ -182,7 +182,7 @@ To enable the well-functioning of Treasury DAOs and the separation of powers in
 the utmost interest of the AtomOne Hub, each member can hold just one type of
 role within each Treasury DAO.
 
-The members of the DAO must perform efficiently in their role in line with
+The members of the DAO must perform efficiently in their roles in line with
 their job description. They are accountable to each DAO’s Oversight Committee
 and the Hub Governance. They can be dismissed from their functions by a
 two-thirds majority vote by the DAO’s Oversight Committee or the Governance
@@ -392,7 +392,7 @@ complexity demands more intracellular security.)
 Imagine how easy it would be to create a fund and simply buy VISA… well not
 even buy, but simply bond the capital of the market cap of VISA, of $391B.
 That’s a lot of money, but if bonding that capital means one can take control
-over the financial system, people would lend their money in a heartbeat. But
+of the financial system, people would lend their money in a heartbeat. But
 thankfully VISA shares are not money, and there are probably plenty of
 shareholders who don’t want to sell.
 
