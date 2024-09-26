@@ -692,21 +692,28 @@ restricted so that each can run on a commodity computer.
   be approved at the end of the voting period. This approval is contingent upon
   the voting participation meeting or exceeding a predefined quorum value for
   Hub Governance.
-  - **Constitutional majority** - the Constitutional Majority is initially set
-    at 90%. The Constitutional Majority cannot be made lower than 90% even with
-    a Constitutional Majority, but it may be set to any value between 90% and
-    100%. This elevated threshold aims to ensure broader agreement and
-    inclusivity in critical decision-making processes. It reflects a commitment
-    to achieving near-unanimous consensus on essential governance decisions,
-    enhancing the legitimacy and stability of the outcomes.
-  - **Simple majority** - a simple majority is achieved when more than 50% of
-    total votes is in favor (YES votes). This threshold definition cannot be
-    changed even with a Constitutional Majority.
-  - **Supermajority of Two-Thirds** - the Supermajority is defined to be
-    exactly "more than two thirds" (+2/3, or at least one iota more than two
-    thirds) and cannot change even by a Constitutional Majority.
-> XXX link to separate definitions for simple and supermajority for both hub and DAO governance.
-
+  - **Hub Governance Majority**:
+    - **Constitutional majority** - the Constitutional Majority is initially
+      set at 90%. The Constitutional Majority cannot be made lower than 90%
+      even with a Constitutional Majority, but it may be set to any value
+      between 90% and 100%. This elevated threshold aims to ensure broader
+      agreement and inclusivity in critical decision-making processes. It
+      reflects a commitment to achieving near-unanimous consensus on essential
+      governance decisions, enhancing the legitimacy and stability of the
+      outcomes.
+    - **Simple majority** - a simple majority is achieved when more than 50% of
+      total votes is in favor (YES votes). This threshold definition cannot be
+      changed even with a Constitutional Majority.
+    - **Supermajority of Two-Thirds** - the Supermajority is defined to be
+      exactly "more than two thirds" (+2/3, or at least one iota more than two
+      thirds) and cannot change even by a Constitutional Majority.
+  - **DAO Governance Majority**:
+    - **Simple majority** - a simple majority is achieved when more than 50% of
+      total votes is in favor (YES votes). This threshold definition cannot be
+      changed even with a Constitutional Majority.
+    - **Supermajority of Two-Thirds** - the Supermajority is defined to be
+      exactly "two thirds or more" (>=2/3) and cannot change even by a
+      Constitutional Majority.
 - **Mandates:** - Binding directives issued by the AtomOne Hub or parent DAOs
   that cannot be amended or repealed by sub-DAOs.
 - **Person** - a person is a human being with legal capacity to have rights
