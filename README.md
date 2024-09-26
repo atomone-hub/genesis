@@ -1,6 +1,13 @@
-_This document is a work in progress, please make PRs_ _What matters at this
-very moment is that we open ISSUEs and begin discussions about every facet that
-should go in the founding documents_
+> [!NOTE] 
+> _This document was written in December 2023, and is left here unchanged for historical
+> purpose. For more recent updates on AtomOne, you can check the following links:_
+> - [The Constitution](CONSTITUTION.md)
+> - [The Roadmap](https://commonwealth.im/govgen/discussion/24800-atomone-roadmap)
+> - [The Tokenomics](https://commonwealth.im/govgen/discussion/24801-atomone-tokenomics)
+> - [The Software versioning](https://commonwealth.im/govgen/discussion/24802-cosmos-softwares-versioning)
+> - [The ATONE distribution](https://commonwealth.im/govgen/discussion/24799-equitable-atone-distribution-in-the-spirit-of-atomones-founding-principles)
+
+----------------------------------------
 
 _ALL CONTRIBUTIONS TO THIS REPO, ITS ISSUES, PROJECTS, AND DISCUSSIONS MAY BE USED
 IN ANY EXPLICIT GITHUB FORK WITH A NEW AND DISTINCT NAME TO LAUNCH ANY FORK OR SPLIT
