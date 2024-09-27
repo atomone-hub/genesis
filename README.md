@@ -7,7 +7,7 @@
 > - [The Software versioning](https://commonwealth.im/govgen/discussion/24802-cosmos-softwares-versioning)
 > - [The ATONE distribution](https://commonwealth.im/govgen/discussion/24799-equitable-atone-distribution-in-the-spirit-of-atomones-founding-principles)
 >
-> The genesis file of AtomOne can be found here:
+> The proposed genesis file for AtomOne resulting from the proposals above can be found here:
 > https://atomone.fra1.digitaloceanspaces.com/genesis.json
 
 ----------------------------------------
