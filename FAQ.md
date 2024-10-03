@@ -40,7 +40,7 @@ A: Discussions are ongoing about the ticker symbol, and there is an open issue i
 
 ### Q: How will the tokens be distributed?
 
-A: The distribution method is an ongoing discussion in [issue #12](https://github.com/atomone-hub/genesis/issues/12). As it stands, ATONE tokens will be mainly distributed to those who voted ‘NO’ or ‘NWV’ on prop 848 and are aligned with the vision of ATOM as a staking token. The ICF will be excluded from the distribution, and instead, 10% of the final amount will be allocated to contributors and on-chain DAOs. 10% of ATONEs will be premined for various purposes (such as pre-launch contributors and early adopters, IBC contributions, ICS contributors, etc.). See $ATONE distribution details [here](https://github.com/atomone-hub/govgen-proposals/blob/main/001_ATONE_DISTRIBUTION.md) .
+A: The distribution method is an ongoing discussion in [issue #12](https://github.com/atomone-hub/genesis/issues/12). As it stands, ATONE tokens will be mainly distributed to those who voted ‘NO’ or ‘NWV’ on prop 848 and are aligned with the vision of ATOM as a staking token. The ICF will be excluded from the distribution, and instead, 10% of the final amount will be allocated to contributors and on-chain DAOs. 10% of ATONEs will be premined for various purposes (such as pre-launch contributors and early adopters, IBC contributions, ICS contributors, etc.). See ATONE distribution details [here](https://github.com/atomone-hub/govgen-proposals/blob/main/001_ATONE_DISTRIBUTION.md) .
 
 ### Q: How much will I be slashed for voting YES on Prop 848?
 
