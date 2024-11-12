@@ -40,15 +40,7 @@
     - Implementation https://github.com/atomone-hub/atomone/pull/16
   - Proposal deposit auto throttling
     - https://forum.cosmos.network/t/governance-proposal-deposit-auto-throttler/10121
-    - Currently evaluation the following formula:
-    ```math
-    f(n) = \begin{cases} D * (1+\alpha)^{(n - N)} & n \gt N \\ D & n \leq N \end{cases}
-    ```
-    Where:
-      - `n` is the number of active proposals
-      - `D` is the initial minimum deposit required to activate a proposal
-      - `α` is the rate change
-      - `f(n)` is the actual value of the minimum deposit
+   - if the number of active proposals exceeeds a target number, the deposit increases exponentially until it is less than or equal to that target number.
   - PHOTON implementation
     - Meta issue https://github.com/atomone-hub/atomone/issues/44
     - ADR https://github.com/atomone-hub/atomone/pull/34
