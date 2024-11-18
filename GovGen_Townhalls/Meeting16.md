@@ -3,6 +3,12 @@
 ### Date: November 6th, 9am PST
 <br> 
 
+- Link to the [full transcript](https://docs.google.com/document/d/1ElevRoW7twLPQu0tc_fngdqQqerhuwqEwMOW43t1vI8/view)
+- Link to the [full recording](https://drive.google.com/file/d/1Pqn14v7l2KQ3hE4x-4pGxW0Leq3L6mab/view?usp=sharing)
+- Link to the [full message log](https://drive.google.com/file/d/1J3yiHN0W1W5DaTWBRlz8vy-xQ9FV5YJr/view?usp=drive_web)
+
+
+
 
 **Main action items**
 
@@ -18,7 +24,24 @@
 
 <BR>
 
-**(Brief Summary of Discussion goes here)**
+
+
+
+
+**Brief Summary of Discussion**
+
+The first Community Townhall after AtomOne mainnet focused on updates, governance mechanisms, technical developments, and community contributions.
+
+- The call started with the suggested talking points (as posted below) where the recent token distribution details were explained and there was clarification on voting multipliers and addressing questions about allocation discrepancies. Community-driven proposals were encouraged, including enabling IBC transfers through governance.
+- Engineers presented updates on governance improvements, introducing a “governor” role for delegating voting power based on political alignment. Upcoming updates include preventing proposal spam and introducing Photon as the chain’s primary transaction fee token.
+- A new staking dashboard was demonstrated, showcasing its simplicity and compatibility with Kepler, Leap, and Cosmos Station wallets. It will be open-sourced soon for wider community use.
+- AIB expresses it's commitment to security, with ongoing audits, bug bounty programs, and third-party security reviews planned.
+- Concerns were raised about the initial selection of validators. A community member clarified that the choice was based on technical requirements at launch and noted plans for a transparent delegation program to decentralize voting power further amongst other factors that will develop over time.
+- There was discussion about expanding marketing efforts. A decentralized, community-led marketing initiative was proposed, to be funded by the AtomOne community treasury DAO.
+- There was extensive discussion on identifying official validator representatives on Discord, with suggestions like using security contact emails or a JSON schema for validator properties.
+- The current AtomOne constitution, initially voted on by the GovGen community, allows for future amendments through community proposals and high-approval votes. Discussions and suggestions for improvements were encouraged.
+- The townhall concluded with thanks for community engagement and a reminder of upcoming updates.
+
 
 **Suggested Talking Points**
 
