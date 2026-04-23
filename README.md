@@ -8,7 +8,7 @@
 > - [The ATONE distribution](https://commonwealth.im/govgen/discussion/24799-equitable-atone-distribution-in-the-spirit-of-atomones-founding-principles)
 >
 > The proposed genesis file for AtomOne resulting from the proposals above can be found here:
-> https://atomone.fra1.digitaloceanspaces.com/genesis.json
+> [https://atomone.fra1.digitaloceanspaces.com/atomone-1/genesis.json](https://atomone.fra1.digitaloceanspaces.com/atomone-1/genesis.json)
 > The genesis file above is missing gentxs and may not correspond to the final genesis.
 > 
 > For more information on how the genesis was built please also look [here](https://github.com/atomone-hub/govbox/blob/master/PROP-001.md).
